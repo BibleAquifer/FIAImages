@@ -1,4 +1,4 @@
-# _Images (SRV)_ Aquifer Resource
+# _Familiarization, Internalization, Articulation (FIA) Images_ Aquifer Resource
 
 This repository (`FIAImages`) contains Aquifer resource data with resource-level metadata, article-level metadata, and content files in JSON and Markdown formats.
 
