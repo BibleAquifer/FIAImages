@@ -39,13 +39,6 @@
 "resource": [],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.4223,
-"match_method": "canonical",
-"preferred_label": "यहोवा"
-},
-{
 "id": "person:Aaron",
 "type": "person",
 "confidence": 0.4223,
@@ -53,11 +46,11 @@
 "preferred_label": "हारून"
 },
 {
-"id": "keyterm:Holy",
-"type": "keyterm",
-"confidence": 0.3982,
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.4223,
 "match_method": "canonical",
-"preferred_label": "Holy"
+"preferred_label": "यहोवा"
 },
 {
 "id": "keyterm:Offering",
@@ -65,6 +58,13 @@
 "confidence": 0.3982,
 "match_method": "canonical",
 "preferred_label": "Offering"
+},
+{
+"id": "keyterm:Holy",
+"type": "keyterm",
+"confidence": 0.3982,
+"match_method": "canonical",
+"preferred_label": "Holy"
 },
 {
 "id": "person:Moses",
@@ -102,13 +102,6 @@
 "preferred_label": "Covering"
 },
 {
-"id": "realia:Screen",
-"type": "realia",
-"confidence": 0.3418,
-"match_method": "canonical",
-"preferred_label": "Screen"
-},
-{
 "id": "realia:TabernacleAltar",
 "type": "realia",
 "confidence": 0.3418,
@@ -116,11 +109,18 @@
 "preferred_label": "Tabernacle Altar"
 },
 {
-"id": "realia:OliveOil",
+"id": "realia:Screen",
+"type": "realia",
+"confidence": 0.3418,
+"match_method": "canonical",
+"preferred_label": "Screen"
+},
+{
+"id": "realia:TempleAltar",
 "type": "realia",
 "confidence": 0.3382,
 "match_method": "canonical",
-"preferred_label": "Olive Oil"
+"preferred_label": "Temple Altar"
 },
 {
 "id": "realia:Altar",
@@ -137,6 +137,13 @@
 "preferred_label": "Tent of Meeting"
 },
 {
+"id": "realia:OliveOil",
+"type": "realia",
+"confidence": 0.3382,
+"match_method": "canonical",
+"preferred_label": "Olive Oil"
+},
+{
 "id": "realia:AnointingOil",
 "type": "realia",
 "confidence": 0.3382,
@@ -151,11 +158,11 @@
 "preferred_label": "Stone Altar"
 },
 {
-"id": "realia:TempleAltar",
-"type": "realia",
-"confidence": 0.3382,
+"id": "person:Kohath",
+"type": "person",
+"confidence": 0.3321,
 "match_method": "canonical",
-"preferred_label": "Temple Altar"
+"preferred_label": "कहात"
 },
 {
 "id": "person:Gershon",
@@ -165,25 +172,11 @@
 "preferred_label": "गेर्शोन"
 },
 {
-"id": "person:Kohath",
-"type": "person",
-"confidence": 0.3321,
-"match_method": "canonical",
-"preferred_label": "कहात"
-},
-{
 "id": "person:Israel",
 "type": "person",
 "confidence": 0.2741,
 "match_method": "canonical",
 "preferred_label": "इस्राएल"
-},
-{
-"id": "group:Gershon",
-"type": "group",
-"confidence": 0.2741,
-"match_method": "canonical",
-"preferred_label": "Gershonites"
 },
 {
 "id": "keyterm:EnticedToServe",
@@ -193,25 +186,18 @@
 "preferred_label": "Force to Serve"
 },
 {
+"id": "group:Gershon",
+"type": "group",
+"confidence": 0.2741,
+"match_method": "canonical",
+"preferred_label": "Gershonites"
+},
+{
 "id": "realia:ArkOfTheCovenant",
 "type": "realia",
 "confidence": 0.2721,
 "match_method": "canonical",
 "preferred_label": "Ark of the Covenant"
-},
-{
-"id": "keyterm:CovenantBox",
-"type": "keyterm",
-"confidence": 0.2161,
-"match_method": "canonical",
-"preferred_label": "Covenant Box"
-},
-{
-"id": "person:Levi.3",
-"type": "person",
-"confidence": 0.2161,
-"match_method": "canonical",
-"preferred_label": "लेवी"
 },
 {
 "id": "group:Levi",
@@ -221,11 +207,32 @@
 "preferred_label": "लेवी"
 },
 {
+"id": "person:Levi.3",
+"type": "person",
+"confidence": 0.2161,
+"match_method": "canonical",
+"preferred_label": "लेवी"
+},
+{
+"id": "keyterm:CovenantBox",
+"type": "keyterm",
+"confidence": 0.2161,
+"match_method": "canonical",
+"preferred_label": "Covenant Box"
+},
+{
 "id": "keyterm:Sabbath",
 "type": "keyterm",
 "confidence": 0.2161,
 "match_method": "canonical",
 "preferred_label": "Sabbath"
+},
+{
+"id": "realia:DyedCloth",
+"type": "realia",
+"confidence": 0.1596,
+"match_method": "canonical",
+"preferred_label": "Dyed Cloth"
 },
 {
 "id": "flora:BalsamTree",
@@ -240,13 +247,6 @@
 "confidence": 0.1596,
 "match_method": "canonical",
 "preferred_label": "Linen"
-},
-{
-"id": "realia:DyedCloth",
-"type": "realia",
-"confidence": 0.1596,
-"match_method": "canonical",
-"preferred_label": "Dyed Cloth"
 }
 ]
 }
@@ -291,13 +291,6 @@
 "resource": [],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.4223,
-"match_method": "canonical",
-"preferred_label": "यहोवा"
-},
-{
 "id": "person:Aaron",
 "type": "person",
 "confidence": 0.4223,
@@ -305,11 +298,11 @@
 "preferred_label": "हारून"
 },
 {
-"id": "keyterm:Holy",
-"type": "keyterm",
-"confidence": 0.3982,
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.4223,
 "match_method": "canonical",
-"preferred_label": "Holy"
+"preferred_label": "यहोवा"
 },
 {
 "id": "keyterm:Offering",
@@ -317,6 +310,13 @@
 "confidence": 0.3982,
 "match_method": "canonical",
 "preferred_label": "Offering"
+},
+{
+"id": "keyterm:Holy",
+"type": "keyterm",
+"confidence": 0.3982,
+"match_method": "canonical",
+"preferred_label": "Holy"
 },
 {
 "id": "person:Moses",
@@ -354,13 +354,6 @@
 "preferred_label": "Covering"
 },
 {
-"id": "realia:Screen",
-"type": "realia",
-"confidence": 0.3418,
-"match_method": "canonical",
-"preferred_label": "Screen"
-},
-{
 "id": "realia:TabernacleAltar",
 "type": "realia",
 "confidence": 0.3418,
@@ -368,11 +361,18 @@
 "preferred_label": "Tabernacle Altar"
 },
 {
-"id": "realia:OliveOil",
+"id": "realia:Screen",
+"type": "realia",
+"confidence": 0.3418,
+"match_method": "canonical",
+"preferred_label": "Screen"
+},
+{
+"id": "realia:TempleAltar",
 "type": "realia",
 "confidence": 0.3382,
 "match_method": "canonical",
-"preferred_label": "Olive Oil"
+"preferred_label": "Temple Altar"
 },
 {
 "id": "realia:Altar",
@@ -389,6 +389,13 @@
 "preferred_label": "Tent of Meeting"
 },
 {
+"id": "realia:OliveOil",
+"type": "realia",
+"confidence": 0.3382,
+"match_method": "canonical",
+"preferred_label": "Olive Oil"
+},
+{
 "id": "realia:AnointingOil",
 "type": "realia",
 "confidence": 0.3382,
@@ -403,11 +410,11 @@
 "preferred_label": "Stone Altar"
 },
 {
-"id": "realia:TempleAltar",
-"type": "realia",
-"confidence": 0.3382,
+"id": "person:Kohath",
+"type": "person",
+"confidence": 0.3321,
 "match_method": "canonical",
-"preferred_label": "Temple Altar"
+"preferred_label": "कहात"
 },
 {
 "id": "person:Gershon",
@@ -417,25 +424,11 @@
 "preferred_label": "गेर्शोन"
 },
 {
-"id": "person:Kohath",
-"type": "person",
-"confidence": 0.3321,
-"match_method": "canonical",
-"preferred_label": "कहात"
-},
-{
 "id": "person:Israel",
 "type": "person",
 "confidence": 0.2741,
 "match_method": "canonical",
 "preferred_label": "इस्राएल"
-},
-{
-"id": "group:Gershon",
-"type": "group",
-"confidence": 0.2741,
-"match_method": "canonical",
-"preferred_label": "Gershonites"
 },
 {
 "id": "keyterm:EnticedToServe",
@@ -445,25 +438,18 @@
 "preferred_label": "Force to Serve"
 },
 {
+"id": "group:Gershon",
+"type": "group",
+"confidence": 0.2741,
+"match_method": "canonical",
+"preferred_label": "Gershonites"
+},
+{
 "id": "realia:ArkOfTheCovenant",
 "type": "realia",
 "confidence": 0.2721,
 "match_method": "canonical",
 "preferred_label": "Ark of the Covenant"
-},
-{
-"id": "keyterm:CovenantBox",
-"type": "keyterm",
-"confidence": 0.2161,
-"match_method": "canonical",
-"preferred_label": "Covenant Box"
-},
-{
-"id": "person:Levi.3",
-"type": "person",
-"confidence": 0.2161,
-"match_method": "canonical",
-"preferred_label": "लेवी"
 },
 {
 "id": "group:Levi",
@@ -473,11 +459,32 @@
 "preferred_label": "लेवी"
 },
 {
+"id": "person:Levi.3",
+"type": "person",
+"confidence": 0.2161,
+"match_method": "canonical",
+"preferred_label": "लेवी"
+},
+{
+"id": "keyterm:CovenantBox",
+"type": "keyterm",
+"confidence": 0.2161,
+"match_method": "canonical",
+"preferred_label": "Covenant Box"
+},
+{
 "id": "keyterm:Sabbath",
 "type": "keyterm",
 "confidence": 0.2161,
 "match_method": "canonical",
 "preferred_label": "Sabbath"
+},
+{
+"id": "realia:DyedCloth",
+"type": "realia",
+"confidence": 0.1596,
+"match_method": "canonical",
+"preferred_label": "Dyed Cloth"
 },
 {
 "id": "flora:BalsamTree",
@@ -492,13 +499,6 @@
 "confidence": 0.1596,
 "match_method": "canonical",
 "preferred_label": "Linen"
-},
-{
-"id": "realia:DyedCloth",
-"type": "realia",
-"confidence": 0.1596,
-"match_method": "canonical",
-"preferred_label": "Dyed Cloth"
 }
 ]
 }
@@ -543,13 +543,6 @@
 "resource": [],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.4223,
-"match_method": "canonical",
-"preferred_label": "यहोवा"
-},
-{
 "id": "person:Aaron",
 "type": "person",
 "confidence": 0.4223,
@@ -557,11 +550,11 @@
 "preferred_label": "हारून"
 },
 {
-"id": "keyterm:Holy",
-"type": "keyterm",
-"confidence": 0.3982,
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.4223,
 "match_method": "canonical",
-"preferred_label": "Holy"
+"preferred_label": "यहोवा"
 },
 {
 "id": "keyterm:Offering",
@@ -569,6 +562,13 @@
 "confidence": 0.3982,
 "match_method": "canonical",
 "preferred_label": "Offering"
+},
+{
+"id": "keyterm:Holy",
+"type": "keyterm",
+"confidence": 0.3982,
+"match_method": "canonical",
+"preferred_label": "Holy"
 },
 {
 "id": "person:Moses",
@@ -606,13 +606,6 @@
 "preferred_label": "Covering"
 },
 {
-"id": "realia:Screen",
-"type": "realia",
-"confidence": 0.3418,
-"match_method": "canonical",
-"preferred_label": "Screen"
-},
-{
 "id": "realia:TabernacleAltar",
 "type": "realia",
 "confidence": 0.3418,
@@ -620,11 +613,18 @@
 "preferred_label": "Tabernacle Altar"
 },
 {
-"id": "realia:OliveOil",
+"id": "realia:Screen",
+"type": "realia",
+"confidence": 0.3418,
+"match_method": "canonical",
+"preferred_label": "Screen"
+},
+{
+"id": "realia:TempleAltar",
 "type": "realia",
 "confidence": 0.3382,
 "match_method": "canonical",
-"preferred_label": "Olive Oil"
+"preferred_label": "Temple Altar"
 },
 {
 "id": "realia:Altar",
@@ -641,6 +641,13 @@
 "preferred_label": "Tent of Meeting"
 },
 {
+"id": "realia:OliveOil",
+"type": "realia",
+"confidence": 0.3382,
+"match_method": "canonical",
+"preferred_label": "Olive Oil"
+},
+{
 "id": "realia:AnointingOil",
 "type": "realia",
 "confidence": 0.3382,
@@ -655,11 +662,11 @@
 "preferred_label": "Stone Altar"
 },
 {
-"id": "realia:TempleAltar",
-"type": "realia",
-"confidence": 0.3382,
+"id": "person:Kohath",
+"type": "person",
+"confidence": 0.3321,
 "match_method": "canonical",
-"preferred_label": "Temple Altar"
+"preferred_label": "कहात"
 },
 {
 "id": "person:Gershon",
@@ -669,25 +676,11 @@
 "preferred_label": "गेर्शोन"
 },
 {
-"id": "person:Kohath",
-"type": "person",
-"confidence": 0.3321,
-"match_method": "canonical",
-"preferred_label": "कहात"
-},
-{
 "id": "person:Israel",
 "type": "person",
 "confidence": 0.2741,
 "match_method": "canonical",
 "preferred_label": "इस्राएल"
-},
-{
-"id": "group:Gershon",
-"type": "group",
-"confidence": 0.2741,
-"match_method": "canonical",
-"preferred_label": "Gershonites"
 },
 {
 "id": "keyterm:EnticedToServe",
@@ -697,25 +690,18 @@
 "preferred_label": "Force to Serve"
 },
 {
+"id": "group:Gershon",
+"type": "group",
+"confidence": 0.2741,
+"match_method": "canonical",
+"preferred_label": "Gershonites"
+},
+{
 "id": "realia:ArkOfTheCovenant",
 "type": "realia",
 "confidence": 0.2721,
 "match_method": "canonical",
 "preferred_label": "Ark of the Covenant"
-},
-{
-"id": "keyterm:CovenantBox",
-"type": "keyterm",
-"confidence": 0.2161,
-"match_method": "canonical",
-"preferred_label": "Covenant Box"
-},
-{
-"id": "person:Levi.3",
-"type": "person",
-"confidence": 0.2161,
-"match_method": "canonical",
-"preferred_label": "लेवी"
 },
 {
 "id": "group:Levi",
@@ -725,11 +711,32 @@
 "preferred_label": "लेवी"
 },
 {
+"id": "person:Levi.3",
+"type": "person",
+"confidence": 0.2161,
+"match_method": "canonical",
+"preferred_label": "लेवी"
+},
+{
+"id": "keyterm:CovenantBox",
+"type": "keyterm",
+"confidence": 0.2161,
+"match_method": "canonical",
+"preferred_label": "Covenant Box"
+},
+{
 "id": "keyterm:Sabbath",
 "type": "keyterm",
 "confidence": 0.2161,
 "match_method": "canonical",
 "preferred_label": "Sabbath"
+},
+{
+"id": "realia:DyedCloth",
+"type": "realia",
+"confidence": 0.1596,
+"match_method": "canonical",
+"preferred_label": "Dyed Cloth"
 },
 {
 "id": "flora:BalsamTree",
@@ -744,13 +751,6 @@
 "confidence": 0.1596,
 "match_method": "canonical",
 "preferred_label": "Linen"
-},
-{
-"id": "realia:DyedCloth",
-"type": "realia",
-"confidence": 0.1596,
-"match_method": "canonical",
-"preferred_label": "Dyed Cloth"
 }
 ]
 }
@@ -795,13 +795,6 @@
 "resource": [],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.4223,
-"match_method": "canonical",
-"preferred_label": "यहोवा"
-},
-{
 "id": "person:Aaron",
 "type": "person",
 "confidence": 0.4223,
@@ -809,11 +802,11 @@
 "preferred_label": "हारून"
 },
 {
-"id": "keyterm:Holy",
-"type": "keyterm",
-"confidence": 0.3982,
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.4223,
 "match_method": "canonical",
-"preferred_label": "Holy"
+"preferred_label": "यहोवा"
 },
 {
 "id": "keyterm:Offering",
@@ -821,6 +814,13 @@
 "confidence": 0.3982,
 "match_method": "canonical",
 "preferred_label": "Offering"
+},
+{
+"id": "keyterm:Holy",
+"type": "keyterm",
+"confidence": 0.3982,
+"match_method": "canonical",
+"preferred_label": "Holy"
 },
 {
 "id": "person:Moses",
@@ -858,13 +858,6 @@
 "preferred_label": "Covering"
 },
 {
-"id": "realia:Screen",
-"type": "realia",
-"confidence": 0.3418,
-"match_method": "canonical",
-"preferred_label": "Screen"
-},
-{
 "id": "realia:TabernacleAltar",
 "type": "realia",
 "confidence": 0.3418,
@@ -872,11 +865,18 @@
 "preferred_label": "Tabernacle Altar"
 },
 {
-"id": "realia:OliveOil",
+"id": "realia:Screen",
+"type": "realia",
+"confidence": 0.3418,
+"match_method": "canonical",
+"preferred_label": "Screen"
+},
+{
+"id": "realia:TempleAltar",
 "type": "realia",
 "confidence": 0.3382,
 "match_method": "canonical",
-"preferred_label": "Olive Oil"
+"preferred_label": "Temple Altar"
 },
 {
 "id": "realia:Altar",
@@ -893,6 +893,13 @@
 "preferred_label": "Tent of Meeting"
 },
 {
+"id": "realia:OliveOil",
+"type": "realia",
+"confidence": 0.3382,
+"match_method": "canonical",
+"preferred_label": "Olive Oil"
+},
+{
 "id": "realia:AnointingOil",
 "type": "realia",
 "confidence": 0.3382,
@@ -907,11 +914,11 @@
 "preferred_label": "Stone Altar"
 },
 {
-"id": "realia:TempleAltar",
-"type": "realia",
-"confidence": 0.3382,
+"id": "person:Kohath",
+"type": "person",
+"confidence": 0.3321,
 "match_method": "canonical",
-"preferred_label": "Temple Altar"
+"preferred_label": "कहात"
 },
 {
 "id": "person:Gershon",
@@ -921,25 +928,11 @@
 "preferred_label": "गेर्शोन"
 },
 {
-"id": "person:Kohath",
-"type": "person",
-"confidence": 0.3321,
-"match_method": "canonical",
-"preferred_label": "कहात"
-},
-{
 "id": "person:Israel",
 "type": "person",
 "confidence": 0.2741,
 "match_method": "canonical",
 "preferred_label": "इस्राएल"
-},
-{
-"id": "group:Gershon",
-"type": "group",
-"confidence": 0.2741,
-"match_method": "canonical",
-"preferred_label": "Gershonites"
 },
 {
 "id": "keyterm:EnticedToServe",
@@ -949,25 +942,18 @@
 "preferred_label": "Force to Serve"
 },
 {
+"id": "group:Gershon",
+"type": "group",
+"confidence": 0.2741,
+"match_method": "canonical",
+"preferred_label": "Gershonites"
+},
+{
 "id": "realia:ArkOfTheCovenant",
 "type": "realia",
 "confidence": 0.2721,
 "match_method": "canonical",
 "preferred_label": "Ark of the Covenant"
-},
-{
-"id": "keyterm:CovenantBox",
-"type": "keyterm",
-"confidence": 0.2161,
-"match_method": "canonical",
-"preferred_label": "Covenant Box"
-},
-{
-"id": "person:Levi.3",
-"type": "person",
-"confidence": 0.2161,
-"match_method": "canonical",
-"preferred_label": "लेवी"
 },
 {
 "id": "group:Levi",
@@ -977,11 +963,32 @@
 "preferred_label": "लेवी"
 },
 {
+"id": "person:Levi.3",
+"type": "person",
+"confidence": 0.2161,
+"match_method": "canonical",
+"preferred_label": "लेवी"
+},
+{
+"id": "keyterm:CovenantBox",
+"type": "keyterm",
+"confidence": 0.2161,
+"match_method": "canonical",
+"preferred_label": "Covenant Box"
+},
+{
 "id": "keyterm:Sabbath",
 "type": "keyterm",
 "confidence": 0.2161,
 "match_method": "canonical",
 "preferred_label": "Sabbath"
+},
+{
+"id": "realia:DyedCloth",
+"type": "realia",
+"confidence": 0.1596,
+"match_method": "canonical",
+"preferred_label": "Dyed Cloth"
 },
 {
 "id": "flora:BalsamTree",
@@ -996,13 +1003,6 @@
 "confidence": 0.1596,
 "match_method": "canonical",
 "preferred_label": "Linen"
-},
-{
-"id": "realia:DyedCloth",
-"type": "realia",
-"confidence": 0.1596,
-"match_method": "canonical",
-"preferred_label": "Dyed Cloth"
 }
 ]
 }
@@ -1047,13 +1047,6 @@
 "resource": [],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.4223,
-"match_method": "canonical",
-"preferred_label": "यहोवा"
-},
-{
 "id": "person:Aaron",
 "type": "person",
 "confidence": 0.4223,
@@ -1061,11 +1054,11 @@
 "preferred_label": "हारून"
 },
 {
-"id": "keyterm:Holy",
-"type": "keyterm",
-"confidence": 0.3982,
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.4223,
 "match_method": "canonical",
-"preferred_label": "Holy"
+"preferred_label": "यहोवा"
 },
 {
 "id": "keyterm:Offering",
@@ -1073,6 +1066,13 @@
 "confidence": 0.3982,
 "match_method": "canonical",
 "preferred_label": "Offering"
+},
+{
+"id": "keyterm:Holy",
+"type": "keyterm",
+"confidence": 0.3982,
+"match_method": "canonical",
+"preferred_label": "Holy"
 },
 {
 "id": "person:Moses",
@@ -1110,13 +1110,6 @@
 "preferred_label": "Covering"
 },
 {
-"id": "realia:Screen",
-"type": "realia",
-"confidence": 0.3418,
-"match_method": "canonical",
-"preferred_label": "Screen"
-},
-{
 "id": "realia:TabernacleAltar",
 "type": "realia",
 "confidence": 0.3418,
@@ -1124,11 +1117,18 @@
 "preferred_label": "Tabernacle Altar"
 },
 {
-"id": "realia:OliveOil",
+"id": "realia:Screen",
+"type": "realia",
+"confidence": 0.3418,
+"match_method": "canonical",
+"preferred_label": "Screen"
+},
+{
+"id": "realia:TempleAltar",
 "type": "realia",
 "confidence": 0.3382,
 "match_method": "canonical",
-"preferred_label": "Olive Oil"
+"preferred_label": "Temple Altar"
 },
 {
 "id": "realia:Altar",
@@ -1145,6 +1145,13 @@
 "preferred_label": "Tent of Meeting"
 },
 {
+"id": "realia:OliveOil",
+"type": "realia",
+"confidence": 0.3382,
+"match_method": "canonical",
+"preferred_label": "Olive Oil"
+},
+{
 "id": "realia:AnointingOil",
 "type": "realia",
 "confidence": 0.3382,
@@ -1159,11 +1166,11 @@
 "preferred_label": "Stone Altar"
 },
 {
-"id": "realia:TempleAltar",
-"type": "realia",
-"confidence": 0.3382,
+"id": "person:Kohath",
+"type": "person",
+"confidence": 0.3321,
 "match_method": "canonical",
-"preferred_label": "Temple Altar"
+"preferred_label": "कहात"
 },
 {
 "id": "person:Gershon",
@@ -1173,25 +1180,11 @@
 "preferred_label": "गेर्शोन"
 },
 {
-"id": "person:Kohath",
-"type": "person",
-"confidence": 0.3321,
-"match_method": "canonical",
-"preferred_label": "कहात"
-},
-{
 "id": "person:Israel",
 "type": "person",
 "confidence": 0.2741,
 "match_method": "canonical",
 "preferred_label": "इस्राएल"
-},
-{
-"id": "group:Gershon",
-"type": "group",
-"confidence": 0.2741,
-"match_method": "canonical",
-"preferred_label": "Gershonites"
 },
 {
 "id": "keyterm:EnticedToServe",
@@ -1201,25 +1194,18 @@
 "preferred_label": "Force to Serve"
 },
 {
+"id": "group:Gershon",
+"type": "group",
+"confidence": 0.2741,
+"match_method": "canonical",
+"preferred_label": "Gershonites"
+},
+{
 "id": "realia:ArkOfTheCovenant",
 "type": "realia",
 "confidence": 0.2721,
 "match_method": "canonical",
 "preferred_label": "Ark of the Covenant"
-},
-{
-"id": "keyterm:CovenantBox",
-"type": "keyterm",
-"confidence": 0.2161,
-"match_method": "canonical",
-"preferred_label": "Covenant Box"
-},
-{
-"id": "person:Levi.3",
-"type": "person",
-"confidence": 0.2161,
-"match_method": "canonical",
-"preferred_label": "लेवी"
 },
 {
 "id": "group:Levi",
@@ -1229,11 +1215,32 @@
 "preferred_label": "लेवी"
 },
 {
+"id": "person:Levi.3",
+"type": "person",
+"confidence": 0.2161,
+"match_method": "canonical",
+"preferred_label": "लेवी"
+},
+{
+"id": "keyterm:CovenantBox",
+"type": "keyterm",
+"confidence": 0.2161,
+"match_method": "canonical",
+"preferred_label": "Covenant Box"
+},
+{
 "id": "keyterm:Sabbath",
 "type": "keyterm",
 "confidence": 0.2161,
 "match_method": "canonical",
 "preferred_label": "Sabbath"
+},
+{
+"id": "realia:DyedCloth",
+"type": "realia",
+"confidence": 0.1596,
+"match_method": "canonical",
+"preferred_label": "Dyed Cloth"
 },
 {
 "id": "flora:BalsamTree",
@@ -1248,13 +1255,6 @@
 "confidence": 0.1596,
 "match_method": "canonical",
 "preferred_label": "Linen"
-},
-{
-"id": "realia:DyedCloth",
-"type": "realia",
-"confidence": 0.1596,
-"match_method": "canonical",
-"preferred_label": "Dyed Cloth"
 }
 ]
 }
@@ -1299,13 +1299,6 @@
 "resource": [],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.4223,
-"match_method": "canonical",
-"preferred_label": "यहोवा"
-},
-{
 "id": "person:Aaron",
 "type": "person",
 "confidence": 0.4223,
@@ -1313,11 +1306,11 @@
 "preferred_label": "हारून"
 },
 {
-"id": "keyterm:Holy",
-"type": "keyterm",
-"confidence": 0.3982,
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.4223,
 "match_method": "canonical",
-"preferred_label": "Holy"
+"preferred_label": "यहोवा"
 },
 {
 "id": "keyterm:Offering",
@@ -1325,6 +1318,13 @@
 "confidence": 0.3982,
 "match_method": "canonical",
 "preferred_label": "Offering"
+},
+{
+"id": "keyterm:Holy",
+"type": "keyterm",
+"confidence": 0.3982,
+"match_method": "canonical",
+"preferred_label": "Holy"
 },
 {
 "id": "person:Moses",
@@ -1362,13 +1362,6 @@
 "preferred_label": "Covering"
 },
 {
-"id": "realia:Screen",
-"type": "realia",
-"confidence": 0.3418,
-"match_method": "canonical",
-"preferred_label": "Screen"
-},
-{
 "id": "realia:TabernacleAltar",
 "type": "realia",
 "confidence": 0.3418,
@@ -1376,11 +1369,18 @@
 "preferred_label": "Tabernacle Altar"
 },
 {
-"id": "realia:OliveOil",
+"id": "realia:Screen",
+"type": "realia",
+"confidence": 0.3418,
+"match_method": "canonical",
+"preferred_label": "Screen"
+},
+{
+"id": "realia:TempleAltar",
 "type": "realia",
 "confidence": 0.3382,
 "match_method": "canonical",
-"preferred_label": "Olive Oil"
+"preferred_label": "Temple Altar"
 },
 {
 "id": "realia:Altar",
@@ -1397,6 +1397,13 @@
 "preferred_label": "Tent of Meeting"
 },
 {
+"id": "realia:OliveOil",
+"type": "realia",
+"confidence": 0.3382,
+"match_method": "canonical",
+"preferred_label": "Olive Oil"
+},
+{
 "id": "realia:AnointingOil",
 "type": "realia",
 "confidence": 0.3382,
@@ -1411,11 +1418,11 @@
 "preferred_label": "Stone Altar"
 },
 {
-"id": "realia:TempleAltar",
-"type": "realia",
-"confidence": 0.3382,
+"id": "person:Kohath",
+"type": "person",
+"confidence": 0.3321,
 "match_method": "canonical",
-"preferred_label": "Temple Altar"
+"preferred_label": "कहात"
 },
 {
 "id": "person:Gershon",
@@ -1425,25 +1432,11 @@
 "preferred_label": "गेर्शोन"
 },
 {
-"id": "person:Kohath",
-"type": "person",
-"confidence": 0.3321,
-"match_method": "canonical",
-"preferred_label": "कहात"
-},
-{
 "id": "person:Israel",
 "type": "person",
 "confidence": 0.2741,
 "match_method": "canonical",
 "preferred_label": "इस्राएल"
-},
-{
-"id": "group:Gershon",
-"type": "group",
-"confidence": 0.2741,
-"match_method": "canonical",
-"preferred_label": "Gershonites"
 },
 {
 "id": "keyterm:EnticedToServe",
@@ -1453,25 +1446,18 @@
 "preferred_label": "Force to Serve"
 },
 {
+"id": "group:Gershon",
+"type": "group",
+"confidence": 0.2741,
+"match_method": "canonical",
+"preferred_label": "Gershonites"
+},
+{
 "id": "realia:ArkOfTheCovenant",
 "type": "realia",
 "confidence": 0.2721,
 "match_method": "canonical",
 "preferred_label": "Ark of the Covenant"
-},
-{
-"id": "keyterm:CovenantBox",
-"type": "keyterm",
-"confidence": 0.2161,
-"match_method": "canonical",
-"preferred_label": "Covenant Box"
-},
-{
-"id": "person:Levi.3",
-"type": "person",
-"confidence": 0.2161,
-"match_method": "canonical",
-"preferred_label": "लेवी"
 },
 {
 "id": "group:Levi",
@@ -1481,11 +1467,32 @@
 "preferred_label": "लेवी"
 },
 {
+"id": "person:Levi.3",
+"type": "person",
+"confidence": 0.2161,
+"match_method": "canonical",
+"preferred_label": "लेवी"
+},
+{
+"id": "keyterm:CovenantBox",
+"type": "keyterm",
+"confidence": 0.2161,
+"match_method": "canonical",
+"preferred_label": "Covenant Box"
+},
+{
 "id": "keyterm:Sabbath",
 "type": "keyterm",
 "confidence": 0.2161,
 "match_method": "canonical",
 "preferred_label": "Sabbath"
+},
+{
+"id": "realia:DyedCloth",
+"type": "realia",
+"confidence": 0.1596,
+"match_method": "canonical",
+"preferred_label": "Dyed Cloth"
 },
 {
 "id": "flora:BalsamTree",
@@ -1500,13 +1507,6 @@
 "confidence": 0.1596,
 "match_method": "canonical",
 "preferred_label": "Linen"
-},
-{
-"id": "realia:DyedCloth",
-"type": "realia",
-"confidence": 0.1596,
-"match_method": "canonical",
-"preferred_label": "Dyed Cloth"
 }
 ]
 }
@@ -1596,25 +1596,11 @@
 "preferred_label": "Craftsman"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.1821,
-"match_method": "canonical",
-"preferred_label": "यहोवा"
-},
-{
-"id": "person:Abihu",
+"id": "person:Nadab",
 "type": "person",
 "confidence": 0.1821,
 "match_method": "canonical",
-"preferred_label": "अबीहू"
-},
-{
-"id": "person:Ithamar",
-"type": "person",
-"confidence": 0.1821,
-"match_method": "canonical",
-"preferred_label": "ईतामार"
+"preferred_label": "नादाब"
 },
 {
 "id": "keyterm:Ability",
@@ -1624,18 +1610,18 @@
 "preferred_label": "Ability"
 },
 {
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.1821,
+"match_method": "canonical",
+"preferred_label": "यहोवा"
+},
+{
 "id": "keyterm:Glory",
 "type": "keyterm",
 "confidence": 0.1821,
 "match_method": "canonical",
 "preferred_label": "Glory"
-},
-{
-"id": "keyterm:Pure",
-"type": "keyterm",
-"confidence": 0.1821,
-"match_method": "canonical",
-"preferred_label": "Pure"
 },
 {
 "id": "person:Eleazar.2",
@@ -1645,18 +1631,25 @@
 "preferred_label": "एलीआजर"
 },
 {
-"id": "person:Nadab",
+"id": "person:Abihu",
 "type": "person",
 "confidence": 0.1821,
 "match_method": "canonical",
-"preferred_label": "नादाब"
+"preferred_label": "अबीहू"
 },
 {
-"id": "realia:Sash",
-"type": "realia",
-"confidence": 0.1364,
+"id": "keyterm:Pure",
+"type": "keyterm",
+"confidence": 0.1821,
 "match_method": "canonical",
-"preferred_label": "Sash"
+"preferred_label": "Pure"
+},
+{
+"id": "person:Ithamar",
+"type": "person",
+"confidence": 0.1821,
+"match_method": "canonical",
+"preferred_label": "ईतामार"
 },
 {
 "id": "realia:Tunic",
@@ -1664,6 +1657,13 @@
 "confidence": 0.1364,
 "match_method": "canonical",
 "preferred_label": "Tunic"
+},
+{
+"id": "realia:Sash",
+"type": "realia",
+"confidence": 0.1364,
+"match_method": "canonical",
+"preferred_label": "Sash"
 },
 {
 "id": "realia:Turban",
@@ -1680,18 +1680,18 @@
 "preferred_label": "Rope"
 },
 {
-"id": "realia:Breast-piece",
-"type": "realia",
-"confidence": 0.1221,
-"match_method": "canonical",
-"preferred_label": "Breast-Piece"
-},
-{
 "id": "realia:Robe",
 "type": "realia",
 "confidence": 0.1221,
 "match_method": "canonical",
 "preferred_label": "Robe"
+},
+{
+"id": "realia:Breast-piece",
+"type": "realia",
+"confidence": 0.1221,
+"match_method": "canonical",
+"preferred_label": "Breast-Piece"
 }
 ]
 }
@@ -1781,25 +1781,11 @@
 "preferred_label": "Craftsman"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.1821,
-"match_method": "canonical",
-"preferred_label": "यहोवा"
-},
-{
-"id": "person:Abihu",
+"id": "person:Nadab",
 "type": "person",
 "confidence": 0.1821,
 "match_method": "canonical",
-"preferred_label": "अबीहू"
-},
-{
-"id": "person:Ithamar",
-"type": "person",
-"confidence": 0.1821,
-"match_method": "canonical",
-"preferred_label": "ईतामार"
+"preferred_label": "नादाब"
 },
 {
 "id": "keyterm:Ability",
@@ -1809,18 +1795,18 @@
 "preferred_label": "Ability"
 },
 {
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.1821,
+"match_method": "canonical",
+"preferred_label": "यहोवा"
+},
+{
 "id": "keyterm:Glory",
 "type": "keyterm",
 "confidence": 0.1821,
 "match_method": "canonical",
 "preferred_label": "Glory"
-},
-{
-"id": "keyterm:Pure",
-"type": "keyterm",
-"confidence": 0.1821,
-"match_method": "canonical",
-"preferred_label": "Pure"
 },
 {
 "id": "person:Eleazar.2",
@@ -1830,18 +1816,25 @@
 "preferred_label": "एलीआजर"
 },
 {
-"id": "person:Nadab",
+"id": "person:Abihu",
 "type": "person",
 "confidence": 0.1821,
 "match_method": "canonical",
-"preferred_label": "नादाब"
+"preferred_label": "अबीहू"
 },
 {
-"id": "realia:Sash",
-"type": "realia",
-"confidence": 0.1364,
+"id": "keyterm:Pure",
+"type": "keyterm",
+"confidence": 0.1821,
 "match_method": "canonical",
-"preferred_label": "Sash"
+"preferred_label": "Pure"
+},
+{
+"id": "person:Ithamar",
+"type": "person",
+"confidence": 0.1821,
+"match_method": "canonical",
+"preferred_label": "ईतामार"
 },
 {
 "id": "realia:Tunic",
@@ -1849,6 +1842,13 @@
 "confidence": 0.1364,
 "match_method": "canonical",
 "preferred_label": "Tunic"
+},
+{
+"id": "realia:Sash",
+"type": "realia",
+"confidence": 0.1364,
+"match_method": "canonical",
+"preferred_label": "Sash"
 },
 {
 "id": "realia:Turban",
@@ -1865,18 +1865,18 @@
 "preferred_label": "Rope"
 },
 {
-"id": "realia:Breast-piece",
-"type": "realia",
-"confidence": 0.1221,
-"match_method": "canonical",
-"preferred_label": "Breast-Piece"
-},
-{
 "id": "realia:Robe",
 "type": "realia",
 "confidence": 0.1221,
 "match_method": "canonical",
 "preferred_label": "Robe"
+},
+{
+"id": "realia:Breast-piece",
+"type": "realia",
+"confidence": 0.1221,
+"match_method": "canonical",
+"preferred_label": "Breast-Piece"
 }
 ]
 }

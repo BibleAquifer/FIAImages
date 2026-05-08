@@ -54,13 +54,6 @@
 "preferred_label": "Grain"
 },
 {
-"id": "keyterm:Parable",
-"type": "keyterm",
-"confidence": 0.3143,
-"match_method": "canonical",
-"preferred_label": "Parable"
-},
-{
 "id": "keyterm:Offering",
 "type": "keyterm",
 "confidence": 0.3143,
@@ -68,11 +61,11 @@
 "preferred_label": "Offering"
 },
 {
-"id": "keyterm:Kingdom",
+"id": "keyterm:Parable",
 "type": "keyterm",
-"confidence": 0.2429,
+"confidence": 0.3143,
 "match_method": "canonical",
-"preferred_label": "Kingdom"
+"preferred_label": "Parable"
 },
 {
 "id": "keyterm:Glory",
@@ -80,6 +73,13 @@
 "confidence": 0.2429,
 "match_method": "canonical",
 "preferred_label": "Glory"
+},
+{
+"id": "keyterm:Kingdom",
+"type": "keyterm",
+"confidence": 0.2429,
+"match_method": "canonical",
+"preferred_label": "Kingdom"
 },
 {
 "id": "flora:Wheat",
@@ -103,39 +103,11 @@
 "preferred_label": "Grass"
 },
 {
-"id": "person:GenericPerson",
-"type": "person",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "A Person"
-},
-{
-"id": "keyterm:Disciple",
+"id": "keyterm:PleasingOdor",
 "type": "keyterm",
 "confidence": 0.1714,
 "match_method": "canonical",
-"preferred_label": "Be a Disciple"
-},
-{
-"id": "keyterm:Alive",
-"type": "keyterm",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "Make Alive"
-},
-{
-"id": "keyterm:Smear",
-"type": "keyterm",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "Smear"
-},
-{
-"id": "keyterm:Anointed",
-"type": "keyterm",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "Anointed"
+"preferred_label": "Pleasing Odor"
 },
 {
 "id": "person:Aaron",
@@ -145,6 +117,20 @@
 "preferred_label": "Aaron"
 },
 {
+"id": "keyterm:Smear",
+"type": "keyterm",
+"confidence": 0.1714,
+"match_method": "canonical",
+"preferred_label": "Smear"
+},
+{
+"id": "keyterm:Disciple",
+"type": "keyterm",
+"confidence": 0.1714,
+"match_method": "canonical",
+"preferred_label": "Be a Disciple"
+},
+{
 "id": "keyterm:Decree",
 "type": "keyterm",
 "confidence": 0.1714,
@@ -152,11 +138,11 @@
 "preferred_label": "Decree"
 },
 {
-"id": "keyterm:PleasingOdor",
+"id": "keyterm:Alive",
 "type": "keyterm",
 "confidence": 0.1714,
 "match_method": "canonical",
-"preferred_label": "Pleasing Odor"
+"preferred_label": "Make Alive"
 },
 {
 "id": "person:Moses",
@@ -166,18 +152,32 @@
 "preferred_label": "Moses"
 },
 {
-"id": "keyterm:Heaven",
-"type": "keyterm",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "Sky"
-},
-{
 "id": "keyterm:Resurrection",
 "type": "keyterm",
 "confidence": 0.1714,
 "match_method": "canonical",
 "preferred_label": "Resurrection"
+},
+{
+"id": "person:GenericPerson",
+"type": "person",
+"confidence": 0.1714,
+"match_method": "canonical",
+"preferred_label": "A Person"
+},
+{
+"id": "keyterm:Anointed",
+"type": "keyterm",
+"confidence": 0.1714,
+"match_method": "canonical",
+"preferred_label": "Anointed"
+},
+{
+"id": "keyterm:Heaven",
+"type": "keyterm",
+"confidence": 0.1714,
+"match_method": "canonical",
+"preferred_label": "Sky"
 },
 {
 "id": "flora:Mustard",
@@ -194,13 +194,6 @@
 "preferred_label": "Griddle"
 },
 {
-"id": "realia:OliveOil",
-"type": "realia",
-"confidence": 0.1114,
-"match_method": "canonical",
-"preferred_label": "Olive Oil"
-},
-{
 "id": "realia:Ephah",
 "type": "realia",
 "confidence": 0.1114,
@@ -208,11 +201,18 @@
 "preferred_label": "Ephah"
 },
 {
-"id": "fauna:Fish",
-"type": "fauna",
+"id": "realia:Sickle",
+"type": "realia",
 "confidence": 0.1114,
 "match_method": "canonical",
-"preferred_label": "Fish"
+"preferred_label": "Sickle"
+},
+{
+"id": "realia:OliveOil",
+"type": "realia",
+"confidence": 0.1114,
+"match_method": "canonical",
+"preferred_label": "Olive Oil"
 },
 {
 "id": "fauna:Bird",
@@ -236,11 +236,11 @@
 "preferred_label": "Anointing Oil"
 },
 {
-"id": "realia:Sickle",
-"type": "realia",
+"id": "fauna:Fish",
+"type": "fauna",
 "confidence": 0.1114,
 "match_method": "canonical",
-"preferred_label": "Sickle"
+"preferred_label": "Fish"
 }
 ]
 }

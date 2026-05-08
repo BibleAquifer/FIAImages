@@ -109,18 +109,11 @@
 "preferred_label": "Israël"
 },
 {
-"id": "person:John.2",
-"type": "person",
+"id": "keyterm:Ability",
+"type": "keyterm",
 "confidence": 0.2214,
 "match_method": "canonical",
-"preferred_label": "Jean"
-},
-{
-"id": "group:Jews",
-"type": "group",
-"confidence": 0.2214,
-"match_method": "canonical",
-"preferred_label": "Jews"
+"preferred_label": "capacité"
 },
 {
 "id": "keyterm:Beloved",
@@ -130,11 +123,11 @@
 "preferred_label": "bien, aimé"
 },
 {
-"id": "keyterm:Ability",
-"type": "keyterm",
+"id": "person:John.2",
+"type": "person",
 "confidence": 0.2214,
 "match_method": "canonical",
-"preferred_label": "capacité"
+"preferred_label": "Jean"
 },
 {
 "id": "keyterm:Fear",
@@ -151,18 +144,11 @@
 "preferred_label": "Jacques"
 },
 {
-"id": "person:Joshua.5",
-"type": "person",
-"confidence": 0.1655,
-"match_method": "canonical",
-"preferred_label": "Josué"
-},
-{
-"id": "group:Relatives",
+"id": "group:Jews",
 "type": "group",
-"confidence": 0.1655,
+"confidence": 0.2214,
 "match_method": "canonical",
-"preferred_label": "Relatives"
+"preferred_label": "Jews"
 },
 {
 "id": "person:Zerubbabel.2",
@@ -172,11 +158,11 @@
 "preferred_label": "Zorobabel"
 },
 {
-"id": "person:Shealtiel.2",
-"type": "person",
+"id": "group:Relatives",
+"type": "group",
 "confidence": 0.1655,
 "match_method": "canonical",
-"preferred_label": "Schealthiel"
+"preferred_label": "Relatives"
 },
 {
 "id": "person:Jehozadak",
@@ -186,11 +172,25 @@
 "preferred_label": "Jehozadak"
 },
 {
-"id": "realia:Altar",
+"id": "person:Shealtiel.2",
+"type": "person",
+"confidence": 0.1655,
+"match_method": "canonical",
+"preferred_label": "Schealthiel"
+},
+{
+"id": "person:Joshua.5",
+"type": "person",
+"confidence": 0.1655,
+"match_method": "canonical",
+"preferred_label": "Josué"
+},
+{
+"id": "realia:TempleAltar",
 "type": "realia",
 "confidence": 0.1614,
 "match_method": "canonical",
-"preferred_label": "Altar"
+"preferred_label": "Temple Altar"
 },
 {
 "id": "realia:TabernacleAltar",
@@ -198,6 +198,20 @@
 "confidence": 0.1614,
 "match_method": "canonical",
 "preferred_label": "Tabernacle Altar"
+},
+{
+"id": "realia:Altar",
+"type": "realia",
+"confidence": 0.1614,
+"match_method": "canonical",
+"preferred_label": "Altar"
+},
+{
+"id": "realia:Clothing",
+"type": "realia",
+"confidence": 0.1614,
+"match_method": "canonical",
+"preferred_label": "Clothing"
 },
 {
 "id": "realia:Tent",
@@ -214,67 +228,32 @@
 "preferred_label": "Stone Altar"
 },
 {
-"id": "realia:Clothing",
-"type": "realia",
-"confidence": 0.1614,
+"id": "keyterm:Baptist",
+"type": "keyterm",
+"confidence": 0.1607,
 "match_method": "canonical",
-"preferred_label": "Clothing"
+"preferred_label": "baptiste [jean]"
 },
 {
-"id": "realia:TempleAltar",
-"type": "realia",
-"confidence": 0.1614,
-"match_method": "canonical",
-"preferred_label": "Temple Altar"
-},
-{
-"id": "place:Joppa",
+"id": "place:Sidon",
 "type": "place",
 "confidence": 0.1607,
 "match_method": "canonical",
-"preferred_label": "Joppa"
+"preferred_label": "Sidon"
 },
 {
-"id": "group:Sidon",
-"type": "group",
+"id": "person:John",
+"type": "person",
 "confidence": 0.1607,
 "match_method": "canonical",
-"preferred_label": "Sidonien"
+"preferred_label": "Jean"
 },
 {
-"id": "keyterm:FeastOfTabernacles",
+"id": "keyterm:Happen",
 "type": "keyterm",
 "confidence": 0.1607,
 "match_method": "canonical",
-"preferred_label": "fourré"
-},
-{
-"id": "keyterm:Holy",
-"type": "keyterm",
-"confidence": 0.1607,
-"match_method": "canonical",
-"preferred_label": "saint"
-},
-{
-"id": "keyterm:Command",
-"type": "keyterm",
-"confidence": 0.1607,
-"match_method": "canonical",
-"preferred_label": "prescrire"
-},
-{
-"id": "place:Lebanon",
-"type": "place",
-"confidence": 0.1607,
-"match_method": "canonical",
-"preferred_label": "Liban"
-},
-{
-"id": "keyterm:AppointedFeast",
-"type": "keyterm",
-"confidence": 0.1607,
-"match_method": "canonical",
-"preferred_label": "fête déterminée"
+"preferred_label": "To Cause to Happen"
 },
 {
 "id": "keyterm:Instruction",
@@ -284,11 +263,95 @@
 "preferred_label": "Instruction"
 },
 {
-"id": "place:Sidon",
+"id": "place:Lebanon",
 "type": "place",
 "confidence": 0.1607,
 "match_method": "canonical",
-"preferred_label": "Sidon"
+"preferred_label": "Liban"
+},
+{
+"id": "keyterm:FeastOfTabernacles",
+"type": "keyterm",
+"confidence": 0.1607,
+"match_method": "canonical",
+"preferred_label": "fourré"
+},
+{
+"id": "place:Tyre",
+"type": "place",
+"confidence": 0.1607,
+"match_method": "canonical",
+"preferred_label": "Tyr"
+},
+{
+"id": "place:Joppa",
+"type": "place",
+"confidence": 0.1607,
+"match_method": "canonical",
+"preferred_label": "Joppa"
+},
+{
+"id": "keyterm:BearWitness",
+"type": "keyterm",
+"confidence": 0.1607,
+"match_method": "canonical",
+"preferred_label": "témoigner"
+},
+{
+"id": "keyterm:AppointedFeast",
+"type": "keyterm",
+"confidence": 0.1607,
+"match_method": "canonical",
+"preferred_label": "fête déterminée"
+},
+{
+"id": "keyterm:Holy",
+"type": "keyterm",
+"confidence": 0.1607,
+"match_method": "canonical",
+"preferred_label": "saint"
+},
+{
+"id": "group:Tyre",
+"type": "group",
+"confidence": 0.1607,
+"match_method": "canonical",
+"preferred_label": "Tyrien"
+},
+{
+"id": "group:Sidon",
+"type": "group",
+"confidence": 0.1607,
+"match_method": "canonical",
+"preferred_label": "Sidonien"
+},
+{
+"id": "keyterm:Resurrection",
+"type": "keyterm",
+"confidence": 0.1607,
+"match_method": "canonical",
+"preferred_label": "résurrection"
+},
+{
+"id": "keyterm:Believe",
+"type": "keyterm",
+"confidence": 0.1607,
+"match_method": "canonical",
+"preferred_label": "croire"
+},
+{
+"id": "place:Persia",
+"type": "place",
+"confidence": 0.1607,
+"match_method": "canonical",
+"preferred_label": "Perse"
+},
+{
+"id": "person:Cyrus",
+"type": "person",
+"confidence": 0.1607,
+"match_method": "canonical",
+"preferred_label": "Cyrus"
 },
 {
 "id": "place:Jerusalem",
@@ -305,60 +368,11 @@
 "preferred_label": "néoménies"
 },
 {
-"id": "place:Tyre",
-"type": "place",
-"confidence": 0.1607,
-"match_method": "canonical",
-"preferred_label": "Tyr"
-},
-{
-"id": "person:Cyrus",
-"type": "person",
-"confidence": 0.1607,
-"match_method": "canonical",
-"preferred_label": "Cyrus"
-},
-{
-"id": "person:John",
-"type": "person",
-"confidence": 0.1607,
-"match_method": "canonical",
-"preferred_label": "Jean"
-},
-{
-"id": "group:Tyre",
-"type": "group",
-"confidence": 0.1607,
-"match_method": "canonical",
-"preferred_label": "Tyrien"
-},
-{
-"id": "keyterm:Believe",
+"id": "keyterm:Command",
 "type": "keyterm",
 "confidence": 0.1607,
 "match_method": "canonical",
-"preferred_label": "croire"
-},
-{
-"id": "keyterm:BearWitness",
-"type": "keyterm",
-"confidence": 0.1607,
-"match_method": "canonical",
-"preferred_label": "témoigner"
-},
-{
-"id": "keyterm:Happen",
-"type": "keyterm",
-"confidence": 0.1607,
-"match_method": "canonical",
-"preferred_label": "To Cause to Happen"
-},
-{
-"id": "place:Persia",
-"type": "place",
-"confidence": 0.1607,
-"match_method": "canonical",
-"preferred_label": "Perse"
+"preferred_label": "prescrire"
 },
 {
 "id": "keyterm:Terror",
@@ -366,20 +380,6 @@
 "confidence": 0.1607,
 "match_method": "canonical",
 "preferred_label": "terreur"
-},
-{
-"id": "keyterm:Resurrection",
-"type": "keyterm",
-"confidence": 0.1607,
-"match_method": "canonical",
-"preferred_label": "résurrection"
-},
-{
-"id": "keyterm:Baptist",
-"type": "keyterm",
-"confidence": 0.1607,
-"match_method": "canonical",
-"preferred_label": "baptiste [jean]"
 },
 {
 "id": "realia:FestivalOfTheTabernacles",
