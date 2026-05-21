@@ -53,13 +53,6 @@
 "preferred_label": "Elijah"
 },
 {
-"id": "keyterm:Offering",
-"type": "keyterm",
-"confidence": 0.4036,
-"match_method": "canonical",
-"preferred_label": "Offering"
-},
-{
 "id": "person:Moses",
 "type": "person",
 "confidence": 0.4036,
@@ -67,11 +60,11 @@
 "preferred_label": "Moses"
 },
 {
-"id": "keyterm:Disciple",
+"id": "keyterm:Offering",
 "type": "keyterm",
-"confidence": 0.3429,
+"confidence": 0.4036,
 "match_method": "canonical",
-"preferred_label": "Be a Disciple"
+"preferred_label": "Offering"
 },
 {
 "id": "deity:Lord",
@@ -88,11 +81,11 @@
 "preferred_label": "Peter"
 },
 {
-"id": "place:Judea",
-"type": "place",
-"confidence": 0.2262,
+"id": "keyterm:Disciple",
+"type": "keyterm",
+"confidence": 0.3429,
 "match_method": "canonical",
-"preferred_label": "Judea"
+"preferred_label": "Be a Disciple"
 },
 {
 "id": "place:Galilee",
@@ -102,39 +95,11 @@
 "preferred_label": "Galilee"
 },
 {
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.2214,
+"id": "place:Judea",
+"type": "place",
+"confidence": 0.2262,
 "match_method": "canonical",
-"preferred_label": "Israel"
-},
-{
-"id": "keyterm:Ability",
-"type": "keyterm",
-"confidence": 0.2214,
-"match_method": "canonical",
-"preferred_label": "Ability"
-},
-{
-"id": "keyterm:Beloved",
-"type": "keyterm",
-"confidence": 0.2214,
-"match_method": "canonical",
-"preferred_label": "Beloved"
-},
-{
-"id": "person:John.2",
-"type": "person",
-"confidence": 0.2214,
-"match_method": "canonical",
-"preferred_label": "John"
-},
-{
-"id": "keyterm:Fear",
-"type": "keyterm",
-"confidence": 0.2214,
-"match_method": "canonical",
-"preferred_label": "Fear"
+"preferred_label": "Judea"
 },
 {
 "id": "person:James",
@@ -151,32 +116,39 @@
 "preferred_label": "Jews"
 },
 {
-"id": "person:Zerubbabel.2",
+"id": "person:John.2",
 "type": "person",
-"confidence": 0.1655,
+"confidence": 0.2214,
 "match_method": "canonical",
-"preferred_label": "Zerubbabel"
+"preferred_label": "John"
 },
 {
-"id": "group:Relatives",
-"type": "group",
-"confidence": 0.1655,
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.2214,
 "match_method": "canonical",
-"preferred_label": "Relatives"
+"preferred_label": "Israel"
 },
 {
-"id": "person:Jehozadak",
-"type": "person",
-"confidence": 0.1655,
+"id": "keyterm:Beloved",
+"type": "keyterm",
+"confidence": 0.2214,
 "match_method": "canonical",
-"preferred_label": "Jehozadak"
+"preferred_label": "Beloved"
 },
 {
-"id": "person:Shealtiel.2",
-"type": "person",
-"confidence": 0.1655,
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.2214,
 "match_method": "canonical",
-"preferred_label": "Shealtiel"
+"preferred_label": "Fear"
+},
+{
+"id": "keyterm:Ability",
+"type": "keyterm",
+"confidence": 0.2214,
+"match_method": "canonical",
+"preferred_label": "Ability"
 },
 {
 "id": "person:Joshua.5",
@@ -186,25 +158,32 @@
 "preferred_label": "Joshua"
 },
 {
-"id": "realia:TempleAltar",
-"type": "realia",
-"confidence": 0.1614,
+"id": "person:Zerubbabel.2",
+"type": "person",
+"confidence": 0.1655,
 "match_method": "canonical",
-"preferred_label": "Temple Altar"
+"preferred_label": "Zerubbabel"
 },
 {
-"id": "realia:TabernacleAltar",
-"type": "realia",
-"confidence": 0.1614,
+"id": "person:Shealtiel.2",
+"type": "person",
+"confidence": 0.1655,
 "match_method": "canonical",
-"preferred_label": "Tabernacle Altar"
+"preferred_label": "Shealtiel"
 },
 {
-"id": "realia:Altar",
-"type": "realia",
-"confidence": 0.1614,
+"id": "person:Jehozadak",
+"type": "person",
+"confidence": 0.1655,
 "match_method": "canonical",
-"preferred_label": "Altar"
+"preferred_label": "Jehozadak"
+},
+{
+"id": "group:Relatives",
+"type": "group",
+"confidence": 0.1655,
+"match_method": "canonical",
+"preferred_label": "Relatives"
 },
 {
 "id": "realia:Clothing",
@@ -214,13 +193,6 @@
 "preferred_label": "Clothing"
 },
 {
-"id": "realia:Tent",
-"type": "realia",
-"confidence": 0.1614,
-"match_method": "canonical",
-"preferred_label": "Tent"
-},
-{
 "id": "realia:StoneAltar",
 "type": "realia",
 "confidence": 0.1614,
@@ -228,81 +200,39 @@
 "preferred_label": "Stone Altar"
 },
 {
-"id": "keyterm:Baptist",
+"id": "realia:TempleAltar",
+"type": "realia",
+"confidence": 0.1614,
+"match_method": "canonical",
+"preferred_label": "Temple Altar"
+},
+{
+"id": "realia:Altar",
+"type": "realia",
+"confidence": 0.1614,
+"match_method": "canonical",
+"preferred_label": "Altar"
+},
+{
+"id": "realia:Tent",
+"type": "realia",
+"confidence": 0.1614,
+"match_method": "canonical",
+"preferred_label": "Tent"
+},
+{
+"id": "realia:TabernacleAltar",
+"type": "realia",
+"confidence": 0.1614,
+"match_method": "canonical",
+"preferred_label": "Tabernacle Altar"
+},
+{
+"id": "keyterm:Believe",
 "type": "keyterm",
 "confidence": 0.1607,
 "match_method": "canonical",
-"preferred_label": "Baptist"
-},
-{
-"id": "place:Sidon",
-"type": "place",
-"confidence": 0.1607,
-"match_method": "canonical",
-"preferred_label": "Sidon"
-},
-{
-"id": "person:John",
-"type": "person",
-"confidence": 0.1607,
-"match_method": "canonical",
-"preferred_label": "John"
-},
-{
-"id": "keyterm:Happen",
-"type": "keyterm",
-"confidence": 0.1607,
-"match_method": "canonical",
-"preferred_label": "To Cause to Happen"
-},
-{
-"id": "keyterm:Instruction",
-"type": "keyterm",
-"confidence": 0.1607,
-"match_method": "canonical",
-"preferred_label": "Instruction"
-},
-{
-"id": "place:Lebanon",
-"type": "place",
-"confidence": 0.1607,
-"match_method": "canonical",
-"preferred_label": "Lebanon"
-},
-{
-"id": "keyterm:FeastOfTabernacles",
-"type": "keyterm",
-"confidence": 0.1607,
-"match_method": "canonical",
-"preferred_label": "Feast of Tabernacles"
-},
-{
-"id": "place:Tyre",
-"type": "place",
-"confidence": 0.1607,
-"match_method": "canonical",
-"preferred_label": "Tyre"
-},
-{
-"id": "place:Joppa",
-"type": "place",
-"confidence": 0.1607,
-"match_method": "canonical",
-"preferred_label": "Joppa"
-},
-{
-"id": "keyterm:BearWitness",
-"type": "keyterm",
-"confidence": 0.1607,
-"match_method": "canonical",
-"preferred_label": "Bear Witness"
-},
-{
-"id": "keyterm:AppointedFeast",
-"type": "keyterm",
-"confidence": 0.1607,
-"match_method": "canonical",
-"preferred_label": "Appointed Feast"
+"preferred_label": "Believe"
 },
 {
 "id": "keyterm:Holy",
@@ -312,11 +242,25 @@
 "preferred_label": "Holy"
 },
 {
-"id": "group:Tyre",
-"type": "group",
+"id": "place:Persia",
+"type": "place",
 "confidence": 0.1607,
 "match_method": "canonical",
-"preferred_label": "Tyrians"
+"preferred_label": "Persia"
+},
+{
+"id": "keyterm:Instruction",
+"type": "keyterm",
+"confidence": 0.1607,
+"match_method": "canonical",
+"preferred_label": "Instruction"
+},
+{
+"id": "keyterm:Command",
+"type": "keyterm",
+"confidence": 0.1607,
+"match_method": "canonical",
+"preferred_label": "To Command"
 },
 {
 "id": "group:Sidon",
@@ -333,32 +277,53 @@
 "preferred_label": "Resurrection"
 },
 {
-"id": "keyterm:Believe",
-"type": "keyterm",
-"confidence": 0.1607,
-"match_method": "canonical",
-"preferred_label": "Believe"
-},
-{
-"id": "place:Persia",
-"type": "place",
-"confidence": 0.1607,
-"match_method": "canonical",
-"preferred_label": "Persia"
-},
-{
-"id": "person:Cyrus",
-"type": "person",
-"confidence": 0.1607,
-"match_method": "canonical",
-"preferred_label": "Cyrus"
-},
-{
 "id": "place:Jerusalem",
 "type": "place",
 "confidence": 0.1607,
 "match_method": "canonical",
 "preferred_label": "Jerusalem"
+},
+{
+"id": "keyterm:AppointedFeast",
+"type": "keyterm",
+"confidence": 0.1607,
+"match_method": "canonical",
+"preferred_label": "Appointed Feast"
+},
+{
+"id": "person:John",
+"type": "person",
+"confidence": 0.1607,
+"match_method": "canonical",
+"preferred_label": "John"
+},
+{
+"id": "keyterm:Happen",
+"type": "keyterm",
+"confidence": 0.1607,
+"match_method": "canonical",
+"preferred_label": "To Cause to Happen"
+},
+{
+"id": "group:Tyre",
+"type": "group",
+"confidence": 0.1607,
+"match_method": "canonical",
+"preferred_label": "Tyrians"
+},
+{
+"id": "place:Joppa",
+"type": "place",
+"confidence": 0.1607,
+"match_method": "canonical",
+"preferred_label": "Joppa"
+},
+{
+"id": "keyterm:BearWitness",
+"type": "keyterm",
+"confidence": 0.1607,
+"match_method": "canonical",
+"preferred_label": "Bear Witness"
 },
 {
 "id": "keyterm:NewMoonFestival",
@@ -368,11 +333,25 @@
 "preferred_label": "New Moon Festival"
 },
 {
-"id": "keyterm:Command",
-"type": "keyterm",
+"id": "place:Sidon",
+"type": "place",
 "confidence": 0.1607,
 "match_method": "canonical",
-"preferred_label": "To Command"
+"preferred_label": "Sidon"
+},
+{
+"id": "person:Cyrus",
+"type": "person",
+"confidence": 0.1607,
+"match_method": "canonical",
+"preferred_label": "Cyrus"
+},
+{
+"id": "place:Tyre",
+"type": "place",
+"confidence": 0.1607,
+"match_method": "canonical",
+"preferred_label": "Tyre"
 },
 {
 "id": "keyterm:Terror",
@@ -382,32 +361,32 @@
 "preferred_label": "Terror"
 },
 {
+"id": "place:Lebanon",
+"type": "place",
+"confidence": 0.1607,
+"match_method": "canonical",
+"preferred_label": "Lebanon"
+},
+{
+"id": "keyterm:FeastOfTabernacles",
+"type": "keyterm",
+"confidence": 0.1607,
+"match_method": "canonical",
+"preferred_label": "Feast of Tabernacles"
+},
+{
+"id": "keyterm:Baptist",
+"type": "keyterm",
+"confidence": 0.1607,
+"match_method": "canonical",
+"preferred_label": "Baptist"
+},
+{
 "id": "realia:FestivalOfTheTabernacles",
 "type": "realia",
 "confidence": 0.1055,
 "match_method": "canonical",
 "preferred_label": "Festival of the Tabernacles"
-},
-{
-"id": "realia:Money",
-"type": "realia",
-"confidence": 0.1007,
-"match_method": "canonical",
-"preferred_label": "Money"
-},
-{
-"id": "realia:OliveOil",
-"type": "realia",
-"confidence": 0.1007,
-"match_method": "canonical",
-"preferred_label": "Olive Oil"
-},
-{
-"id": "realia:Craftsman",
-"type": "realia",
-"confidence": 0.1007,
-"match_method": "canonical",
-"preferred_label": "Craftsman"
 },
 {
 "id": "flora:Cedar",
@@ -417,11 +396,32 @@
 "preferred_label": "Cedar"
 },
 {
+"id": "realia:Money",
+"type": "realia",
+"confidence": 0.1007,
+"match_method": "canonical",
+"preferred_label": "Money"
+},
+{
+"id": "realia:Craftsman",
+"type": "realia",
+"confidence": 0.1007,
+"match_method": "canonical",
+"preferred_label": "Craftsman"
+},
+{
 "id": "realia:AnointingOil",
 "type": "realia",
 "confidence": 0.1007,
 "match_method": "canonical",
 "preferred_label": "Anointing Oil"
+},
+{
+"id": "realia:OliveOil",
+"type": "realia",
+"confidence": 0.1007,
+"match_method": "canonical",
+"preferred_label": "Olive Oil"
 }
 ]
 }
