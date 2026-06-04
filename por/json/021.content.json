@@ -89,6 +89,13 @@
 "preferred_label": "rogar"
 },
 {
+"id": "deity:Angel",
+"type": "deity",
+"confidence": 0.165,
+"match_method": "canonical",
+"preferred_label": "An Angel"
+},
+{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.165,
@@ -115,13 +122,6 @@
 "confidence": 0.165,
 "match_method": "canonical",
 "preferred_label": "example"
-},
-{
-"id": "deity:Angel",
-"type": "deity",
-"confidence": 0.165,
-"match_method": "canonical",
-"preferred_label": "An Angel"
 },
 {
 "id": "realia:Bed",
@@ -237,6 +237,13 @@
 "preferred_label": "rogar"
 },
 {
+"id": "deity:Angel",
+"type": "deity",
+"confidence": 0.165,
+"match_method": "canonical",
+"preferred_label": "An Angel"
+},
+{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.165,
@@ -263,13 +270,6 @@
 "confidence": 0.165,
 "match_method": "canonical",
 "preferred_label": "example"
-},
-{
-"id": "deity:Angel",
-"type": "deity",
-"confidence": 0.165,
-"match_method": "canonical",
-"preferred_label": "An Angel"
 },
 {
 "id": "realia:Bed",
@@ -343,13 +343,6 @@
 "preferred_label": "Jews"
 },
 {
-"id": "realia:Clothing",
-"type": "realia",
-"confidence": 0.2322,
-"match_method": "canonical",
-"preferred_label": "Clothing"
-},
-{
 "id": "flora:Reed",
 "type": "flora",
 "confidence": 0.2322,
@@ -357,11 +350,11 @@
 "preferred_label": "Reed"
 },
 {
-"id": "keyterm:Salvation",
-"type": "keyterm",
-"confidence": 0.2281,
+"id": "realia:Clothing",
+"type": "realia",
+"confidence": 0.2322,
 "match_method": "canonical",
-"preferred_label": "salvation"
+"preferred_label": "Clothing"
 },
 {
 "id": "person:Jesus.2",
@@ -371,6 +364,20 @@
 "preferred_label": "Jesus"
 },
 {
+"id": "keyterm:Salvation",
+"type": "keyterm",
+"confidence": 0.2281,
+"match_method": "canonical",
+"preferred_label": "salvation"
+},
+{
+"id": "realia:Crown",
+"type": "realia",
+"confidence": 0.1744,
+"match_method": "canonical",
+"preferred_label": "Crown"
+},
+{
 "id": "flora:Acacia",
 "type": "flora",
 "confidence": 0.1744,
@@ -378,11 +385,11 @@
 "preferred_label": "Acacia"
 },
 {
-"id": "flora:Brier",
-"type": "flora",
+"id": "realia:Crown.2",
+"type": "realia",
 "confidence": 0.1744,
 "match_method": "canonical",
-"preferred_label": "Brier"
+"preferred_label": "Crown"
 },
 {
 "id": "realia:Palace",
@@ -399,32 +406,11 @@
 "preferred_label": "Purple Cloth"
 },
 {
-"id": "realia:Crown",
-"type": "realia",
+"id": "flora:Brier",
+"type": "flora",
 "confidence": 0.1744,
 "match_method": "canonical",
-"preferred_label": "Crown"
-},
-{
-"id": "realia:Crown.2",
-"type": "realia",
-"confidence": 0.1744,
-"match_method": "canonical",
-"preferred_label": "Crown"
-},
-{
-"id": "person:Rufus",
-"type": "person",
-"confidence": 0.1703,
-"match_method": "canonical",
-"preferred_label": "Rufo"
-},
-{
-"id": "person:Simon.5",
-"type": "person",
-"confidence": 0.1703,
-"match_method": "canonical",
-"preferred_label": "Simão"
+"preferred_label": "Brier"
 },
 {
 "id": "place:Cyrene",
@@ -434,11 +420,11 @@
 "preferred_label": "Cirene"
 },
 {
-"id": "person:Alexander",
+"id": "person:Rufus",
 "type": "person",
 "confidence": 0.1703,
 "match_method": "canonical",
-"preferred_label": "Alexandre"
+"preferred_label": "Rufo"
 },
 {
 "id": "place:Golgotha",
@@ -446,6 +432,20 @@
 "confidence": 0.1703,
 "match_method": "canonical",
 "preferred_label": "Golgotha"
+},
+{
+"id": "person:Simon.5",
+"type": "person",
+"confidence": 0.1703,
+"match_method": "canonical",
+"preferred_label": "Simão"
+},
+{
+"id": "person:Alexander",
+"type": "person",
+"confidence": 0.1703,
+"match_method": "canonical",
+"preferred_label": "Alexandre"
 },
 {
 "id": "flora:Boxthorn",
@@ -469,11 +469,11 @@
 "preferred_label": "Cloak"
 },
 {
-"id": "keyterm:Believe",
-"type": "keyterm",
+"id": "person:Israel",
+"type": "person",
 "confidence": 0.1641,
 "match_method": "canonical",
-"preferred_label": "crer"
+"preferred_label": "Israel"
 },
 {
 "id": "keyterm:Blaspheme",
@@ -483,11 +483,32 @@
 "preferred_label": "blasfemar"
 },
 {
-"id": "person:Israel",
-"type": "person",
+"id": "keyterm:Believe",
+"type": "keyterm",
 "confidence": 0.1641,
 "match_method": "canonical",
-"preferred_label": "Israel"
+"preferred_label": "crer"
+},
+{
+"id": "group:GenericElders",
+"type": "group",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "Elders"
+},
+{
+"id": "group:ReligiousOfficials",
+"type": "group",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "Religious Officials"
+},
+{
+"id": "group:GenericPriests",
+"type": "group",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "Priests"
 },
 {
 "id": "keyterm:BowDown",
@@ -502,27 +523,6 @@
 "confidence": 0.1641,
 "match_method": "canonical",
 "preferred_label": "be blameless"
-},
-{
-"id": "group:GenericPriests",
-"type": "group",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "Priests"
-},
-{
-"id": "group:ReligiousOfficials",
-"type": "group",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "Religious Officials"
-},
-{
-"id": "group:GenericElders",
-"type": "group",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "Elders"
 },
 {
 "id": "realia:MyrrhedWine",
@@ -546,13 +546,6 @@
 "preferred_label": "Temple"
 },
 {
-"id": "realia:Bed",
-"type": "realia",
-"confidence": 0.1041,
-"match_method": "canonical",
-"preferred_label": "Bed"
-},
-{
 "id": "realia:Lot",
 "type": "realia",
 "confidence": 0.1041,
@@ -567,6 +560,13 @@
 "preferred_label": "Courtyard"
 },
 {
+"id": "realia:Money",
+"type": "realia",
+"confidence": 0.1041,
+"match_method": "canonical",
+"preferred_label": "Money"
+},
+{
 "id": "realia:Rod",
 "type": "realia",
 "confidence": 0.1041,
@@ -574,11 +574,11 @@
 "preferred_label": "Rod"
 },
 {
-"id": "realia:Money",
+"id": "realia:Bed",
 "type": "realia",
 "confidence": 0.1041,
 "match_method": "canonical",
-"preferred_label": "Money"
+"preferred_label": "Bed"
 }
 ]
 }
@@ -631,13 +631,6 @@
 "preferred_label": "Jews"
 },
 {
-"id": "realia:Clothing",
-"type": "realia",
-"confidence": 0.2322,
-"match_method": "canonical",
-"preferred_label": "Clothing"
-},
-{
 "id": "flora:Reed",
 "type": "flora",
 "confidence": 0.2322,
@@ -645,11 +638,11 @@
 "preferred_label": "Reed"
 },
 {
-"id": "keyterm:Salvation",
-"type": "keyterm",
-"confidence": 0.2281,
+"id": "realia:Clothing",
+"type": "realia",
+"confidence": 0.2322,
 "match_method": "canonical",
-"preferred_label": "salvation"
+"preferred_label": "Clothing"
 },
 {
 "id": "person:Jesus.2",
@@ -659,6 +652,20 @@
 "preferred_label": "Jesus"
 },
 {
+"id": "keyterm:Salvation",
+"type": "keyterm",
+"confidence": 0.2281,
+"match_method": "canonical",
+"preferred_label": "salvation"
+},
+{
+"id": "realia:Crown",
+"type": "realia",
+"confidence": 0.1744,
+"match_method": "canonical",
+"preferred_label": "Crown"
+},
+{
 "id": "flora:Acacia",
 "type": "flora",
 "confidence": 0.1744,
@@ -666,11 +673,11 @@
 "preferred_label": "Acacia"
 },
 {
-"id": "flora:Brier",
-"type": "flora",
+"id": "realia:Crown.2",
+"type": "realia",
 "confidence": 0.1744,
 "match_method": "canonical",
-"preferred_label": "Brier"
+"preferred_label": "Crown"
 },
 {
 "id": "realia:Palace",
@@ -687,32 +694,11 @@
 "preferred_label": "Purple Cloth"
 },
 {
-"id": "realia:Crown",
-"type": "realia",
+"id": "flora:Brier",
+"type": "flora",
 "confidence": 0.1744,
 "match_method": "canonical",
-"preferred_label": "Crown"
-},
-{
-"id": "realia:Crown.2",
-"type": "realia",
-"confidence": 0.1744,
-"match_method": "canonical",
-"preferred_label": "Crown"
-},
-{
-"id": "person:Rufus",
-"type": "person",
-"confidence": 0.1703,
-"match_method": "canonical",
-"preferred_label": "Rufo"
-},
-{
-"id": "person:Simon.5",
-"type": "person",
-"confidence": 0.1703,
-"match_method": "canonical",
-"preferred_label": "Simão"
+"preferred_label": "Brier"
 },
 {
 "id": "place:Cyrene",
@@ -722,11 +708,11 @@
 "preferred_label": "Cirene"
 },
 {
-"id": "person:Alexander",
+"id": "person:Rufus",
 "type": "person",
 "confidence": 0.1703,
 "match_method": "canonical",
-"preferred_label": "Alexandre"
+"preferred_label": "Rufo"
 },
 {
 "id": "place:Golgotha",
@@ -734,6 +720,20 @@
 "confidence": 0.1703,
 "match_method": "canonical",
 "preferred_label": "Golgotha"
+},
+{
+"id": "person:Simon.5",
+"type": "person",
+"confidence": 0.1703,
+"match_method": "canonical",
+"preferred_label": "Simão"
+},
+{
+"id": "person:Alexander",
+"type": "person",
+"confidence": 0.1703,
+"match_method": "canonical",
+"preferred_label": "Alexandre"
 },
 {
 "id": "flora:Boxthorn",
@@ -757,11 +757,11 @@
 "preferred_label": "Cloak"
 },
 {
-"id": "keyterm:Believe",
-"type": "keyterm",
+"id": "person:Israel",
+"type": "person",
 "confidence": 0.1641,
 "match_method": "canonical",
-"preferred_label": "crer"
+"preferred_label": "Israel"
 },
 {
 "id": "keyterm:Blaspheme",
@@ -771,11 +771,32 @@
 "preferred_label": "blasfemar"
 },
 {
-"id": "person:Israel",
-"type": "person",
+"id": "keyterm:Believe",
+"type": "keyterm",
 "confidence": 0.1641,
 "match_method": "canonical",
-"preferred_label": "Israel"
+"preferred_label": "crer"
+},
+{
+"id": "group:GenericElders",
+"type": "group",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "Elders"
+},
+{
+"id": "group:ReligiousOfficials",
+"type": "group",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "Religious Officials"
+},
+{
+"id": "group:GenericPriests",
+"type": "group",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "Priests"
 },
 {
 "id": "keyterm:BowDown",
@@ -790,27 +811,6 @@
 "confidence": 0.1641,
 "match_method": "canonical",
 "preferred_label": "be blameless"
-},
-{
-"id": "group:GenericPriests",
-"type": "group",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "Priests"
-},
-{
-"id": "group:ReligiousOfficials",
-"type": "group",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "Religious Officials"
-},
-{
-"id": "group:GenericElders",
-"type": "group",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "Elders"
 },
 {
 "id": "realia:MyrrhedWine",
@@ -834,13 +834,6 @@
 "preferred_label": "Temple"
 },
 {
-"id": "realia:Bed",
-"type": "realia",
-"confidence": 0.1041,
-"match_method": "canonical",
-"preferred_label": "Bed"
-},
-{
 "id": "realia:Lot",
 "type": "realia",
 "confidence": 0.1041,
@@ -855,6 +848,13 @@
 "preferred_label": "Courtyard"
 },
 {
+"id": "realia:Money",
+"type": "realia",
+"confidence": 0.1041,
+"match_method": "canonical",
+"preferred_label": "Money"
+},
+{
 "id": "realia:Rod",
 "type": "realia",
 "confidence": 0.1041,
@@ -862,11 +862,11 @@
 "preferred_label": "Rod"
 },
 {
-"id": "realia:Money",
+"id": "realia:Bed",
 "type": "realia",
 "confidence": 0.1041,
 "match_method": "canonical",
-"preferred_label": "Money"
+"preferred_label": "Bed"
 }
 ]
 }
@@ -907,32 +907,11 @@
 "preferred_label": "decidir"
 },
 {
-"id": "keyterm:Holy",
-"type": "keyterm",
-"confidence": 0.1875,
-"match_method": "canonical",
-"preferred_label": "holy"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.1875,
-"match_method": "canonical",
-"preferred_label": "SENHOR"
-},
-{
 "id": "keyterm:Judgment",
 "type": "keyterm",
 "confidence": 0.1875,
 "match_method": "canonical",
 "preferred_label": "juízo"
-},
-{
-"id": "keyterm:Heaven",
-"type": "keyterm",
-"confidence": 0.1875,
-"match_method": "canonical",
-"preferred_label": "céu"
 },
 {
 "id": "keyterm:Law",
@@ -942,18 +921,25 @@
 "preferred_label": "lei"
 },
 {
-"id": "fauna:Jackal",
-"type": "fauna",
-"confidence": 0.1275,
+"id": "keyterm:Heaven",
+"type": "keyterm",
+"confidence": 0.1875,
 "match_method": "canonical",
-"preferred_label": "Jackal"
+"preferred_label": "céu"
 },
 {
-"id": "fauna:Fish",
-"type": "fauna",
-"confidence": 0.1275,
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.1875,
 "match_method": "canonical",
-"preferred_label": "Fish"
+"preferred_label": "SENHOR"
+},
+{
+"id": "keyterm:Holy",
+"type": "keyterm",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "holy"
 },
 {
 "id": "fauna:Dog",
@@ -963,11 +949,18 @@
 "preferred_label": "Dog"
 },
 {
-"id": "fauna:Pig",
+"id": "fauna:Fish",
 "type": "fauna",
 "confidence": 0.1275,
 "match_method": "canonical",
-"preferred_label": "Pig"
+"preferred_label": "Fish"
+},
+{
+"id": "fauna:Jackal",
+"type": "fauna",
+"confidence": 0.1275,
+"match_method": "canonical",
+"preferred_label": "Jackal"
 },
 {
 "id": "fauna:Snake",
@@ -975,6 +968,13 @@
 "confidence": 0.1275,
 "match_method": "canonical",
 "preferred_label": "Snake"
+},
+{
+"id": "fauna:Pig",
+"type": "fauna",
+"confidence": 0.1275,
+"match_method": "canonical",
+"preferred_label": "Pig"
 }
 ]
 }
@@ -1015,32 +1015,11 @@
 "preferred_label": "decidir"
 },
 {
-"id": "keyterm:Holy",
-"type": "keyterm",
-"confidence": 0.1875,
-"match_method": "canonical",
-"preferred_label": "holy"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.1875,
-"match_method": "canonical",
-"preferred_label": "SENHOR"
-},
-{
 "id": "keyterm:Judgment",
 "type": "keyterm",
 "confidence": 0.1875,
 "match_method": "canonical",
 "preferred_label": "juízo"
-},
-{
-"id": "keyterm:Heaven",
-"type": "keyterm",
-"confidence": 0.1875,
-"match_method": "canonical",
-"preferred_label": "céu"
 },
 {
 "id": "keyterm:Law",
@@ -1050,18 +1029,25 @@
 "preferred_label": "lei"
 },
 {
-"id": "fauna:Jackal",
-"type": "fauna",
-"confidence": 0.1275,
+"id": "keyterm:Heaven",
+"type": "keyterm",
+"confidence": 0.1875,
 "match_method": "canonical",
-"preferred_label": "Jackal"
+"preferred_label": "céu"
 },
 {
-"id": "fauna:Fish",
-"type": "fauna",
-"confidence": 0.1275,
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.1875,
 "match_method": "canonical",
-"preferred_label": "Fish"
+"preferred_label": "SENHOR"
+},
+{
+"id": "keyterm:Holy",
+"type": "keyterm",
+"confidence": 0.1875,
+"match_method": "canonical",
+"preferred_label": "holy"
 },
 {
 "id": "fauna:Dog",
@@ -1071,11 +1057,18 @@
 "preferred_label": "Dog"
 },
 {
-"id": "fauna:Pig",
+"id": "fauna:Fish",
 "type": "fauna",
 "confidence": 0.1275,
 "match_method": "canonical",
-"preferred_label": "Pig"
+"preferred_label": "Fish"
+},
+{
+"id": "fauna:Jackal",
+"type": "fauna",
+"confidence": 0.1275,
+"match_method": "canonical",
+"preferred_label": "Jackal"
 },
 {
 "id": "fauna:Snake",
@@ -1083,6 +1076,13 @@
 "confidence": 0.1275,
 "match_method": "canonical",
 "preferred_label": "Snake"
+},
+{
+"id": "fauna:Pig",
+"type": "fauna",
+"confidence": 0.1275,
+"match_method": "canonical",
+"preferred_label": "Pig"
 }
 ]
 }
@@ -1123,13 +1123,6 @@
 "preferred_label": "Blasto"
 },
 {
-"id": "person:Herod.3",
-"type": "person",
-"confidence": 0.28,
-"match_method": "canonical",
-"preferred_label": "Herodes"
-},
-{
 "id": "group:Tyre",
 "type": "group",
 "confidence": 0.28,
@@ -1137,46 +1130,11 @@
 "preferred_label": "Tyrians"
 },
 {
-"id": "keyterm:Persuade",
-"type": "keyterm",
-"confidence": 0.24,
+"id": "person:Herod.3",
+"type": "person",
+"confidence": 0.28,
 "match_method": "canonical",
-"preferred_label": "persuadir"
-},
-{
-"id": "place:Tyre",
-"type": "place",
-"confidence": 0.24,
-"match_method": "canonical",
-"preferred_label": "Tiro"
-},
-{
-"id": "keyterm:Glory",
-"type": "keyterm",
-"confidence": 0.24,
-"match_method": "canonical",
-"preferred_label": "Glory"
-},
-{
-"id": "place:Sidon",
-"type": "place",
-"confidence": 0.24,
-"match_method": "canonical",
-"preferred_label": "Sidom"
-},
-{
-"id": "keyterm:Peace",
-"type": "keyterm",
-"confidence": 0.24,
-"match_method": "canonical",
-"preferred_label": "fazer a paz"
-},
-{
-"id": "group:Sidon",
-"type": "group",
-"confidence": 0.24,
-"match_method": "canonical",
-"preferred_label": "Sidonians"
+"preferred_label": "Herodes"
 },
 {
 "id": "group:GenericGroup",
@@ -1186,11 +1144,53 @@
 "preferred_label": "A Group of People"
 },
 {
+"id": "place:Sidon",
+"type": "place",
+"confidence": 0.24,
+"match_method": "canonical",
+"preferred_label": "Sidom"
+},
+{
+"id": "group:Sidon",
+"type": "group",
+"confidence": 0.24,
+"match_method": "canonical",
+"preferred_label": "Sidonians"
+},
+{
+"id": "keyterm:Glory",
+"type": "keyterm",
+"confidence": 0.24,
+"match_method": "canonical",
+"preferred_label": "Glory"
+},
+{
+"id": "keyterm:Persuade",
+"type": "keyterm",
+"confidence": 0.24,
+"match_method": "canonical",
+"preferred_label": "persuadir"
+},
+{
 "id": "deity:Angel",
 "type": "deity",
 "confidence": 0.24,
 "match_method": "canonical",
 "preferred_label": "An Angel"
+},
+{
+"id": "keyterm:Peace",
+"type": "keyterm",
+"confidence": 0.24,
+"match_method": "canonical",
+"preferred_label": "fazer a paz"
+},
+{
+"id": "place:Tyre",
+"type": "place",
+"confidence": 0.24,
+"match_method": "canonical",
+"preferred_label": "Tiro"
 },
 {
 "id": "realia:Bedroom",
@@ -1200,18 +1200,18 @@
 "preferred_label": "Bedroom"
 },
 {
-"id": "realia:Clothing",
-"type": "realia",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Clothing"
-},
-{
 "id": "realia:JudgmentSeat",
 "type": "realia",
 "confidence": 0.18,
 "match_method": "canonical",
 "preferred_label": "Judgment Seat"
+},
+{
+"id": "realia:Clothing",
+"type": "realia",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "Clothing"
 },
 {
 "id": "fauna:Maggot",
