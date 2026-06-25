@@ -79,18 +79,18 @@
 "preferred_label": "SENHOR"
 },
 {
-"id": "group:Jews",
-"type": "group",
-"confidence": 0.3909,
-"match_method": "canonical",
-"preferred_label": "Jews"
-},
-{
 "id": "keyterm:Salvation",
 "type": "keyterm",
 "confidence": 0.3909,
 "match_method": "canonical",
 "preferred_label": "salvation"
+},
+{
+"id": "group:Jews",
+"type": "group",
+"confidence": 0.3909,
+"match_method": "canonical",
+"preferred_label": "Jews"
 },
 {
 "id": "keyterm:Life",
@@ -128,11 +128,11 @@
 "preferred_label": "Golgotha"
 },
 {
-"id": "keyterm:Ability",
+"id": "keyterm:Surely",
 "type": "keyterm",
 "confidence": 0.2675,
 "match_method": "canonical",
-"preferred_label": "Ability"
+"preferred_label": "surely!"
 },
 {
 "id": "person:Pilate",
@@ -142,18 +142,11 @@
 "preferred_label": "Pilatos"
 },
 {
-"id": "keyterm:Surely",
+"id": "keyterm:Ability",
 "type": "keyterm",
 "confidence": 0.2675,
 "match_method": "canonical",
-"preferred_label": "surely!"
-},
-{
-"id": "place:Cyrene",
-"type": "place",
-"confidence": 0.2169,
-"match_method": "canonical",
-"preferred_label": "Cirene"
+"preferred_label": "Ability"
 },
 {
 "id": "person:Simon.5",
@@ -163,46 +156,18 @@
 "preferred_label": "Simão"
 },
 {
+"id": "place:Cyrene",
+"type": "place",
+"confidence": 0.2169,
+"match_method": "canonical",
+"preferred_label": "Cirene"
+},
+{
 "id": "realia:SourWine",
 "type": "realia",
 "confidence": 0.2127,
 "match_method": "canonical",
 "preferred_label": "Sour Wine"
-},
-{
-"id": "keyterm:Blaspheme",
-"type": "keyterm",
-"confidence": 0.2117,
-"match_method": "canonical",
-"preferred_label": "blasfemar"
-},
-{
-"id": "keyterm:Glory",
-"type": "keyterm",
-"confidence": 0.2117,
-"match_method": "canonical",
-"preferred_label": "Glory"
-},
-{
-"id": "keyterm:Kingdom",
-"type": "keyterm",
-"confidence": 0.2117,
-"match_method": "canonical",
-"preferred_label": "reino"
-},
-{
-"id": "deity:Angel",
-"type": "deity",
-"confidence": 0.2117,
-"match_method": "canonical",
-"preferred_label": "An Angel"
-},
-{
-"id": "deity:Satan",
-"type": "deity",
-"confidence": 0.2117,
-"match_method": "canonical",
-"preferred_label": "Satanás"
 },
 {
 "id": "keyterm:Think",
@@ -212,11 +177,39 @@
 "preferred_label": "pensar"
 },
 {
-"id": "place:Jerusalem",
-"type": "place",
+"id": "keyterm:Kingdom",
+"type": "keyterm",
 "confidence": 0.2117,
 "match_method": "canonical",
-"preferred_label": "Jerusalém"
+"preferred_label": "reino"
+},
+{
+"id": "keyterm:Blaspheme",
+"type": "keyterm",
+"confidence": 0.2117,
+"match_method": "canonical",
+"preferred_label": "blasfemar"
+},
+{
+"id": "deity:Satan",
+"type": "deity",
+"confidence": 0.2117,
+"match_method": "canonical",
+"preferred_label": "Satanás"
+},
+{
+"id": "deity:Angel",
+"type": "deity",
+"confidence": 0.2117,
+"match_method": "canonical",
+"preferred_label": "An Angel"
+},
+{
+"id": "group:GenericPriests",
+"type": "group",
+"confidence": 0.2117,
+"match_method": "canonical",
+"preferred_label": "Priests"
 },
 {
 "id": "keyterm:Scripture",
@@ -226,11 +219,18 @@
 "preferred_label": "escritura"
 },
 {
-"id": "group:GenericPriests",
-"type": "group",
+"id": "place:Jerusalem",
+"type": "place",
 "confidence": 0.2117,
 "match_method": "canonical",
-"preferred_label": "Priests"
+"preferred_label": "Jerusalém"
+},
+{
+"id": "keyterm:Glory",
+"type": "keyterm",
+"confidence": 0.2117,
+"match_method": "canonical",
+"preferred_label": "Glory"
 },
 {
 "id": "realia:Lot",
@@ -247,11 +247,11 @@
 "preferred_label": "Cleopas"
 },
 {
-"id": "person:Dysmas",
+"id": "person:Rufus",
 "type": "person",
 "confidence": 0.1584,
 "match_method": "canonical",
-"preferred_label": "Criminal on the Cross"
+"preferred_label": "Rufo"
 },
 {
 "id": "place:Nazareth",
@@ -332,13 +332,6 @@
 "preferred_label": "Herodes"
 },
 {
-"id": "keyterm:Happy",
-"type": "keyterm",
-"confidence": 0.2897,
-"match_method": "canonical",
-"preferred_label": "bem, aventurado"
-},
-{
 "id": "keyterm:True",
 "type": "keyterm",
 "confidence": 0.2897,
@@ -351,6 +344,13 @@
 "confidence": 0.2897,
 "match_method": "canonical",
 "preferred_label": "Elias"
+},
+{
+"id": "keyterm:Happy",
+"type": "keyterm",
+"confidence": 0.2897,
+"match_method": "canonical",
+"preferred_label": "bem, aventurado"
 },
 {
 "id": "realia:Temple",
@@ -374,11 +374,25 @@
 "preferred_label": "Chain"
 },
 {
+"id": "place:CarmelMount",
+"type": "place",
+"confidence": 0.1691,
+"match_method": "canonical",
+"preferred_label": "Monte Carmelo"
+},
+{
 "id": "person:Mary.5",
 "type": "person",
 "confidence": 0.1691,
 "match_method": "canonical",
 "preferred_label": "Maria"
+},
+{
+"id": "person:Mark",
+"type": "person",
+"confidence": 0.1691,
+"match_method": "canonical",
+"preferred_label": "Marcos"
 },
 {
 "id": "person:Rhoda",
@@ -388,18 +402,11 @@
 "preferred_label": "Rode"
 },
 {
-"id": "place:CarmelMount",
-"type": "place",
-"confidence": 0.1691,
+"id": "realia:House",
+"type": "realia",
+"confidence": 0.1665,
 "match_method": "canonical",
-"preferred_label": "Monte Carmelo"
-},
-{
-"id": "person:Mark",
-"type": "person",
-"confidence": 0.1691,
-"match_method": "canonical",
-"preferred_label": "Marcos"
+"preferred_label": "House"
 },
 {
 "id": "realia:Prison",
@@ -416,67 +423,11 @@
 "preferred_label": "Door"
 },
 {
-"id": "realia:House",
-"type": "realia",
-"confidence": 0.1665,
-"match_method": "canonical",
-"preferred_label": "House"
-},
-{
-"id": "person:Jesus.2",
-"type": "person",
-"confidence": 0.1632,
-"match_method": "canonical",
-"preferred_label": "Jesus"
-},
-{
-"id": "keyterm:Parable",
-"type": "keyterm",
-"confidence": 0.1632,
-"match_method": "canonical",
-"preferred_label": "parábola"
-},
-{
-"id": "group:Jews",
-"type": "group",
-"confidence": 0.1632,
-"match_method": "canonical",
-"preferred_label": "Jews"
-},
-{
-"id": "keyterm:Rescue",
-"type": "keyterm",
-"confidence": 0.1632,
-"match_method": "canonical",
-"preferred_label": "libertar"
-},
-{
-"id": "keyterm:Heart",
-"type": "keyterm",
-"confidence": 0.1632,
-"match_method": "canonical",
-"preferred_label": "coração"
-},
-{
-"id": "keyterm:Name",
-"type": "keyterm",
-"confidence": 0.1632,
-"match_method": "canonical",
-"preferred_label": "Name"
-},
-{
 "id": "keyterm:Serve",
 "type": "keyterm",
 "confidence": 0.1632,
 "match_method": "canonical",
 "preferred_label": "servir"
-},
-{
-"id": "group:GenericGroup",
-"type": "group",
-"confidence": 0.1632,
-"match_method": "canonical",
-"preferred_label": "A Group of People"
 },
 {
 "id": "keyterm:CauseOfJoy",
@@ -486,13 +437,6 @@
 "preferred_label": "Cause of Joy"
 },
 {
-"id": "place:Caesarea",
-"type": "place",
-"confidence": 0.1632,
-"match_method": "canonical",
-"preferred_label": "Cesareia"
-},
-{
 "id": "keyterm:Surely",
 "type": "keyterm",
 "confidence": 0.1632,
@@ -500,25 +444,25 @@
 "preferred_label": "surely!"
 },
 {
-"id": "keyterm:Discern",
-"type": "keyterm",
-"confidence": 0.1632,
-"match_method": "canonical",
-"preferred_label": "distinguir"
-},
-{
-"id": "person:James.3",
+"id": "person:Jesus.2",
 "type": "person",
 "confidence": 0.1632,
 "match_method": "canonical",
-"preferred_label": "Tiago"
+"preferred_label": "Jesus"
 },
 {
-"id": "keyterm:Faithfulness",
+"id": "place:Caesarea",
+"type": "place",
+"confidence": 0.1632,
+"match_method": "canonical",
+"preferred_label": "Cesareia"
+},
+{
+"id": "keyterm:Rescue",
 "type": "keyterm",
 "confidence": 0.1632,
 "match_method": "canonical",
-"preferred_label": "Faithfulness"
+"preferred_label": "libertar"
 },
 {
 "id": "keyterm:Unfaithful",
@@ -528,11 +472,11 @@
 "preferred_label": "be unfaithful"
 },
 {
-"id": "place:Judea",
-"type": "place",
+"id": "keyterm:Heart",
+"type": "keyterm",
 "confidence": 0.1632,
 "match_method": "canonical",
-"preferred_label": "Judeia"
+"preferred_label": "coração"
 },
 {
 "id": "keyterm:Pray",
@@ -542,6 +486,62 @@
 "preferred_label": "orar"
 },
 {
+"id": "person:James.3",
+"type": "person",
+"confidence": 0.1632,
+"match_method": "canonical",
+"preferred_label": "Tiago"
+},
+{
+"id": "place:Judea",
+"type": "place",
+"confidence": 0.1632,
+"match_method": "canonical",
+"preferred_label": "Judeia"
+},
+{
+"id": "group:Jews",
+"type": "group",
+"confidence": 0.1632,
+"match_method": "canonical",
+"preferred_label": "Jews"
+},
+{
+"id": "keyterm:Name",
+"type": "keyterm",
+"confidence": 0.1632,
+"match_method": "canonical",
+"preferred_label": "Name"
+},
+{
+"id": "keyterm:Faithfulness",
+"type": "keyterm",
+"confidence": 0.1632,
+"match_method": "canonical",
+"preferred_label": "Faithfulness"
+},
+{
+"id": "keyterm:Parable",
+"type": "keyterm",
+"confidence": 0.1632,
+"match_method": "canonical",
+"preferred_label": "parábola"
+},
+{
+"id": "keyterm:Discern",
+"type": "keyterm",
+"confidence": 0.1632,
+"match_method": "canonical",
+"preferred_label": "distinguir"
+},
+{
+"id": "group:GenericGroup",
+"type": "group",
+"confidence": 0.1632,
+"match_method": "canonical",
+"preferred_label": "A Group of People"
+},
+{
 "id": "realia:Entrance",
 "type": "realia",
 "confidence": 0.1032,
@@ -549,18 +549,18 @@
 "preferred_label": "Entrance"
 },
 {
-"id": "realia:Cloak",
-"type": "realia",
-"confidence": 0.1032,
-"match_method": "canonical",
-"preferred_label": "Cloak"
-},
-{
 "id": "realia:Sandal",
 "type": "realia",
 "confidence": 0.1032,
 "match_method": "canonical",
 "preferred_label": "Sandal"
+},
+{
+"id": "realia:Cloak",
+"type": "realia",
+"confidence": 0.1032,
+"match_method": "canonical",
+"preferred_label": "Cloak"
 }
 ]
 }

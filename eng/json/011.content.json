@@ -34,18 +34,18 @@
 "preferred_label": "LORD"
 },
 {
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.5,
-"match_method": "canonical",
-"preferred_label": "Israel"
-},
-{
 "id": "person:David",
 "type": "person",
 "confidence": 0.5,
 "match_method": "canonical",
 "preferred_label": "David"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.5,
+"match_method": "canonical",
+"preferred_label": "Israel"
 },
 {
 "id": "realia:House",
@@ -76,6 +76,13 @@
 "preferred_label": "Tyrians"
 },
 {
+"id": "person:Blastus",
+"type": "person",
+"confidence": 0.1933,
+"match_method": "canonical",
+"preferred_label": "Blastus"
+},
+{
 "id": "person:Herod.3",
 "type": "person",
 "confidence": 0.1933,
@@ -83,11 +90,25 @@
 "preferred_label": "Herod"
 },
 {
-"id": "person:Blastus",
-"type": "person",
-"confidence": 0.1933,
+"id": "place:Sidon",
+"type": "place",
+"confidence": 0.18,
 "match_method": "canonical",
-"preferred_label": "Blastus"
+"preferred_label": "Sidon"
+},
+{
+"id": "place:Tyre",
+"type": "place",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "Tyre"
+},
+{
+"id": "person:Solomon",
+"type": "person",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "Solomon"
 },
 {
 "id": "keyterm:CovenantBox",
@@ -97,11 +118,25 @@
 "preferred_label": "Covenant Box"
 },
 {
-"id": "keyterm:Glory",
+"id": "keyterm:Persuade",
 "type": "keyterm",
 "confidence": 0.18,
 "match_method": "canonical",
-"preferred_label": "Glory"
+"preferred_label": "Persuade"
+},
+{
+"id": "deity:Angel",
+"type": "deity",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "An Angel"
+},
+{
+"id": "keyterm:Covenant",
+"type": "keyterm",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "Covenant"
 },
 {
 "id": "group:Sidon",
@@ -125,46 +160,11 @@
 "preferred_label": "A Group of People"
 },
 {
-"id": "deity:Angel",
-"type": "deity",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "An Angel"
-},
-{
-"id": "keyterm:Persuade",
+"id": "keyterm:Glory",
 "type": "keyterm",
 "confidence": 0.18,
 "match_method": "canonical",
-"preferred_label": "Persuade"
-},
-{
-"id": "person:Solomon",
-"type": "person",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Solomon"
-},
-{
-"id": "place:Sidon",
-"type": "place",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Sidon"
-},
-{
-"id": "keyterm:Covenant",
-"type": "keyterm",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Covenant"
-},
-{
-"id": "place:Tyre",
-"type": "place",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Tyre"
+"preferred_label": "Glory"
 },
 {
 "id": "realia:Bedroom",
@@ -174,18 +174,11 @@
 "preferred_label": "Bedroom"
 },
 {
-"id": "realia:JudgmentSeat",
-"type": "realia",
+"id": "fauna:Maggot",
+"type": "fauna",
 "confidence": 0.12,
 "match_method": "canonical",
-"preferred_label": "Judgment Seat"
-},
-{
-"id": "realia:Clothing",
-"type": "realia",
-"confidence": 0.12,
-"match_method": "canonical",
-"preferred_label": "Clothing"
+"preferred_label": "Worm"
 },
 {
 "id": "realia:ArkOfTheCovenant",
@@ -195,11 +188,18 @@
 "preferred_label": "Ark of the Covenant"
 },
 {
-"id": "fauna:Maggot",
-"type": "fauna",
+"id": "realia:Clothing",
+"type": "realia",
 "confidence": 0.12,
 "match_method": "canonical",
-"preferred_label": "Worm"
+"preferred_label": "Clothing"
+},
+{
+"id": "realia:JudgmentSeat",
+"type": "realia",
+"confidence": 0.12,
+"match_method": "canonical",
+"preferred_label": "Judgment Seat"
 }
 ]
 }
@@ -239,18 +239,18 @@
 "preferred_label": "LORD"
 },
 {
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.5,
-"match_method": "canonical",
-"preferred_label": "Israel"
-},
-{
 "id": "person:David",
 "type": "person",
 "confidence": 0.5,
 "match_method": "canonical",
 "preferred_label": "David"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.5,
+"match_method": "canonical",
+"preferred_label": "Israel"
 },
 {
 "id": "realia:House",
@@ -281,6 +281,13 @@
 "preferred_label": "Tyrians"
 },
 {
+"id": "person:Blastus",
+"type": "person",
+"confidence": 0.1933,
+"match_method": "canonical",
+"preferred_label": "Blastus"
+},
+{
 "id": "person:Herod.3",
 "type": "person",
 "confidence": 0.1933,
@@ -288,11 +295,25 @@
 "preferred_label": "Herod"
 },
 {
-"id": "person:Blastus",
-"type": "person",
-"confidence": 0.1933,
+"id": "place:Sidon",
+"type": "place",
+"confidence": 0.18,
 "match_method": "canonical",
-"preferred_label": "Blastus"
+"preferred_label": "Sidon"
+},
+{
+"id": "place:Tyre",
+"type": "place",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "Tyre"
+},
+{
+"id": "person:Solomon",
+"type": "person",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "Solomon"
 },
 {
 "id": "keyterm:CovenantBox",
@@ -302,11 +323,25 @@
 "preferred_label": "Covenant Box"
 },
 {
-"id": "keyterm:Glory",
+"id": "keyterm:Persuade",
 "type": "keyterm",
 "confidence": 0.18,
 "match_method": "canonical",
-"preferred_label": "Glory"
+"preferred_label": "Persuade"
+},
+{
+"id": "deity:Angel",
+"type": "deity",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "An Angel"
+},
+{
+"id": "keyterm:Covenant",
+"type": "keyterm",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "Covenant"
 },
 {
 "id": "group:Sidon",
@@ -330,46 +365,11 @@
 "preferred_label": "A Group of People"
 },
 {
-"id": "deity:Angel",
-"type": "deity",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "An Angel"
-},
-{
-"id": "keyterm:Persuade",
+"id": "keyterm:Glory",
 "type": "keyterm",
 "confidence": 0.18,
 "match_method": "canonical",
-"preferred_label": "Persuade"
-},
-{
-"id": "person:Solomon",
-"type": "person",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Solomon"
-},
-{
-"id": "place:Sidon",
-"type": "place",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Sidon"
-},
-{
-"id": "keyterm:Covenant",
-"type": "keyterm",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Covenant"
-},
-{
-"id": "place:Tyre",
-"type": "place",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Tyre"
+"preferred_label": "Glory"
 },
 {
 "id": "realia:Bedroom",
@@ -379,18 +379,11 @@
 "preferred_label": "Bedroom"
 },
 {
-"id": "realia:JudgmentSeat",
-"type": "realia",
+"id": "fauna:Maggot",
+"type": "fauna",
 "confidence": 0.12,
 "match_method": "canonical",
-"preferred_label": "Judgment Seat"
-},
-{
-"id": "realia:Clothing",
-"type": "realia",
-"confidence": 0.12,
-"match_method": "canonical",
-"preferred_label": "Clothing"
+"preferred_label": "Worm"
 },
 {
 "id": "realia:ArkOfTheCovenant",
@@ -400,11 +393,18 @@
 "preferred_label": "Ark of the Covenant"
 },
 {
-"id": "fauna:Maggot",
-"type": "fauna",
+"id": "realia:Clothing",
+"type": "realia",
 "confidence": 0.12,
 "match_method": "canonical",
-"preferred_label": "Worm"
+"preferred_label": "Clothing"
+},
+{
+"id": "realia:JudgmentSeat",
+"type": "realia",
+"confidence": 0.12,
+"match_method": "canonical",
+"preferred_label": "Judgment Seat"
 }
 ]
 }
@@ -564,18 +564,18 @@
 "preferred_label": "Jesus"
 },
 {
-"id": "keyterm:Parable",
-"type": "keyterm",
-"confidence": 0.4049,
-"match_method": "canonical",
-"preferred_label": "Parable"
-},
-{
 "id": "keyterm:Kingdom",
 "type": "keyterm",
 "confidence": 0.4049,
 "match_method": "canonical",
 "preferred_label": "Kingdom"
+},
+{
+"id": "keyterm:Parable",
+"type": "keyterm",
+"confidence": 0.4049,
+"match_method": "canonical",
+"preferred_label": "Parable"
 },
 {
 "id": "flora:Weed",
@@ -606,6 +606,13 @@
 "preferred_label": "Pharisees"
 },
 {
+"id": "keyterm:Decided",
+"type": "keyterm",
+"confidence": 0.2829,
+"match_method": "canonical",
+"preferred_label": "Decided"
+},
+{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.2829,
@@ -618,13 +625,6 @@
 "confidence": 0.2829,
 "match_method": "canonical",
 "preferred_label": "Symbol"
-},
-{
-"id": "keyterm:Decided",
-"type": "keyterm",
-"confidence": 0.2829,
-"match_method": "canonical",
-"preferred_label": "Decided"
 },
 {
 "id": "keyterm:Spirit.2",
@@ -641,13 +641,6 @@
 "preferred_label": "Wheat"
 },
 {
-"id": "keyterm:Ability",
-"type": "keyterm",
-"confidence": 0.222,
-"match_method": "canonical",
-"preferred_label": "Ability"
-},
-{
 "id": "keyterm:Idolater",
 "type": "keyterm",
 "confidence": 0.222,
@@ -662,6 +655,13 @@
 "preferred_label": "Body"
 },
 {
+"id": "keyterm:Ability",
+"type": "keyterm",
+"confidence": 0.222,
+"match_method": "canonical",
+"preferred_label": "Ability"
+},
+{
 "id": "realia:Saton",
 "type": "realia",
 "confidence": 0.1717,
@@ -669,18 +669,18 @@
 "preferred_label": "Saton"
 },
 {
-"id": "flora:Mustard",
-"type": "flora",
-"confidence": 0.1668,
-"match_method": "canonical",
-"preferred_label": "Mustard"
-},
-{
 "id": "realia:Basket",
 "type": "realia",
 "confidence": 0.1668,
 "match_method": "canonical",
 "preferred_label": "Basket"
+},
+{
+"id": "flora:Mustard",
+"type": "flora",
+"confidence": 0.1668,
+"match_method": "canonical",
+"preferred_label": "Mustard"
 },
 {
 "id": "keyterm:Passover",
@@ -697,48 +697,6 @@
 "preferred_label": "Grass"
 },
 {
-"id": "keyterm:HavingLittleFaith",
-"type": "keyterm",
-"confidence": 0.161,
-"match_method": "canonical",
-"preferred_label": "Having Little Faith"
-},
-{
-"id": "keyterm:Name",
-"type": "keyterm",
-"confidence": 0.161,
-"match_method": "canonical",
-"preferred_label": "Name"
-},
-{
-"id": "keyterm:Salvation",
-"type": "keyterm",
-"confidence": 0.161,
-"match_method": "canonical",
-"preferred_label": "Salvation"
-},
-{
-"id": "deity:Satan",
-"type": "deity",
-"confidence": 0.161,
-"match_method": "canonical",
-"preferred_label": "Satan"
-},
-{
-"id": "keyterm:Discern",
-"type": "keyterm",
-"confidence": 0.161,
-"match_method": "canonical",
-"preferred_label": "Discern"
-},
-{
-"id": "keyterm:Ought",
-"type": "keyterm",
-"confidence": 0.161,
-"match_method": "canonical",
-"preferred_label": "Obligated"
-},
-{
 "id": "keyterm:Pure",
 "type": "keyterm",
 "confidence": 0.161,
@@ -746,39 +704,11 @@
 "preferred_label": "Pure"
 },
 {
-"id": "person:Jonah.2",
-"type": "person",
-"confidence": 0.161,
-"match_method": "canonical",
-"preferred_label": "Jonah"
-},
-{
-"id": "keyterm:Offering",
+"id": "keyterm:Ought",
 "type": "keyterm",
 "confidence": 0.161,
 "match_method": "canonical",
-"preferred_label": "Offering"
-},
-{
-"id": "keyterm:Happen",
-"type": "keyterm",
-"confidence": 0.161,
-"match_method": "canonical",
-"preferred_label": "To Cause to Happen"
-},
-{
-"id": "keyterm:Unfaithful",
-"type": "keyterm",
-"confidence": 0.161,
-"match_method": "canonical",
-"preferred_label": "Be Unfaithful"
-},
-{
-"id": "keyterm:Truth",
-"type": "keyterm",
-"confidence": 0.161,
-"match_method": "canonical",
-"preferred_label": "Truth"
+"preferred_label": "Obligated"
 },
 {
 "id": "keyterm:Fornication",
@@ -802,11 +732,74 @@
 "preferred_label": "Gentiles"
 },
 {
-"id": "realia:Barn",
-"type": "realia",
-"confidence": 0.101,
+"id": "keyterm:Truth",
+"type": "keyterm",
+"confidence": 0.161,
 "match_method": "canonical",
-"preferred_label": "Barn"
+"preferred_label": "Truth"
+},
+{
+"id": "keyterm:Salvation",
+"type": "keyterm",
+"confidence": 0.161,
+"match_method": "canonical",
+"preferred_label": "Salvation"
+},
+{
+"id": "person:Jonah.2",
+"type": "person",
+"confidence": 0.161,
+"match_method": "canonical",
+"preferred_label": "Jonah"
+},
+{
+"id": "keyterm:Unfaithful",
+"type": "keyterm",
+"confidence": 0.161,
+"match_method": "canonical",
+"preferred_label": "Be Unfaithful"
+},
+{
+"id": "keyterm:HavingLittleFaith",
+"type": "keyterm",
+"confidence": 0.161,
+"match_method": "canonical",
+"preferred_label": "Having Little Faith"
+},
+{
+"id": "keyterm:Offering",
+"type": "keyterm",
+"confidence": 0.161,
+"match_method": "canonical",
+"preferred_label": "Offering"
+},
+{
+"id": "keyterm:Name",
+"type": "keyterm",
+"confidence": 0.161,
+"match_method": "canonical",
+"preferred_label": "Name"
+},
+{
+"id": "keyterm:Happen",
+"type": "keyterm",
+"confidence": 0.161,
+"match_method": "canonical",
+"preferred_label": "To Cause to Happen"
+},
+{
+"id": "deity:Satan",
+"type": "deity",
+"confidence": 0.161,
+"match_method": "canonical",
+"preferred_label": "Satan"
+},
+{
+"id": "keyterm:Discern",
+"type": "keyterm",
+"confidence": 0.161,
+"match_method": "canonical",
+"preferred_label": "Discern"
 },
 {
 "id": "fauna:Lamb",
@@ -814,6 +807,13 @@
 "confidence": 0.101,
 "match_method": "canonical",
 "preferred_label": "Sheep"
+},
+{
+"id": "realia:Barn",
+"type": "realia",
+"confidence": 0.101,
+"match_method": "canonical",
+"preferred_label": "Barn"
 }
 ]
 }
@@ -872,18 +872,18 @@
 "preferred_label": "Jesus"
 },
 {
-"id": "keyterm:Parable",
-"type": "keyterm",
-"confidence": 0.4049,
-"match_method": "canonical",
-"preferred_label": "Parable"
-},
-{
 "id": "keyterm:Kingdom",
 "type": "keyterm",
 "confidence": 0.4049,
 "match_method": "canonical",
 "preferred_label": "Kingdom"
+},
+{
+"id": "keyterm:Parable",
+"type": "keyterm",
+"confidence": 0.4049,
+"match_method": "canonical",
+"preferred_label": "Parable"
 },
 {
 "id": "flora:Weed",
@@ -914,6 +914,13 @@
 "preferred_label": "Pharisees"
 },
 {
+"id": "keyterm:Decided",
+"type": "keyterm",
+"confidence": 0.2829,
+"match_method": "canonical",
+"preferred_label": "Decided"
+},
+{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.2829,
@@ -926,13 +933,6 @@
 "confidence": 0.2829,
 "match_method": "canonical",
 "preferred_label": "Symbol"
-},
-{
-"id": "keyterm:Decided",
-"type": "keyterm",
-"confidence": 0.2829,
-"match_method": "canonical",
-"preferred_label": "Decided"
 },
 {
 "id": "keyterm:Spirit.2",
@@ -949,13 +949,6 @@
 "preferred_label": "Wheat"
 },
 {
-"id": "keyterm:Ability",
-"type": "keyterm",
-"confidence": 0.222,
-"match_method": "canonical",
-"preferred_label": "Ability"
-},
-{
 "id": "keyterm:Idolater",
 "type": "keyterm",
 "confidence": 0.222,
@@ -970,6 +963,13 @@
 "preferred_label": "Body"
 },
 {
+"id": "keyterm:Ability",
+"type": "keyterm",
+"confidence": 0.222,
+"match_method": "canonical",
+"preferred_label": "Ability"
+},
+{
 "id": "realia:Saton",
 "type": "realia",
 "confidence": 0.1717,
@@ -977,18 +977,18 @@
 "preferred_label": "Saton"
 },
 {
-"id": "flora:Mustard",
-"type": "flora",
-"confidence": 0.1668,
-"match_method": "canonical",
-"preferred_label": "Mustard"
-},
-{
 "id": "realia:Basket",
 "type": "realia",
 "confidence": 0.1668,
 "match_method": "canonical",
 "preferred_label": "Basket"
+},
+{
+"id": "flora:Mustard",
+"type": "flora",
+"confidence": 0.1668,
+"match_method": "canonical",
+"preferred_label": "Mustard"
 },
 {
 "id": "keyterm:Passover",
@@ -1005,48 +1005,6 @@
 "preferred_label": "Grass"
 },
 {
-"id": "keyterm:HavingLittleFaith",
-"type": "keyterm",
-"confidence": 0.161,
-"match_method": "canonical",
-"preferred_label": "Having Little Faith"
-},
-{
-"id": "keyterm:Name",
-"type": "keyterm",
-"confidence": 0.161,
-"match_method": "canonical",
-"preferred_label": "Name"
-},
-{
-"id": "keyterm:Salvation",
-"type": "keyterm",
-"confidence": 0.161,
-"match_method": "canonical",
-"preferred_label": "Salvation"
-},
-{
-"id": "deity:Satan",
-"type": "deity",
-"confidence": 0.161,
-"match_method": "canonical",
-"preferred_label": "Satan"
-},
-{
-"id": "keyterm:Discern",
-"type": "keyterm",
-"confidence": 0.161,
-"match_method": "canonical",
-"preferred_label": "Discern"
-},
-{
-"id": "keyterm:Ought",
-"type": "keyterm",
-"confidence": 0.161,
-"match_method": "canonical",
-"preferred_label": "Obligated"
-},
-{
 "id": "keyterm:Pure",
 "type": "keyterm",
 "confidence": 0.161,
@@ -1054,39 +1012,11 @@
 "preferred_label": "Pure"
 },
 {
-"id": "person:Jonah.2",
-"type": "person",
-"confidence": 0.161,
-"match_method": "canonical",
-"preferred_label": "Jonah"
-},
-{
-"id": "keyterm:Offering",
+"id": "keyterm:Ought",
 "type": "keyterm",
 "confidence": 0.161,
 "match_method": "canonical",
-"preferred_label": "Offering"
-},
-{
-"id": "keyterm:Happen",
-"type": "keyterm",
-"confidence": 0.161,
-"match_method": "canonical",
-"preferred_label": "To Cause to Happen"
-},
-{
-"id": "keyterm:Unfaithful",
-"type": "keyterm",
-"confidence": 0.161,
-"match_method": "canonical",
-"preferred_label": "Be Unfaithful"
-},
-{
-"id": "keyterm:Truth",
-"type": "keyterm",
-"confidence": 0.161,
-"match_method": "canonical",
-"preferred_label": "Truth"
+"preferred_label": "Obligated"
 },
 {
 "id": "keyterm:Fornication",
@@ -1110,11 +1040,74 @@
 "preferred_label": "Gentiles"
 },
 {
-"id": "realia:Barn",
-"type": "realia",
-"confidence": 0.101,
+"id": "keyterm:Truth",
+"type": "keyterm",
+"confidence": 0.161,
 "match_method": "canonical",
-"preferred_label": "Barn"
+"preferred_label": "Truth"
+},
+{
+"id": "keyterm:Salvation",
+"type": "keyterm",
+"confidence": 0.161,
+"match_method": "canonical",
+"preferred_label": "Salvation"
+},
+{
+"id": "person:Jonah.2",
+"type": "person",
+"confidence": 0.161,
+"match_method": "canonical",
+"preferred_label": "Jonah"
+},
+{
+"id": "keyterm:Unfaithful",
+"type": "keyterm",
+"confidence": 0.161,
+"match_method": "canonical",
+"preferred_label": "Be Unfaithful"
+},
+{
+"id": "keyterm:HavingLittleFaith",
+"type": "keyterm",
+"confidence": 0.161,
+"match_method": "canonical",
+"preferred_label": "Having Little Faith"
+},
+{
+"id": "keyterm:Offering",
+"type": "keyterm",
+"confidence": 0.161,
+"match_method": "canonical",
+"preferred_label": "Offering"
+},
+{
+"id": "keyterm:Name",
+"type": "keyterm",
+"confidence": 0.161,
+"match_method": "canonical",
+"preferred_label": "Name"
+},
+{
+"id": "keyterm:Happen",
+"type": "keyterm",
+"confidence": 0.161,
+"match_method": "canonical",
+"preferred_label": "To Cause to Happen"
+},
+{
+"id": "deity:Satan",
+"type": "deity",
+"confidence": 0.161,
+"match_method": "canonical",
+"preferred_label": "Satan"
+},
+{
+"id": "keyterm:Discern",
+"type": "keyterm",
+"confidence": 0.161,
+"match_method": "canonical",
+"preferred_label": "Discern"
 },
 {
 "id": "fauna:Lamb",
@@ -1122,6 +1115,13 @@
 "confidence": 0.101,
 "match_method": "canonical",
 "preferred_label": "Sheep"
+},
+{
+"id": "realia:Barn",
+"type": "realia",
+"confidence": 0.101,
+"match_method": "canonical",
+"preferred_label": "Barn"
 }
 ]
 }
@@ -1180,18 +1180,18 @@
 "preferred_label": "Jesus"
 },
 {
-"id": "keyterm:Parable",
-"type": "keyterm",
-"confidence": 0.4049,
-"match_method": "canonical",
-"preferred_label": "Parable"
-},
-{
 "id": "keyterm:Kingdom",
 "type": "keyterm",
 "confidence": 0.4049,
 "match_method": "canonical",
 "preferred_label": "Kingdom"
+},
+{
+"id": "keyterm:Parable",
+"type": "keyterm",
+"confidence": 0.4049,
+"match_method": "canonical",
+"preferred_label": "Parable"
 },
 {
 "id": "flora:Weed",
@@ -1222,6 +1222,13 @@
 "preferred_label": "Pharisees"
 },
 {
+"id": "keyterm:Decided",
+"type": "keyterm",
+"confidence": 0.2829,
+"match_method": "canonical",
+"preferred_label": "Decided"
+},
+{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.2829,
@@ -1234,13 +1241,6 @@
 "confidence": 0.2829,
 "match_method": "canonical",
 "preferred_label": "Symbol"
-},
-{
-"id": "keyterm:Decided",
-"type": "keyterm",
-"confidence": 0.2829,
-"match_method": "canonical",
-"preferred_label": "Decided"
 },
 {
 "id": "keyterm:Spirit.2",
@@ -1257,13 +1257,6 @@
 "preferred_label": "Wheat"
 },
 {
-"id": "keyterm:Ability",
-"type": "keyterm",
-"confidence": 0.222,
-"match_method": "canonical",
-"preferred_label": "Ability"
-},
-{
 "id": "keyterm:Idolater",
 "type": "keyterm",
 "confidence": 0.222,
@@ -1278,6 +1271,13 @@
 "preferred_label": "Body"
 },
 {
+"id": "keyterm:Ability",
+"type": "keyterm",
+"confidence": 0.222,
+"match_method": "canonical",
+"preferred_label": "Ability"
+},
+{
 "id": "realia:Saton",
 "type": "realia",
 "confidence": 0.1717,
@@ -1285,18 +1285,18 @@
 "preferred_label": "Saton"
 },
 {
-"id": "flora:Mustard",
-"type": "flora",
-"confidence": 0.1668,
-"match_method": "canonical",
-"preferred_label": "Mustard"
-},
-{
 "id": "realia:Basket",
 "type": "realia",
 "confidence": 0.1668,
 "match_method": "canonical",
 "preferred_label": "Basket"
+},
+{
+"id": "flora:Mustard",
+"type": "flora",
+"confidence": 0.1668,
+"match_method": "canonical",
+"preferred_label": "Mustard"
 },
 {
 "id": "keyterm:Passover",
@@ -1313,48 +1313,6 @@
 "preferred_label": "Grass"
 },
 {
-"id": "keyterm:HavingLittleFaith",
-"type": "keyterm",
-"confidence": 0.161,
-"match_method": "canonical",
-"preferred_label": "Having Little Faith"
-},
-{
-"id": "keyterm:Name",
-"type": "keyterm",
-"confidence": 0.161,
-"match_method": "canonical",
-"preferred_label": "Name"
-},
-{
-"id": "keyterm:Salvation",
-"type": "keyterm",
-"confidence": 0.161,
-"match_method": "canonical",
-"preferred_label": "Salvation"
-},
-{
-"id": "deity:Satan",
-"type": "deity",
-"confidence": 0.161,
-"match_method": "canonical",
-"preferred_label": "Satan"
-},
-{
-"id": "keyterm:Discern",
-"type": "keyterm",
-"confidence": 0.161,
-"match_method": "canonical",
-"preferred_label": "Discern"
-},
-{
-"id": "keyterm:Ought",
-"type": "keyterm",
-"confidence": 0.161,
-"match_method": "canonical",
-"preferred_label": "Obligated"
-},
-{
 "id": "keyterm:Pure",
 "type": "keyterm",
 "confidence": 0.161,
@@ -1362,39 +1320,11 @@
 "preferred_label": "Pure"
 },
 {
-"id": "person:Jonah.2",
-"type": "person",
-"confidence": 0.161,
-"match_method": "canonical",
-"preferred_label": "Jonah"
-},
-{
-"id": "keyterm:Offering",
+"id": "keyterm:Ought",
 "type": "keyterm",
 "confidence": 0.161,
 "match_method": "canonical",
-"preferred_label": "Offering"
-},
-{
-"id": "keyterm:Happen",
-"type": "keyterm",
-"confidence": 0.161,
-"match_method": "canonical",
-"preferred_label": "To Cause to Happen"
-},
-{
-"id": "keyterm:Unfaithful",
-"type": "keyterm",
-"confidence": 0.161,
-"match_method": "canonical",
-"preferred_label": "Be Unfaithful"
-},
-{
-"id": "keyterm:Truth",
-"type": "keyterm",
-"confidence": 0.161,
-"match_method": "canonical",
-"preferred_label": "Truth"
+"preferred_label": "Obligated"
 },
 {
 "id": "keyterm:Fornication",
@@ -1418,11 +1348,74 @@
 "preferred_label": "Gentiles"
 },
 {
-"id": "realia:Barn",
-"type": "realia",
-"confidence": 0.101,
+"id": "keyterm:Truth",
+"type": "keyterm",
+"confidence": 0.161,
 "match_method": "canonical",
-"preferred_label": "Barn"
+"preferred_label": "Truth"
+},
+{
+"id": "keyterm:Salvation",
+"type": "keyterm",
+"confidence": 0.161,
+"match_method": "canonical",
+"preferred_label": "Salvation"
+},
+{
+"id": "person:Jonah.2",
+"type": "person",
+"confidence": 0.161,
+"match_method": "canonical",
+"preferred_label": "Jonah"
+},
+{
+"id": "keyterm:Unfaithful",
+"type": "keyterm",
+"confidence": 0.161,
+"match_method": "canonical",
+"preferred_label": "Be Unfaithful"
+},
+{
+"id": "keyterm:HavingLittleFaith",
+"type": "keyterm",
+"confidence": 0.161,
+"match_method": "canonical",
+"preferred_label": "Having Little Faith"
+},
+{
+"id": "keyterm:Offering",
+"type": "keyterm",
+"confidence": 0.161,
+"match_method": "canonical",
+"preferred_label": "Offering"
+},
+{
+"id": "keyterm:Name",
+"type": "keyterm",
+"confidence": 0.161,
+"match_method": "canonical",
+"preferred_label": "Name"
+},
+{
+"id": "keyterm:Happen",
+"type": "keyterm",
+"confidence": 0.161,
+"match_method": "canonical",
+"preferred_label": "To Cause to Happen"
+},
+{
+"id": "deity:Satan",
+"type": "deity",
+"confidence": 0.161,
+"match_method": "canonical",
+"preferred_label": "Satan"
+},
+{
+"id": "keyterm:Discern",
+"type": "keyterm",
+"confidence": 0.161,
+"match_method": "canonical",
+"preferred_label": "Discern"
 },
 {
 "id": "fauna:Lamb",
@@ -1430,6 +1423,13 @@
 "confidence": 0.101,
 "match_method": "canonical",
 "preferred_label": "Sheep"
+},
+{
+"id": "realia:Barn",
+"type": "realia",
+"confidence": 0.101,
+"match_method": "canonical",
+"preferred_label": "Barn"
 }
 ]
 }

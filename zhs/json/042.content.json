@@ -54,13 +54,6 @@
 "preferred_label": "Grain"
 },
 {
-"id": "keyterm:Parable",
-"type": "keyterm",
-"confidence": 0.3143,
-"match_method": "canonical",
-"preferred_label": "Parable"
-},
-{
 "id": "keyterm:Offering",
 "type": "keyterm",
 "confidence": 0.3143,
@@ -68,11 +61,11 @@
 "preferred_label": "Offering"
 },
 {
-"id": "keyterm:Glory",
+"id": "keyterm:Parable",
 "type": "keyterm",
-"confidence": 0.2429,
+"confidence": 0.3143,
 "match_method": "canonical",
-"preferred_label": "Glory"
+"preferred_label": "Parable"
 },
 {
 "id": "keyterm:Kingdom",
@@ -80,6 +73,13 @@
 "confidence": 0.2429,
 "match_method": "canonical",
 "preferred_label": "Kingdom"
+},
+{
+"id": "keyterm:Glory",
+"type": "keyterm",
+"confidence": 0.2429,
+"match_method": "canonical",
+"preferred_label": "Glory"
 },
 {
 "id": "flora:Wheat",
@@ -103,34 +103,6 @@
 "preferred_label": "Barley"
 },
 {
-"id": "person:Aaron",
-"type": "person",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "Aaron"
-},
-{
-"id": "keyterm:Resurrection",
-"type": "keyterm",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "Resurrection"
-},
-{
-"id": "person:GenericPerson",
-"type": "person",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "A Person"
-},
-{
-"id": "keyterm:Smear",
-"type": "keyterm",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "Smear"
-},
-{
 "id": "keyterm:Anointed",
 "type": "keyterm",
 "confidence": 0.1714,
@@ -138,25 +110,11 @@
 "preferred_label": "Anointed"
 },
 {
-"id": "keyterm:Alive",
-"type": "keyterm",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "Make Alive"
-},
-{
 "id": "person:Moses",
 "type": "person",
 "confidence": 0.1714,
 "match_method": "canonical",
 "preferred_label": "Moses"
-},
-{
-"id": "keyterm:Heaven",
-"type": "keyterm",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "Sky"
 },
 {
 "id": "keyterm:PleasingOdor",
@@ -180,11 +138,46 @@
 "preferred_label": "Decree"
 },
 {
-"id": "flora:Mustard",
-"type": "flora",
-"confidence": 0.121,
+"id": "person:GenericPerson",
+"type": "person",
+"confidence": 0.1714,
 "match_method": "canonical",
-"preferred_label": "Mustard"
+"preferred_label": "A Person"
+},
+{
+"id": "person:Aaron",
+"type": "person",
+"confidence": 0.1714,
+"match_method": "canonical",
+"preferred_label": "Aaron"
+},
+{
+"id": "keyterm:Alive",
+"type": "keyterm",
+"confidence": 0.1714,
+"match_method": "canonical",
+"preferred_label": "Make Alive"
+},
+{
+"id": "keyterm:Smear",
+"type": "keyterm",
+"confidence": 0.1714,
+"match_method": "canonical",
+"preferred_label": "Smear"
+},
+{
+"id": "keyterm:Resurrection",
+"type": "keyterm",
+"confidence": 0.1714,
+"match_method": "canonical",
+"preferred_label": "Resurrection"
+},
+{
+"id": "keyterm:Heaven",
+"type": "keyterm",
+"confidence": 0.1714,
+"match_method": "canonical",
+"preferred_label": "Sky"
 },
 {
 "id": "realia:Griddle",
@@ -194,39 +187,18 @@
 "preferred_label": "Griddle"
 },
 {
-"id": "realia:Ephah",
-"type": "realia",
-"confidence": 0.1114,
+"id": "flora:Mustard",
+"type": "flora",
+"confidence": 0.121,
 "match_method": "canonical",
-"preferred_label": "Ephah"
+"preferred_label": "Mustard"
 },
 {
-"id": "realia:Sickle",
-"type": "realia",
-"confidence": 0.1114,
-"match_method": "canonical",
-"preferred_label": "Sickle"
-},
-{
-"id": "realia:OliveOil",
-"type": "realia",
-"confidence": 0.1114,
-"match_method": "canonical",
-"preferred_label": "Olive Oil"
-},
-{
-"id": "fauna:Bird",
+"id": "fauna:Fish",
 "type": "fauna",
 "confidence": 0.1114,
 "match_method": "canonical",
-"preferred_label": "Bird"
-},
-{
-"id": "fauna:Rooster",
-"type": "fauna",
-"confidence": 0.1114,
-"match_method": "canonical",
-"preferred_label": "Rooster"
+"preferred_label": "Fish"
 },
 {
 "id": "realia:AnointingOil",
@@ -236,11 +208,39 @@
 "preferred_label": "Anointing Oil"
 },
 {
-"id": "fauna:Fish",
+"id": "fauna:Bird",
 "type": "fauna",
 "confidence": 0.1114,
 "match_method": "canonical",
-"preferred_label": "Fish"
+"preferred_label": "Bird"
+},
+{
+"id": "realia:Sickle",
+"type": "realia",
+"confidence": 0.1114,
+"match_method": "canonical",
+"preferred_label": "Sickle"
+},
+{
+"id": "realia:Ephah",
+"type": "realia",
+"confidence": 0.1114,
+"match_method": "canonical",
+"preferred_label": "Ephah"
+},
+{
+"id": "realia:OliveOil",
+"type": "realia",
+"confidence": 0.1114,
+"match_method": "canonical",
+"preferred_label": "Olive Oil"
+},
+{
+"id": "fauna:Rooster",
+"type": "fauna",
+"confidence": 0.1114,
+"match_method": "canonical",
+"preferred_label": "Rooster"
 }
 ]
 }
