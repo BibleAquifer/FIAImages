@@ -47,6 +47,13 @@
 "preferred_label": "Covenant Box"
 },
 {
+"id": "group:Philistine",
+"type": "group",
+"confidence": 0.4375,
+"match_method": "canonical",
+"preferred_label": "Philistines"
+},
+{
 "id": "keyterm:Offering",
 "type": "keyterm",
 "confidence": 0.4375,
@@ -59,13 +66,6 @@
 "confidence": 0.4375,
 "match_method": "canonical",
 "preferred_label": "Philistia"
-},
-{
-"id": "group:Philistine",
-"type": "group",
-"confidence": 0.4375,
-"match_method": "canonical",
-"preferred_label": "Philistines"
 },
 {
 "id": "place:Beth-shemesh",
@@ -117,13 +117,6 @@
 "preferred_label": "Cattle"
 },
 {
-"id": "person:Levi.3",
-"type": "person",
-"confidence": 0.2875,
-"match_method": "canonical",
-"preferred_label": "Levi"
-},
-{
 "id": "group:Levi",
 "type": "group",
 "confidence": 0.2875,
@@ -143,6 +136,13 @@
 "confidence": 0.2875,
 "match_method": "canonical",
 "preferred_label": "Parable"
+},
+{
+"id": "person:Levi.3",
+"type": "person",
+"confidence": 0.2875,
+"match_method": "canonical",
+"preferred_label": "Levi"
 },
 {
 "id": "person:Joshua.3",
@@ -173,11 +173,11 @@
 "preferred_label": "Barley"
 },
 {
-"id": "keyterm:Kingdom",
-"type": "keyterm",
+"id": "place:Ekron",
+"type": "place",
 "confidence": 0.225,
 "match_method": "canonical",
-"preferred_label": "Kingdom"
+"preferred_label": "Ekron"
 },
 {
 "id": "place:Egypt",
@@ -194,11 +194,11 @@
 "preferred_label": "Israel"
 },
 {
-"id": "place:Ekron",
-"type": "place",
+"id": "keyterm:Kingdom",
+"type": "keyterm",
 "confidence": 0.225,
 "match_method": "canonical",
-"preferred_label": "Ekron"
+"preferred_label": "Kingdom"
 },
 {
 "id": "flora:Wheat",
@@ -222,18 +222,18 @@
 "preferred_label": "Abel"
 },
 {
+"id": "realia:Image",
+"type": "realia",
+"confidence": 0.165,
+"match_method": "canonical",
+"preferred_label": "Image"
+},
+{
 "id": "flora:Grass",
 "type": "flora",
 "confidence": 0.165,
 "match_method": "canonical",
 "preferred_label": "Grass"
-},
-{
-"id": "realia:House",
-"type": "realia",
-"confidence": 0.165,
-"match_method": "canonical",
-"preferred_label": "House"
 },
 {
 "id": "realia:Sickle",
@@ -243,53 +243,11 @@
 "preferred_label": "Sickle"
 },
 {
-"id": "realia:Image",
+"id": "realia:House",
 "type": "realia",
 "confidence": 0.165,
 "match_method": "canonical",
-"preferred_label": "Image"
-},
-{
-"id": "person:Pharaoh.6",
-"type": "person",
-"confidence": 0.1625,
-"match_method": "canonical",
-"preferred_label": "Pharaoh"
-},
-{
-"id": "place:Gath",
-"type": "place",
-"confidence": 0.1625,
-"match_method": "canonical",
-"preferred_label": "Gath"
-},
-{
-"id": "keyterm:Disciple",
-"type": "keyterm",
-"confidence": 0.1625,
-"match_method": "canonical",
-"preferred_label": "Be a Disciple"
-},
-{
-"id": "keyterm:Decree",
-"type": "keyterm",
-"confidence": 0.1625,
-"match_method": "canonical",
-"preferred_label": "Decree"
-},
-{
-"id": "place:Ashkelon",
-"type": "place",
-"confidence": 0.1625,
-"match_method": "canonical",
-"preferred_label": "Ashkelon"
-},
-{
-"id": "keyterm:Slaughtering",
-"type": "keyterm",
-"confidence": 0.1625,
-"match_method": "canonical",
-"preferred_label": "Slaughtering"
+"preferred_label": "House"
 },
 {
 "id": "keyterm:Blow",
@@ -299,11 +257,18 @@
 "preferred_label": "Plague"
 },
 {
-"id": "keyterm:Heaven",
+"id": "place:Ashkelon",
+"type": "place",
+"confidence": 0.1625,
+"match_method": "canonical",
+"preferred_label": "Ashkelon"
+},
+{
+"id": "keyterm:Disciple",
 "type": "keyterm",
 "confidence": 0.1625,
 "match_method": "canonical",
-"preferred_label": "Sky"
+"preferred_label": "Be a Disciple"
 },
 {
 "id": "keyterm:PracticeDivination",
@@ -311,13 +276,6 @@
 "confidence": 0.1625,
 "match_method": "canonical",
 "preferred_label": "Practice Divination"
-},
-{
-"id": "group:Egypt",
-"type": "group",
-"confidence": 0.1625,
-"match_method": "canonical",
-"preferred_label": "Egyptians"
 },
 {
 "id": "place:Ashdod",
@@ -334,11 +292,60 @@
 "preferred_label": "Glory"
 },
 {
+"id": "keyterm:Slaughtering",
+"type": "keyterm",
+"confidence": 0.1625,
+"match_method": "canonical",
+"preferred_label": "Slaughtering"
+},
+{
+"id": "person:Pharaoh.6",
+"type": "person",
+"confidence": 0.1625,
+"match_method": "canonical",
+"preferred_label": "Pharaoh"
+},
+{
+"id": "keyterm:Decree",
+"type": "keyterm",
+"confidence": 0.1625,
+"match_method": "canonical",
+"preferred_label": "Decree"
+},
+{
+"id": "place:Gath",
+"type": "place",
+"confidence": 0.1625,
+"match_method": "canonical",
+"preferred_label": "Gath"
+},
+{
+"id": "group:Egypt",
+"type": "group",
+"confidence": 0.1625,
+"match_method": "canonical",
+"preferred_label": "Egyptians"
+},
+{
+"id": "keyterm:Heaven",
+"type": "keyterm",
+"confidence": 0.1625,
+"match_method": "canonical",
+"preferred_label": "Sky"
+},
+{
 "id": "flora:Mustard",
 "type": "flora",
 "confidence": 0.1081,
 "match_method": "canonical",
 "preferred_label": "Mustard"
+},
+{
+"id": "realia:Winepress",
+"type": "realia",
+"confidence": 0.1025,
+"match_method": "canonical",
+"preferred_label": "Winepress"
 },
 {
 "id": "realia:Yoke",
@@ -353,13 +360,6 @@
 "confidence": 0.1025,
 "match_method": "canonical",
 "preferred_label": "Threshing Floor"
-},
-{
-"id": "realia:Winepress",
-"type": "realia",
-"confidence": 0.1025,
-"match_method": "canonical",
-"preferred_label": "Winepress"
 },
 {
 "id": "realia:UnleavenedBread",
@@ -419,6 +419,13 @@
 "preferred_label": "Covenant Box"
 },
 {
+"id": "group:Philistine",
+"type": "group",
+"confidence": 0.4375,
+"match_method": "canonical",
+"preferred_label": "Philistines"
+},
+{
 "id": "keyterm:Offering",
 "type": "keyterm",
 "confidence": 0.4375,
@@ -431,13 +438,6 @@
 "confidence": 0.4375,
 "match_method": "canonical",
 "preferred_label": "Philistia"
-},
-{
-"id": "group:Philistine",
-"type": "group",
-"confidence": 0.4375,
-"match_method": "canonical",
-"preferred_label": "Philistines"
 },
 {
 "id": "place:Beth-shemesh",
@@ -489,13 +489,6 @@
 "preferred_label": "Cattle"
 },
 {
-"id": "person:Levi.3",
-"type": "person",
-"confidence": 0.2875,
-"match_method": "canonical",
-"preferred_label": "Levi"
-},
-{
 "id": "group:Levi",
 "type": "group",
 "confidence": 0.2875,
@@ -515,6 +508,13 @@
 "confidence": 0.2875,
 "match_method": "canonical",
 "preferred_label": "Parable"
+},
+{
+"id": "person:Levi.3",
+"type": "person",
+"confidence": 0.2875,
+"match_method": "canonical",
+"preferred_label": "Levi"
 },
 {
 "id": "person:Joshua.3",
@@ -545,11 +545,11 @@
 "preferred_label": "Barley"
 },
 {
-"id": "keyterm:Kingdom",
-"type": "keyterm",
+"id": "place:Ekron",
+"type": "place",
 "confidence": 0.225,
 "match_method": "canonical",
-"preferred_label": "Kingdom"
+"preferred_label": "Ekron"
 },
 {
 "id": "place:Egypt",
@@ -566,11 +566,11 @@
 "preferred_label": "Israel"
 },
 {
-"id": "place:Ekron",
-"type": "place",
+"id": "keyterm:Kingdom",
+"type": "keyterm",
 "confidence": 0.225,
 "match_method": "canonical",
-"preferred_label": "Ekron"
+"preferred_label": "Kingdom"
 },
 {
 "id": "flora:Wheat",
@@ -594,18 +594,18 @@
 "preferred_label": "Abel"
 },
 {
+"id": "realia:Image",
+"type": "realia",
+"confidence": 0.165,
+"match_method": "canonical",
+"preferred_label": "Image"
+},
+{
 "id": "flora:Grass",
 "type": "flora",
 "confidence": 0.165,
 "match_method": "canonical",
 "preferred_label": "Grass"
-},
-{
-"id": "realia:House",
-"type": "realia",
-"confidence": 0.165,
-"match_method": "canonical",
-"preferred_label": "House"
 },
 {
 "id": "realia:Sickle",
@@ -615,53 +615,11 @@
 "preferred_label": "Sickle"
 },
 {
-"id": "realia:Image",
+"id": "realia:House",
 "type": "realia",
 "confidence": 0.165,
 "match_method": "canonical",
-"preferred_label": "Image"
-},
-{
-"id": "person:Pharaoh.6",
-"type": "person",
-"confidence": 0.1625,
-"match_method": "canonical",
-"preferred_label": "Pharaoh"
-},
-{
-"id": "place:Gath",
-"type": "place",
-"confidence": 0.1625,
-"match_method": "canonical",
-"preferred_label": "Gath"
-},
-{
-"id": "keyterm:Disciple",
-"type": "keyterm",
-"confidence": 0.1625,
-"match_method": "canonical",
-"preferred_label": "Be a Disciple"
-},
-{
-"id": "keyterm:Decree",
-"type": "keyterm",
-"confidence": 0.1625,
-"match_method": "canonical",
-"preferred_label": "Decree"
-},
-{
-"id": "place:Ashkelon",
-"type": "place",
-"confidence": 0.1625,
-"match_method": "canonical",
-"preferred_label": "Ashkelon"
-},
-{
-"id": "keyterm:Slaughtering",
-"type": "keyterm",
-"confidence": 0.1625,
-"match_method": "canonical",
-"preferred_label": "Slaughtering"
+"preferred_label": "House"
 },
 {
 "id": "keyterm:Blow",
@@ -671,11 +629,18 @@
 "preferred_label": "Plague"
 },
 {
-"id": "keyterm:Heaven",
+"id": "place:Ashkelon",
+"type": "place",
+"confidence": 0.1625,
+"match_method": "canonical",
+"preferred_label": "Ashkelon"
+},
+{
+"id": "keyterm:Disciple",
 "type": "keyterm",
 "confidence": 0.1625,
 "match_method": "canonical",
-"preferred_label": "Sky"
+"preferred_label": "Be a Disciple"
 },
 {
 "id": "keyterm:PracticeDivination",
@@ -683,13 +648,6 @@
 "confidence": 0.1625,
 "match_method": "canonical",
 "preferred_label": "Practice Divination"
-},
-{
-"id": "group:Egypt",
-"type": "group",
-"confidence": 0.1625,
-"match_method": "canonical",
-"preferred_label": "Egyptians"
 },
 {
 "id": "place:Ashdod",
@@ -706,11 +664,60 @@
 "preferred_label": "Glory"
 },
 {
+"id": "keyterm:Slaughtering",
+"type": "keyterm",
+"confidence": 0.1625,
+"match_method": "canonical",
+"preferred_label": "Slaughtering"
+},
+{
+"id": "person:Pharaoh.6",
+"type": "person",
+"confidence": 0.1625,
+"match_method": "canonical",
+"preferred_label": "Pharaoh"
+},
+{
+"id": "keyterm:Decree",
+"type": "keyterm",
+"confidence": 0.1625,
+"match_method": "canonical",
+"preferred_label": "Decree"
+},
+{
+"id": "place:Gath",
+"type": "place",
+"confidence": 0.1625,
+"match_method": "canonical",
+"preferred_label": "Gath"
+},
+{
+"id": "group:Egypt",
+"type": "group",
+"confidence": 0.1625,
+"match_method": "canonical",
+"preferred_label": "Egyptians"
+},
+{
+"id": "keyterm:Heaven",
+"type": "keyterm",
+"confidence": 0.1625,
+"match_method": "canonical",
+"preferred_label": "Sky"
+},
+{
 "id": "flora:Mustard",
 "type": "flora",
 "confidence": 0.1081,
 "match_method": "canonical",
 "preferred_label": "Mustard"
+},
+{
+"id": "realia:Winepress",
+"type": "realia",
+"confidence": 0.1025,
+"match_method": "canonical",
+"preferred_label": "Winepress"
 },
 {
 "id": "realia:Yoke",
@@ -725,13 +732,6 @@
 "confidence": 0.1025,
 "match_method": "canonical",
 "preferred_label": "Threshing Floor"
-},
-{
-"id": "realia:Winepress",
-"type": "realia",
-"confidence": 0.1025,
-"match_method": "canonical",
-"preferred_label": "Winepress"
 },
 {
 "id": "realia:UnleavenedBread",
@@ -791,6 +791,13 @@
 "preferred_label": "Covenant Box"
 },
 {
+"id": "group:Philistine",
+"type": "group",
+"confidence": 0.4375,
+"match_method": "canonical",
+"preferred_label": "Philistines"
+},
+{
 "id": "keyterm:Offering",
 "type": "keyterm",
 "confidence": 0.4375,
@@ -803,13 +810,6 @@
 "confidence": 0.4375,
 "match_method": "canonical",
 "preferred_label": "Philistia"
-},
-{
-"id": "group:Philistine",
-"type": "group",
-"confidence": 0.4375,
-"match_method": "canonical",
-"preferred_label": "Philistines"
 },
 {
 "id": "place:Beth-shemesh",
@@ -861,13 +861,6 @@
 "preferred_label": "Cattle"
 },
 {
-"id": "person:Levi.3",
-"type": "person",
-"confidence": 0.2875,
-"match_method": "canonical",
-"preferred_label": "Levi"
-},
-{
 "id": "group:Levi",
 "type": "group",
 "confidence": 0.2875,
@@ -887,6 +880,13 @@
 "confidence": 0.2875,
 "match_method": "canonical",
 "preferred_label": "Parable"
+},
+{
+"id": "person:Levi.3",
+"type": "person",
+"confidence": 0.2875,
+"match_method": "canonical",
+"preferred_label": "Levi"
 },
 {
 "id": "person:Joshua.3",
@@ -917,11 +917,11 @@
 "preferred_label": "Barley"
 },
 {
-"id": "keyterm:Kingdom",
-"type": "keyterm",
+"id": "place:Ekron",
+"type": "place",
 "confidence": 0.225,
 "match_method": "canonical",
-"preferred_label": "Kingdom"
+"preferred_label": "Ekron"
 },
 {
 "id": "place:Egypt",
@@ -938,11 +938,11 @@
 "preferred_label": "Israel"
 },
 {
-"id": "place:Ekron",
-"type": "place",
+"id": "keyterm:Kingdom",
+"type": "keyterm",
 "confidence": 0.225,
 "match_method": "canonical",
-"preferred_label": "Ekron"
+"preferred_label": "Kingdom"
 },
 {
 "id": "flora:Wheat",
@@ -966,18 +966,18 @@
 "preferred_label": "Abel"
 },
 {
+"id": "realia:Image",
+"type": "realia",
+"confidence": 0.165,
+"match_method": "canonical",
+"preferred_label": "Image"
+},
+{
 "id": "flora:Grass",
 "type": "flora",
 "confidence": 0.165,
 "match_method": "canonical",
 "preferred_label": "Grass"
-},
-{
-"id": "realia:House",
-"type": "realia",
-"confidence": 0.165,
-"match_method": "canonical",
-"preferred_label": "House"
 },
 {
 "id": "realia:Sickle",
@@ -987,53 +987,11 @@
 "preferred_label": "Sickle"
 },
 {
-"id": "realia:Image",
+"id": "realia:House",
 "type": "realia",
 "confidence": 0.165,
 "match_method": "canonical",
-"preferred_label": "Image"
-},
-{
-"id": "person:Pharaoh.6",
-"type": "person",
-"confidence": 0.1625,
-"match_method": "canonical",
-"preferred_label": "Pharaoh"
-},
-{
-"id": "place:Gath",
-"type": "place",
-"confidence": 0.1625,
-"match_method": "canonical",
-"preferred_label": "Gath"
-},
-{
-"id": "keyterm:Disciple",
-"type": "keyterm",
-"confidence": 0.1625,
-"match_method": "canonical",
-"preferred_label": "Be a Disciple"
-},
-{
-"id": "keyterm:Decree",
-"type": "keyterm",
-"confidence": 0.1625,
-"match_method": "canonical",
-"preferred_label": "Decree"
-},
-{
-"id": "place:Ashkelon",
-"type": "place",
-"confidence": 0.1625,
-"match_method": "canonical",
-"preferred_label": "Ashkelon"
-},
-{
-"id": "keyterm:Slaughtering",
-"type": "keyterm",
-"confidence": 0.1625,
-"match_method": "canonical",
-"preferred_label": "Slaughtering"
+"preferred_label": "House"
 },
 {
 "id": "keyterm:Blow",
@@ -1043,11 +1001,18 @@
 "preferred_label": "Plague"
 },
 {
-"id": "keyterm:Heaven",
+"id": "place:Ashkelon",
+"type": "place",
+"confidence": 0.1625,
+"match_method": "canonical",
+"preferred_label": "Ashkelon"
+},
+{
+"id": "keyterm:Disciple",
 "type": "keyterm",
 "confidence": 0.1625,
 "match_method": "canonical",
-"preferred_label": "Sky"
+"preferred_label": "Be a Disciple"
 },
 {
 "id": "keyterm:PracticeDivination",
@@ -1055,13 +1020,6 @@
 "confidence": 0.1625,
 "match_method": "canonical",
 "preferred_label": "Practice Divination"
-},
-{
-"id": "group:Egypt",
-"type": "group",
-"confidence": 0.1625,
-"match_method": "canonical",
-"preferred_label": "Egyptians"
 },
 {
 "id": "place:Ashdod",
@@ -1078,11 +1036,60 @@
 "preferred_label": "Glory"
 },
 {
+"id": "keyterm:Slaughtering",
+"type": "keyterm",
+"confidence": 0.1625,
+"match_method": "canonical",
+"preferred_label": "Slaughtering"
+},
+{
+"id": "person:Pharaoh.6",
+"type": "person",
+"confidence": 0.1625,
+"match_method": "canonical",
+"preferred_label": "Pharaoh"
+},
+{
+"id": "keyterm:Decree",
+"type": "keyterm",
+"confidence": 0.1625,
+"match_method": "canonical",
+"preferred_label": "Decree"
+},
+{
+"id": "place:Gath",
+"type": "place",
+"confidence": 0.1625,
+"match_method": "canonical",
+"preferred_label": "Gath"
+},
+{
+"id": "group:Egypt",
+"type": "group",
+"confidence": 0.1625,
+"match_method": "canonical",
+"preferred_label": "Egyptians"
+},
+{
+"id": "keyterm:Heaven",
+"type": "keyterm",
+"confidence": 0.1625,
+"match_method": "canonical",
+"preferred_label": "Sky"
+},
+{
 "id": "flora:Mustard",
 "type": "flora",
 "confidence": 0.1081,
 "match_method": "canonical",
 "preferred_label": "Mustard"
+},
+{
+"id": "realia:Winepress",
+"type": "realia",
+"confidence": 0.1025,
+"match_method": "canonical",
+"preferred_label": "Winepress"
 },
 {
 "id": "realia:Yoke",
@@ -1097,13 +1104,6 @@
 "confidence": 0.1025,
 "match_method": "canonical",
 "preferred_label": "Threshing Floor"
-},
-{
-"id": "realia:Winepress",
-"type": "realia",
-"confidence": 0.1025,
-"match_method": "canonical",
-"preferred_label": "Winepress"
 },
 {
 "id": "realia:UnleavenedBread",
@@ -1163,6 +1163,13 @@
 "preferred_label": "Covenant Box"
 },
 {
+"id": "group:Philistine",
+"type": "group",
+"confidence": 0.4375,
+"match_method": "canonical",
+"preferred_label": "Philistines"
+},
+{
 "id": "keyterm:Offering",
 "type": "keyterm",
 "confidence": 0.4375,
@@ -1175,13 +1182,6 @@
 "confidence": 0.4375,
 "match_method": "canonical",
 "preferred_label": "Philistia"
-},
-{
-"id": "group:Philistine",
-"type": "group",
-"confidence": 0.4375,
-"match_method": "canonical",
-"preferred_label": "Philistines"
 },
 {
 "id": "place:Beth-shemesh",
@@ -1233,13 +1233,6 @@
 "preferred_label": "Cattle"
 },
 {
-"id": "person:Levi.3",
-"type": "person",
-"confidence": 0.2875,
-"match_method": "canonical",
-"preferred_label": "Levi"
-},
-{
 "id": "group:Levi",
 "type": "group",
 "confidence": 0.2875,
@@ -1259,6 +1252,13 @@
 "confidence": 0.2875,
 "match_method": "canonical",
 "preferred_label": "Parable"
+},
+{
+"id": "person:Levi.3",
+"type": "person",
+"confidence": 0.2875,
+"match_method": "canonical",
+"preferred_label": "Levi"
 },
 {
 "id": "person:Joshua.3",
@@ -1289,11 +1289,11 @@
 "preferred_label": "Barley"
 },
 {
-"id": "keyterm:Kingdom",
-"type": "keyterm",
+"id": "place:Ekron",
+"type": "place",
 "confidence": 0.225,
 "match_method": "canonical",
-"preferred_label": "Kingdom"
+"preferred_label": "Ekron"
 },
 {
 "id": "place:Egypt",
@@ -1310,11 +1310,11 @@
 "preferred_label": "Israel"
 },
 {
-"id": "place:Ekron",
-"type": "place",
+"id": "keyterm:Kingdom",
+"type": "keyterm",
 "confidence": 0.225,
 "match_method": "canonical",
-"preferred_label": "Ekron"
+"preferred_label": "Kingdom"
 },
 {
 "id": "flora:Wheat",
@@ -1338,18 +1338,18 @@
 "preferred_label": "Abel"
 },
 {
+"id": "realia:Image",
+"type": "realia",
+"confidence": 0.165,
+"match_method": "canonical",
+"preferred_label": "Image"
+},
+{
 "id": "flora:Grass",
 "type": "flora",
 "confidence": 0.165,
 "match_method": "canonical",
 "preferred_label": "Grass"
-},
-{
-"id": "realia:House",
-"type": "realia",
-"confidence": 0.165,
-"match_method": "canonical",
-"preferred_label": "House"
 },
 {
 "id": "realia:Sickle",
@@ -1359,53 +1359,11 @@
 "preferred_label": "Sickle"
 },
 {
-"id": "realia:Image",
+"id": "realia:House",
 "type": "realia",
 "confidence": 0.165,
 "match_method": "canonical",
-"preferred_label": "Image"
-},
-{
-"id": "person:Pharaoh.6",
-"type": "person",
-"confidence": 0.1625,
-"match_method": "canonical",
-"preferred_label": "Pharaoh"
-},
-{
-"id": "place:Gath",
-"type": "place",
-"confidence": 0.1625,
-"match_method": "canonical",
-"preferred_label": "Gath"
-},
-{
-"id": "keyterm:Disciple",
-"type": "keyterm",
-"confidence": 0.1625,
-"match_method": "canonical",
-"preferred_label": "Be a Disciple"
-},
-{
-"id": "keyterm:Decree",
-"type": "keyterm",
-"confidence": 0.1625,
-"match_method": "canonical",
-"preferred_label": "Decree"
-},
-{
-"id": "place:Ashkelon",
-"type": "place",
-"confidence": 0.1625,
-"match_method": "canonical",
-"preferred_label": "Ashkelon"
-},
-{
-"id": "keyterm:Slaughtering",
-"type": "keyterm",
-"confidence": 0.1625,
-"match_method": "canonical",
-"preferred_label": "Slaughtering"
+"preferred_label": "House"
 },
 {
 "id": "keyterm:Blow",
@@ -1415,11 +1373,18 @@
 "preferred_label": "Plague"
 },
 {
-"id": "keyterm:Heaven",
+"id": "place:Ashkelon",
+"type": "place",
+"confidence": 0.1625,
+"match_method": "canonical",
+"preferred_label": "Ashkelon"
+},
+{
+"id": "keyterm:Disciple",
 "type": "keyterm",
 "confidence": 0.1625,
 "match_method": "canonical",
-"preferred_label": "Sky"
+"preferred_label": "Be a Disciple"
 },
 {
 "id": "keyterm:PracticeDivination",
@@ -1427,13 +1392,6 @@
 "confidence": 0.1625,
 "match_method": "canonical",
 "preferred_label": "Practice Divination"
-},
-{
-"id": "group:Egypt",
-"type": "group",
-"confidence": 0.1625,
-"match_method": "canonical",
-"preferred_label": "Egyptians"
 },
 {
 "id": "place:Ashdod",
@@ -1450,11 +1408,60 @@
 "preferred_label": "Glory"
 },
 {
+"id": "keyterm:Slaughtering",
+"type": "keyterm",
+"confidence": 0.1625,
+"match_method": "canonical",
+"preferred_label": "Slaughtering"
+},
+{
+"id": "person:Pharaoh.6",
+"type": "person",
+"confidence": 0.1625,
+"match_method": "canonical",
+"preferred_label": "Pharaoh"
+},
+{
+"id": "keyterm:Decree",
+"type": "keyterm",
+"confidence": 0.1625,
+"match_method": "canonical",
+"preferred_label": "Decree"
+},
+{
+"id": "place:Gath",
+"type": "place",
+"confidence": 0.1625,
+"match_method": "canonical",
+"preferred_label": "Gath"
+},
+{
+"id": "group:Egypt",
+"type": "group",
+"confidence": 0.1625,
+"match_method": "canonical",
+"preferred_label": "Egyptians"
+},
+{
+"id": "keyterm:Heaven",
+"type": "keyterm",
+"confidence": 0.1625,
+"match_method": "canonical",
+"preferred_label": "Sky"
+},
+{
 "id": "flora:Mustard",
 "type": "flora",
 "confidence": 0.1081,
 "match_method": "canonical",
 "preferred_label": "Mustard"
+},
+{
+"id": "realia:Winepress",
+"type": "realia",
+"confidence": 0.1025,
+"match_method": "canonical",
+"preferred_label": "Winepress"
 },
 {
 "id": "realia:Yoke",
@@ -1469,13 +1476,6 @@
 "confidence": 0.1025,
 "match_method": "canonical",
 "preferred_label": "Threshing Floor"
-},
-{
-"id": "realia:Winepress",
-"type": "realia",
-"confidence": 0.1025,
-"match_method": "canonical",
-"preferred_label": "Winepress"
 },
 {
 "id": "realia:UnleavenedBread",

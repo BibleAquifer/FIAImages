@@ -36,6 +36,12 @@
 "end_ref_usfm": "LEV 15:18"
 },
 {
+"start_ref": "03015025",
+"start_ref_usfm": "LEV 15:25",
+"end_ref": "03015033",
+"end_ref_usfm": "LEV 15:33"
+},
+{
 "start_ref": "41011012",
 "start_ref_usfm": "MRK 11:12",
 "end_ref": "41011026",
@@ -58,18 +64,18 @@
 "preferred_label": "Temple"
 },
 {
-"id": "person:Jesus.2",
-"type": "person",
-"confidence": 0.3294,
-"match_method": "canonical",
-"preferred_label": "Jesus"
-},
-{
 "id": "keyterm:Offering",
 "type": "keyterm",
 "confidence": 0.3294,
 "match_method": "canonical",
 "preferred_label": "Offering"
+},
+{
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.3294,
+"match_method": "canonical",
+"preferred_label": "Jesus"
 },
 {
 "id": "flora:Fig",
@@ -100,13 +106,6 @@
 "preferred_label": "Smear"
 },
 {
-"id": "realia:Altar",
-"type": "realia",
-"confidence": 0.1929,
-"match_method": "canonical",
-"preferred_label": "Altar"
-},
-{
 "id": "realia:TabernacleAltar",
 "type": "realia",
 "confidence": 0.1929,
@@ -121,11 +120,25 @@
 "preferred_label": "Flock"
 },
 {
-"id": "realia:Shekel",
+"id": "realia:Money",
 "type": "realia",
 "confidence": 0.1929,
 "match_method": "canonical",
-"preferred_label": "Shekel"
+"preferred_label": "Money"
+},
+{
+"id": "realia:TempleAltar",
+"type": "realia",
+"confidence": 0.1929,
+"match_method": "canonical",
+"preferred_label": "Temple Altar"
+},
+{
+"id": "fauna:Goat",
+"type": "fauna",
+"confidence": 0.1929,
+"match_method": "canonical",
+"preferred_label": "Goat"
 },
 {
 "id": "fauna:Bull",
@@ -149,20 +162,6 @@
 "preferred_label": "Sheep"
 },
 {
-"id": "fauna:Goat",
-"type": "fauna",
-"confidence": 0.1929,
-"match_method": "canonical",
-"preferred_label": "Goat"
-},
-{
-"id": "realia:Money",
-"type": "realia",
-"confidence": 0.1929,
-"match_method": "canonical",
-"preferred_label": "Money"
-},
-{
 "id": "realia:StoneAltar",
 "type": "realia",
 "confidence": 0.1929,
@@ -170,25 +169,18 @@
 "preferred_label": "Stone Altar"
 },
 {
-"id": "realia:TempleAltar",
+"id": "realia:Altar",
 "type": "realia",
 "confidence": 0.1929,
 "match_method": "canonical",
-"preferred_label": "Temple Altar"
+"preferred_label": "Altar"
 },
 {
-"id": "keyterm:Serve",
-"type": "keyterm",
-"confidence": 0.1765,
+"id": "realia:Shekel",
+"type": "realia",
+"confidence": 0.1929,
 "match_method": "canonical",
-"preferred_label": "Serve"
-},
-{
-"id": "person:Moses",
-"type": "person",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "Moses"
+"preferred_label": "Shekel"
 },
 {
 "id": "keyterm:Disciple",
@@ -205,27 +197,6 @@
 "preferred_label": "Surely!"
 },
 {
-"id": "person:David",
-"type": "person",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "David"
-},
-{
-"id": "keyterm:CovenantBox",
-"type": "keyterm",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "Covenant Box"
-},
-{
-"id": "place:Bethany",
-"type": "place",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "Bethany"
-},
-{
 "id": "keyterm:Slaughtering",
 "type": "keyterm",
 "confidence": 0.1765,
@@ -240,32 +211,32 @@
 "preferred_label": "Testimony"
 },
 {
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "Israel"
-},
-{
-"id": "keyterm:Always",
-"type": "keyterm",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "Always"
-},
-{
-"id": "keyterm:Hosanna",
-"type": "keyterm",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "Hosanna"
-},
-{
 "id": "keyterm:Sin",
 "type": "keyterm",
 "confidence": 0.1765,
 "match_method": "canonical",
 "preferred_label": "To Sin"
+},
+{
+"id": "keyterm:Serve",
+"type": "keyterm",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "Serve"
+},
+{
+"id": "place:Bethany",
+"type": "place",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "Bethany"
+},
+{
+"id": "person:David",
+"type": "person",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "David"
 },
 {
 "id": "keyterm:Discern",
@@ -275,11 +246,39 @@
 "preferred_label": "Discern"
 },
 {
-"id": "realia:Seat",
-"type": "realia",
-"confidence": 0.1282,
+"id": "person:Moses",
+"type": "person",
+"confidence": 0.1765,
 "match_method": "canonical",
-"preferred_label": "Seat"
+"preferred_label": "Moses"
+},
+{
+"id": "keyterm:Hosanna",
+"type": "keyterm",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "Hosanna"
+},
+{
+"id": "keyterm:CovenantBox",
+"type": "keyterm",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "Covenant Box"
+},
+{
+"id": "keyterm:Always",
+"type": "keyterm",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "Always"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "Israel"
 },
 {
 "id": "realia:TentOfMeeting",
@@ -287,6 +286,20 @@
 "confidence": 0.1282,
 "match_method": "canonical",
 "preferred_label": "Tent of Meeting"
+},
+{
+"id": "realia:Seat",
+"type": "realia",
+"confidence": 0.1282,
+"match_method": "canonical",
+"preferred_label": "Seat"
+},
+{
+"id": "realia:CoverLid",
+"type": "realia",
+"confidence": 0.1165,
+"match_method": "canonical",
+"preferred_label": "Cover Lid"
 },
 {
 "id": "realia:ArkOfTheCovenant",
@@ -303,11 +316,11 @@
 "preferred_label": "Dove"
 },
 {
-"id": "realia:CoverLid",
+"id": "realia:WingedCreature",
 "type": "realia",
 "confidence": 0.1165,
 "match_method": "canonical",
-"preferred_label": "Cover Lid"
+"preferred_label": "Winged Creature"
 },
 {
 "id": "realia:House",
@@ -315,13 +328,6 @@
 "confidence": 0.1165,
 "match_method": "canonical",
 "preferred_label": "House"
-},
-{
-"id": "realia:WingedCreature",
-"type": "realia",
-"confidence": 0.1165,
-"match_method": "canonical",
-"preferred_label": "Winged Creature"
 }
 ]
 }
@@ -363,6 +369,12 @@
 "end_ref_usfm": "LEV 15:18"
 },
 {
+"start_ref": "03015025",
+"start_ref_usfm": "LEV 15:25",
+"end_ref": "03015033",
+"end_ref_usfm": "LEV 15:33"
+},
+{
 "start_ref": "41011012",
 "start_ref_usfm": "MRK 11:12",
 "end_ref": "41011026",
@@ -385,18 +397,18 @@
 "preferred_label": "Temple"
 },
 {
-"id": "person:Jesus.2",
-"type": "person",
-"confidence": 0.3294,
-"match_method": "canonical",
-"preferred_label": "Jesus"
-},
-{
 "id": "keyterm:Offering",
 "type": "keyterm",
 "confidence": 0.3294,
 "match_method": "canonical",
 "preferred_label": "Offering"
+},
+{
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.3294,
+"match_method": "canonical",
+"preferred_label": "Jesus"
 },
 {
 "id": "flora:Fig",
@@ -427,13 +439,6 @@
 "preferred_label": "Smear"
 },
 {
-"id": "realia:Altar",
-"type": "realia",
-"confidence": 0.1929,
-"match_method": "canonical",
-"preferred_label": "Altar"
-},
-{
 "id": "realia:TabernacleAltar",
 "type": "realia",
 "confidence": 0.1929,
@@ -448,11 +453,25 @@
 "preferred_label": "Flock"
 },
 {
-"id": "realia:Shekel",
+"id": "realia:Money",
 "type": "realia",
 "confidence": 0.1929,
 "match_method": "canonical",
-"preferred_label": "Shekel"
+"preferred_label": "Money"
+},
+{
+"id": "realia:TempleAltar",
+"type": "realia",
+"confidence": 0.1929,
+"match_method": "canonical",
+"preferred_label": "Temple Altar"
+},
+{
+"id": "fauna:Goat",
+"type": "fauna",
+"confidence": 0.1929,
+"match_method": "canonical",
+"preferred_label": "Goat"
 },
 {
 "id": "fauna:Bull",
@@ -476,20 +495,6 @@
 "preferred_label": "Sheep"
 },
 {
-"id": "fauna:Goat",
-"type": "fauna",
-"confidence": 0.1929,
-"match_method": "canonical",
-"preferred_label": "Goat"
-},
-{
-"id": "realia:Money",
-"type": "realia",
-"confidence": 0.1929,
-"match_method": "canonical",
-"preferred_label": "Money"
-},
-{
 "id": "realia:StoneAltar",
 "type": "realia",
 "confidence": 0.1929,
@@ -497,25 +502,18 @@
 "preferred_label": "Stone Altar"
 },
 {
-"id": "realia:TempleAltar",
+"id": "realia:Altar",
 "type": "realia",
 "confidence": 0.1929,
 "match_method": "canonical",
-"preferred_label": "Temple Altar"
+"preferred_label": "Altar"
 },
 {
-"id": "keyterm:Serve",
-"type": "keyterm",
-"confidence": 0.1765,
+"id": "realia:Shekel",
+"type": "realia",
+"confidence": 0.1929,
 "match_method": "canonical",
-"preferred_label": "Serve"
-},
-{
-"id": "person:Moses",
-"type": "person",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "Moses"
+"preferred_label": "Shekel"
 },
 {
 "id": "keyterm:Disciple",
@@ -532,27 +530,6 @@
 "preferred_label": "Surely!"
 },
 {
-"id": "person:David",
-"type": "person",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "David"
-},
-{
-"id": "keyterm:CovenantBox",
-"type": "keyterm",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "Covenant Box"
-},
-{
-"id": "place:Bethany",
-"type": "place",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "Bethany"
-},
-{
 "id": "keyterm:Slaughtering",
 "type": "keyterm",
 "confidence": 0.1765,
@@ -567,32 +544,32 @@
 "preferred_label": "Testimony"
 },
 {
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "Israel"
-},
-{
-"id": "keyterm:Always",
-"type": "keyterm",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "Always"
-},
-{
-"id": "keyterm:Hosanna",
-"type": "keyterm",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "Hosanna"
-},
-{
 "id": "keyterm:Sin",
 "type": "keyterm",
 "confidence": 0.1765,
 "match_method": "canonical",
 "preferred_label": "To Sin"
+},
+{
+"id": "keyterm:Serve",
+"type": "keyterm",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "Serve"
+},
+{
+"id": "place:Bethany",
+"type": "place",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "Bethany"
+},
+{
+"id": "person:David",
+"type": "person",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "David"
 },
 {
 "id": "keyterm:Discern",
@@ -602,11 +579,39 @@
 "preferred_label": "Discern"
 },
 {
-"id": "realia:Seat",
-"type": "realia",
-"confidence": 0.1282,
+"id": "person:Moses",
+"type": "person",
+"confidence": 0.1765,
 "match_method": "canonical",
-"preferred_label": "Seat"
+"preferred_label": "Moses"
+},
+{
+"id": "keyterm:Hosanna",
+"type": "keyterm",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "Hosanna"
+},
+{
+"id": "keyterm:CovenantBox",
+"type": "keyterm",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "Covenant Box"
+},
+{
+"id": "keyterm:Always",
+"type": "keyterm",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "Always"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "Israel"
 },
 {
 "id": "realia:TentOfMeeting",
@@ -614,6 +619,20 @@
 "confidence": 0.1282,
 "match_method": "canonical",
 "preferred_label": "Tent of Meeting"
+},
+{
+"id": "realia:Seat",
+"type": "realia",
+"confidence": 0.1282,
+"match_method": "canonical",
+"preferred_label": "Seat"
+},
+{
+"id": "realia:CoverLid",
+"type": "realia",
+"confidence": 0.1165,
+"match_method": "canonical",
+"preferred_label": "Cover Lid"
 },
 {
 "id": "realia:ArkOfTheCovenant",
@@ -630,11 +649,11 @@
 "preferred_label": "Dove"
 },
 {
-"id": "realia:CoverLid",
+"id": "realia:WingedCreature",
 "type": "realia",
 "confidence": 0.1165,
 "match_method": "canonical",
-"preferred_label": "Cover Lid"
+"preferred_label": "Winged Creature"
 },
 {
 "id": "realia:House",
@@ -642,13 +661,6 @@
 "confidence": 0.1165,
 "match_method": "canonical",
 "preferred_label": "House"
-},
-{
-"id": "realia:WingedCreature",
-"type": "realia",
-"confidence": 0.1165,
-"match_method": "canonical",
-"preferred_label": "Winged Creature"
 }
 ]
 }
