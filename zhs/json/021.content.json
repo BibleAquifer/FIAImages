@@ -66,18 +66,18 @@
 "preferred_label": "Israel"
 },
 {
-"id": "group:Levi",
-"type": "group",
-"confidence": 0.4079,
-"match_method": "canonical",
-"preferred_label": "Tribe of Levi"
-},
-{
 "id": "person:Moses",
 "type": "person",
 "confidence": 0.4079,
 "match_method": "canonical",
 "preferred_label": "Moses"
+},
+{
+"id": "group:Levi",
+"type": "group",
+"confidence": 0.4079,
+"match_method": "canonical",
+"preferred_label": "Tribe of Levi"
 },
 {
 "id": "person:Levi.3",
@@ -122,6 +122,13 @@
 "preferred_label": "Jesus"
 },
 {
+"id": "place:Egypt",
+"type": "place",
+"confidence": 0.3257,
+"match_method": "canonical",
+"preferred_label": "Egypt"
+},
+{
 "id": "keyterm:Work",
 "type": "keyterm",
 "confidence": 0.3257,
@@ -129,11 +136,11 @@
 "preferred_label": "Work"
 },
 {
-"id": "place:Egypt",
-"type": "place",
-"confidence": 0.3257,
+"id": "realia:House",
+"type": "realia",
+"confidence": 0.3221,
 "match_method": "canonical",
-"preferred_label": "Egypt"
+"preferred_label": "House"
 },
 {
 "id": "fauna:Bull",
@@ -143,11 +150,11 @@
 "preferred_label": "Cattle"
 },
 {
-"id": "realia:House",
-"type": "realia",
-"confidence": 0.3221,
+"id": "keyterm:Defilement",
+"type": "keyterm",
+"confidence": 0.2693,
 "match_method": "canonical",
-"preferred_label": "House"
+"preferred_label": "Defilement"
 },
 {
 "id": "keyterm:Surely",
@@ -164,13 +171,6 @@
 "preferred_label": "Aaron"
 },
 {
-"id": "keyterm:Defilement",
-"type": "keyterm",
-"confidence": 0.2693,
-"match_method": "canonical",
-"preferred_label": "Defilement"
-},
-{
 "id": "person:David",
 "type": "person",
 "confidence": 0.2693,
@@ -185,32 +185,11 @@
 "preferred_label": "Unleavened Bread"
 },
 {
-"id": "place:SinaiWilderness",
-"type": "place",
-"confidence": 0.2129,
-"match_method": "canonical",
-"preferred_label": "Wilderness of Sinai"
-},
-{
 "id": "keyterm:Holy",
 "type": "keyterm",
 "confidence": 0.2129,
 "match_method": "canonical",
 "preferred_label": "Holy"
-},
-{
-"id": "place:Jerusalem",
-"type": "place",
-"confidence": 0.2129,
-"match_method": "canonical",
-"preferred_label": "Jerusalem"
-},
-{
-"id": "keyterm:Disaster",
-"type": "keyterm",
-"confidence": 0.2129,
-"match_method": "canonical",
-"preferred_label": "Disaster"
 },
 {
 "id": "person:Solomon",
@@ -220,11 +199,25 @@
 "preferred_label": "Solomon"
 },
 {
-"id": "person:Hashabiah.6",
-"type": "person",
-"confidence": 0.1593,
+"id": "keyterm:Disaster",
+"type": "keyterm",
+"confidence": 0.2129,
 "match_method": "canonical",
-"preferred_label": "Hashabiah"
+"preferred_label": "Disaster"
+},
+{
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.2129,
+"match_method": "canonical",
+"preferred_label": "Jerusalem"
+},
+{
+"id": "place:SinaiWilderness",
+"type": "place",
+"confidence": 0.2129,
+"match_method": "canonical",
+"preferred_label": "Wilderness of Sinai"
 },
 {
 "id": "person:Jehiel.6",
@@ -232,13 +225,6 @@
 "confidence": 0.1593,
 "match_method": "canonical",
 "preferred_label": "Jehiel"
-},
-{
-"id": "person:Zechariah.16",
-"type": "person",
-"confidence": 0.1593,
-"match_method": "canonical",
-"preferred_label": "Zechariah"
 },
 {
 "id": "keyterm:Blood",
@@ -253,6 +239,20 @@
 "confidence": 0.1593,
 "match_method": "canonical",
 "preferred_label": "Jeduthun"
+},
+{
+"id": "keyterm:OutOfFreeWill",
+"type": "keyterm",
+"confidence": 0.1593,
+"match_method": "canonical",
+"preferred_label": "Out of Free Will"
+},
+{
+"id": "person:Hashabiah.6",
+"type": "person",
+"confidence": 0.1593,
+"match_method": "canonical",
+"preferred_label": "Hashabiah"
 }
 ]
 }
@@ -324,18 +324,18 @@
 "preferred_label": "Israel"
 },
 {
-"id": "group:Levi",
-"type": "group",
-"confidence": 0.4079,
-"match_method": "canonical",
-"preferred_label": "Tribe of Levi"
-},
-{
 "id": "person:Moses",
 "type": "person",
 "confidence": 0.4079,
 "match_method": "canonical",
 "preferred_label": "Moses"
+},
+{
+"id": "group:Levi",
+"type": "group",
+"confidence": 0.4079,
+"match_method": "canonical",
+"preferred_label": "Tribe of Levi"
 },
 {
 "id": "person:Levi.3",
@@ -380,6 +380,13 @@
 "preferred_label": "Jesus"
 },
 {
+"id": "place:Egypt",
+"type": "place",
+"confidence": 0.3257,
+"match_method": "canonical",
+"preferred_label": "Egypt"
+},
+{
 "id": "keyterm:Work",
 "type": "keyterm",
 "confidence": 0.3257,
@@ -387,11 +394,11 @@
 "preferred_label": "Work"
 },
 {
-"id": "place:Egypt",
-"type": "place",
-"confidence": 0.3257,
+"id": "realia:House",
+"type": "realia",
+"confidence": 0.3221,
 "match_method": "canonical",
-"preferred_label": "Egypt"
+"preferred_label": "House"
 },
 {
 "id": "fauna:Bull",
@@ -401,11 +408,11 @@
 "preferred_label": "Cattle"
 },
 {
-"id": "realia:House",
-"type": "realia",
-"confidence": 0.3221,
+"id": "keyterm:Defilement",
+"type": "keyterm",
+"confidence": 0.2693,
 "match_method": "canonical",
-"preferred_label": "House"
+"preferred_label": "Defilement"
 },
 {
 "id": "keyterm:Surely",
@@ -422,13 +429,6 @@
 "preferred_label": "Aaron"
 },
 {
-"id": "keyterm:Defilement",
-"type": "keyterm",
-"confidence": 0.2693,
-"match_method": "canonical",
-"preferred_label": "Defilement"
-},
-{
 "id": "person:David",
 "type": "person",
 "confidence": 0.2693,
@@ -443,32 +443,11 @@
 "preferred_label": "Unleavened Bread"
 },
 {
-"id": "place:SinaiWilderness",
-"type": "place",
-"confidence": 0.2129,
-"match_method": "canonical",
-"preferred_label": "Wilderness of Sinai"
-},
-{
 "id": "keyterm:Holy",
 "type": "keyterm",
 "confidence": 0.2129,
 "match_method": "canonical",
 "preferred_label": "Holy"
-},
-{
-"id": "place:Jerusalem",
-"type": "place",
-"confidence": 0.2129,
-"match_method": "canonical",
-"preferred_label": "Jerusalem"
-},
-{
-"id": "keyterm:Disaster",
-"type": "keyterm",
-"confidence": 0.2129,
-"match_method": "canonical",
-"preferred_label": "Disaster"
 },
 {
 "id": "person:Solomon",
@@ -478,11 +457,25 @@
 "preferred_label": "Solomon"
 },
 {
-"id": "person:Hashabiah.6",
-"type": "person",
-"confidence": 0.1593,
+"id": "keyterm:Disaster",
+"type": "keyterm",
+"confidence": 0.2129,
 "match_method": "canonical",
-"preferred_label": "Hashabiah"
+"preferred_label": "Disaster"
+},
+{
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.2129,
+"match_method": "canonical",
+"preferred_label": "Jerusalem"
+},
+{
+"id": "place:SinaiWilderness",
+"type": "place",
+"confidence": 0.2129,
+"match_method": "canonical",
+"preferred_label": "Wilderness of Sinai"
 },
 {
 "id": "person:Jehiel.6",
@@ -490,13 +483,6 @@
 "confidence": 0.1593,
 "match_method": "canonical",
 "preferred_label": "Jehiel"
-},
-{
-"id": "person:Zechariah.16",
-"type": "person",
-"confidence": 0.1593,
-"match_method": "canonical",
-"preferred_label": "Zechariah"
 },
 {
 "id": "keyterm:Blood",
@@ -511,6 +497,20 @@
 "confidence": 0.1593,
 "match_method": "canonical",
 "preferred_label": "Jeduthun"
+},
+{
+"id": "keyterm:OutOfFreeWill",
+"type": "keyterm",
+"confidence": 0.1593,
+"match_method": "canonical",
+"preferred_label": "Out of Free Will"
+},
+{
+"id": "person:Hashabiah.6",
+"type": "person",
+"confidence": 0.1593,
+"match_method": "canonical",
+"preferred_label": "Hashabiah"
 }
 ]
 }
