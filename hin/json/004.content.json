@@ -40,18 +40,18 @@
 "preferred_label": "मूसा"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.4318,
-"match_method": "canonical",
-"preferred_label": "यहोवा"
-},
-{
 "id": "person:Israel",
 "type": "person",
 "confidence": 0.4318,
 "match_method": "canonical",
 "preferred_label": "इस्राएल"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.4318,
+"match_method": "canonical",
+"preferred_label": "यहोवा"
 },
 {
 "id": "person:Jonathan.3",
@@ -96,18 +96,18 @@
 "preferred_label": "Wilderness of Sinai"
 },
 {
-"id": "keyterm:Love",
-"type": "keyterm",
-"confidence": 0.2273,
-"match_method": "canonical",
-"preferred_label": "Love"
-},
-{
 "id": "place:Egypt",
 "type": "place",
 "confidence": 0.2273,
 "match_method": "canonical",
 "preferred_label": "मिस्र"
+},
+{
+"id": "keyterm:Love",
+"type": "keyterm",
+"confidence": 0.2273,
+"match_method": "canonical",
+"preferred_label": "Love"
 },
 {
 "id": "fauna:Falcon",
@@ -124,18 +124,18 @@
 "preferred_label": "Jashar"
 },
 {
-"id": "keyterm:Lamentation",
-"type": "keyterm",
-"confidence": 0.1697,
-"match_method": "canonical",
-"preferred_label": "Lamentation"
-},
-{
 "id": "place:Rephidim",
 "type": "place",
 "confidence": 0.1697,
 "match_method": "canonical",
 "preferred_label": "रपीदीम"
+},
+{
+"id": "keyterm:Lamentation",
+"type": "keyterm",
+"confidence": 0.1697,
+"match_method": "canonical",
+"preferred_label": "Lamentation"
 },
 {
 "id": "realia:Bow",
@@ -145,18 +145,11 @@
 "preferred_label": "Bow"
 },
 {
-"id": "group:Philistine",
-"type": "group",
-"confidence": 0.1636,
-"match_method": "canonical",
-"preferred_label": "पलिश्ती"
-},
-{
-"id": "keyterm:Offering",
+"id": "keyterm:BelieveIn",
 "type": "keyterm",
 "confidence": 0.1636,
 "match_method": "canonical",
-"preferred_label": "Offering"
+"preferred_label": "Believe In"
 },
 {
 "id": "place:Ashkelon",
@@ -166,18 +159,11 @@
 "preferred_label": "अश्कलोन"
 },
 {
-"id": "keyterm:BelieveIn",
+"id": "keyterm:Covenant",
 "type": "keyterm",
 "confidence": 0.1636,
 "match_method": "canonical",
-"preferred_label": "Believe In"
-},
-{
-"id": "keyterm:UncircumcisedPerson",
-"type": "keyterm",
-"confidence": 0.1636,
-"match_method": "canonical",
-"preferred_label": "Uncircumcised Person"
+"preferred_label": "Covenant"
 },
 {
 "id": "group:Judah",
@@ -185,6 +171,13 @@
 "confidence": 0.1636,
 "match_method": "canonical",
 "preferred_label": "यहूदा"
+},
+{
+"id": "place:Gath",
+"type": "place",
+"confidence": 0.1636,
+"match_method": "canonical",
+"preferred_label": "गत"
 },
 {
 "id": "person:Judah.4",
@@ -215,11 +208,11 @@
 "preferred_label": "गिलबो पर्वत"
 },
 {
-"id": "place:Gath",
-"type": "place",
+"id": "group:Philistine",
+"type": "group",
 "confidence": 0.1636,
 "match_method": "canonical",
-"preferred_label": "गत"
+"preferred_label": "पलिश्ती"
 },
 {
 "id": "place:Philistine",
@@ -229,32 +222,46 @@
 "preferred_label": "Philistia"
 },
 {
-"id": "keyterm:Covenant",
+"id": "keyterm:UncircumcisedPerson",
 "type": "keyterm",
 "confidence": 0.1636,
 "match_method": "canonical",
-"preferred_label": "Covenant"
+"preferred_label": "Uncircumcised Person"
 },
 {
-"id": "fauna:Heron",
+"id": "keyterm:Offering",
+"type": "keyterm",
+"confidence": 0.1636,
+"match_method": "canonical",
+"preferred_label": "Offering"
+},
+{
+"id": "fauna:Hoopoe",
 "type": "fauna",
 "confidence": 0.1097,
 "match_method": "canonical",
-"preferred_label": "Heron"
+"preferred_label": "Hoopoe"
 },
 {
-"id": "fauna:Nightjar",
+"id": "fauna:Seagull",
 "type": "fauna",
 "confidence": 0.1097,
 "match_method": "canonical",
-"preferred_label": "Nightjar"
+"preferred_label": "Seagull"
 },
 {
-"id": "fauna:BarnOwl",
+"id": "fauna:Owl",
 "type": "fauna",
 "confidence": 0.1097,
 "match_method": "canonical",
-"preferred_label": "Barn Owl"
+"preferred_label": "Owl"
+},
+{
+"id": "fauna:Stork",
+"type": "fauna",
+"confidence": 0.1097,
+"match_method": "canonical",
+"preferred_label": "Stork"
 },
 {
 "id": "fauna:Owl.2",
@@ -264,11 +271,39 @@
 "preferred_label": "Owl"
 },
 {
-"id": "fauna:Osprey",
+"id": "fauna:BarnOwl",
 "type": "fauna",
 "confidence": 0.1097,
 "match_method": "canonical",
-"preferred_label": "Osprey"
+"preferred_label": "Barn Owl"
+},
+{
+"id": "fauna:TawnyOwl",
+"type": "fauna",
+"confidence": 0.1097,
+"match_method": "canonical",
+"preferred_label": "Tawny Owl"
+},
+{
+"id": "fauna:Nightjar",
+"type": "fauna",
+"confidence": 0.1097,
+"match_method": "canonical",
+"preferred_label": "Nightjar"
+},
+{
+"id": "fauna:Cormorant",
+"type": "fauna",
+"confidence": 0.1097,
+"match_method": "canonical",
+"preferred_label": "Cormorant"
+},
+{
+"id": "fauna:BlackKite",
+"type": "fauna",
+"confidence": 0.1097,
+"match_method": "canonical",
+"preferred_label": "Black Kite"
 },
 {
 "id": "realia:RamsHorn",
@@ -278,11 +313,11 @@
 "preferred_label": "Rams Horn"
 },
 {
-"id": "fauna:BlackKite",
+"id": "fauna:Osprey",
 "type": "fauna",
 "confidence": 0.1097,
 "match_method": "canonical",
-"preferred_label": "Black Kite"
+"preferred_label": "Osprey"
 },
 {
 "id": "fauna:Jackdaw",
@@ -299,46 +334,11 @@
 "preferred_label": "Bat"
 },
 {
-"id": "fauna:Cormorant",
+"id": "fauna:Heron",
 "type": "fauna",
 "confidence": 0.1097,
 "match_method": "canonical",
-"preferred_label": "Cormorant"
-},
-{
-"id": "fauna:Owl",
-"type": "fauna",
-"confidence": 0.1097,
-"match_method": "canonical",
-"preferred_label": "Owl"
-},
-{
-"id": "fauna:Hoopoe",
-"type": "fauna",
-"confidence": 0.1097,
-"match_method": "canonical",
-"preferred_label": "Hoopoe"
-},
-{
-"id": "fauna:Stork",
-"type": "fauna",
-"confidence": 0.1097,
-"match_method": "canonical",
-"preferred_label": "Stork"
-},
-{
-"id": "fauna:TawnyOwl",
-"type": "fauna",
-"confidence": 0.1097,
-"match_method": "canonical",
-"preferred_label": "Tawny Owl"
-},
-{
-"id": "fauna:Seagull",
-"type": "fauna",
-"confidence": 0.1097,
-"match_method": "canonical",
-"preferred_label": "Seagull"
+"preferred_label": "Heron"
 },
 {
 "id": "realia:AnointingOil",
@@ -348,27 +348,6 @@
 "preferred_label": "Anointing Oil"
 },
 {
-"id": "realia:OliveOil",
-"type": "realia",
-"confidence": 0.1036,
-"match_method": "canonical",
-"preferred_label": "Olive Oil"
-},
-{
-"id": "fauna:Ostrich",
-"type": "fauna",
-"confidence": 0.1036,
-"match_method": "canonical",
-"preferred_label": "Ostrich"
-},
-{
-"id": "fauna:Bull",
-"type": "fauna",
-"confidence": 0.1036,
-"match_method": "canonical",
-"preferred_label": "Cattle"
-},
-{
 "id": "realia:SmallShield",
 "type": "realia",
 "confidence": 0.1036,
@@ -376,11 +355,11 @@
 "preferred_label": "Small Shield"
 },
 {
-"id": "realia:Sword",
-"type": "realia",
+"id": "fauna:Lion",
+"type": "fauna",
 "confidence": 0.1036,
 "match_method": "canonical",
-"preferred_label": "Sword"
+"preferred_label": "Lion"
 },
 {
 "id": "fauna:Crow",
@@ -390,11 +369,32 @@
 "preferred_label": "Crow"
 },
 {
-"id": "fauna:Lion",
+"id": "fauna:Bull",
 "type": "fauna",
 "confidence": 0.1036,
 "match_method": "canonical",
-"preferred_label": "Lion"
+"preferred_label": "Cattle"
+},
+{
+"id": "fauna:Ostrich",
+"type": "fauna",
+"confidence": 0.1036,
+"match_method": "canonical",
+"preferred_label": "Ostrich"
+},
+{
+"id": "realia:OliveOil",
+"type": "realia",
+"confidence": 0.1036,
+"match_method": "canonical",
+"preferred_label": "Olive Oil"
+},
+{
+"id": "realia:Sword",
+"type": "realia",
+"confidence": 0.1036,
+"match_method": "canonical",
+"preferred_label": "Sword"
 }
 ]
 }
@@ -440,18 +440,18 @@
 "preferred_label": "मूसा"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.4318,
-"match_method": "canonical",
-"preferred_label": "यहोवा"
-},
-{
 "id": "person:Israel",
 "type": "person",
 "confidence": 0.4318,
 "match_method": "canonical",
 "preferred_label": "इस्राएल"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.4318,
+"match_method": "canonical",
+"preferred_label": "यहोवा"
 },
 {
 "id": "person:Jonathan.3",
@@ -496,18 +496,18 @@
 "preferred_label": "Wilderness of Sinai"
 },
 {
-"id": "keyterm:Love",
-"type": "keyterm",
-"confidence": 0.2273,
-"match_method": "canonical",
-"preferred_label": "Love"
-},
-{
 "id": "place:Egypt",
 "type": "place",
 "confidence": 0.2273,
 "match_method": "canonical",
 "preferred_label": "मिस्र"
+},
+{
+"id": "keyterm:Love",
+"type": "keyterm",
+"confidence": 0.2273,
+"match_method": "canonical",
+"preferred_label": "Love"
 },
 {
 "id": "fauna:Falcon",
@@ -524,18 +524,18 @@
 "preferred_label": "Jashar"
 },
 {
-"id": "keyterm:Lamentation",
-"type": "keyterm",
-"confidence": 0.1697,
-"match_method": "canonical",
-"preferred_label": "Lamentation"
-},
-{
 "id": "place:Rephidim",
 "type": "place",
 "confidence": 0.1697,
 "match_method": "canonical",
 "preferred_label": "रपीदीम"
+},
+{
+"id": "keyterm:Lamentation",
+"type": "keyterm",
+"confidence": 0.1697,
+"match_method": "canonical",
+"preferred_label": "Lamentation"
 },
 {
 "id": "realia:Bow",
@@ -545,18 +545,11 @@
 "preferred_label": "Bow"
 },
 {
-"id": "group:Philistine",
-"type": "group",
-"confidence": 0.1636,
-"match_method": "canonical",
-"preferred_label": "पलिश्ती"
-},
-{
-"id": "keyterm:Offering",
+"id": "keyterm:BelieveIn",
 "type": "keyterm",
 "confidence": 0.1636,
 "match_method": "canonical",
-"preferred_label": "Offering"
+"preferred_label": "Believe In"
 },
 {
 "id": "place:Ashkelon",
@@ -566,18 +559,11 @@
 "preferred_label": "अश्कलोन"
 },
 {
-"id": "keyterm:BelieveIn",
+"id": "keyterm:Covenant",
 "type": "keyterm",
 "confidence": 0.1636,
 "match_method": "canonical",
-"preferred_label": "Believe In"
-},
-{
-"id": "keyterm:UncircumcisedPerson",
-"type": "keyterm",
-"confidence": 0.1636,
-"match_method": "canonical",
-"preferred_label": "Uncircumcised Person"
+"preferred_label": "Covenant"
 },
 {
 "id": "group:Judah",
@@ -585,6 +571,13 @@
 "confidence": 0.1636,
 "match_method": "canonical",
 "preferred_label": "यहूदा"
+},
+{
+"id": "place:Gath",
+"type": "place",
+"confidence": 0.1636,
+"match_method": "canonical",
+"preferred_label": "गत"
 },
 {
 "id": "person:Judah.4",
@@ -615,11 +608,11 @@
 "preferred_label": "गिलबो पर्वत"
 },
 {
-"id": "place:Gath",
-"type": "place",
+"id": "group:Philistine",
+"type": "group",
 "confidence": 0.1636,
 "match_method": "canonical",
-"preferred_label": "गत"
+"preferred_label": "पलिश्ती"
 },
 {
 "id": "place:Philistine",
@@ -629,32 +622,46 @@
 "preferred_label": "Philistia"
 },
 {
-"id": "keyterm:Covenant",
+"id": "keyterm:UncircumcisedPerson",
 "type": "keyterm",
 "confidence": 0.1636,
 "match_method": "canonical",
-"preferred_label": "Covenant"
+"preferred_label": "Uncircumcised Person"
 },
 {
-"id": "fauna:Heron",
+"id": "keyterm:Offering",
+"type": "keyterm",
+"confidence": 0.1636,
+"match_method": "canonical",
+"preferred_label": "Offering"
+},
+{
+"id": "fauna:Hoopoe",
 "type": "fauna",
 "confidence": 0.1097,
 "match_method": "canonical",
-"preferred_label": "Heron"
+"preferred_label": "Hoopoe"
 },
 {
-"id": "fauna:Nightjar",
+"id": "fauna:Seagull",
 "type": "fauna",
 "confidence": 0.1097,
 "match_method": "canonical",
-"preferred_label": "Nightjar"
+"preferred_label": "Seagull"
 },
 {
-"id": "fauna:BarnOwl",
+"id": "fauna:Owl",
 "type": "fauna",
 "confidence": 0.1097,
 "match_method": "canonical",
-"preferred_label": "Barn Owl"
+"preferred_label": "Owl"
+},
+{
+"id": "fauna:Stork",
+"type": "fauna",
+"confidence": 0.1097,
+"match_method": "canonical",
+"preferred_label": "Stork"
 },
 {
 "id": "fauna:Owl.2",
@@ -664,11 +671,39 @@
 "preferred_label": "Owl"
 },
 {
-"id": "fauna:Osprey",
+"id": "fauna:BarnOwl",
 "type": "fauna",
 "confidence": 0.1097,
 "match_method": "canonical",
-"preferred_label": "Osprey"
+"preferred_label": "Barn Owl"
+},
+{
+"id": "fauna:TawnyOwl",
+"type": "fauna",
+"confidence": 0.1097,
+"match_method": "canonical",
+"preferred_label": "Tawny Owl"
+},
+{
+"id": "fauna:Nightjar",
+"type": "fauna",
+"confidence": 0.1097,
+"match_method": "canonical",
+"preferred_label": "Nightjar"
+},
+{
+"id": "fauna:Cormorant",
+"type": "fauna",
+"confidence": 0.1097,
+"match_method": "canonical",
+"preferred_label": "Cormorant"
+},
+{
+"id": "fauna:BlackKite",
+"type": "fauna",
+"confidence": 0.1097,
+"match_method": "canonical",
+"preferred_label": "Black Kite"
 },
 {
 "id": "realia:RamsHorn",
@@ -678,11 +713,11 @@
 "preferred_label": "Rams Horn"
 },
 {
-"id": "fauna:BlackKite",
+"id": "fauna:Osprey",
 "type": "fauna",
 "confidence": 0.1097,
 "match_method": "canonical",
-"preferred_label": "Black Kite"
+"preferred_label": "Osprey"
 },
 {
 "id": "fauna:Jackdaw",
@@ -699,46 +734,11 @@
 "preferred_label": "Bat"
 },
 {
-"id": "fauna:Cormorant",
+"id": "fauna:Heron",
 "type": "fauna",
 "confidence": 0.1097,
 "match_method": "canonical",
-"preferred_label": "Cormorant"
-},
-{
-"id": "fauna:Owl",
-"type": "fauna",
-"confidence": 0.1097,
-"match_method": "canonical",
-"preferred_label": "Owl"
-},
-{
-"id": "fauna:Hoopoe",
-"type": "fauna",
-"confidence": 0.1097,
-"match_method": "canonical",
-"preferred_label": "Hoopoe"
-},
-{
-"id": "fauna:Stork",
-"type": "fauna",
-"confidence": 0.1097,
-"match_method": "canonical",
-"preferred_label": "Stork"
-},
-{
-"id": "fauna:TawnyOwl",
-"type": "fauna",
-"confidence": 0.1097,
-"match_method": "canonical",
-"preferred_label": "Tawny Owl"
-},
-{
-"id": "fauna:Seagull",
-"type": "fauna",
-"confidence": 0.1097,
-"match_method": "canonical",
-"preferred_label": "Seagull"
+"preferred_label": "Heron"
 },
 {
 "id": "realia:AnointingOil",
@@ -748,27 +748,6 @@
 "preferred_label": "Anointing Oil"
 },
 {
-"id": "realia:OliveOil",
-"type": "realia",
-"confidence": 0.1036,
-"match_method": "canonical",
-"preferred_label": "Olive Oil"
-},
-{
-"id": "fauna:Ostrich",
-"type": "fauna",
-"confidence": 0.1036,
-"match_method": "canonical",
-"preferred_label": "Ostrich"
-},
-{
-"id": "fauna:Bull",
-"type": "fauna",
-"confidence": 0.1036,
-"match_method": "canonical",
-"preferred_label": "Cattle"
-},
-{
 "id": "realia:SmallShield",
 "type": "realia",
 "confidence": 0.1036,
@@ -776,11 +755,11 @@
 "preferred_label": "Small Shield"
 },
 {
-"id": "realia:Sword",
-"type": "realia",
+"id": "fauna:Lion",
+"type": "fauna",
 "confidence": 0.1036,
 "match_method": "canonical",
-"preferred_label": "Sword"
+"preferred_label": "Lion"
 },
 {
 "id": "fauna:Crow",
@@ -790,11 +769,32 @@
 "preferred_label": "Crow"
 },
 {
-"id": "fauna:Lion",
+"id": "fauna:Bull",
 "type": "fauna",
 "confidence": 0.1036,
 "match_method": "canonical",
-"preferred_label": "Lion"
+"preferred_label": "Cattle"
+},
+{
+"id": "fauna:Ostrich",
+"type": "fauna",
+"confidence": 0.1036,
+"match_method": "canonical",
+"preferred_label": "Ostrich"
+},
+{
+"id": "realia:OliveOil",
+"type": "realia",
+"confidence": 0.1036,
+"match_method": "canonical",
+"preferred_label": "Olive Oil"
+},
+{
+"id": "realia:Sword",
+"type": "realia",
+"confidence": 0.1036,
+"match_method": "canonical",
+"preferred_label": "Sword"
 }
 ]
 }
@@ -840,18 +840,18 @@
 "preferred_label": "मूसा"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.4318,
-"match_method": "canonical",
-"preferred_label": "यहोवा"
-},
-{
 "id": "person:Israel",
 "type": "person",
 "confidence": 0.4318,
 "match_method": "canonical",
 "preferred_label": "इस्राएल"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.4318,
+"match_method": "canonical",
+"preferred_label": "यहोवा"
 },
 {
 "id": "person:Jonathan.3",
@@ -896,18 +896,18 @@
 "preferred_label": "Wilderness of Sinai"
 },
 {
-"id": "keyterm:Love",
-"type": "keyterm",
-"confidence": 0.2273,
-"match_method": "canonical",
-"preferred_label": "Love"
-},
-{
 "id": "place:Egypt",
 "type": "place",
 "confidence": 0.2273,
 "match_method": "canonical",
 "preferred_label": "मिस्र"
+},
+{
+"id": "keyterm:Love",
+"type": "keyterm",
+"confidence": 0.2273,
+"match_method": "canonical",
+"preferred_label": "Love"
 },
 {
 "id": "fauna:Falcon",
@@ -924,18 +924,18 @@
 "preferred_label": "Jashar"
 },
 {
-"id": "keyterm:Lamentation",
-"type": "keyterm",
-"confidence": 0.1697,
-"match_method": "canonical",
-"preferred_label": "Lamentation"
-},
-{
 "id": "place:Rephidim",
 "type": "place",
 "confidence": 0.1697,
 "match_method": "canonical",
 "preferred_label": "रपीदीम"
+},
+{
+"id": "keyterm:Lamentation",
+"type": "keyterm",
+"confidence": 0.1697,
+"match_method": "canonical",
+"preferred_label": "Lamentation"
 },
 {
 "id": "realia:Bow",
@@ -945,18 +945,11 @@
 "preferred_label": "Bow"
 },
 {
-"id": "group:Philistine",
-"type": "group",
-"confidence": 0.1636,
-"match_method": "canonical",
-"preferred_label": "पलिश्ती"
-},
-{
-"id": "keyterm:Offering",
+"id": "keyterm:BelieveIn",
 "type": "keyterm",
 "confidence": 0.1636,
 "match_method": "canonical",
-"preferred_label": "Offering"
+"preferred_label": "Believe In"
 },
 {
 "id": "place:Ashkelon",
@@ -966,18 +959,11 @@
 "preferred_label": "अश्कलोन"
 },
 {
-"id": "keyterm:BelieveIn",
+"id": "keyterm:Covenant",
 "type": "keyterm",
 "confidence": 0.1636,
 "match_method": "canonical",
-"preferred_label": "Believe In"
-},
-{
-"id": "keyterm:UncircumcisedPerson",
-"type": "keyterm",
-"confidence": 0.1636,
-"match_method": "canonical",
-"preferred_label": "Uncircumcised Person"
+"preferred_label": "Covenant"
 },
 {
 "id": "group:Judah",
@@ -985,6 +971,13 @@
 "confidence": 0.1636,
 "match_method": "canonical",
 "preferred_label": "यहूदा"
+},
+{
+"id": "place:Gath",
+"type": "place",
+"confidence": 0.1636,
+"match_method": "canonical",
+"preferred_label": "गत"
 },
 {
 "id": "person:Judah.4",
@@ -1015,11 +1008,11 @@
 "preferred_label": "गिलबो पर्वत"
 },
 {
-"id": "place:Gath",
-"type": "place",
+"id": "group:Philistine",
+"type": "group",
 "confidence": 0.1636,
 "match_method": "canonical",
-"preferred_label": "गत"
+"preferred_label": "पलिश्ती"
 },
 {
 "id": "place:Philistine",
@@ -1029,32 +1022,46 @@
 "preferred_label": "Philistia"
 },
 {
-"id": "keyterm:Covenant",
+"id": "keyterm:UncircumcisedPerson",
 "type": "keyterm",
 "confidence": 0.1636,
 "match_method": "canonical",
-"preferred_label": "Covenant"
+"preferred_label": "Uncircumcised Person"
 },
 {
-"id": "fauna:Heron",
+"id": "keyterm:Offering",
+"type": "keyterm",
+"confidence": 0.1636,
+"match_method": "canonical",
+"preferred_label": "Offering"
+},
+{
+"id": "fauna:Hoopoe",
 "type": "fauna",
 "confidence": 0.1097,
 "match_method": "canonical",
-"preferred_label": "Heron"
+"preferred_label": "Hoopoe"
 },
 {
-"id": "fauna:Nightjar",
+"id": "fauna:Seagull",
 "type": "fauna",
 "confidence": 0.1097,
 "match_method": "canonical",
-"preferred_label": "Nightjar"
+"preferred_label": "Seagull"
 },
 {
-"id": "fauna:BarnOwl",
+"id": "fauna:Owl",
 "type": "fauna",
 "confidence": 0.1097,
 "match_method": "canonical",
-"preferred_label": "Barn Owl"
+"preferred_label": "Owl"
+},
+{
+"id": "fauna:Stork",
+"type": "fauna",
+"confidence": 0.1097,
+"match_method": "canonical",
+"preferred_label": "Stork"
 },
 {
 "id": "fauna:Owl.2",
@@ -1064,11 +1071,39 @@
 "preferred_label": "Owl"
 },
 {
-"id": "fauna:Osprey",
+"id": "fauna:BarnOwl",
 "type": "fauna",
 "confidence": 0.1097,
 "match_method": "canonical",
-"preferred_label": "Osprey"
+"preferred_label": "Barn Owl"
+},
+{
+"id": "fauna:TawnyOwl",
+"type": "fauna",
+"confidence": 0.1097,
+"match_method": "canonical",
+"preferred_label": "Tawny Owl"
+},
+{
+"id": "fauna:Nightjar",
+"type": "fauna",
+"confidence": 0.1097,
+"match_method": "canonical",
+"preferred_label": "Nightjar"
+},
+{
+"id": "fauna:Cormorant",
+"type": "fauna",
+"confidence": 0.1097,
+"match_method": "canonical",
+"preferred_label": "Cormorant"
+},
+{
+"id": "fauna:BlackKite",
+"type": "fauna",
+"confidence": 0.1097,
+"match_method": "canonical",
+"preferred_label": "Black Kite"
 },
 {
 "id": "realia:RamsHorn",
@@ -1078,11 +1113,11 @@
 "preferred_label": "Rams Horn"
 },
 {
-"id": "fauna:BlackKite",
+"id": "fauna:Osprey",
 "type": "fauna",
 "confidence": 0.1097,
 "match_method": "canonical",
-"preferred_label": "Black Kite"
+"preferred_label": "Osprey"
 },
 {
 "id": "fauna:Jackdaw",
@@ -1099,46 +1134,11 @@
 "preferred_label": "Bat"
 },
 {
-"id": "fauna:Cormorant",
+"id": "fauna:Heron",
 "type": "fauna",
 "confidence": 0.1097,
 "match_method": "canonical",
-"preferred_label": "Cormorant"
-},
-{
-"id": "fauna:Owl",
-"type": "fauna",
-"confidence": 0.1097,
-"match_method": "canonical",
-"preferred_label": "Owl"
-},
-{
-"id": "fauna:Hoopoe",
-"type": "fauna",
-"confidence": 0.1097,
-"match_method": "canonical",
-"preferred_label": "Hoopoe"
-},
-{
-"id": "fauna:Stork",
-"type": "fauna",
-"confidence": 0.1097,
-"match_method": "canonical",
-"preferred_label": "Stork"
-},
-{
-"id": "fauna:TawnyOwl",
-"type": "fauna",
-"confidence": 0.1097,
-"match_method": "canonical",
-"preferred_label": "Tawny Owl"
-},
-{
-"id": "fauna:Seagull",
-"type": "fauna",
-"confidence": 0.1097,
-"match_method": "canonical",
-"preferred_label": "Seagull"
+"preferred_label": "Heron"
 },
 {
 "id": "realia:AnointingOil",
@@ -1148,27 +1148,6 @@
 "preferred_label": "Anointing Oil"
 },
 {
-"id": "realia:OliveOil",
-"type": "realia",
-"confidence": 0.1036,
-"match_method": "canonical",
-"preferred_label": "Olive Oil"
-},
-{
-"id": "fauna:Ostrich",
-"type": "fauna",
-"confidence": 0.1036,
-"match_method": "canonical",
-"preferred_label": "Ostrich"
-},
-{
-"id": "fauna:Bull",
-"type": "fauna",
-"confidence": 0.1036,
-"match_method": "canonical",
-"preferred_label": "Cattle"
-},
-{
 "id": "realia:SmallShield",
 "type": "realia",
 "confidence": 0.1036,
@@ -1176,11 +1155,11 @@
 "preferred_label": "Small Shield"
 },
 {
-"id": "realia:Sword",
-"type": "realia",
+"id": "fauna:Lion",
+"type": "fauna",
 "confidence": 0.1036,
 "match_method": "canonical",
-"preferred_label": "Sword"
+"preferred_label": "Lion"
 },
 {
 "id": "fauna:Crow",
@@ -1190,11 +1169,32 @@
 "preferred_label": "Crow"
 },
 {
-"id": "fauna:Lion",
+"id": "fauna:Bull",
 "type": "fauna",
 "confidence": 0.1036,
 "match_method": "canonical",
-"preferred_label": "Lion"
+"preferred_label": "Cattle"
+},
+{
+"id": "fauna:Ostrich",
+"type": "fauna",
+"confidence": 0.1036,
+"match_method": "canonical",
+"preferred_label": "Ostrich"
+},
+{
+"id": "realia:OliveOil",
+"type": "realia",
+"confidence": 0.1036,
+"match_method": "canonical",
+"preferred_label": "Olive Oil"
+},
+{
+"id": "realia:Sword",
+"type": "realia",
+"confidence": 0.1036,
+"match_method": "canonical",
+"preferred_label": "Sword"
 }
 ]
 }
