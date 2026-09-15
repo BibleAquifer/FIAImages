@@ -227,18 +227,18 @@
 "preferred_label": "Fishnet"
 },
 {
-"id": "keyterm:Command",
-"type": "keyterm",
-"confidence": 0.3118,
-"match_method": "canonical",
-"preferred_label": "To Command"
-},
-{
 "id": "keyterm:Proclaim",
 "type": "keyterm",
 "confidence": 0.3118,
 "match_method": "canonical",
 "preferred_label": "Proclaim"
+},
+{
+"id": "keyterm:Command",
+"type": "keyterm",
+"confidence": 0.3118,
+"match_method": "canonical",
+"preferred_label": "To Command"
 },
 {
 "id": "keyterm:Parable",
@@ -248,13 +248,6 @@
 "preferred_label": "Parable"
 },
 {
-"id": "keyterm:Heaven",
-"type": "keyterm",
-"confidence": 0.3096,
-"match_method": "canonical",
-"preferred_label": "Sky"
-},
-{
 "id": "keyterm:Kingdom",
 "type": "keyterm",
 "confidence": 0.3096,
@@ -262,18 +255,11 @@
 "preferred_label": "Kingdom"
 },
 {
-"id": "place:GalileeSea",
-"type": "place",
-"confidence": 0.2594,
-"match_method": "canonical",
-"preferred_label": "Sea of Galilee"
-},
-{
-"id": "keyterm:GoodNews",
+"id": "keyterm:Heaven",
 "type": "keyterm",
-"confidence": 0.2594,
+"confidence": 0.3096,
 "match_method": "canonical",
-"preferred_label": "Good News"
+"preferred_label": "Sky"
 },
 {
 "id": "place:Gennesaret",
@@ -290,6 +276,20 @@
 "preferred_label": "James"
 },
 {
+"id": "keyterm:GoodNews",
+"type": "keyterm",
+"confidence": 0.2594,
+"match_method": "canonical",
+"preferred_label": "Good News"
+},
+{
+"id": "place:GalileeSea",
+"type": "place",
+"confidence": 0.2594,
+"match_method": "canonical",
+"preferred_label": "Sea of Galilee"
+},
+{
 "id": "person:John.2",
 "type": "person",
 "confidence": 0.2583,
@@ -304,11 +304,11 @@
 "preferred_label": "Capernaum"
 },
 {
-"id": "keyterm:Believe",
-"type": "keyterm",
+"id": "group:GenericDisciples",
+"type": "group",
 "confidence": 0.2572,
 "match_method": "canonical",
-"preferred_label": "Believe"
+"preferred_label": "A Group of Disciples"
 },
 {
 "id": "keyterm:Example",
@@ -318,18 +318,18 @@
 "preferred_label": "Symbol"
 },
 {
-"id": "group:GenericDisciples",
-"type": "group",
-"confidence": 0.2572,
-"match_method": "canonical",
-"preferred_label": "A Group of Disciples"
-},
-{
 "id": "keyterm:Serve",
 "type": "keyterm",
 "confidence": 0.2572,
 "match_method": "canonical",
 "preferred_label": "Serve"
+},
+{
+"id": "keyterm:Believe",
+"type": "keyterm",
+"confidence": 0.2572,
+"match_method": "canonical",
+"preferred_label": "Believe"
 },
 {
 "id": "place:Jordan",
@@ -470,20 +470,6 @@
 "preferred_label": "Fish"
 },
 {
-"id": "place:GalileeSea",
-"type": "place",
-"confidence": 0.2792,
-"match_method": "canonical",
-"preferred_label": "Sea of Galilee"
-},
-{
-"id": "person:James",
-"type": "person",
-"confidence": 0.2792,
-"match_method": "canonical",
-"preferred_label": "James"
-},
-{
 "id": "keyterm:GoodNews",
 "type": "keyterm",
 "confidence": 0.2792,
@@ -491,11 +477,25 @@
 "preferred_label": "Good News"
 },
 {
+"id": "place:GalileeSea",
+"type": "place",
+"confidence": 0.2792,
+"match_method": "canonical",
+"preferred_label": "Sea of Galilee"
+},
+{
 "id": "keyterm:Proclaim",
 "type": "keyterm",
 "confidence": 0.2792,
 "match_method": "canonical",
 "preferred_label": "Proclaim"
+},
+{
+"id": "person:James",
+"type": "person",
+"confidence": 0.2792,
+"match_method": "canonical",
+"preferred_label": "James"
 },
 {
 "id": "person:John.2",
@@ -526,13 +526,6 @@
 "preferred_label": "Repent"
 },
 {
-"id": "keyterm:Serve",
-"type": "keyterm",
-"confidence": 0.215,
-"match_method": "canonical",
-"preferred_label": "Serve"
-},
-{
 "id": "group:Zebulun",
 "type": "group",
 "confidence": 0.215,
@@ -540,25 +533,11 @@
 "preferred_label": "Tribe of Zebulun"
 },
 {
-"id": "person:Naphtali",
-"type": "person",
+"id": "keyterm:Serve",
+"type": "keyterm",
 "confidence": 0.215,
 "match_method": "canonical",
-"preferred_label": "Naphtali"
-},
-{
-"id": "person:Zebulun",
-"type": "person",
-"confidence": 0.215,
-"match_method": "canonical",
-"preferred_label": "Zebulun"
-},
-{
-"id": "place:Jordan",
-"type": "place",
-"confidence": 0.215,
-"match_method": "canonical",
-"preferred_label": "Jordan River"
+"preferred_label": "Serve"
 },
 {
 "id": "person:John",
@@ -568,25 +547,32 @@
 "preferred_label": "John"
 },
 {
+"id": "place:Jordan",
+"type": "place",
+"confidence": 0.215,
+"match_method": "canonical",
+"preferred_label": "Jordan River"
+},
+{
+"id": "person:Zebulun",
+"type": "person",
+"confidence": 0.215,
+"match_method": "canonical",
+"preferred_label": "Zebulun"
+},
+{
+"id": "person:Naphtali",
+"type": "person",
+"confidence": 0.215,
+"match_method": "canonical",
+"preferred_label": "Naphtali"
+},
+{
 "id": "place:Nazareth",
 "type": "place",
 "confidence": 0.1642,
 "match_method": "canonical",
 "preferred_label": "Nazareth"
-},
-{
-"id": "keyterm:HiredWorker",
-"type": "keyterm",
-"confidence": 0.1608,
-"match_method": "canonical",
-"preferred_label": "Hired Worker"
-},
-{
-"id": "person:Nathanael",
-"type": "person",
-"confidence": 0.1608,
-"match_method": "canonical",
-"preferred_label": "Nathanael"
 },
 {
 "id": "place:Decapolis",
@@ -596,11 +582,25 @@
 "preferred_label": "Decapolis"
 },
 {
-"id": "keyterm:Always",
+"id": "person:Nathanael",
+"type": "person",
+"confidence": 0.1608,
+"match_method": "canonical",
+"preferred_label": "Nathanael"
+},
+{
+"id": "keyterm:HiredWorker",
+"type": "keyterm",
+"confidence": 0.1608,
+"match_method": "canonical",
+"preferred_label": "Hired Worker"
+},
+{
+"id": "keyterm:AskFor",
 "type": "keyterm",
 "confidence": 0.1575,
 "match_method": "canonical",
-"preferred_label": "Always"
+"preferred_label": "Ask for"
 }
 ]
 }
@@ -734,20 +734,6 @@
 "preferred_label": "Fish"
 },
 {
-"id": "place:GalileeSea",
-"type": "place",
-"confidence": 0.2792,
-"match_method": "canonical",
-"preferred_label": "Sea of Galilee"
-},
-{
-"id": "person:James",
-"type": "person",
-"confidence": 0.2792,
-"match_method": "canonical",
-"preferred_label": "James"
-},
-{
 "id": "keyterm:GoodNews",
 "type": "keyterm",
 "confidence": 0.2792,
@@ -755,11 +741,25 @@
 "preferred_label": "Good News"
 },
 {
+"id": "place:GalileeSea",
+"type": "place",
+"confidence": 0.2792,
+"match_method": "canonical",
+"preferred_label": "Sea of Galilee"
+},
+{
 "id": "keyterm:Proclaim",
 "type": "keyterm",
 "confidence": 0.2792,
 "match_method": "canonical",
 "preferred_label": "Proclaim"
+},
+{
+"id": "person:James",
+"type": "person",
+"confidence": 0.2792,
+"match_method": "canonical",
+"preferred_label": "James"
 },
 {
 "id": "person:John.2",
@@ -790,13 +790,6 @@
 "preferred_label": "Repent"
 },
 {
-"id": "keyterm:Serve",
-"type": "keyterm",
-"confidence": 0.215,
-"match_method": "canonical",
-"preferred_label": "Serve"
-},
-{
 "id": "group:Zebulun",
 "type": "group",
 "confidence": 0.215,
@@ -804,25 +797,11 @@
 "preferred_label": "Tribe of Zebulun"
 },
 {
-"id": "person:Naphtali",
-"type": "person",
+"id": "keyterm:Serve",
+"type": "keyterm",
 "confidence": 0.215,
 "match_method": "canonical",
-"preferred_label": "Naphtali"
-},
-{
-"id": "person:Zebulun",
-"type": "person",
-"confidence": 0.215,
-"match_method": "canonical",
-"preferred_label": "Zebulun"
-},
-{
-"id": "place:Jordan",
-"type": "place",
-"confidence": 0.215,
-"match_method": "canonical",
-"preferred_label": "Jordan River"
+"preferred_label": "Serve"
 },
 {
 "id": "person:John",
@@ -832,25 +811,32 @@
 "preferred_label": "John"
 },
 {
+"id": "place:Jordan",
+"type": "place",
+"confidence": 0.215,
+"match_method": "canonical",
+"preferred_label": "Jordan River"
+},
+{
+"id": "person:Zebulun",
+"type": "person",
+"confidence": 0.215,
+"match_method": "canonical",
+"preferred_label": "Zebulun"
+},
+{
+"id": "person:Naphtali",
+"type": "person",
+"confidence": 0.215,
+"match_method": "canonical",
+"preferred_label": "Naphtali"
+},
+{
 "id": "place:Nazareth",
 "type": "place",
 "confidence": 0.1642,
 "match_method": "canonical",
 "preferred_label": "Nazareth"
-},
-{
-"id": "keyterm:HiredWorker",
-"type": "keyterm",
-"confidence": 0.1608,
-"match_method": "canonical",
-"preferred_label": "Hired Worker"
-},
-{
-"id": "person:Nathanael",
-"type": "person",
-"confidence": 0.1608,
-"match_method": "canonical",
-"preferred_label": "Nathanael"
 },
 {
 "id": "place:Decapolis",
@@ -860,11 +846,25 @@
 "preferred_label": "Decapolis"
 },
 {
-"id": "keyterm:Always",
+"id": "person:Nathanael",
+"type": "person",
+"confidence": 0.1608,
+"match_method": "canonical",
+"preferred_label": "Nathanael"
+},
+{
+"id": "keyterm:HiredWorker",
+"type": "keyterm",
+"confidence": 0.1608,
+"match_method": "canonical",
+"preferred_label": "Hired Worker"
+},
+{
+"id": "keyterm:AskFor",
 "type": "keyterm",
 "confidence": 0.1575,
 "match_method": "canonical",
-"preferred_label": "Always"
+"preferred_label": "Ask for"
 }
 ]
 }
@@ -998,20 +998,6 @@
 "preferred_label": "Fish"
 },
 {
-"id": "place:GalileeSea",
-"type": "place",
-"confidence": 0.2792,
-"match_method": "canonical",
-"preferred_label": "Sea of Galilee"
-},
-{
-"id": "person:James",
-"type": "person",
-"confidence": 0.2792,
-"match_method": "canonical",
-"preferred_label": "James"
-},
-{
 "id": "keyterm:GoodNews",
 "type": "keyterm",
 "confidence": 0.2792,
@@ -1019,11 +1005,25 @@
 "preferred_label": "Good News"
 },
 {
+"id": "place:GalileeSea",
+"type": "place",
+"confidence": 0.2792,
+"match_method": "canonical",
+"preferred_label": "Sea of Galilee"
+},
+{
 "id": "keyterm:Proclaim",
 "type": "keyterm",
 "confidence": 0.2792,
 "match_method": "canonical",
 "preferred_label": "Proclaim"
+},
+{
+"id": "person:James",
+"type": "person",
+"confidence": 0.2792,
+"match_method": "canonical",
+"preferred_label": "James"
 },
 {
 "id": "person:John.2",
@@ -1054,13 +1054,6 @@
 "preferred_label": "Repent"
 },
 {
-"id": "keyterm:Serve",
-"type": "keyterm",
-"confidence": 0.215,
-"match_method": "canonical",
-"preferred_label": "Serve"
-},
-{
 "id": "group:Zebulun",
 "type": "group",
 "confidence": 0.215,
@@ -1068,25 +1061,11 @@
 "preferred_label": "Tribe of Zebulun"
 },
 {
-"id": "person:Naphtali",
-"type": "person",
+"id": "keyterm:Serve",
+"type": "keyterm",
 "confidence": 0.215,
 "match_method": "canonical",
-"preferred_label": "Naphtali"
-},
-{
-"id": "person:Zebulun",
-"type": "person",
-"confidence": 0.215,
-"match_method": "canonical",
-"preferred_label": "Zebulun"
-},
-{
-"id": "place:Jordan",
-"type": "place",
-"confidence": 0.215,
-"match_method": "canonical",
-"preferred_label": "Jordan River"
+"preferred_label": "Serve"
 },
 {
 "id": "person:John",
@@ -1096,25 +1075,32 @@
 "preferred_label": "John"
 },
 {
+"id": "place:Jordan",
+"type": "place",
+"confidence": 0.215,
+"match_method": "canonical",
+"preferred_label": "Jordan River"
+},
+{
+"id": "person:Zebulun",
+"type": "person",
+"confidence": 0.215,
+"match_method": "canonical",
+"preferred_label": "Zebulun"
+},
+{
+"id": "person:Naphtali",
+"type": "person",
+"confidence": 0.215,
+"match_method": "canonical",
+"preferred_label": "Naphtali"
+},
+{
 "id": "place:Nazareth",
 "type": "place",
 "confidence": 0.1642,
 "match_method": "canonical",
 "preferred_label": "Nazareth"
-},
-{
-"id": "keyterm:HiredWorker",
-"type": "keyterm",
-"confidence": 0.1608,
-"match_method": "canonical",
-"preferred_label": "Hired Worker"
-},
-{
-"id": "person:Nathanael",
-"type": "person",
-"confidence": 0.1608,
-"match_method": "canonical",
-"preferred_label": "Nathanael"
 },
 {
 "id": "place:Decapolis",
@@ -1124,11 +1110,25 @@
 "preferred_label": "Decapolis"
 },
 {
-"id": "keyterm:Always",
+"id": "person:Nathanael",
+"type": "person",
+"confidence": 0.1608,
+"match_method": "canonical",
+"preferred_label": "Nathanael"
+},
+{
+"id": "keyterm:HiredWorker",
+"type": "keyterm",
+"confidence": 0.1608,
+"match_method": "canonical",
+"preferred_label": "Hired Worker"
+},
+{
+"id": "keyterm:AskFor",
 "type": "keyterm",
 "confidence": 0.1575,
 "match_method": "canonical",
-"preferred_label": "Always"
+"preferred_label": "Ask for"
 }
 ]
 }
@@ -1262,20 +1262,6 @@
 "preferred_label": "Fish"
 },
 {
-"id": "place:GalileeSea",
-"type": "place",
-"confidence": 0.2792,
-"match_method": "canonical",
-"preferred_label": "Sea of Galilee"
-},
-{
-"id": "person:James",
-"type": "person",
-"confidence": 0.2792,
-"match_method": "canonical",
-"preferred_label": "James"
-},
-{
 "id": "keyterm:GoodNews",
 "type": "keyterm",
 "confidence": 0.2792,
@@ -1283,11 +1269,25 @@
 "preferred_label": "Good News"
 },
 {
+"id": "place:GalileeSea",
+"type": "place",
+"confidence": 0.2792,
+"match_method": "canonical",
+"preferred_label": "Sea of Galilee"
+},
+{
 "id": "keyterm:Proclaim",
 "type": "keyterm",
 "confidence": 0.2792,
 "match_method": "canonical",
 "preferred_label": "Proclaim"
+},
+{
+"id": "person:James",
+"type": "person",
+"confidence": 0.2792,
+"match_method": "canonical",
+"preferred_label": "James"
 },
 {
 "id": "person:John.2",
@@ -1318,13 +1318,6 @@
 "preferred_label": "Repent"
 },
 {
-"id": "keyterm:Serve",
-"type": "keyterm",
-"confidence": 0.215,
-"match_method": "canonical",
-"preferred_label": "Serve"
-},
-{
 "id": "group:Zebulun",
 "type": "group",
 "confidence": 0.215,
@@ -1332,25 +1325,11 @@
 "preferred_label": "Tribe of Zebulun"
 },
 {
-"id": "person:Naphtali",
-"type": "person",
+"id": "keyterm:Serve",
+"type": "keyterm",
 "confidence": 0.215,
 "match_method": "canonical",
-"preferred_label": "Naphtali"
-},
-{
-"id": "person:Zebulun",
-"type": "person",
-"confidence": 0.215,
-"match_method": "canonical",
-"preferred_label": "Zebulun"
-},
-{
-"id": "place:Jordan",
-"type": "place",
-"confidence": 0.215,
-"match_method": "canonical",
-"preferred_label": "Jordan River"
+"preferred_label": "Serve"
 },
 {
 "id": "person:John",
@@ -1360,25 +1339,32 @@
 "preferred_label": "John"
 },
 {
+"id": "place:Jordan",
+"type": "place",
+"confidence": 0.215,
+"match_method": "canonical",
+"preferred_label": "Jordan River"
+},
+{
+"id": "person:Zebulun",
+"type": "person",
+"confidence": 0.215,
+"match_method": "canonical",
+"preferred_label": "Zebulun"
+},
+{
+"id": "person:Naphtali",
+"type": "person",
+"confidence": 0.215,
+"match_method": "canonical",
+"preferred_label": "Naphtali"
+},
+{
 "id": "place:Nazareth",
 "type": "place",
 "confidence": 0.1642,
 "match_method": "canonical",
 "preferred_label": "Nazareth"
-},
-{
-"id": "keyterm:HiredWorker",
-"type": "keyterm",
-"confidence": 0.1608,
-"match_method": "canonical",
-"preferred_label": "Hired Worker"
-},
-{
-"id": "person:Nathanael",
-"type": "person",
-"confidence": 0.1608,
-"match_method": "canonical",
-"preferred_label": "Nathanael"
 },
 {
 "id": "place:Decapolis",
@@ -1388,11 +1374,25 @@
 "preferred_label": "Decapolis"
 },
 {
-"id": "keyterm:Always",
+"id": "person:Nathanael",
+"type": "person",
+"confidence": 0.1608,
+"match_method": "canonical",
+"preferred_label": "Nathanael"
+},
+{
+"id": "keyterm:HiredWorker",
+"type": "keyterm",
+"confidence": 0.1608,
+"match_method": "canonical",
+"preferred_label": "Hired Worker"
+},
+{
+"id": "keyterm:AskFor",
 "type": "keyterm",
 "confidence": 0.1575,
 "match_method": "canonical",
-"preferred_label": "Always"
+"preferred_label": "Ask for"
 }
 ]
 }
@@ -1526,20 +1526,6 @@
 "preferred_label": "Fish"
 },
 {
-"id": "place:GalileeSea",
-"type": "place",
-"confidence": 0.2792,
-"match_method": "canonical",
-"preferred_label": "Sea of Galilee"
-},
-{
-"id": "person:James",
-"type": "person",
-"confidence": 0.2792,
-"match_method": "canonical",
-"preferred_label": "James"
-},
-{
 "id": "keyterm:GoodNews",
 "type": "keyterm",
 "confidence": 0.2792,
@@ -1547,11 +1533,25 @@
 "preferred_label": "Good News"
 },
 {
+"id": "place:GalileeSea",
+"type": "place",
+"confidence": 0.2792,
+"match_method": "canonical",
+"preferred_label": "Sea of Galilee"
+},
+{
 "id": "keyterm:Proclaim",
 "type": "keyterm",
 "confidence": 0.2792,
 "match_method": "canonical",
 "preferred_label": "Proclaim"
+},
+{
+"id": "person:James",
+"type": "person",
+"confidence": 0.2792,
+"match_method": "canonical",
+"preferred_label": "James"
 },
 {
 "id": "person:John.2",
@@ -1582,13 +1582,6 @@
 "preferred_label": "Repent"
 },
 {
-"id": "keyterm:Serve",
-"type": "keyterm",
-"confidence": 0.215,
-"match_method": "canonical",
-"preferred_label": "Serve"
-},
-{
 "id": "group:Zebulun",
 "type": "group",
 "confidence": 0.215,
@@ -1596,25 +1589,11 @@
 "preferred_label": "Tribe of Zebulun"
 },
 {
-"id": "person:Naphtali",
-"type": "person",
+"id": "keyterm:Serve",
+"type": "keyterm",
 "confidence": 0.215,
 "match_method": "canonical",
-"preferred_label": "Naphtali"
-},
-{
-"id": "person:Zebulun",
-"type": "person",
-"confidence": 0.215,
-"match_method": "canonical",
-"preferred_label": "Zebulun"
-},
-{
-"id": "place:Jordan",
-"type": "place",
-"confidence": 0.215,
-"match_method": "canonical",
-"preferred_label": "Jordan River"
+"preferred_label": "Serve"
 },
 {
 "id": "person:John",
@@ -1624,25 +1603,32 @@
 "preferred_label": "John"
 },
 {
+"id": "place:Jordan",
+"type": "place",
+"confidence": 0.215,
+"match_method": "canonical",
+"preferred_label": "Jordan River"
+},
+{
+"id": "person:Zebulun",
+"type": "person",
+"confidence": 0.215,
+"match_method": "canonical",
+"preferred_label": "Zebulun"
+},
+{
+"id": "person:Naphtali",
+"type": "person",
+"confidence": 0.215,
+"match_method": "canonical",
+"preferred_label": "Naphtali"
+},
+{
 "id": "place:Nazareth",
 "type": "place",
 "confidence": 0.1642,
 "match_method": "canonical",
 "preferred_label": "Nazareth"
-},
-{
-"id": "keyterm:HiredWorker",
-"type": "keyterm",
-"confidence": 0.1608,
-"match_method": "canonical",
-"preferred_label": "Hired Worker"
-},
-{
-"id": "person:Nathanael",
-"type": "person",
-"confidence": 0.1608,
-"match_method": "canonical",
-"preferred_label": "Nathanael"
 },
 {
 "id": "place:Decapolis",
@@ -1652,11 +1638,25 @@
 "preferred_label": "Decapolis"
 },
 {
-"id": "keyterm:Always",
+"id": "person:Nathanael",
+"type": "person",
+"confidence": 0.1608,
+"match_method": "canonical",
+"preferred_label": "Nathanael"
+},
+{
+"id": "keyterm:HiredWorker",
+"type": "keyterm",
+"confidence": 0.1608,
+"match_method": "canonical",
+"preferred_label": "Hired Worker"
+},
+{
+"id": "keyterm:AskFor",
 "type": "keyterm",
 "confidence": 0.1575,
 "match_method": "canonical",
-"preferred_label": "Always"
+"preferred_label": "Ask for"
 }
 ]
 }
