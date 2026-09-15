@@ -59,18 +59,18 @@
 "preferred_label": "régne"
 },
 {
-"id": "keyterm:Heaven",
-"type": "keyterm",
-"confidence": 0.4128,
-"match_method": "canonical",
-"preferred_label": "cieux [également employé pour dieu pour éviter la mention du nom sacré]"
-},
-{
 "id": "person:Jesus.2",
 "type": "person",
 "confidence": 0.4128,
 "match_method": "canonical",
 "preferred_label": "Jésus"
+},
+{
+"id": "keyterm:Heaven",
+"type": "keyterm",
+"confidence": 0.4128,
+"match_method": "canonical",
+"preferred_label": "cieux [également employé pour dieu pour éviter la mention du nom sacré]"
 },
 {
 "id": "flora:Grain",
@@ -94,18 +94,18 @@
 "preferred_label": "Weed"
 },
 {
-"id": "keyterm:Disciple",
-"type": "keyterm",
-"confidence": 0.3419,
-"match_method": "canonical",
-"preferred_label": "trans. faire un disciple de"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.3419,
 "match_method": "canonical",
 "preferred_label": "Éternel"
+},
+{
+"id": "keyterm:Disciple",
+"type": "keyterm",
+"confidence": 0.3419,
+"match_method": "canonical",
+"preferred_label": "trans. faire un disciple de"
 },
 {
 "id": "flora:Wheat",
@@ -122,13 +122,6 @@
 "preferred_label": "Grass"
 },
 {
-"id": "keyterm:Believe",
-"type": "keyterm",
-"confidence": 0.2814,
-"match_method": "canonical",
-"preferred_label": "croire"
-},
-{
 "id": "keyterm:Serve",
 "type": "keyterm",
 "confidence": 0.2814,
@@ -136,11 +129,11 @@
 "preferred_label": "servir"
 },
 {
-"id": "keyterm:Forgive",
+"id": "keyterm:Believe",
 "type": "keyterm",
-"confidence": 0.2209,
+"confidence": 0.2814,
 "match_method": "canonical",
-"preferred_label": "pardonner"
+"preferred_label": "croire"
 },
 {
 "id": "keyterm:Command",
@@ -148,6 +141,13 @@
 "confidence": 0.2209,
 "match_method": "canonical",
 "preferred_label": "prescrire"
+},
+{
+"id": "keyterm:Repent",
+"type": "keyterm",
+"confidence": 0.2209,
+"match_method": "canonical",
+"preferred_label": "se repentir"
 },
 {
 "id": "keyterm:Sin",
@@ -164,11 +164,11 @@
 "preferred_label": "A Group of Disciples"
 },
 {
-"id": "keyterm:Repent",
+"id": "keyterm:Forgive",
 "type": "keyterm",
 "confidence": 0.2209,
 "match_method": "canonical",
-"preferred_label": "se repentir"
+"preferred_label": "pardonner"
 },
 {
 "id": "realia:Saton",
@@ -178,18 +178,18 @@
 "preferred_label": "Saton"
 },
 {
-"id": "keyterm:Ought",
-"type": "keyterm",
-"confidence": 0.1651,
-"match_method": "canonical",
-"preferred_label": "sois obligé"
-},
-{
 "id": "keyterm:CauseToStumble",
 "type": "keyterm",
 "confidence": 0.1651,
 "match_method": "canonical",
 "preferred_label": "faire pécher qqn"
+},
+{
+"id": "keyterm:Ought",
+"type": "keyterm",
+"confidence": 0.1651,
+"match_method": "canonical",
+"preferred_label": "sois obligé"
 },
 {
 "id": "keyterm:StumblingBlock",
@@ -213,11 +213,25 @@
 "preferred_label": "pitié"
 },
 {
+"id": "keyterm:Disaster",
+"type": "keyterm",
+"confidence": 0.1605,
+"match_method": "canonical",
+"preferred_label": "Disaster"
+},
+{
 "id": "keyterm:Favor",
 "type": "keyterm",
 "confidence": 0.1605,
 "match_method": "canonical",
 "preferred_label": "grâce"
+},
+{
+"id": "keyterm:Happen",
+"type": "keyterm",
+"confidence": 0.1605,
+"match_method": "canonical",
+"preferred_label": "To Cause to Happen"
 },
 {
 "id": "keyterm:Unfaithful",
@@ -241,20 +255,6 @@
 "preferred_label": "Demons"
 },
 {
-"id": "keyterm:Disaster",
-"type": "keyterm",
-"confidence": 0.1605,
-"match_method": "canonical",
-"preferred_label": "Disaster"
-},
-{
-"id": "keyterm:Happen",
-"type": "keyterm",
-"confidence": 0.1605,
-"match_method": "canonical",
-"preferred_label": "To Cause to Happen"
-},
-{
 "id": "flora:Mulberry",
 "type": "flora",
 "confidence": 0.1051,
@@ -262,18 +262,11 @@
 "preferred_label": "Mulberry"
 },
 {
-"id": "fauna:Flock",
-"type": "fauna",
+"id": "realia:Barn",
+"type": "realia",
 "confidence": 0.1005,
 "match_method": "canonical",
-"preferred_label": "Flock"
-},
-{
-"id": "fauna:Goat",
-"type": "fauna",
-"confidence": 0.1005,
-"match_method": "canonical",
-"preferred_label": "Goat"
+"preferred_label": "Barn"
 },
 {
 "id": "realia:Sickle",
@@ -281,6 +274,13 @@
 "confidence": 0.1005,
 "match_method": "canonical",
 "preferred_label": "Sickle"
+},
+{
+"id": "fauna:Flock",
+"type": "fauna",
+"confidence": 0.1005,
+"match_method": "canonical",
+"preferred_label": "Flock"
 },
 {
 "id": "fauna:Lamb",
@@ -297,11 +297,11 @@
 "preferred_label": "Hand-Mill"
 },
 {
-"id": "realia:Barn",
-"type": "realia",
+"id": "fauna:Goat",
+"type": "fauna",
 "confidence": 0.1005,
 "match_method": "canonical",
-"preferred_label": "Barn"
+"preferred_label": "Goat"
 }
 ]
 }
@@ -366,18 +366,18 @@
 "preferred_label": "régne"
 },
 {
-"id": "keyterm:Heaven",
-"type": "keyterm",
-"confidence": 0.4128,
-"match_method": "canonical",
-"preferred_label": "cieux [également employé pour dieu pour éviter la mention du nom sacré]"
-},
-{
 "id": "person:Jesus.2",
 "type": "person",
 "confidence": 0.4128,
 "match_method": "canonical",
 "preferred_label": "Jésus"
+},
+{
+"id": "keyterm:Heaven",
+"type": "keyterm",
+"confidence": 0.4128,
+"match_method": "canonical",
+"preferred_label": "cieux [également employé pour dieu pour éviter la mention du nom sacré]"
 },
 {
 "id": "flora:Grain",
@@ -401,18 +401,18 @@
 "preferred_label": "Weed"
 },
 {
-"id": "keyterm:Disciple",
-"type": "keyterm",
-"confidence": 0.3419,
-"match_method": "canonical",
-"preferred_label": "trans. faire un disciple de"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.3419,
 "match_method": "canonical",
 "preferred_label": "Éternel"
+},
+{
+"id": "keyterm:Disciple",
+"type": "keyterm",
+"confidence": 0.3419,
+"match_method": "canonical",
+"preferred_label": "trans. faire un disciple de"
 },
 {
 "id": "flora:Wheat",
@@ -429,13 +429,6 @@
 "preferred_label": "Grass"
 },
 {
-"id": "keyterm:Believe",
-"type": "keyterm",
-"confidence": 0.2814,
-"match_method": "canonical",
-"preferred_label": "croire"
-},
-{
 "id": "keyterm:Serve",
 "type": "keyterm",
 "confidence": 0.2814,
@@ -443,11 +436,11 @@
 "preferred_label": "servir"
 },
 {
-"id": "keyterm:Forgive",
+"id": "keyterm:Believe",
 "type": "keyterm",
-"confidence": 0.2209,
+"confidence": 0.2814,
 "match_method": "canonical",
-"preferred_label": "pardonner"
+"preferred_label": "croire"
 },
 {
 "id": "keyterm:Command",
@@ -455,6 +448,13 @@
 "confidence": 0.2209,
 "match_method": "canonical",
 "preferred_label": "prescrire"
+},
+{
+"id": "keyterm:Repent",
+"type": "keyterm",
+"confidence": 0.2209,
+"match_method": "canonical",
+"preferred_label": "se repentir"
 },
 {
 "id": "keyterm:Sin",
@@ -471,11 +471,11 @@
 "preferred_label": "A Group of Disciples"
 },
 {
-"id": "keyterm:Repent",
+"id": "keyterm:Forgive",
 "type": "keyterm",
 "confidence": 0.2209,
 "match_method": "canonical",
-"preferred_label": "se repentir"
+"preferred_label": "pardonner"
 },
 {
 "id": "realia:Saton",
@@ -485,18 +485,18 @@
 "preferred_label": "Saton"
 },
 {
-"id": "keyterm:Ought",
-"type": "keyterm",
-"confidence": 0.1651,
-"match_method": "canonical",
-"preferred_label": "sois obligé"
-},
-{
 "id": "keyterm:CauseToStumble",
 "type": "keyterm",
 "confidence": 0.1651,
 "match_method": "canonical",
 "preferred_label": "faire pécher qqn"
+},
+{
+"id": "keyterm:Ought",
+"type": "keyterm",
+"confidence": 0.1651,
+"match_method": "canonical",
+"preferred_label": "sois obligé"
 },
 {
 "id": "keyterm:StumblingBlock",
@@ -520,11 +520,25 @@
 "preferred_label": "pitié"
 },
 {
+"id": "keyterm:Disaster",
+"type": "keyterm",
+"confidence": 0.1605,
+"match_method": "canonical",
+"preferred_label": "Disaster"
+},
+{
 "id": "keyterm:Favor",
 "type": "keyterm",
 "confidence": 0.1605,
 "match_method": "canonical",
 "preferred_label": "grâce"
+},
+{
+"id": "keyterm:Happen",
+"type": "keyterm",
+"confidence": 0.1605,
+"match_method": "canonical",
+"preferred_label": "To Cause to Happen"
 },
 {
 "id": "keyterm:Unfaithful",
@@ -548,20 +562,6 @@
 "preferred_label": "Demons"
 },
 {
-"id": "keyterm:Disaster",
-"type": "keyterm",
-"confidence": 0.1605,
-"match_method": "canonical",
-"preferred_label": "Disaster"
-},
-{
-"id": "keyterm:Happen",
-"type": "keyterm",
-"confidence": 0.1605,
-"match_method": "canonical",
-"preferred_label": "To Cause to Happen"
-},
-{
 "id": "flora:Mulberry",
 "type": "flora",
 "confidence": 0.1051,
@@ -569,18 +569,11 @@
 "preferred_label": "Mulberry"
 },
 {
-"id": "fauna:Flock",
-"type": "fauna",
+"id": "realia:Barn",
+"type": "realia",
 "confidence": 0.1005,
 "match_method": "canonical",
-"preferred_label": "Flock"
-},
-{
-"id": "fauna:Goat",
-"type": "fauna",
-"confidence": 0.1005,
-"match_method": "canonical",
-"preferred_label": "Goat"
+"preferred_label": "Barn"
 },
 {
 "id": "realia:Sickle",
@@ -588,6 +581,13 @@
 "confidence": 0.1005,
 "match_method": "canonical",
 "preferred_label": "Sickle"
+},
+{
+"id": "fauna:Flock",
+"type": "fauna",
+"confidence": 0.1005,
+"match_method": "canonical",
+"preferred_label": "Flock"
 },
 {
 "id": "fauna:Lamb",
@@ -604,11 +604,11 @@
 "preferred_label": "Hand-Mill"
 },
 {
-"id": "realia:Barn",
-"type": "realia",
+"id": "fauna:Goat",
+"type": "fauna",
 "confidence": 0.1005,
 "match_method": "canonical",
-"preferred_label": "Barn"
+"preferred_label": "Goat"
 }
 ]
 }
@@ -673,18 +673,18 @@
 "preferred_label": "régne"
 },
 {
-"id": "keyterm:Heaven",
-"type": "keyterm",
-"confidence": 0.4128,
-"match_method": "canonical",
-"preferred_label": "cieux [également employé pour dieu pour éviter la mention du nom sacré]"
-},
-{
 "id": "person:Jesus.2",
 "type": "person",
 "confidence": 0.4128,
 "match_method": "canonical",
 "preferred_label": "Jésus"
+},
+{
+"id": "keyterm:Heaven",
+"type": "keyterm",
+"confidence": 0.4128,
+"match_method": "canonical",
+"preferred_label": "cieux [également employé pour dieu pour éviter la mention du nom sacré]"
 },
 {
 "id": "flora:Grain",
@@ -708,18 +708,18 @@
 "preferred_label": "Weed"
 },
 {
-"id": "keyterm:Disciple",
-"type": "keyterm",
-"confidence": 0.3419,
-"match_method": "canonical",
-"preferred_label": "trans. faire un disciple de"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.3419,
 "match_method": "canonical",
 "preferred_label": "Éternel"
+},
+{
+"id": "keyterm:Disciple",
+"type": "keyterm",
+"confidence": 0.3419,
+"match_method": "canonical",
+"preferred_label": "trans. faire un disciple de"
 },
 {
 "id": "flora:Wheat",
@@ -736,13 +736,6 @@
 "preferred_label": "Grass"
 },
 {
-"id": "keyterm:Believe",
-"type": "keyterm",
-"confidence": 0.2814,
-"match_method": "canonical",
-"preferred_label": "croire"
-},
-{
 "id": "keyterm:Serve",
 "type": "keyterm",
 "confidence": 0.2814,
@@ -750,11 +743,11 @@
 "preferred_label": "servir"
 },
 {
-"id": "keyterm:Forgive",
+"id": "keyterm:Believe",
 "type": "keyterm",
-"confidence": 0.2209,
+"confidence": 0.2814,
 "match_method": "canonical",
-"preferred_label": "pardonner"
+"preferred_label": "croire"
 },
 {
 "id": "keyterm:Command",
@@ -762,6 +755,13 @@
 "confidence": 0.2209,
 "match_method": "canonical",
 "preferred_label": "prescrire"
+},
+{
+"id": "keyterm:Repent",
+"type": "keyterm",
+"confidence": 0.2209,
+"match_method": "canonical",
+"preferred_label": "se repentir"
 },
 {
 "id": "keyterm:Sin",
@@ -778,11 +778,11 @@
 "preferred_label": "A Group of Disciples"
 },
 {
-"id": "keyterm:Repent",
+"id": "keyterm:Forgive",
 "type": "keyterm",
 "confidence": 0.2209,
 "match_method": "canonical",
-"preferred_label": "se repentir"
+"preferred_label": "pardonner"
 },
 {
 "id": "realia:Saton",
@@ -792,18 +792,18 @@
 "preferred_label": "Saton"
 },
 {
-"id": "keyterm:Ought",
-"type": "keyterm",
-"confidence": 0.1651,
-"match_method": "canonical",
-"preferred_label": "sois obligé"
-},
-{
 "id": "keyterm:CauseToStumble",
 "type": "keyterm",
 "confidence": 0.1651,
 "match_method": "canonical",
 "preferred_label": "faire pécher qqn"
+},
+{
+"id": "keyterm:Ought",
+"type": "keyterm",
+"confidence": 0.1651,
+"match_method": "canonical",
+"preferred_label": "sois obligé"
 },
 {
 "id": "keyterm:StumblingBlock",
@@ -827,11 +827,25 @@
 "preferred_label": "pitié"
 },
 {
+"id": "keyterm:Disaster",
+"type": "keyterm",
+"confidence": 0.1605,
+"match_method": "canonical",
+"preferred_label": "Disaster"
+},
+{
 "id": "keyterm:Favor",
 "type": "keyterm",
 "confidence": 0.1605,
 "match_method": "canonical",
 "preferred_label": "grâce"
+},
+{
+"id": "keyterm:Happen",
+"type": "keyterm",
+"confidence": 0.1605,
+"match_method": "canonical",
+"preferred_label": "To Cause to Happen"
 },
 {
 "id": "keyterm:Unfaithful",
@@ -855,20 +869,6 @@
 "preferred_label": "Demons"
 },
 {
-"id": "keyterm:Disaster",
-"type": "keyterm",
-"confidence": 0.1605,
-"match_method": "canonical",
-"preferred_label": "Disaster"
-},
-{
-"id": "keyterm:Happen",
-"type": "keyterm",
-"confidence": 0.1605,
-"match_method": "canonical",
-"preferred_label": "To Cause to Happen"
-},
-{
 "id": "flora:Mulberry",
 "type": "flora",
 "confidence": 0.1051,
@@ -876,18 +876,11 @@
 "preferred_label": "Mulberry"
 },
 {
-"id": "fauna:Flock",
-"type": "fauna",
+"id": "realia:Barn",
+"type": "realia",
 "confidence": 0.1005,
 "match_method": "canonical",
-"preferred_label": "Flock"
-},
-{
-"id": "fauna:Goat",
-"type": "fauna",
-"confidence": 0.1005,
-"match_method": "canonical",
-"preferred_label": "Goat"
+"preferred_label": "Barn"
 },
 {
 "id": "realia:Sickle",
@@ -895,6 +888,13 @@
 "confidence": 0.1005,
 "match_method": "canonical",
 "preferred_label": "Sickle"
+},
+{
+"id": "fauna:Flock",
+"type": "fauna",
+"confidence": 0.1005,
+"match_method": "canonical",
+"preferred_label": "Flock"
 },
 {
 "id": "fauna:Lamb",
@@ -911,11 +911,11 @@
 "preferred_label": "Hand-Mill"
 },
 {
-"id": "realia:Barn",
-"type": "realia",
+"id": "fauna:Goat",
+"type": "fauna",
 "confidence": 0.1005,
 "match_method": "canonical",
-"preferred_label": "Barn"
+"preferred_label": "Goat"
 }
 ]
 }
@@ -980,18 +980,18 @@
 "preferred_label": "régne"
 },
 {
-"id": "keyterm:Heaven",
-"type": "keyterm",
-"confidence": 0.4128,
-"match_method": "canonical",
-"preferred_label": "cieux [également employé pour dieu pour éviter la mention du nom sacré]"
-},
-{
 "id": "person:Jesus.2",
 "type": "person",
 "confidence": 0.4128,
 "match_method": "canonical",
 "preferred_label": "Jésus"
+},
+{
+"id": "keyterm:Heaven",
+"type": "keyterm",
+"confidence": 0.4128,
+"match_method": "canonical",
+"preferred_label": "cieux [également employé pour dieu pour éviter la mention du nom sacré]"
 },
 {
 "id": "flora:Grain",
@@ -1015,18 +1015,18 @@
 "preferred_label": "Weed"
 },
 {
-"id": "keyterm:Disciple",
-"type": "keyterm",
-"confidence": 0.3419,
-"match_method": "canonical",
-"preferred_label": "trans. faire un disciple de"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.3419,
 "match_method": "canonical",
 "preferred_label": "Éternel"
+},
+{
+"id": "keyterm:Disciple",
+"type": "keyterm",
+"confidence": 0.3419,
+"match_method": "canonical",
+"preferred_label": "trans. faire un disciple de"
 },
 {
 "id": "flora:Wheat",
@@ -1043,13 +1043,6 @@
 "preferred_label": "Grass"
 },
 {
-"id": "keyterm:Believe",
-"type": "keyterm",
-"confidence": 0.2814,
-"match_method": "canonical",
-"preferred_label": "croire"
-},
-{
 "id": "keyterm:Serve",
 "type": "keyterm",
 "confidence": 0.2814,
@@ -1057,11 +1050,11 @@
 "preferred_label": "servir"
 },
 {
-"id": "keyterm:Forgive",
+"id": "keyterm:Believe",
 "type": "keyterm",
-"confidence": 0.2209,
+"confidence": 0.2814,
 "match_method": "canonical",
-"preferred_label": "pardonner"
+"preferred_label": "croire"
 },
 {
 "id": "keyterm:Command",
@@ -1069,6 +1062,13 @@
 "confidence": 0.2209,
 "match_method": "canonical",
 "preferred_label": "prescrire"
+},
+{
+"id": "keyterm:Repent",
+"type": "keyterm",
+"confidence": 0.2209,
+"match_method": "canonical",
+"preferred_label": "se repentir"
 },
 {
 "id": "keyterm:Sin",
@@ -1085,11 +1085,11 @@
 "preferred_label": "A Group of Disciples"
 },
 {
-"id": "keyterm:Repent",
+"id": "keyterm:Forgive",
 "type": "keyterm",
 "confidence": 0.2209,
 "match_method": "canonical",
-"preferred_label": "se repentir"
+"preferred_label": "pardonner"
 },
 {
 "id": "realia:Saton",
@@ -1099,18 +1099,18 @@
 "preferred_label": "Saton"
 },
 {
-"id": "keyterm:Ought",
-"type": "keyterm",
-"confidence": 0.1651,
-"match_method": "canonical",
-"preferred_label": "sois obligé"
-},
-{
 "id": "keyterm:CauseToStumble",
 "type": "keyterm",
 "confidence": 0.1651,
 "match_method": "canonical",
 "preferred_label": "faire pécher qqn"
+},
+{
+"id": "keyterm:Ought",
+"type": "keyterm",
+"confidence": 0.1651,
+"match_method": "canonical",
+"preferred_label": "sois obligé"
 },
 {
 "id": "keyterm:StumblingBlock",
@@ -1134,11 +1134,25 @@
 "preferred_label": "pitié"
 },
 {
+"id": "keyterm:Disaster",
+"type": "keyterm",
+"confidence": 0.1605,
+"match_method": "canonical",
+"preferred_label": "Disaster"
+},
+{
 "id": "keyterm:Favor",
 "type": "keyterm",
 "confidence": 0.1605,
 "match_method": "canonical",
 "preferred_label": "grâce"
+},
+{
+"id": "keyterm:Happen",
+"type": "keyterm",
+"confidence": 0.1605,
+"match_method": "canonical",
+"preferred_label": "To Cause to Happen"
 },
 {
 "id": "keyterm:Unfaithful",
@@ -1162,20 +1176,6 @@
 "preferred_label": "Demons"
 },
 {
-"id": "keyterm:Disaster",
-"type": "keyterm",
-"confidence": 0.1605,
-"match_method": "canonical",
-"preferred_label": "Disaster"
-},
-{
-"id": "keyterm:Happen",
-"type": "keyterm",
-"confidence": 0.1605,
-"match_method": "canonical",
-"preferred_label": "To Cause to Happen"
-},
-{
 "id": "flora:Mulberry",
 "type": "flora",
 "confidence": 0.1051,
@@ -1183,18 +1183,11 @@
 "preferred_label": "Mulberry"
 },
 {
-"id": "fauna:Flock",
-"type": "fauna",
+"id": "realia:Barn",
+"type": "realia",
 "confidence": 0.1005,
 "match_method": "canonical",
-"preferred_label": "Flock"
-},
-{
-"id": "fauna:Goat",
-"type": "fauna",
-"confidence": 0.1005,
-"match_method": "canonical",
-"preferred_label": "Goat"
+"preferred_label": "Barn"
 },
 {
 "id": "realia:Sickle",
@@ -1202,6 +1195,13 @@
 "confidence": 0.1005,
 "match_method": "canonical",
 "preferred_label": "Sickle"
+},
+{
+"id": "fauna:Flock",
+"type": "fauna",
+"confidence": 0.1005,
+"match_method": "canonical",
+"preferred_label": "Flock"
 },
 {
 "id": "fauna:Lamb",
@@ -1218,356 +1218,11 @@
 "preferred_label": "Hand-Mill"
 },
 {
-"id": "realia:Barn",
-"type": "realia",
+"id": "fauna:Goat",
+"type": "fauna",
 "confidence": 0.1005,
 "match_method": "canonical",
-"preferred_label": "Barn"
-}
-]
-}
-},
-{
-"content_id": "a1503",
-"reference_id": 0,
-"version": "1.0.4",
-"title": "Grande foule de dix mille personnes",
-"media_type": "Image",
-"index_reference": "grande foule de dix mille personnes",
-"language": "fra",
-"review_level": "None",
-"content": "<h3>Image Content</h3>\n<block><p><img src='https://s3.amazonaws.com/cbbt-er.public/media/photos/a1503/1000.jpg' alt='Image' width='480' /></p><p><a href='https://s3.amazonaws.com/cbbt-er.public/media/photos/a1503/1000.jpg'>link</a></p></block>",
-"associations": {
-"passage": [
-{
-"start_ref": "40015029",
-"start_ref_usfm": "MAT 15:29",
-"end_ref": "40015039",
-"end_ref_usfm": "MAT 15:39"
-}
-],
-"resource": [],
-"acai": [
-{
-"id": "keyterm:Disciple",
-"type": "keyterm",
-"confidence": 0.3727,
-"match_method": "canonical",
-"preferred_label": "trans. faire un disciple de"
-},
-{
-"id": "person:Jesus.2",
-"type": "person",
-"confidence": 0.3727,
-"match_method": "canonical",
-"preferred_label": "Jésus"
-},
-{
-"id": "group:GenericDisciples",
-"type": "group",
-"confidence": 0.2818,
-"match_method": "canonical",
-"preferred_label": "A Group of Disciples"
-},
-{
-"id": "fauna:Fish",
-"type": "fauna",
-"confidence": 0.2218,
-"match_method": "canonical",
-"preferred_label": "Fish"
-},
-{
-"id": "place:Magadan",
-"type": "place",
-"confidence": 0.2091,
-"match_method": "canonical",
-"preferred_label": "Magadan"
-},
-{
-"id": "keyterm:Serve",
-"type": "keyterm",
-"confidence": 0.1909,
-"match_method": "canonical",
-"preferred_label": "servir"
-},
-{
-"id": "place:GalileeSea",
-"type": "place",
-"confidence": 0.1909,
-"match_method": "canonical",
-"preferred_label": "Sea of Galilee"
-},
-{
-"id": "keyterm:Affection",
-"type": "keyterm",
-"confidence": 0.1909,
-"match_method": "canonical",
-"preferred_label": "ses sentiments ou son être les plus profonds"
-},
-{
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.1909,
-"match_method": "canonical",
-"preferred_label": "Israël"
-},
-{
-"id": "keyterm:Glory",
-"type": "keyterm",
-"confidence": 0.1909,
-"match_method": "canonical",
-"preferred_label": "gloire"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.1909,
-"match_method": "canonical",
-"preferred_label": "Éternel"
-},
-{
-"id": "realia:Basket",
-"type": "realia",
-"confidence": 0.1309,
-"match_method": "canonical",
-"preferred_label": "Basket"
-},
-{
-"id": "realia:Ship",
-"type": "realia",
-"confidence": 0.1309,
-"match_method": "canonical",
-"preferred_label": "Ship"
-}
-]
-}
-},
-{
-"content_id": "a1504",
-"reference_id": 0,
-"version": "1.0.4",
-"title": "Grande foule de dix mille personnes",
-"media_type": "Image",
-"index_reference": "grande foule de dix mille personnes",
-"language": "fra",
-"review_level": "None",
-"content": "<h3>Image Content</h3>\n<block><p><img src='https://s3.amazonaws.com/cbbt-er.public/media/photos/a1504/1000.jpg' alt='Image' width='480' /></p><p><a href='https://s3.amazonaws.com/cbbt-er.public/media/photos/a1504/1000.jpg'>link</a></p></block>",
-"associations": {
-"passage": [
-{
-"start_ref": "40015029",
-"start_ref_usfm": "MAT 15:29",
-"end_ref": "40015039",
-"end_ref_usfm": "MAT 15:39"
-}
-],
-"resource": [],
-"acai": [
-{
-"id": "keyterm:Disciple",
-"type": "keyterm",
-"confidence": 0.3727,
-"match_method": "canonical",
-"preferred_label": "trans. faire un disciple de"
-},
-{
-"id": "person:Jesus.2",
-"type": "person",
-"confidence": 0.3727,
-"match_method": "canonical",
-"preferred_label": "Jésus"
-},
-{
-"id": "group:GenericDisciples",
-"type": "group",
-"confidence": 0.2818,
-"match_method": "canonical",
-"preferred_label": "A Group of Disciples"
-},
-{
-"id": "fauna:Fish",
-"type": "fauna",
-"confidence": 0.2218,
-"match_method": "canonical",
-"preferred_label": "Fish"
-},
-{
-"id": "place:Magadan",
-"type": "place",
-"confidence": 0.2091,
-"match_method": "canonical",
-"preferred_label": "Magadan"
-},
-{
-"id": "keyterm:Serve",
-"type": "keyterm",
-"confidence": 0.1909,
-"match_method": "canonical",
-"preferred_label": "servir"
-},
-{
-"id": "place:GalileeSea",
-"type": "place",
-"confidence": 0.1909,
-"match_method": "canonical",
-"preferred_label": "Sea of Galilee"
-},
-{
-"id": "keyterm:Affection",
-"type": "keyterm",
-"confidence": 0.1909,
-"match_method": "canonical",
-"preferred_label": "ses sentiments ou son être les plus profonds"
-},
-{
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.1909,
-"match_method": "canonical",
-"preferred_label": "Israël"
-},
-{
-"id": "keyterm:Glory",
-"type": "keyterm",
-"confidence": 0.1909,
-"match_method": "canonical",
-"preferred_label": "gloire"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.1909,
-"match_method": "canonical",
-"preferred_label": "Éternel"
-},
-{
-"id": "realia:Basket",
-"type": "realia",
-"confidence": 0.1309,
-"match_method": "canonical",
-"preferred_label": "Basket"
-},
-{
-"id": "realia:Ship",
-"type": "realia",
-"confidence": 0.1309,
-"match_method": "canonical",
-"preferred_label": "Ship"
-}
-]
-}
-},
-{
-"content_id": "a1505",
-"reference_id": 0,
-"version": "1.0.4",
-"title": "Grande foule de dix mille personnes",
-"media_type": "Image",
-"index_reference": "grande foule de dix mille personnes",
-"language": "fra",
-"review_level": "None",
-"content": "<h3>Image Content</h3>\n<block><p><img src='https://s3.amazonaws.com/cbbt-er.public/media/photos/a1505/1000.jpg' alt='Image' width='480' /></p><p><a href='https://s3.amazonaws.com/cbbt-er.public/media/photos/a1505/1000.jpg'>link</a></p></block>",
-"associations": {
-"passage": [
-{
-"start_ref": "40015029",
-"start_ref_usfm": "MAT 15:29",
-"end_ref": "40015039",
-"end_ref_usfm": "MAT 15:39"
-}
-],
-"resource": [],
-"acai": [
-{
-"id": "keyterm:Disciple",
-"type": "keyterm",
-"confidence": 0.3727,
-"match_method": "canonical",
-"preferred_label": "trans. faire un disciple de"
-},
-{
-"id": "person:Jesus.2",
-"type": "person",
-"confidence": 0.3727,
-"match_method": "canonical",
-"preferred_label": "Jésus"
-},
-{
-"id": "group:GenericDisciples",
-"type": "group",
-"confidence": 0.2818,
-"match_method": "canonical",
-"preferred_label": "A Group of Disciples"
-},
-{
-"id": "fauna:Fish",
-"type": "fauna",
-"confidence": 0.2218,
-"match_method": "canonical",
-"preferred_label": "Fish"
-},
-{
-"id": "place:Magadan",
-"type": "place",
-"confidence": 0.2091,
-"match_method": "canonical",
-"preferred_label": "Magadan"
-},
-{
-"id": "keyterm:Serve",
-"type": "keyterm",
-"confidence": 0.1909,
-"match_method": "canonical",
-"preferred_label": "servir"
-},
-{
-"id": "place:GalileeSea",
-"type": "place",
-"confidence": 0.1909,
-"match_method": "canonical",
-"preferred_label": "Sea of Galilee"
-},
-{
-"id": "keyterm:Affection",
-"type": "keyterm",
-"confidence": 0.1909,
-"match_method": "canonical",
-"preferred_label": "ses sentiments ou son être les plus profonds"
-},
-{
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.1909,
-"match_method": "canonical",
-"preferred_label": "Israël"
-},
-{
-"id": "keyterm:Glory",
-"type": "keyterm",
-"confidence": 0.1909,
-"match_method": "canonical",
-"preferred_label": "gloire"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.1909,
-"match_method": "canonical",
-"preferred_label": "Éternel"
-},
-{
-"id": "realia:Basket",
-"type": "realia",
-"confidence": 0.1309,
-"match_method": "canonical",
-"preferred_label": "Basket"
-},
-{
-"id": "realia:Ship",
-"type": "realia",
-"confidence": 0.1309,
-"match_method": "canonical",
-"preferred_label": "Ship"
+"preferred_label": "Goat"
 }
 ]
 }

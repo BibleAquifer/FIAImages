@@ -244,18 +244,18 @@
 "preferred_label": "Be a Disciple"
 },
 {
-"id": "keyterm:Ability",
-"type": "keyterm",
-"confidence": 0.3684,
-"match_method": "canonical",
-"preferred_label": "Ability"
-},
-{
 "id": "keyterm:Pray",
 "type": "keyterm",
 "confidence": 0.3684,
 "match_method": "canonical",
 "preferred_label": "Pray"
+},
+{
+"id": "keyterm:Ability",
+"type": "keyterm",
+"confidence": 0.3684,
+"match_method": "canonical",
+"preferred_label": "Ability"
 },
 {
 "id": "person:John",
@@ -265,18 +265,11 @@
 "preferred_label": "John"
 },
 {
-"id": "person:Peter",
-"type": "person",
-"confidence": 0.3638,
-"match_method": "canonical",
-"preferred_label": "Peter"
-},
-{
-"id": "keyterm:Name",
+"id": "keyterm:Sabbath",
 "type": "keyterm",
 "confidence": 0.3638,
 "match_method": "canonical",
-"preferred_label": "Name"
+"preferred_label": "Sabbath"
 },
 {
 "id": "keyterm:Fear",
@@ -286,11 +279,18 @@
 "preferred_label": "Fear"
 },
 {
-"id": "keyterm:Sabbath",
+"id": "keyterm:Name",
 "type": "keyterm",
 "confidence": 0.3638,
 "match_method": "canonical",
-"preferred_label": "Sabbath"
+"preferred_label": "Name"
+},
+{
+"id": "person:Peter",
+"type": "person",
+"confidence": 0.3638,
+"match_method": "canonical",
+"preferred_label": "Peter"
 },
 {
 "id": "keyterm:Authority.2",
@@ -300,11 +300,11 @@
 "preferred_label": "Authority"
 },
 {
-"id": "group:GenericGroup",
-"type": "group",
+"id": "keyterm:Law",
+"type": "keyterm",
 "confidence": 0.3607,
 "match_method": "canonical",
-"preferred_label": "A Group of People"
+"preferred_label": "Law"
 },
 {
 "id": "keyterm:Heaven",
@@ -321,11 +321,11 @@
 "preferred_label": "Symbol"
 },
 {
-"id": "keyterm:Law",
-"type": "keyterm",
+"id": "group:GenericGroup",
+"type": "group",
 "confidence": 0.3607,
 "match_method": "canonical",
-"preferred_label": "Law"
+"preferred_label": "A Group of People"
 },
 {
 "id": "keyterm:Just",
@@ -333,20 +333,6 @@
 "confidence": 0.3599,
 "match_method": "canonical",
 "preferred_label": "Be (Or Show Oneself) Just"
-},
-{
-"id": "keyterm:True",
-"type": "keyterm",
-"confidence": 0.3592,
-"match_method": "canonical",
-"preferred_label": "True"
-},
-{
-"id": "deity:Angel",
-"type": "deity",
-"confidence": 0.3592,
-"match_method": "canonical",
-"preferred_label": "An Angel"
 },
 {
 "id": "person:Paul",
@@ -363,6 +349,20 @@
 "preferred_label": "Serve"
 },
 {
+"id": "keyterm:True",
+"type": "keyterm",
+"confidence": 0.3592,
+"match_method": "canonical",
+"preferred_label": "True"
+},
+{
+"id": "deity:Angel",
+"type": "deity",
+"confidence": 0.3592,
+"match_method": "canonical",
+"preferred_label": "An Angel"
+},
+{
 "id": "person:Zechariah",
 "type": "person",
 "confidence": 0.359,
@@ -377,6 +377,20 @@
 "preferred_label": "Be Lawful"
 },
 {
+"id": "keyterm:Kingdom",
+"type": "keyterm",
+"confidence": 0.3577,
+"match_method": "canonical",
+"preferred_label": "Kingdom"
+},
+{
+"id": "keyterm:AskFor",
+"type": "keyterm",
+"confidence": 0.3577,
+"match_method": "canonical",
+"preferred_label": "Ask for"
+},
+{
 "id": "person:Moses",
 "type": "person",
 "confidence": 0.3577,
@@ -389,20 +403,6 @@
 "confidence": 0.3577,
 "match_method": "canonical",
 "preferred_label": "Defilement"
-},
-{
-"id": "keyterm:Cleanse.2",
-"type": "keyterm",
-"confidence": 0.3577,
-"match_method": "canonical",
-"preferred_label": "To Cleanse"
-},
-{
-"id": "keyterm:AskFor",
-"type": "keyterm",
-"confidence": 0.3577,
-"match_method": "canonical",
-"preferred_label": "Ask for"
 }
 ]
 }
@@ -435,18 +435,18 @@
 "resource": [],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.3538,
-"match_method": "canonical",
-"preferred_label": "LORD"
-},
-{
 "id": "person:Jesus.2",
 "type": "person",
 "confidence": 0.3538,
 "match_method": "canonical",
 "preferred_label": "Jesus"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.3538,
+"match_method": "canonical",
+"preferred_label": "LORD"
 },
 {
 "id": "person:Elijah",
@@ -456,18 +456,18 @@
 "preferred_label": "Elijah"
 },
 {
-"id": "realia:Curtain",
-"type": "realia",
-"confidence": 0.2092,
-"match_method": "canonical",
-"preferred_label": "Curtain"
-},
-{
 "id": "realia:Temple",
 "type": "realia",
 "confidence": 0.2092,
 "match_method": "canonical",
 "preferred_label": "Temple"
+},
+{
+"id": "realia:Curtain",
+"type": "realia",
+"confidence": 0.2092,
+"match_method": "canonical",
+"preferred_label": "Curtain"
 },
 {
 "id": "person:Centurion.3",
@@ -477,6 +477,13 @@
 "preferred_label": "Centurion at Crucifixion"
 },
 {
+"id": "keyterm:Spirit.2",
+"type": "keyterm",
+"confidence": 0.1846,
+"match_method": "canonical",
+"preferred_label": "Spirit"
+},
+{
 "id": "keyterm:Just",
 "type": "keyterm",
 "confidence": 0.1846,
@@ -484,11 +491,11 @@
 "preferred_label": "Be (Or Show Oneself) Just"
 },
 {
-"id": "place:Galilee",
-"type": "place",
+"id": "keyterm:True",
+"type": "keyterm",
 "confidence": 0.1846,
 "match_method": "canonical",
-"preferred_label": "Galilee"
+"preferred_label": "True"
 },
 {
 "id": "group:GenericGroup",
@@ -498,13 +505,6 @@
 "preferred_label": "A Group of People"
 },
 {
-"id": "keyterm:Spirit.2",
-"type": "keyterm",
-"confidence": 0.1846,
-"match_method": "canonical",
-"preferred_label": "Spirit"
-},
-{
 "id": "keyterm:Glory",
 "type": "keyterm",
 "confidence": 0.1846,
@@ -512,11 +512,11 @@
 "preferred_label": "Glory"
 },
 {
-"id": "keyterm:True",
-"type": "keyterm",
+"id": "place:Galilee",
+"type": "place",
 "confidence": 0.1846,
 "match_method": "canonical",
-"preferred_label": "True"
+"preferred_label": "Galilee"
 },
 {
 "id": "realia:SourWine",
@@ -563,18 +563,18 @@
 "resource": [],
 "acai": [
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.3538,
-"match_method": "canonical",
-"preferred_label": "LORD"
-},
-{
 "id": "person:Jesus.2",
 "type": "person",
 "confidence": 0.3538,
 "match_method": "canonical",
 "preferred_label": "Jesus"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.3538,
+"match_method": "canonical",
+"preferred_label": "LORD"
 },
 {
 "id": "person:Elijah",
@@ -584,18 +584,18 @@
 "preferred_label": "Elijah"
 },
 {
-"id": "realia:Curtain",
-"type": "realia",
-"confidence": 0.2092,
-"match_method": "canonical",
-"preferred_label": "Curtain"
-},
-{
 "id": "realia:Temple",
 "type": "realia",
 "confidence": 0.2092,
 "match_method": "canonical",
 "preferred_label": "Temple"
+},
+{
+"id": "realia:Curtain",
+"type": "realia",
+"confidence": 0.2092,
+"match_method": "canonical",
+"preferred_label": "Curtain"
 },
 {
 "id": "person:Centurion.3",
@@ -605,6 +605,13 @@
 "preferred_label": "Centurion at Crucifixion"
 },
 {
+"id": "keyterm:Spirit.2",
+"type": "keyterm",
+"confidence": 0.1846,
+"match_method": "canonical",
+"preferred_label": "Spirit"
+},
+{
 "id": "keyterm:Just",
 "type": "keyterm",
 "confidence": 0.1846,
@@ -612,11 +619,11 @@
 "preferred_label": "Be (Or Show Oneself) Just"
 },
 {
-"id": "place:Galilee",
-"type": "place",
+"id": "keyterm:True",
+"type": "keyterm",
 "confidence": 0.1846,
 "match_method": "canonical",
-"preferred_label": "Galilee"
+"preferred_label": "True"
 },
 {
 "id": "group:GenericGroup",
@@ -626,13 +633,6 @@
 "preferred_label": "A Group of People"
 },
 {
-"id": "keyterm:Spirit.2",
-"type": "keyterm",
-"confidence": 0.1846,
-"match_method": "canonical",
-"preferred_label": "Spirit"
-},
-{
 "id": "keyterm:Glory",
 "type": "keyterm",
 "confidence": 0.1846,
@@ -640,11 +640,11 @@
 "preferred_label": "Glory"
 },
 {
-"id": "keyterm:True",
-"type": "keyterm",
+"id": "place:Galilee",
+"type": "place",
 "confidence": 0.1846,
 "match_method": "canonical",
-"preferred_label": "True"
+"preferred_label": "Galilee"
 },
 {
 "id": "realia:SourWine",
