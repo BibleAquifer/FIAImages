@@ -75,20 +75,6 @@
 "preferred_label": "Simon"
 },
 {
-"id": "keyterm:GoodNews",
-"type": "keyterm",
-"confidence": 0.28,
-"match_method": "canonical",
-"preferred_label": "Good News"
-},
-{
-"id": "keyterm:Sin",
-"type": "keyterm",
-"confidence": 0.28,
-"match_method": "canonical",
-"preferred_label": "To Sin"
-},
-{
 "id": "keyterm:Proclaim",
 "type": "keyterm",
 "confidence": 0.28,
@@ -96,11 +82,25 @@
 "preferred_label": "Proclaim"
 },
 {
+"id": "keyterm:GoodNews",
+"type": "keyterm",
+"confidence": 0.28,
+"match_method": "canonical",
+"preferred_label": "Good News"
+},
+{
 "id": "group:Pharisee",
 "type": "group",
 "confidence": 0.28,
 "match_method": "canonical",
 "preferred_label": "Pharisees"
+},
+{
+"id": "keyterm:Sin",
+"type": "keyterm",
+"confidence": 0.28,
+"match_method": "canonical",
+"preferred_label": "To Sin"
 },
 {
 "id": "realia:AlabasterJar",
@@ -131,32 +131,11 @@
 "preferred_label": "Judas"
 },
 {
-"id": "keyterm:Serve",
+"id": "keyterm:Love",
 "type": "keyterm",
 "confidence": 0.22,
 "match_method": "canonical",
-"preferred_label": "Serve"
-},
-{
-"id": "keyterm:Ability",
-"type": "keyterm",
-"confidence": 0.22,
-"match_method": "canonical",
-"preferred_label": "Ability"
-},
-{
-"id": "keyterm:Disciple",
-"type": "keyterm",
-"confidence": 0.22,
-"match_method": "canonical",
-"preferred_label": "Be a Disciple"
-},
-{
-"id": "keyterm:Passover",
-"type": "keyterm",
-"confidence": 0.22,
-"match_method": "canonical",
-"preferred_label": "Passover"
+"preferred_label": "Love"
 },
 {
 "id": "keyterm:Body.3",
@@ -166,11 +145,18 @@
 "preferred_label": "Body"
 },
 {
-"id": "keyterm:Anointed",
+"id": "keyterm:Ability",
 "type": "keyterm",
 "confidence": 0.22,
 "match_method": "canonical",
-"preferred_label": "Anointed"
+"preferred_label": "Ability"
+},
+{
+"id": "keyterm:Serve",
+"type": "keyterm",
+"confidence": 0.22,
+"match_method": "canonical",
+"preferred_label": "Serve"
 },
 {
 "id": "keyterm:Surely",
@@ -180,25 +166,32 @@
 "preferred_label": "Surely!"
 },
 {
-"id": "keyterm:Love",
+"id": "keyterm:Passover",
 "type": "keyterm",
 "confidence": 0.22,
 "match_method": "canonical",
-"preferred_label": "Love"
+"preferred_label": "Passover"
 },
 {
-"id": "person:Chuza",
-"type": "person",
-"confidence": 0.1644,
+"id": "keyterm:Disciple",
+"type": "keyterm",
+"confidence": 0.22,
 "match_method": "canonical",
-"preferred_label": "Chuza"
+"preferred_label": "Be a Disciple"
 },
 {
-"id": "person:Joanna",
-"type": "person",
+"id": "keyterm:Anointed",
+"type": "keyterm",
+"confidence": 0.22,
+"match_method": "canonical",
+"preferred_label": "Anointed"
+},
+{
+"id": "keyterm:Owe",
+"type": "keyterm",
 "confidence": 0.1644,
 "match_method": "canonical",
-"preferred_label": "Joanna"
+"preferred_label": "Owe"
 },
 {
 "id": "person:Susanna",
@@ -215,11 +208,25 @@
 "preferred_label": "Mary Magdalene"
 },
 {
-"id": "keyterm:Owe",
-"type": "keyterm",
+"id": "person:Joanna",
+"type": "person",
 "confidence": 0.1644,
 "match_method": "canonical",
-"preferred_label": "Owe"
+"preferred_label": "Joanna"
+},
+{
+"id": "person:Chuza",
+"type": "person",
+"confidence": 0.1644,
+"match_method": "canonical",
+"preferred_label": "Chuza"
+},
+{
+"id": "keyterm:Decided",
+"type": "keyterm",
+"confidence": 0.16,
+"match_method": "canonical",
+"preferred_label": "Decided"
 },
 {
 "id": "keyterm:AskFor",
@@ -229,46 +236,11 @@
 "preferred_label": "Ask for"
 },
 {
-"id": "keyterm:Kingdom",
+"id": "keyterm:Promise",
 "type": "keyterm",
 "confidence": 0.16,
 "match_method": "canonical",
-"preferred_label": "Kingdom"
-},
-{
-"id": "keyterm:Believe",
-"type": "keyterm",
-"confidence": 0.16,
-"match_method": "canonical",
-"preferred_label": "Believe"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.16,
-"match_method": "canonical",
-"preferred_label": "LORD"
-},
-{
-"id": "keyterm:Salvation",
-"type": "keyterm",
-"confidence": 0.16,
-"match_method": "canonical",
-"preferred_label": "Salvation"
-},
-{
-"id": "keyterm:Pure",
-"type": "keyterm",
-"confidence": 0.16,
-"match_method": "canonical",
-"preferred_label": "Pure"
-},
-{
-"id": "realia:Denarius",
-"type": "realia",
-"confidence": 0.16,
-"match_method": "canonical",
-"preferred_label": "Denarius"
+"preferred_label": "Promise"
 },
 {
 "id": "keyterm:Peace",
@@ -278,25 +250,18 @@
 "preferred_label": "Make Peace"
 },
 {
-"id": "keyterm:Promise",
-"type": "keyterm",
+"id": "deity:Lord",
+"type": "deity",
 "confidence": 0.16,
 "match_method": "canonical",
-"preferred_label": "Promise"
+"preferred_label": "LORD"
 },
 {
-"id": "group:GenericDisciples",
-"type": "group",
+"id": "realia:Denarius",
+"type": "realia",
 "confidence": 0.16,
 "match_method": "canonical",
-"preferred_label": "A Group of Disciples"
-},
-{
-"id": "keyterm:Decided",
-"type": "keyterm",
-"confidence": 0.16,
-"match_method": "canonical",
-"preferred_label": "Decided"
+"preferred_label": "Denarius"
 },
 {
 "id": "deity:Demons",
@@ -313,6 +278,13 @@
 "preferred_label": "Caiaphas"
 },
 {
+"id": "keyterm:Believe",
+"type": "keyterm",
+"confidence": 0.16,
+"match_method": "canonical",
+"preferred_label": "Believe"
+},
+{
 "id": "person:Herod.2",
 "type": "person",
 "confidence": 0.16,
@@ -320,11 +292,32 @@
 "preferred_label": "Herod Antipas"
 },
 {
-"id": "realia:OilOfNard",
-"type": "realia",
-"confidence": 0.1044,
+"id": "keyterm:Pure",
+"type": "keyterm",
+"confidence": 0.16,
 "match_method": "canonical",
-"preferred_label": "Oil of Nard"
+"preferred_label": "Pure"
+},
+{
+"id": "keyterm:Salvation",
+"type": "keyterm",
+"confidence": 0.16,
+"match_method": "canonical",
+"preferred_label": "Salvation"
+},
+{
+"id": "keyterm:Kingdom",
+"type": "keyterm",
+"confidence": 0.16,
+"match_method": "canonical",
+"preferred_label": "Kingdom"
+},
+{
+"id": "group:GenericDisciples",
+"type": "group",
+"confidence": 0.16,
+"match_method": "canonical",
+"preferred_label": "A Group of Disciples"
 },
 {
 "id": "flora:Nard",
@@ -334,11 +327,18 @@
 "preferred_label": "Nard"
 },
 {
-"id": "realia:OliveOil",
+"id": "realia:OilOfNard",
+"type": "realia",
+"confidence": 0.1044,
+"match_method": "canonical",
+"preferred_label": "Oil of Nard"
+},
+{
+"id": "realia:Cross",
 "type": "realia",
 "confidence": 0.1,
 "match_method": "canonical",
-"preferred_label": "Olive Oil"
+"preferred_label": "Cross"
 },
 {
 "id": "realia:Temple",
@@ -355,11 +355,11 @@
 "preferred_label": "Courtyard"
 },
 {
-"id": "realia:Cross",
+"id": "realia:OliveOil",
 "type": "realia",
 "confidence": 0.1,
 "match_method": "canonical",
-"preferred_label": "Cross"
+"preferred_label": "Olive Oil"
 }
 ]
 }
@@ -440,20 +440,6 @@
 "preferred_label": "Simon"
 },
 {
-"id": "keyterm:GoodNews",
-"type": "keyterm",
-"confidence": 0.28,
-"match_method": "canonical",
-"preferred_label": "Good News"
-},
-{
-"id": "keyterm:Sin",
-"type": "keyterm",
-"confidence": 0.28,
-"match_method": "canonical",
-"preferred_label": "To Sin"
-},
-{
 "id": "keyterm:Proclaim",
 "type": "keyterm",
 "confidence": 0.28,
@@ -461,11 +447,25 @@
 "preferred_label": "Proclaim"
 },
 {
+"id": "keyterm:GoodNews",
+"type": "keyterm",
+"confidence": 0.28,
+"match_method": "canonical",
+"preferred_label": "Good News"
+},
+{
 "id": "group:Pharisee",
 "type": "group",
 "confidence": 0.28,
 "match_method": "canonical",
 "preferred_label": "Pharisees"
+},
+{
+"id": "keyterm:Sin",
+"type": "keyterm",
+"confidence": 0.28,
+"match_method": "canonical",
+"preferred_label": "To Sin"
 },
 {
 "id": "realia:AlabasterJar",
@@ -496,32 +496,11 @@
 "preferred_label": "Judas"
 },
 {
-"id": "keyterm:Serve",
+"id": "keyterm:Love",
 "type": "keyterm",
 "confidence": 0.22,
 "match_method": "canonical",
-"preferred_label": "Serve"
-},
-{
-"id": "keyterm:Ability",
-"type": "keyterm",
-"confidence": 0.22,
-"match_method": "canonical",
-"preferred_label": "Ability"
-},
-{
-"id": "keyterm:Disciple",
-"type": "keyterm",
-"confidence": 0.22,
-"match_method": "canonical",
-"preferred_label": "Be a Disciple"
-},
-{
-"id": "keyterm:Passover",
-"type": "keyterm",
-"confidence": 0.22,
-"match_method": "canonical",
-"preferred_label": "Passover"
+"preferred_label": "Love"
 },
 {
 "id": "keyterm:Body.3",
@@ -531,11 +510,18 @@
 "preferred_label": "Body"
 },
 {
-"id": "keyterm:Anointed",
+"id": "keyterm:Ability",
 "type": "keyterm",
 "confidence": 0.22,
 "match_method": "canonical",
-"preferred_label": "Anointed"
+"preferred_label": "Ability"
+},
+{
+"id": "keyterm:Serve",
+"type": "keyterm",
+"confidence": 0.22,
+"match_method": "canonical",
+"preferred_label": "Serve"
 },
 {
 "id": "keyterm:Surely",
@@ -545,25 +531,32 @@
 "preferred_label": "Surely!"
 },
 {
-"id": "keyterm:Love",
+"id": "keyterm:Passover",
 "type": "keyterm",
 "confidence": 0.22,
 "match_method": "canonical",
-"preferred_label": "Love"
+"preferred_label": "Passover"
 },
 {
-"id": "person:Chuza",
-"type": "person",
-"confidence": 0.1644,
+"id": "keyterm:Disciple",
+"type": "keyterm",
+"confidence": 0.22,
 "match_method": "canonical",
-"preferred_label": "Chuza"
+"preferred_label": "Be a Disciple"
 },
 {
-"id": "person:Joanna",
-"type": "person",
+"id": "keyterm:Anointed",
+"type": "keyterm",
+"confidence": 0.22,
+"match_method": "canonical",
+"preferred_label": "Anointed"
+},
+{
+"id": "keyterm:Owe",
+"type": "keyterm",
 "confidence": 0.1644,
 "match_method": "canonical",
-"preferred_label": "Joanna"
+"preferred_label": "Owe"
 },
 {
 "id": "person:Susanna",
@@ -580,11 +573,25 @@
 "preferred_label": "Mary Magdalene"
 },
 {
-"id": "keyterm:Owe",
-"type": "keyterm",
+"id": "person:Joanna",
+"type": "person",
 "confidence": 0.1644,
 "match_method": "canonical",
-"preferred_label": "Owe"
+"preferred_label": "Joanna"
+},
+{
+"id": "person:Chuza",
+"type": "person",
+"confidence": 0.1644,
+"match_method": "canonical",
+"preferred_label": "Chuza"
+},
+{
+"id": "keyterm:Decided",
+"type": "keyterm",
+"confidence": 0.16,
+"match_method": "canonical",
+"preferred_label": "Decided"
 },
 {
 "id": "keyterm:AskFor",
@@ -594,46 +601,11 @@
 "preferred_label": "Ask for"
 },
 {
-"id": "keyterm:Kingdom",
+"id": "keyterm:Promise",
 "type": "keyterm",
 "confidence": 0.16,
 "match_method": "canonical",
-"preferred_label": "Kingdom"
-},
-{
-"id": "keyterm:Believe",
-"type": "keyterm",
-"confidence": 0.16,
-"match_method": "canonical",
-"preferred_label": "Believe"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.16,
-"match_method": "canonical",
-"preferred_label": "LORD"
-},
-{
-"id": "keyterm:Salvation",
-"type": "keyterm",
-"confidence": 0.16,
-"match_method": "canonical",
-"preferred_label": "Salvation"
-},
-{
-"id": "keyterm:Pure",
-"type": "keyterm",
-"confidence": 0.16,
-"match_method": "canonical",
-"preferred_label": "Pure"
-},
-{
-"id": "realia:Denarius",
-"type": "realia",
-"confidence": 0.16,
-"match_method": "canonical",
-"preferred_label": "Denarius"
+"preferred_label": "Promise"
 },
 {
 "id": "keyterm:Peace",
@@ -643,25 +615,18 @@
 "preferred_label": "Make Peace"
 },
 {
-"id": "keyterm:Promise",
-"type": "keyterm",
+"id": "deity:Lord",
+"type": "deity",
 "confidence": 0.16,
 "match_method": "canonical",
-"preferred_label": "Promise"
+"preferred_label": "LORD"
 },
 {
-"id": "group:GenericDisciples",
-"type": "group",
+"id": "realia:Denarius",
+"type": "realia",
 "confidence": 0.16,
 "match_method": "canonical",
-"preferred_label": "A Group of Disciples"
-},
-{
-"id": "keyterm:Decided",
-"type": "keyterm",
-"confidence": 0.16,
-"match_method": "canonical",
-"preferred_label": "Decided"
+"preferred_label": "Denarius"
 },
 {
 "id": "deity:Demons",
@@ -678,6 +643,13 @@
 "preferred_label": "Caiaphas"
 },
 {
+"id": "keyterm:Believe",
+"type": "keyterm",
+"confidence": 0.16,
+"match_method": "canonical",
+"preferred_label": "Believe"
+},
+{
 "id": "person:Herod.2",
 "type": "person",
 "confidence": 0.16,
@@ -685,11 +657,32 @@
 "preferred_label": "Herod Antipas"
 },
 {
-"id": "realia:OilOfNard",
-"type": "realia",
-"confidence": 0.1044,
+"id": "keyterm:Pure",
+"type": "keyterm",
+"confidence": 0.16,
 "match_method": "canonical",
-"preferred_label": "Oil of Nard"
+"preferred_label": "Pure"
+},
+{
+"id": "keyterm:Salvation",
+"type": "keyterm",
+"confidence": 0.16,
+"match_method": "canonical",
+"preferred_label": "Salvation"
+},
+{
+"id": "keyterm:Kingdom",
+"type": "keyterm",
+"confidence": 0.16,
+"match_method": "canonical",
+"preferred_label": "Kingdom"
+},
+{
+"id": "group:GenericDisciples",
+"type": "group",
+"confidence": 0.16,
+"match_method": "canonical",
+"preferred_label": "A Group of Disciples"
 },
 {
 "id": "flora:Nard",
@@ -699,11 +692,18 @@
 "preferred_label": "Nard"
 },
 {
-"id": "realia:OliveOil",
+"id": "realia:OilOfNard",
+"type": "realia",
+"confidence": 0.1044,
+"match_method": "canonical",
+"preferred_label": "Oil of Nard"
+},
+{
+"id": "realia:Cross",
 "type": "realia",
 "confidence": 0.1,
 "match_method": "canonical",
-"preferred_label": "Olive Oil"
+"preferred_label": "Cross"
 },
 {
 "id": "realia:Temple",
@@ -720,11 +720,11 @@
 "preferred_label": "Courtyard"
 },
 {
-"id": "realia:Cross",
+"id": "realia:OliveOil",
 "type": "realia",
 "confidence": 0.1,
 "match_method": "canonical",
-"preferred_label": "Cross"
+"preferred_label": "Olive Oil"
 }
 ]
 }
@@ -805,20 +805,6 @@
 "preferred_label": "Simon"
 },
 {
-"id": "keyterm:GoodNews",
-"type": "keyterm",
-"confidence": 0.28,
-"match_method": "canonical",
-"preferred_label": "Good News"
-},
-{
-"id": "keyterm:Sin",
-"type": "keyterm",
-"confidence": 0.28,
-"match_method": "canonical",
-"preferred_label": "To Sin"
-},
-{
 "id": "keyterm:Proclaim",
 "type": "keyterm",
 "confidence": 0.28,
@@ -826,11 +812,25 @@
 "preferred_label": "Proclaim"
 },
 {
+"id": "keyterm:GoodNews",
+"type": "keyterm",
+"confidence": 0.28,
+"match_method": "canonical",
+"preferred_label": "Good News"
+},
+{
 "id": "group:Pharisee",
 "type": "group",
 "confidence": 0.28,
 "match_method": "canonical",
 "preferred_label": "Pharisees"
+},
+{
+"id": "keyterm:Sin",
+"type": "keyterm",
+"confidence": 0.28,
+"match_method": "canonical",
+"preferred_label": "To Sin"
 },
 {
 "id": "realia:AlabasterJar",
@@ -861,32 +861,11 @@
 "preferred_label": "Judas"
 },
 {
-"id": "keyterm:Serve",
+"id": "keyterm:Love",
 "type": "keyterm",
 "confidence": 0.22,
 "match_method": "canonical",
-"preferred_label": "Serve"
-},
-{
-"id": "keyterm:Ability",
-"type": "keyterm",
-"confidence": 0.22,
-"match_method": "canonical",
-"preferred_label": "Ability"
-},
-{
-"id": "keyterm:Disciple",
-"type": "keyterm",
-"confidence": 0.22,
-"match_method": "canonical",
-"preferred_label": "Be a Disciple"
-},
-{
-"id": "keyterm:Passover",
-"type": "keyterm",
-"confidence": 0.22,
-"match_method": "canonical",
-"preferred_label": "Passover"
+"preferred_label": "Love"
 },
 {
 "id": "keyterm:Body.3",
@@ -896,11 +875,18 @@
 "preferred_label": "Body"
 },
 {
-"id": "keyterm:Anointed",
+"id": "keyterm:Ability",
 "type": "keyterm",
 "confidence": 0.22,
 "match_method": "canonical",
-"preferred_label": "Anointed"
+"preferred_label": "Ability"
+},
+{
+"id": "keyterm:Serve",
+"type": "keyterm",
+"confidence": 0.22,
+"match_method": "canonical",
+"preferred_label": "Serve"
 },
 {
 "id": "keyterm:Surely",
@@ -910,25 +896,32 @@
 "preferred_label": "Surely!"
 },
 {
-"id": "keyterm:Love",
+"id": "keyterm:Passover",
 "type": "keyterm",
 "confidence": 0.22,
 "match_method": "canonical",
-"preferred_label": "Love"
+"preferred_label": "Passover"
 },
 {
-"id": "person:Chuza",
-"type": "person",
-"confidence": 0.1644,
+"id": "keyterm:Disciple",
+"type": "keyterm",
+"confidence": 0.22,
 "match_method": "canonical",
-"preferred_label": "Chuza"
+"preferred_label": "Be a Disciple"
 },
 {
-"id": "person:Joanna",
-"type": "person",
+"id": "keyterm:Anointed",
+"type": "keyterm",
+"confidence": 0.22,
+"match_method": "canonical",
+"preferred_label": "Anointed"
+},
+{
+"id": "keyterm:Owe",
+"type": "keyterm",
 "confidence": 0.1644,
 "match_method": "canonical",
-"preferred_label": "Joanna"
+"preferred_label": "Owe"
 },
 {
 "id": "person:Susanna",
@@ -945,11 +938,25 @@
 "preferred_label": "Mary Magdalene"
 },
 {
-"id": "keyterm:Owe",
-"type": "keyterm",
+"id": "person:Joanna",
+"type": "person",
 "confidence": 0.1644,
 "match_method": "canonical",
-"preferred_label": "Owe"
+"preferred_label": "Joanna"
+},
+{
+"id": "person:Chuza",
+"type": "person",
+"confidence": 0.1644,
+"match_method": "canonical",
+"preferred_label": "Chuza"
+},
+{
+"id": "keyterm:Decided",
+"type": "keyterm",
+"confidence": 0.16,
+"match_method": "canonical",
+"preferred_label": "Decided"
 },
 {
 "id": "keyterm:AskFor",
@@ -959,46 +966,11 @@
 "preferred_label": "Ask for"
 },
 {
-"id": "keyterm:Kingdom",
+"id": "keyterm:Promise",
 "type": "keyterm",
 "confidence": 0.16,
 "match_method": "canonical",
-"preferred_label": "Kingdom"
-},
-{
-"id": "keyterm:Believe",
-"type": "keyterm",
-"confidence": 0.16,
-"match_method": "canonical",
-"preferred_label": "Believe"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.16,
-"match_method": "canonical",
-"preferred_label": "LORD"
-},
-{
-"id": "keyterm:Salvation",
-"type": "keyterm",
-"confidence": 0.16,
-"match_method": "canonical",
-"preferred_label": "Salvation"
-},
-{
-"id": "keyterm:Pure",
-"type": "keyterm",
-"confidence": 0.16,
-"match_method": "canonical",
-"preferred_label": "Pure"
-},
-{
-"id": "realia:Denarius",
-"type": "realia",
-"confidence": 0.16,
-"match_method": "canonical",
-"preferred_label": "Denarius"
+"preferred_label": "Promise"
 },
 {
 "id": "keyterm:Peace",
@@ -1008,25 +980,18 @@
 "preferred_label": "Make Peace"
 },
 {
-"id": "keyterm:Promise",
-"type": "keyterm",
+"id": "deity:Lord",
+"type": "deity",
 "confidence": 0.16,
 "match_method": "canonical",
-"preferred_label": "Promise"
+"preferred_label": "LORD"
 },
 {
-"id": "group:GenericDisciples",
-"type": "group",
+"id": "realia:Denarius",
+"type": "realia",
 "confidence": 0.16,
 "match_method": "canonical",
-"preferred_label": "A Group of Disciples"
-},
-{
-"id": "keyterm:Decided",
-"type": "keyterm",
-"confidence": 0.16,
-"match_method": "canonical",
-"preferred_label": "Decided"
+"preferred_label": "Denarius"
 },
 {
 "id": "deity:Demons",
@@ -1043,6 +1008,13 @@
 "preferred_label": "Caiaphas"
 },
 {
+"id": "keyterm:Believe",
+"type": "keyterm",
+"confidence": 0.16,
+"match_method": "canonical",
+"preferred_label": "Believe"
+},
+{
 "id": "person:Herod.2",
 "type": "person",
 "confidence": 0.16,
@@ -1050,11 +1022,32 @@
 "preferred_label": "Herod Antipas"
 },
 {
-"id": "realia:OilOfNard",
-"type": "realia",
-"confidence": 0.1044,
+"id": "keyterm:Pure",
+"type": "keyterm",
+"confidence": 0.16,
 "match_method": "canonical",
-"preferred_label": "Oil of Nard"
+"preferred_label": "Pure"
+},
+{
+"id": "keyterm:Salvation",
+"type": "keyterm",
+"confidence": 0.16,
+"match_method": "canonical",
+"preferred_label": "Salvation"
+},
+{
+"id": "keyterm:Kingdom",
+"type": "keyterm",
+"confidence": 0.16,
+"match_method": "canonical",
+"preferred_label": "Kingdom"
+},
+{
+"id": "group:GenericDisciples",
+"type": "group",
+"confidence": 0.16,
+"match_method": "canonical",
+"preferred_label": "A Group of Disciples"
 },
 {
 "id": "flora:Nard",
@@ -1064,11 +1057,18 @@
 "preferred_label": "Nard"
 },
 {
-"id": "realia:OliveOil",
+"id": "realia:OilOfNard",
+"type": "realia",
+"confidence": 0.1044,
+"match_method": "canonical",
+"preferred_label": "Oil of Nard"
+},
+{
+"id": "realia:Cross",
 "type": "realia",
 "confidence": 0.1,
 "match_method": "canonical",
-"preferred_label": "Olive Oil"
+"preferred_label": "Cross"
 },
 {
 "id": "realia:Temple",
@@ -1085,11 +1085,11 @@
 "preferred_label": "Courtyard"
 },
 {
-"id": "realia:Cross",
+"id": "realia:OliveOil",
 "type": "realia",
 "confidence": 0.1,
 "match_method": "canonical",
-"preferred_label": "Cross"
+"preferred_label": "Olive Oil"
 }
 ]
 }
@@ -1170,20 +1170,6 @@
 "preferred_label": "Simon"
 },
 {
-"id": "keyterm:GoodNews",
-"type": "keyterm",
-"confidence": 0.28,
-"match_method": "canonical",
-"preferred_label": "Good News"
-},
-{
-"id": "keyterm:Sin",
-"type": "keyterm",
-"confidence": 0.28,
-"match_method": "canonical",
-"preferred_label": "To Sin"
-},
-{
 "id": "keyterm:Proclaim",
 "type": "keyterm",
 "confidence": 0.28,
@@ -1191,11 +1177,25 @@
 "preferred_label": "Proclaim"
 },
 {
+"id": "keyterm:GoodNews",
+"type": "keyterm",
+"confidence": 0.28,
+"match_method": "canonical",
+"preferred_label": "Good News"
+},
+{
 "id": "group:Pharisee",
 "type": "group",
 "confidence": 0.28,
 "match_method": "canonical",
 "preferred_label": "Pharisees"
+},
+{
+"id": "keyterm:Sin",
+"type": "keyterm",
+"confidence": 0.28,
+"match_method": "canonical",
+"preferred_label": "To Sin"
 },
 {
 "id": "realia:AlabasterJar",
@@ -1226,32 +1226,11 @@
 "preferred_label": "Judas"
 },
 {
-"id": "keyterm:Serve",
+"id": "keyterm:Love",
 "type": "keyterm",
 "confidence": 0.22,
 "match_method": "canonical",
-"preferred_label": "Serve"
-},
-{
-"id": "keyterm:Ability",
-"type": "keyterm",
-"confidence": 0.22,
-"match_method": "canonical",
-"preferred_label": "Ability"
-},
-{
-"id": "keyterm:Disciple",
-"type": "keyterm",
-"confidence": 0.22,
-"match_method": "canonical",
-"preferred_label": "Be a Disciple"
-},
-{
-"id": "keyterm:Passover",
-"type": "keyterm",
-"confidence": 0.22,
-"match_method": "canonical",
-"preferred_label": "Passover"
+"preferred_label": "Love"
 },
 {
 "id": "keyterm:Body.3",
@@ -1261,11 +1240,18 @@
 "preferred_label": "Body"
 },
 {
-"id": "keyterm:Anointed",
+"id": "keyterm:Ability",
 "type": "keyterm",
 "confidence": 0.22,
 "match_method": "canonical",
-"preferred_label": "Anointed"
+"preferred_label": "Ability"
+},
+{
+"id": "keyterm:Serve",
+"type": "keyterm",
+"confidence": 0.22,
+"match_method": "canonical",
+"preferred_label": "Serve"
 },
 {
 "id": "keyterm:Surely",
@@ -1275,25 +1261,32 @@
 "preferred_label": "Surely!"
 },
 {
-"id": "keyterm:Love",
+"id": "keyterm:Passover",
 "type": "keyterm",
 "confidence": 0.22,
 "match_method": "canonical",
-"preferred_label": "Love"
+"preferred_label": "Passover"
 },
 {
-"id": "person:Chuza",
-"type": "person",
-"confidence": 0.1644,
+"id": "keyterm:Disciple",
+"type": "keyterm",
+"confidence": 0.22,
 "match_method": "canonical",
-"preferred_label": "Chuza"
+"preferred_label": "Be a Disciple"
 },
 {
-"id": "person:Joanna",
-"type": "person",
+"id": "keyterm:Anointed",
+"type": "keyterm",
+"confidence": 0.22,
+"match_method": "canonical",
+"preferred_label": "Anointed"
+},
+{
+"id": "keyterm:Owe",
+"type": "keyterm",
 "confidence": 0.1644,
 "match_method": "canonical",
-"preferred_label": "Joanna"
+"preferred_label": "Owe"
 },
 {
 "id": "person:Susanna",
@@ -1310,11 +1303,25 @@
 "preferred_label": "Mary Magdalene"
 },
 {
-"id": "keyterm:Owe",
-"type": "keyterm",
+"id": "person:Joanna",
+"type": "person",
 "confidence": 0.1644,
 "match_method": "canonical",
-"preferred_label": "Owe"
+"preferred_label": "Joanna"
+},
+{
+"id": "person:Chuza",
+"type": "person",
+"confidence": 0.1644,
+"match_method": "canonical",
+"preferred_label": "Chuza"
+},
+{
+"id": "keyterm:Decided",
+"type": "keyterm",
+"confidence": 0.16,
+"match_method": "canonical",
+"preferred_label": "Decided"
 },
 {
 "id": "keyterm:AskFor",
@@ -1324,46 +1331,11 @@
 "preferred_label": "Ask for"
 },
 {
-"id": "keyterm:Kingdom",
+"id": "keyterm:Promise",
 "type": "keyterm",
 "confidence": 0.16,
 "match_method": "canonical",
-"preferred_label": "Kingdom"
-},
-{
-"id": "keyterm:Believe",
-"type": "keyterm",
-"confidence": 0.16,
-"match_method": "canonical",
-"preferred_label": "Believe"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.16,
-"match_method": "canonical",
-"preferred_label": "LORD"
-},
-{
-"id": "keyterm:Salvation",
-"type": "keyterm",
-"confidence": 0.16,
-"match_method": "canonical",
-"preferred_label": "Salvation"
-},
-{
-"id": "keyterm:Pure",
-"type": "keyterm",
-"confidence": 0.16,
-"match_method": "canonical",
-"preferred_label": "Pure"
-},
-{
-"id": "realia:Denarius",
-"type": "realia",
-"confidence": 0.16,
-"match_method": "canonical",
-"preferred_label": "Denarius"
+"preferred_label": "Promise"
 },
 {
 "id": "keyterm:Peace",
@@ -1373,25 +1345,18 @@
 "preferred_label": "Make Peace"
 },
 {
-"id": "keyterm:Promise",
-"type": "keyterm",
+"id": "deity:Lord",
+"type": "deity",
 "confidence": 0.16,
 "match_method": "canonical",
-"preferred_label": "Promise"
+"preferred_label": "LORD"
 },
 {
-"id": "group:GenericDisciples",
-"type": "group",
+"id": "realia:Denarius",
+"type": "realia",
 "confidence": 0.16,
 "match_method": "canonical",
-"preferred_label": "A Group of Disciples"
-},
-{
-"id": "keyterm:Decided",
-"type": "keyterm",
-"confidence": 0.16,
-"match_method": "canonical",
-"preferred_label": "Decided"
+"preferred_label": "Denarius"
 },
 {
 "id": "deity:Demons",
@@ -1408,6 +1373,13 @@
 "preferred_label": "Caiaphas"
 },
 {
+"id": "keyterm:Believe",
+"type": "keyterm",
+"confidence": 0.16,
+"match_method": "canonical",
+"preferred_label": "Believe"
+},
+{
 "id": "person:Herod.2",
 "type": "person",
 "confidence": 0.16,
@@ -1415,11 +1387,32 @@
 "preferred_label": "Herod Antipas"
 },
 {
-"id": "realia:OilOfNard",
-"type": "realia",
-"confidence": 0.1044,
+"id": "keyterm:Pure",
+"type": "keyterm",
+"confidence": 0.16,
 "match_method": "canonical",
-"preferred_label": "Oil of Nard"
+"preferred_label": "Pure"
+},
+{
+"id": "keyterm:Salvation",
+"type": "keyterm",
+"confidence": 0.16,
+"match_method": "canonical",
+"preferred_label": "Salvation"
+},
+{
+"id": "keyterm:Kingdom",
+"type": "keyterm",
+"confidence": 0.16,
+"match_method": "canonical",
+"preferred_label": "Kingdom"
+},
+{
+"id": "group:GenericDisciples",
+"type": "group",
+"confidence": 0.16,
+"match_method": "canonical",
+"preferred_label": "A Group of Disciples"
 },
 {
 "id": "flora:Nard",
@@ -1429,11 +1422,18 @@
 "preferred_label": "Nard"
 },
 {
-"id": "realia:OliveOil",
+"id": "realia:OilOfNard",
+"type": "realia",
+"confidence": 0.1044,
+"match_method": "canonical",
+"preferred_label": "Oil of Nard"
+},
+{
+"id": "realia:Cross",
 "type": "realia",
 "confidence": 0.1,
 "match_method": "canonical",
-"preferred_label": "Olive Oil"
+"preferred_label": "Cross"
 },
 {
 "id": "realia:Temple",
@@ -1450,11 +1450,11 @@
 "preferred_label": "Courtyard"
 },
 {
-"id": "realia:Cross",
+"id": "realia:OliveOil",
 "type": "realia",
 "confidence": 0.1,
 "match_method": "canonical",
-"preferred_label": "Cross"
+"preferred_label": "Olive Oil"
 }
 ]
 }
