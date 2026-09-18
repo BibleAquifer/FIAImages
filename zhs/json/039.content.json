@@ -160,11 +160,25 @@
 "preferred_label": "Bethsaida"
 },
 {
-"id": "keyterm:Believe",
+"id": "keyterm:Surely",
 "type": "keyterm",
 "confidence": 0.2,
 "match_method": "canonical",
-"preferred_label": "Believe"
+"preferred_label": "Surely!"
+},
+{
+"id": "keyterm:Law",
+"type": "keyterm",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "Law"
+},
+{
+"id": "deity:Angel",
+"type": "deity",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "An Angel"
 },
 {
 "id": "deity:Lord",
@@ -172,13 +186,6 @@
 "confidence": 0.2,
 "match_method": "canonical",
 "preferred_label": "LORD"
-},
-{
-"id": "keyterm:Good",
-"type": "keyterm",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "Good"
 },
 {
 "id": "person:Moses",
@@ -195,18 +202,25 @@
 "preferred_label": "Israelites"
 },
 {
-"id": "keyterm:Law",
+"id": "keyterm:Believe",
 "type": "keyterm",
 "confidence": 0.2,
 "match_method": "canonical",
-"preferred_label": "Law"
+"preferred_label": "Believe"
 },
 {
-"id": "keyterm:Surely",
+"id": "keyterm:True",
 "type": "keyterm",
 "confidence": 0.2,
 "match_method": "canonical",
-"preferred_label": "Surely!"
+"preferred_label": "True"
+},
+{
+"id": "keyterm:Good",
+"type": "keyterm",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "Good"
 },
 {
 "id": "person:Peter",
@@ -216,18 +230,18 @@
 "preferred_label": "Peter"
 },
 {
+"id": "place:Galilee",
+"type": "place",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "Galilee"
+},
+{
 "id": "person:Joseph.4",
 "type": "person",
 "confidence": 0.2,
 "match_method": "canonical",
 "preferred_label": "Joseph"
-},
-{
-"id": "keyterm:True",
-"type": "keyterm",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "True"
 },
 {
 "id": "keyterm:Heaven",
@@ -242,20 +256,6 @@
 "confidence": 0.2,
 "match_method": "canonical",
 "preferred_label": "Andrew"
-},
-{
-"id": "deity:Angel",
-"type": "deity",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "An Angel"
-},
-{
-"id": "place:Galilee",
-"type": "place",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "Galilee"
 }
 ]
 }
@@ -414,13 +414,6 @@
 "preferred_label": "Aaron"
 },
 {
-"id": "keyterm:Pray",
-"type": "keyterm",
-"confidence": 0.3621,
-"match_method": "canonical",
-"preferred_label": "Pray"
-},
-{
 "id": "person:Abimelech.2",
 "type": "person",
 "confidence": 0.3621,
@@ -435,18 +428,25 @@
 "preferred_label": "Adam"
 },
 {
-"id": "keyterm:Ability",
-"type": "keyterm",
-"confidence": 0.3621,
-"match_method": "canonical",
-"preferred_label": "Ability"
-},
-{
 "id": "keyterm:Believe",
 "type": "keyterm",
 "confidence": 0.3621,
 "match_method": "canonical",
 "preferred_label": "Believe"
+},
+{
+"id": "person:Solomon",
+"type": "person",
+"confidence": 0.3621,
+"match_method": "canonical",
+"preferred_label": "Solomon"
+},
+{
+"id": "keyterm:Ability",
+"type": "keyterm",
+"confidence": 0.3621,
+"match_method": "canonical",
+"preferred_label": "Ability"
 },
 {
 "id": "keyterm:Surely",
@@ -456,11 +456,11 @@
 "preferred_label": "Surely!"
 },
 {
-"id": "person:Solomon",
-"type": "person",
+"id": "keyterm:Pray",
+"type": "keyterm",
 "confidence": 0.3621,
 "match_method": "canonical",
-"preferred_label": "Solomon"
+"preferred_label": "Pray"
 },
 {
 "id": "flora:Fig",
@@ -498,18 +498,18 @@
 "preferred_label": "Parable"
 },
 {
-"id": "person:Ziba",
-"type": "person",
-"confidence": 0.3097,
-"match_method": "canonical",
-"preferred_label": "Ziba"
-},
-{
 "id": "keyterm:Heart",
 "type": "keyterm",
 "confidence": 0.3097,
 "match_method": "canonical",
 "preferred_label": "Heart"
+},
+{
+"id": "person:Ziba",
+"type": "person",
+"confidence": 0.3097,
+"match_method": "canonical",
+"preferred_label": "Ziba"
 },
 {
 "id": "fauna:Snake",
@@ -533,32 +533,11 @@
 "preferred_label": "Negev"
 },
 {
-"id": "keyterm:Sabbath",
-"type": "keyterm",
-"confidence": 0.2573,
-"match_method": "canonical",
-"preferred_label": "Sabbath"
-},
-{
 "id": "place:Egypt",
 "type": "place",
 "confidence": 0.2573,
 "match_method": "canonical",
 "preferred_label": "Egypt"
-},
-{
-"id": "keyterm:Body.3",
-"type": "keyterm",
-"confidence": 0.2573,
-"match_method": "canonical",
-"preferred_label": "Body"
-},
-{
-"id": "place:Jerusalem",
-"type": "place",
-"confidence": 0.2573,
-"match_method": "canonical",
-"preferred_label": "Jerusalem"
 },
 {
 "id": "keyterm:Glory",
@@ -568,18 +547,39 @@
 "preferred_label": "Glory"
 },
 {
+"id": "keyterm:Body.3",
+"type": "keyterm",
+"confidence": 0.2573,
+"match_method": "canonical",
+"preferred_label": "Body"
+},
+{
+"id": "keyterm:Sabbath",
+"type": "keyterm",
+"confidence": 0.2573,
+"match_method": "canonical",
+"preferred_label": "Sabbath"
+},
+{
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.2573,
+"match_method": "canonical",
+"preferred_label": "Jerusalem"
+},
+{
+"id": "deity:Angel",
+"type": "deity",
+"confidence": 0.2573,
+"match_method": "canonical",
+"preferred_label": "An Angel"
+},
+{
 "id": "place:Shechem",
 "type": "place",
 "confidence": 0.2573,
 "match_method": "canonical",
 "preferred_label": "Shechem"
-},
-{
-"id": "keyterm:Truth",
-"type": "keyterm",
-"confidence": 0.2573,
-"match_method": "canonical",
-"preferred_label": "Truth"
 }
 ]
 }

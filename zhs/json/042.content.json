@@ -54,13 +54,6 @@
 "preferred_label": "Grain"
 },
 {
-"id": "keyterm:Offering",
-"type": "keyterm",
-"confidence": 0.3143,
-"match_method": "canonical",
-"preferred_label": "Offering"
-},
-{
 "id": "keyterm:Parable",
 "type": "keyterm",
 "confidence": 0.3143,
@@ -68,11 +61,11 @@
 "preferred_label": "Parable"
 },
 {
-"id": "keyterm:Kingdom",
+"id": "keyterm:Offering",
 "type": "keyterm",
-"confidence": 0.2429,
+"confidence": 0.3143,
 "match_method": "canonical",
-"preferred_label": "Kingdom"
+"preferred_label": "Offering"
 },
 {
 "id": "keyterm:Glory",
@@ -82,18 +75,18 @@
 "preferred_label": "Glory"
 },
 {
+"id": "keyterm:Kingdom",
+"type": "keyterm",
+"confidence": 0.2429,
+"match_method": "canonical",
+"preferred_label": "Kingdom"
+},
+{
 "id": "flora:Wheat",
 "type": "flora",
 "confidence": 0.1924,
 "match_method": "canonical",
 "preferred_label": "Wheat"
-},
-{
-"id": "flora:Barley",
-"type": "flora",
-"confidence": 0.1829,
-"match_method": "canonical",
-"preferred_label": "Barley"
 },
 {
 "id": "flora:Grass",
@@ -103,11 +96,60 @@
 "preferred_label": "Grass"
 },
 {
-"id": "keyterm:Alive",
+"id": "flora:Barley",
+"type": "flora",
+"confidence": 0.1829,
+"match_method": "canonical",
+"preferred_label": "Barley"
+},
+{
+"id": "keyterm:Smear",
 "type": "keyterm",
 "confidence": 0.1714,
 "match_method": "canonical",
-"preferred_label": "Make Alive"
+"preferred_label": "Smear"
+},
+{
+"id": "keyterm:Disciple",
+"type": "keyterm",
+"confidence": 0.1714,
+"match_method": "canonical",
+"preferred_label": "Be a Disciple"
+},
+{
+"id": "keyterm:Anointed",
+"type": "keyterm",
+"confidence": 0.1714,
+"match_method": "canonical",
+"preferred_label": "Anointed"
+},
+{
+"id": "person:Moses",
+"type": "person",
+"confidence": 0.1714,
+"match_method": "canonical",
+"preferred_label": "Moses"
+},
+{
+"id": "person:GenericPerson",
+"type": "person",
+"confidence": 0.1714,
+"match_method": "canonical",
+"preferred_label": "A Person"
+},
+{
+"id": "keyterm:PleasingOdor",
+"type": "keyterm",
+"confidence": 0.1714,
+"match_method": "canonical",
+"preferred_label": "Pleasing Odor"
+},
+{
+"id": "person:Aaron",
+"type": "person",
+"confidence": 0.1714,
+"match_method": "canonical",
+"preferred_label": "Aaron"
 },
 {
 "id": "keyterm:Resurrection",
@@ -124,53 +166,11 @@
 "preferred_label": "Decree"
 },
 {
-"id": "keyterm:Disciple",
+"id": "keyterm:Alive",
 "type": "keyterm",
 "confidence": 0.1714,
 "match_method": "canonical",
-"preferred_label": "Be a Disciple"
-},
-{
-"id": "keyterm:Smear",
-"type": "keyterm",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "Smear"
-},
-{
-"id": "person:Moses",
-"type": "person",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "Moses"
-},
-{
-"id": "keyterm:PleasingOdor",
-"type": "keyterm",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "Pleasing Odor"
-},
-{
-"id": "keyterm:Anointed",
-"type": "keyterm",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "Anointed"
-},
-{
-"id": "person:Aaron",
-"type": "person",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "Aaron"
-},
-{
-"id": "person:GenericPerson",
-"type": "person",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "A Person"
+"preferred_label": "Make Alive"
 },
 {
 "id": "keyterm:Heaven",
@@ -208,11 +208,11 @@
 "preferred_label": "Bird"
 },
 {
-"id": "realia:Sickle",
+"id": "realia:AnointingOil",
 "type": "realia",
 "confidence": 0.1114,
 "match_method": "canonical",
-"preferred_label": "Sickle"
+"preferred_label": "Anointing Oil"
 },
 {
 "id": "realia:OliveOil",
@@ -222,6 +222,13 @@
 "preferred_label": "Olive Oil"
 },
 {
+"id": "realia:Ephah",
+"type": "realia",
+"confidence": 0.1114,
+"match_method": "canonical",
+"preferred_label": "Ephah"
+},
+{
 "id": "fauna:Rooster",
 "type": "fauna",
 "confidence": 0.1114,
@@ -229,18 +236,11 @@
 "preferred_label": "Rooster"
 },
 {
-"id": "realia:AnointingOil",
+"id": "realia:Sickle",
 "type": "realia",
 "confidence": 0.1114,
 "match_method": "canonical",
-"preferred_label": "Anointing Oil"
-},
-{
-"id": "realia:Ephah",
-"type": "realia",
-"confidence": 0.1114,
-"match_method": "canonical",
-"preferred_label": "Ephah"
+"preferred_label": "Sickle"
 }
 ]
 }
