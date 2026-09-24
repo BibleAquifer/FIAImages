@@ -39,18 +39,18 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Samson",
-"type": "person",
-"confidence": 0.4329,
-"match_method": "canonical",
-"preferred_label": "शिमशोन"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.4329,
 "match_method": "canonical",
 "preferred_label": "यहोवा"
+},
+{
+"id": "person:Samson",
+"type": "person",
+"confidence": 0.4329,
+"match_method": "canonical",
+"preferred_label": "शिमशोन"
 },
 {
 "id": "person:Delilah",
@@ -74,18 +74,11 @@
 "preferred_label": "Philistia"
 },
 {
-"id": "keyterm:Strength",
-"type": "keyterm",
+"id": "group:Jews",
+"type": "group",
 "confidence": 0.2855,
 "match_method": "canonical",
-"preferred_label": "Strength"
-},
-{
-"id": "person:Paul",
-"type": "person",
-"confidence": 0.2855,
-"match_method": "canonical",
-"preferred_label": "पौलुस"
+"preferred_label": "Jews"
 },
 {
 "id": "person:Jesus.2",
@@ -95,11 +88,18 @@
 "preferred_label": "यीशु"
 },
 {
-"id": "group:Jews",
-"type": "group",
+"id": "person:Paul",
+"type": "person",
 "confidence": 0.2855,
 "match_method": "canonical",
-"preferred_label": "Jews"
+"preferred_label": "पौलुस"
+},
+{
+"id": "keyterm:Strength",
+"type": "keyterm",
+"confidence": 0.2855,
+"match_method": "canonical",
+"preferred_label": "Strength"
 },
 {
 "id": "keyterm:CauseOfJoy",
@@ -116,32 +116,11 @@
 "preferred_label": "House"
 },
 {
-"id": "keyterm:Authority.2",
-"type": "keyterm",
-"confidence": 0.2237,
-"match_method": "canonical",
-"preferred_label": "Authority"
-},
-{
-"id": "keyterm:Fear",
-"type": "keyterm",
-"confidence": 0.2237,
-"match_method": "canonical",
-"preferred_label": "Fear"
-},
-{
 "id": "keyterm:Instruction",
 "type": "keyterm",
 "confidence": 0.2237,
 "match_method": "canonical",
 "preferred_label": "Instruction"
-},
-{
-"id": "keyterm:Name",
-"type": "keyterm",
-"confidence": 0.2237,
-"match_method": "canonical",
-"preferred_label": "Name"
 },
 {
 "id": "keyterm:Repent",
@@ -151,18 +130,32 @@
 "preferred_label": "Repent"
 },
 {
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.2237,
+"match_method": "canonical",
+"preferred_label": "Fear"
+},
+{
+"id": "keyterm:Name",
+"type": "keyterm",
+"confidence": 0.2237,
+"match_method": "canonical",
+"preferred_label": "Name"
+},
+{
+"id": "keyterm:Authority.2",
+"type": "keyterm",
+"confidence": 0.2237,
+"match_method": "canonical",
+"preferred_label": "Authority"
+},
+{
 "id": "realia:Drachma",
 "type": "realia",
 "confidence": 0.1742,
 "match_method": "canonical",
 "preferred_label": "Drachma"
-},
-{
-"id": "person:Sceva",
-"type": "person",
-"confidence": 0.1671,
-"match_method": "canonical",
-"preferred_label": "स्क्किवा"
 },
 {
 "id": "deity:Demons",
@@ -179,39 +172,11 @@
 "preferred_label": "Valley of Sorek"
 },
 {
-"id": "realia:Rope",
-"type": "realia",
-"confidence": 0.1637,
+"id": "person:Sceva",
+"type": "person",
+"confidence": 0.1671,
 "match_method": "canonical",
-"preferred_label": "Rope"
-},
-{
-"id": "realia:Money",
-"type": "realia",
-"confidence": 0.1637,
-"match_method": "canonical",
-"preferred_label": "Money"
-},
-{
-"id": "realia:Scroll",
-"type": "realia",
-"confidence": 0.1637,
-"match_method": "canonical",
-"preferred_label": "Scroll"
-},
-{
-"id": "realia:Temple",
-"type": "realia",
-"confidence": 0.1637,
-"match_method": "canonical",
-"preferred_label": "Temple"
-},
-{
-"id": "fauna:Lamb",
-"type": "fauna",
-"confidence": 0.1637,
-"match_method": "canonical",
-"preferred_label": "Sheep"
+"preferred_label": "स्क्किवा"
 },
 {
 "id": "realia:Thread",
@@ -221,81 +186,39 @@
 "preferred_label": "Thread"
 },
 {
-"id": "group:Levi",
-"type": "group",
-"confidence": 0.1618,
+"id": "realia:Money",
+"type": "realia",
+"confidence": 0.1637,
 "match_method": "canonical",
-"preferred_label": "लेवी"
+"preferred_label": "Money"
 },
 {
-"id": "keyterm:Just",
-"type": "keyterm",
-"confidence": 0.1618,
+"id": "fauna:Lamb",
+"type": "fauna",
+"confidence": 0.1637,
 "match_method": "canonical",
-"preferred_label": "Be (Or Show Oneself) Just"
+"preferred_label": "Sheep"
 },
 {
-"id": "place:Ephesus",
-"type": "place",
-"confidence": 0.1618,
+"id": "realia:Scroll",
+"type": "realia",
+"confidence": 0.1637,
 "match_method": "canonical",
-"preferred_label": "इफिसुस"
+"preferred_label": "Scroll"
 },
 {
-"id": "keyterm:Love",
-"type": "keyterm",
-"confidence": 0.1618,
+"id": "realia:Rope",
+"type": "realia",
+"confidence": 0.1637,
 "match_method": "canonical",
-"preferred_label": "Love"
+"preferred_label": "Rope"
 },
 {
-"id": "keyterm:Parable",
-"type": "keyterm",
-"confidence": 0.1618,
+"id": "realia:Temple",
+"type": "realia",
+"confidence": 0.1637,
 "match_method": "canonical",
-"preferred_label": "Parable"
-},
-{
-"id": "person:Javan",
-"type": "person",
-"confidence": 0.1618,
-"match_method": "canonical",
-"preferred_label": "यावान"
-},
-{
-"id": "keyterm:Ability",
-"type": "keyterm",
-"confidence": 0.1618,
-"match_method": "canonical",
-"preferred_label": "Ability"
-},
-{
-"id": "keyterm:Magic",
-"type": "keyterm",
-"confidence": 0.1618,
-"match_method": "canonical",
-"preferred_label": "Magic"
-},
-{
-"id": "keyterm:Dispossess",
-"type": "keyterm",
-"confidence": 0.1618,
-"match_method": "canonical",
-"preferred_label": "Dispossess"
-},
-{
-"id": "deity:Angel",
-"type": "deity",
-"confidence": 0.1618,
-"match_method": "canonical",
-"preferred_label": "An Angel"
-},
-{
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.1618,
-"match_method": "canonical",
-"preferred_label": "इस्राएल"
+"preferred_label": "Temple"
 },
 {
 "id": "keyterm:Proclaim",
@@ -312,6 +235,76 @@
 "preferred_label": "लेवी"
 },
 {
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.1618,
+"match_method": "canonical",
+"preferred_label": "इस्राएल"
+},
+{
+"id": "group:Levi",
+"type": "group",
+"confidence": 0.1618,
+"match_method": "canonical",
+"preferred_label": "लेवी"
+},
+{
+"id": "keyterm:Believe",
+"type": "keyterm",
+"confidence": 0.1618,
+"match_method": "canonical",
+"preferred_label": "Believe"
+},
+{
+"id": "keyterm:Decree",
+"type": "keyterm",
+"confidence": 0.1618,
+"match_method": "canonical",
+"preferred_label": "Decree"
+},
+{
+"id": "person:Javan",
+"type": "person",
+"confidence": 0.1618,
+"match_method": "canonical",
+"preferred_label": "यावान"
+},
+{
+"id": "place:Ephesus",
+"type": "place",
+"confidence": 0.1618,
+"match_method": "canonical",
+"preferred_label": "इफिसुस"
+},
+{
+"id": "group:Pharisee",
+"type": "group",
+"confidence": 0.1618,
+"match_method": "canonical",
+"preferred_label": "फरीसी"
+},
+{
+"id": "place:Egypt",
+"type": "place",
+"confidence": 0.1618,
+"match_method": "canonical",
+"preferred_label": "मिस्र"
+},
+{
+"id": "keyterm:Love",
+"type": "keyterm",
+"confidence": 0.1618,
+"match_method": "canonical",
+"preferred_label": "Love"
+},
+{
+"id": "keyterm:Dispossess",
+"type": "keyterm",
+"confidence": 0.1618,
+"match_method": "canonical",
+"preferred_label": "Dispossess"
+},
+{
 "id": "keyterm:TaxCollector",
 "type": "keyterm",
 "confidence": 0.1618,
@@ -326,39 +319,18 @@
 "preferred_label": "यूनानी"
 },
 {
-"id": "keyterm:Believe",
+"id": "keyterm:Just",
 "type": "keyterm",
 "confidence": 0.1618,
 "match_method": "canonical",
-"preferred_label": "Believe"
+"preferred_label": "Be (Or Show Oneself) Just"
 },
 {
-"id": "place:Egypt",
-"type": "place",
-"confidence": 0.1618,
-"match_method": "canonical",
-"preferred_label": "मिस्र"
-},
-{
-"id": "keyterm:SetFree",
+"id": "keyterm:Parable",
 "type": "keyterm",
 "confidence": 0.1618,
 "match_method": "canonical",
-"preferred_label": "Set Free"
-},
-{
-"id": "keyterm:Decree",
-"type": "keyterm",
-"confidence": 0.1618,
-"match_method": "canonical",
-"preferred_label": "Decree"
-},
-{
-"id": "group:Pharisee",
-"type": "group",
-"confidence": 0.1618,
-"match_method": "canonical",
-"preferred_label": "फरीसी"
+"preferred_label": "Parable"
 },
 {
 "id": "keyterm:Heaven",
@@ -368,11 +340,32 @@
 "preferred_label": "Sky"
 },
 {
-"id": "realia:Shuttle",
-"type": "realia",
-"confidence": 0.1071,
+"id": "keyterm:Ability",
+"type": "keyterm",
+"confidence": 0.1618,
 "match_method": "canonical",
-"preferred_label": "Shuttle"
+"preferred_label": "Ability"
+},
+{
+"id": "deity:Angel",
+"type": "deity",
+"confidence": 0.1618,
+"match_method": "canonical",
+"preferred_label": "An Angel"
+},
+{
+"id": "keyterm:Magic",
+"type": "keyterm",
+"confidence": 0.1618,
+"match_method": "canonical",
+"preferred_label": "Magic"
+},
+{
+"id": "keyterm:SetFree",
+"type": "keyterm",
+"confidence": 0.1618,
+"match_method": "canonical",
+"preferred_label": "Set Free"
 },
 {
 "id": "realia:Apron",
@@ -380,6 +373,13 @@
 "confidence": 0.1071,
 "match_method": "canonical",
 "preferred_label": "Apron"
+},
+{
+"id": "realia:Shuttle",
+"type": "realia",
+"confidence": 0.1071,
+"match_method": "canonical",
+"preferred_label": "Shuttle"
 },
 {
 "id": "realia:BandOfCloth",
@@ -452,18 +452,18 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Samson",
-"type": "person",
-"confidence": 0.4329,
-"match_method": "canonical",
-"preferred_label": "शिमशोन"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.4329,
 "match_method": "canonical",
 "preferred_label": "यहोवा"
+},
+{
+"id": "person:Samson",
+"type": "person",
+"confidence": 0.4329,
+"match_method": "canonical",
+"preferred_label": "शिमशोन"
 },
 {
 "id": "person:Delilah",
@@ -487,18 +487,11 @@
 "preferred_label": "Philistia"
 },
 {
-"id": "keyterm:Strength",
-"type": "keyterm",
+"id": "group:Jews",
+"type": "group",
 "confidence": 0.2855,
 "match_method": "canonical",
-"preferred_label": "Strength"
-},
-{
-"id": "person:Paul",
-"type": "person",
-"confidence": 0.2855,
-"match_method": "canonical",
-"preferred_label": "पौलुस"
+"preferred_label": "Jews"
 },
 {
 "id": "person:Jesus.2",
@@ -508,11 +501,18 @@
 "preferred_label": "यीशु"
 },
 {
-"id": "group:Jews",
-"type": "group",
+"id": "person:Paul",
+"type": "person",
 "confidence": 0.2855,
 "match_method": "canonical",
-"preferred_label": "Jews"
+"preferred_label": "पौलुस"
+},
+{
+"id": "keyterm:Strength",
+"type": "keyterm",
+"confidence": 0.2855,
+"match_method": "canonical",
+"preferred_label": "Strength"
 },
 {
 "id": "keyterm:CauseOfJoy",
@@ -529,32 +529,11 @@
 "preferred_label": "House"
 },
 {
-"id": "keyterm:Authority.2",
-"type": "keyterm",
-"confidence": 0.2237,
-"match_method": "canonical",
-"preferred_label": "Authority"
-},
-{
-"id": "keyterm:Fear",
-"type": "keyterm",
-"confidence": 0.2237,
-"match_method": "canonical",
-"preferred_label": "Fear"
-},
-{
 "id": "keyterm:Instruction",
 "type": "keyterm",
 "confidence": 0.2237,
 "match_method": "canonical",
 "preferred_label": "Instruction"
-},
-{
-"id": "keyterm:Name",
-"type": "keyterm",
-"confidence": 0.2237,
-"match_method": "canonical",
-"preferred_label": "Name"
 },
 {
 "id": "keyterm:Repent",
@@ -564,18 +543,32 @@
 "preferred_label": "Repent"
 },
 {
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.2237,
+"match_method": "canonical",
+"preferred_label": "Fear"
+},
+{
+"id": "keyterm:Name",
+"type": "keyterm",
+"confidence": 0.2237,
+"match_method": "canonical",
+"preferred_label": "Name"
+},
+{
+"id": "keyterm:Authority.2",
+"type": "keyterm",
+"confidence": 0.2237,
+"match_method": "canonical",
+"preferred_label": "Authority"
+},
+{
 "id": "realia:Drachma",
 "type": "realia",
 "confidence": 0.1742,
 "match_method": "canonical",
 "preferred_label": "Drachma"
-},
-{
-"id": "person:Sceva",
-"type": "person",
-"confidence": 0.1671,
-"match_method": "canonical",
-"preferred_label": "स्क्किवा"
 },
 {
 "id": "deity:Demons",
@@ -592,39 +585,11 @@
 "preferred_label": "Valley of Sorek"
 },
 {
-"id": "realia:Rope",
-"type": "realia",
-"confidence": 0.1637,
+"id": "person:Sceva",
+"type": "person",
+"confidence": 0.1671,
 "match_method": "canonical",
-"preferred_label": "Rope"
-},
-{
-"id": "realia:Money",
-"type": "realia",
-"confidence": 0.1637,
-"match_method": "canonical",
-"preferred_label": "Money"
-},
-{
-"id": "realia:Scroll",
-"type": "realia",
-"confidence": 0.1637,
-"match_method": "canonical",
-"preferred_label": "Scroll"
-},
-{
-"id": "realia:Temple",
-"type": "realia",
-"confidence": 0.1637,
-"match_method": "canonical",
-"preferred_label": "Temple"
-},
-{
-"id": "fauna:Lamb",
-"type": "fauna",
-"confidence": 0.1637,
-"match_method": "canonical",
-"preferred_label": "Sheep"
+"preferred_label": "स्क्किवा"
 },
 {
 "id": "realia:Thread",
@@ -634,81 +599,39 @@
 "preferred_label": "Thread"
 },
 {
-"id": "group:Levi",
-"type": "group",
-"confidence": 0.1618,
+"id": "realia:Money",
+"type": "realia",
+"confidence": 0.1637,
 "match_method": "canonical",
-"preferred_label": "लेवी"
+"preferred_label": "Money"
 },
 {
-"id": "keyterm:Just",
-"type": "keyterm",
-"confidence": 0.1618,
+"id": "fauna:Lamb",
+"type": "fauna",
+"confidence": 0.1637,
 "match_method": "canonical",
-"preferred_label": "Be (Or Show Oneself) Just"
+"preferred_label": "Sheep"
 },
 {
-"id": "place:Ephesus",
-"type": "place",
-"confidence": 0.1618,
+"id": "realia:Scroll",
+"type": "realia",
+"confidence": 0.1637,
 "match_method": "canonical",
-"preferred_label": "इफिसुस"
+"preferred_label": "Scroll"
 },
 {
-"id": "keyterm:Love",
-"type": "keyterm",
-"confidence": 0.1618,
+"id": "realia:Rope",
+"type": "realia",
+"confidence": 0.1637,
 "match_method": "canonical",
-"preferred_label": "Love"
+"preferred_label": "Rope"
 },
 {
-"id": "keyterm:Parable",
-"type": "keyterm",
-"confidence": 0.1618,
+"id": "realia:Temple",
+"type": "realia",
+"confidence": 0.1637,
 "match_method": "canonical",
-"preferred_label": "Parable"
-},
-{
-"id": "person:Javan",
-"type": "person",
-"confidence": 0.1618,
-"match_method": "canonical",
-"preferred_label": "यावान"
-},
-{
-"id": "keyterm:Ability",
-"type": "keyterm",
-"confidence": 0.1618,
-"match_method": "canonical",
-"preferred_label": "Ability"
-},
-{
-"id": "keyterm:Magic",
-"type": "keyterm",
-"confidence": 0.1618,
-"match_method": "canonical",
-"preferred_label": "Magic"
-},
-{
-"id": "keyterm:Dispossess",
-"type": "keyterm",
-"confidence": 0.1618,
-"match_method": "canonical",
-"preferred_label": "Dispossess"
-},
-{
-"id": "deity:Angel",
-"type": "deity",
-"confidence": 0.1618,
-"match_method": "canonical",
-"preferred_label": "An Angel"
-},
-{
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.1618,
-"match_method": "canonical",
-"preferred_label": "इस्राएल"
+"preferred_label": "Temple"
 },
 {
 "id": "keyterm:Proclaim",
@@ -725,6 +648,76 @@
 "preferred_label": "लेवी"
 },
 {
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.1618,
+"match_method": "canonical",
+"preferred_label": "इस्राएल"
+},
+{
+"id": "group:Levi",
+"type": "group",
+"confidence": 0.1618,
+"match_method": "canonical",
+"preferred_label": "लेवी"
+},
+{
+"id": "keyterm:Believe",
+"type": "keyterm",
+"confidence": 0.1618,
+"match_method": "canonical",
+"preferred_label": "Believe"
+},
+{
+"id": "keyterm:Decree",
+"type": "keyterm",
+"confidence": 0.1618,
+"match_method": "canonical",
+"preferred_label": "Decree"
+},
+{
+"id": "person:Javan",
+"type": "person",
+"confidence": 0.1618,
+"match_method": "canonical",
+"preferred_label": "यावान"
+},
+{
+"id": "place:Ephesus",
+"type": "place",
+"confidence": 0.1618,
+"match_method": "canonical",
+"preferred_label": "इफिसुस"
+},
+{
+"id": "group:Pharisee",
+"type": "group",
+"confidence": 0.1618,
+"match_method": "canonical",
+"preferred_label": "फरीसी"
+},
+{
+"id": "place:Egypt",
+"type": "place",
+"confidence": 0.1618,
+"match_method": "canonical",
+"preferred_label": "मिस्र"
+},
+{
+"id": "keyterm:Love",
+"type": "keyterm",
+"confidence": 0.1618,
+"match_method": "canonical",
+"preferred_label": "Love"
+},
+{
+"id": "keyterm:Dispossess",
+"type": "keyterm",
+"confidence": 0.1618,
+"match_method": "canonical",
+"preferred_label": "Dispossess"
+},
+{
 "id": "keyterm:TaxCollector",
 "type": "keyterm",
 "confidence": 0.1618,
@@ -739,39 +732,18 @@
 "preferred_label": "यूनानी"
 },
 {
-"id": "keyterm:Believe",
+"id": "keyterm:Just",
 "type": "keyterm",
 "confidence": 0.1618,
 "match_method": "canonical",
-"preferred_label": "Believe"
+"preferred_label": "Be (Or Show Oneself) Just"
 },
 {
-"id": "place:Egypt",
-"type": "place",
-"confidence": 0.1618,
-"match_method": "canonical",
-"preferred_label": "मिस्र"
-},
-{
-"id": "keyterm:SetFree",
+"id": "keyterm:Parable",
 "type": "keyterm",
 "confidence": 0.1618,
 "match_method": "canonical",
-"preferred_label": "Set Free"
-},
-{
-"id": "keyterm:Decree",
-"type": "keyterm",
-"confidence": 0.1618,
-"match_method": "canonical",
-"preferred_label": "Decree"
-},
-{
-"id": "group:Pharisee",
-"type": "group",
-"confidence": 0.1618,
-"match_method": "canonical",
-"preferred_label": "फरीसी"
+"preferred_label": "Parable"
 },
 {
 "id": "keyterm:Heaven",
@@ -781,11 +753,32 @@
 "preferred_label": "Sky"
 },
 {
-"id": "realia:Shuttle",
-"type": "realia",
-"confidence": 0.1071,
+"id": "keyterm:Ability",
+"type": "keyterm",
+"confidence": 0.1618,
 "match_method": "canonical",
-"preferred_label": "Shuttle"
+"preferred_label": "Ability"
+},
+{
+"id": "deity:Angel",
+"type": "deity",
+"confidence": 0.1618,
+"match_method": "canonical",
+"preferred_label": "An Angel"
+},
+{
+"id": "keyterm:Magic",
+"type": "keyterm",
+"confidence": 0.1618,
+"match_method": "canonical",
+"preferred_label": "Magic"
+},
+{
+"id": "keyterm:SetFree",
+"type": "keyterm",
+"confidence": 0.1618,
+"match_method": "canonical",
+"preferred_label": "Set Free"
 },
 {
 "id": "realia:Apron",
@@ -793,6 +786,13 @@
 "confidence": 0.1071,
 "match_method": "canonical",
 "preferred_label": "Apron"
+},
+{
+"id": "realia:Shuttle",
+"type": "realia",
+"confidence": 0.1071,
+"match_method": "canonical",
+"preferred_label": "Shuttle"
 },
 {
 "id": "realia:BandOfCloth",
