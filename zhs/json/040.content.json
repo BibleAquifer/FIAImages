@@ -237,13 +237,6 @@
 "preferred_label": "Jerusalem"
 },
 {
-"id": "keyterm:Disciple",
-"type": "keyterm",
-"confidence": 0.3684,
-"match_method": "canonical",
-"preferred_label": "Be a Disciple"
-},
-{
 "id": "keyterm:Ability",
 "type": "keyterm",
 "confidence": 0.3684,
@@ -258,11 +251,32 @@
 "preferred_label": "Pray"
 },
 {
+"id": "keyterm:Disciple",
+"type": "keyterm",
+"confidence": 0.3684,
+"match_method": "canonical",
+"preferred_label": "Be a Disciple"
+},
+{
 "id": "person:John",
 "type": "person",
 "confidence": 0.3653,
 "match_method": "canonical",
 "preferred_label": "John"
+},
+{
+"id": "keyterm:Name",
+"type": "keyterm",
+"confidence": 0.3638,
+"match_method": "canonical",
+"preferred_label": "Name"
+},
+{
+"id": "keyterm:Sabbath",
+"type": "keyterm",
+"confidence": 0.3638,
+"match_method": "canonical",
+"preferred_label": "Sabbath"
 },
 {
 "id": "person:Peter",
@@ -279,39 +293,11 @@
 "preferred_label": "Fear"
 },
 {
-"id": "keyterm:Sabbath",
-"type": "keyterm",
-"confidence": 0.3638,
-"match_method": "canonical",
-"preferred_label": "Sabbath"
-},
-{
-"id": "keyterm:Name",
-"type": "keyterm",
-"confidence": 0.3638,
-"match_method": "canonical",
-"preferred_label": "Name"
-},
-{
 "id": "keyterm:Authority.2",
 "type": "keyterm",
 "confidence": 0.3622,
 "match_method": "canonical",
 "preferred_label": "Authority"
-},
-{
-"id": "keyterm:Example",
-"type": "keyterm",
-"confidence": 0.3607,
-"match_method": "canonical",
-"preferred_label": "Symbol"
-},
-{
-"id": "keyterm:Heaven",
-"type": "keyterm",
-"confidence": 0.3607,
-"match_method": "canonical",
-"preferred_label": "Sky"
 },
 {
 "id": "group:GenericGroup",
@@ -328,11 +314,32 @@
 "preferred_label": "Law"
 },
 {
+"id": "keyterm:Example",
+"type": "keyterm",
+"confidence": 0.3607,
+"match_method": "canonical",
+"preferred_label": "Symbol"
+},
+{
+"id": "keyterm:Heaven",
+"type": "keyterm",
+"confidence": 0.3607,
+"match_method": "canonical",
+"preferred_label": "Sky"
+},
+{
 "id": "keyterm:Just",
 "type": "keyterm",
 "confidence": 0.3599,
 "match_method": "canonical",
 "preferred_label": "Be (Or Show Oneself) Just"
+},
+{
+"id": "person:Paul",
+"type": "person",
+"confidence": 0.3592,
+"match_method": "canonical",
+"preferred_label": "Paul"
 },
 {
 "id": "keyterm:Serve",
@@ -356,13 +363,6 @@
 "preferred_label": "True"
 },
 {
-"id": "person:Paul",
-"type": "person",
-"confidence": 0.3592,
-"match_method": "canonical",
-"preferred_label": "Paul"
-},
-{
 "id": "person:Zechariah",
 "type": "person",
 "confidence": 0.359,
@@ -384,13 +384,6 @@
 "preferred_label": "Surely!"
 },
 {
-"id": "keyterm:Defilement",
-"type": "keyterm",
-"confidence": 0.3577,
-"match_method": "canonical",
-"preferred_label": "Defilement"
-},
-{
 "id": "person:Elijah",
 "type": "person",
 "confidence": 0.3577,
@@ -398,11 +391,18 @@
 "preferred_label": "Elijah"
 },
 {
-"id": "keyterm:Holy",
+"id": "keyterm:Offering",
 "type": "keyterm",
 "confidence": 0.3577,
 "match_method": "canonical",
-"preferred_label": "Holy"
+"preferred_label": "Offering"
+},
+{
+"id": "person:Moses",
+"type": "person",
+"confidence": 0.3577,
+"match_method": "canonical",
+"preferred_label": "Moses"
 }
 ]
 }
@@ -456,18 +456,18 @@
 "preferred_label": "Elijah"
 },
 {
-"id": "realia:Temple",
-"type": "realia",
-"confidence": 0.2092,
-"match_method": "canonical",
-"preferred_label": "Temple"
-},
-{
 "id": "realia:Curtain",
 "type": "realia",
 "confidence": 0.2092,
 "match_method": "canonical",
 "preferred_label": "Curtain"
+},
+{
+"id": "realia:Temple",
+"type": "realia",
+"confidence": 0.2092,
+"match_method": "canonical",
+"preferred_label": "Temple"
 },
 {
 "id": "person:Centurion.3",
@@ -477,11 +477,11 @@
 "preferred_label": "Centurion at Crucifixion"
 },
 {
-"id": "place:Galilee",
-"type": "place",
+"id": "keyterm:True",
+"type": "keyterm",
 "confidence": 0.1846,
 "match_method": "canonical",
-"preferred_label": "Galilee"
+"preferred_label": "True"
 },
 {
 "id": "group:GenericGroup",
@@ -491,25 +491,11 @@
 "preferred_label": "A Group of People"
 },
 {
-"id": "keyterm:Glory",
-"type": "keyterm",
-"confidence": 0.1846,
-"match_method": "canonical",
-"preferred_label": "Glory"
-},
-{
 "id": "keyterm:Spirit.2",
 "type": "keyterm",
 "confidence": 0.1846,
 "match_method": "canonical",
 "preferred_label": "Spirit"
-},
-{
-"id": "keyterm:True",
-"type": "keyterm",
-"confidence": 0.1846,
-"match_method": "canonical",
-"preferred_label": "True"
 },
 {
 "id": "keyterm:Just",
@@ -519,11 +505,18 @@
 "preferred_label": "Be (Or Show Oneself) Just"
 },
 {
-"id": "flora:Reed",
-"type": "flora",
-"confidence": 0.1246,
+"id": "place:Galilee",
+"type": "place",
+"confidence": 0.1846,
 "match_method": "canonical",
-"preferred_label": "Reed"
+"preferred_label": "Galilee"
+},
+{
+"id": "keyterm:Glory",
+"type": "keyterm",
+"confidence": 0.1846,
+"match_method": "canonical",
+"preferred_label": "Glory"
 },
 {
 "id": "realia:SourWine",
@@ -531,6 +524,13 @@
 "confidence": 0.1246,
 "match_method": "canonical",
 "preferred_label": "Sour Wine"
+},
+{
+"id": "flora:Reed",
+"type": "flora",
+"confidence": 0.1246,
+"match_method": "canonical",
+"preferred_label": "Reed"
 }
 ]
 }
@@ -584,18 +584,18 @@
 "preferred_label": "Elijah"
 },
 {
-"id": "realia:Temple",
-"type": "realia",
-"confidence": 0.2092,
-"match_method": "canonical",
-"preferred_label": "Temple"
-},
-{
 "id": "realia:Curtain",
 "type": "realia",
 "confidence": 0.2092,
 "match_method": "canonical",
 "preferred_label": "Curtain"
+},
+{
+"id": "realia:Temple",
+"type": "realia",
+"confidence": 0.2092,
+"match_method": "canonical",
+"preferred_label": "Temple"
 },
 {
 "id": "person:Centurion.3",
@@ -605,11 +605,11 @@
 "preferred_label": "Centurion at Crucifixion"
 },
 {
-"id": "place:Galilee",
-"type": "place",
+"id": "keyterm:True",
+"type": "keyterm",
 "confidence": 0.1846,
 "match_method": "canonical",
-"preferred_label": "Galilee"
+"preferred_label": "True"
 },
 {
 "id": "group:GenericGroup",
@@ -619,25 +619,11 @@
 "preferred_label": "A Group of People"
 },
 {
-"id": "keyterm:Glory",
-"type": "keyterm",
-"confidence": 0.1846,
-"match_method": "canonical",
-"preferred_label": "Glory"
-},
-{
 "id": "keyterm:Spirit.2",
 "type": "keyterm",
 "confidence": 0.1846,
 "match_method": "canonical",
 "preferred_label": "Spirit"
-},
-{
-"id": "keyterm:True",
-"type": "keyterm",
-"confidence": 0.1846,
-"match_method": "canonical",
-"preferred_label": "True"
 },
 {
 "id": "keyterm:Just",
@@ -647,11 +633,18 @@
 "preferred_label": "Be (Or Show Oneself) Just"
 },
 {
-"id": "flora:Reed",
-"type": "flora",
-"confidence": 0.1246,
+"id": "place:Galilee",
+"type": "place",
+"confidence": 0.1846,
 "match_method": "canonical",
-"preferred_label": "Reed"
+"preferred_label": "Galilee"
+},
+{
+"id": "keyterm:Glory",
+"type": "keyterm",
+"confidence": 0.1846,
+"match_method": "canonical",
+"preferred_label": "Glory"
 },
 {
 "id": "realia:SourWine",
@@ -659,6 +652,13 @@
 "confidence": 0.1246,
 "match_method": "canonical",
 "preferred_label": "Sour Wine"
+},
+{
+"id": "flora:Reed",
+"type": "flora",
+"confidence": 0.1246,
+"match_method": "canonical",
+"preferred_label": "Reed"
 }
 ]
 }

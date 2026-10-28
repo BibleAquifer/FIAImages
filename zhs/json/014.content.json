@@ -62,18 +62,18 @@
 "preferred_label": "Joseph"
 },
 {
-"id": "person:Pilate",
-"type": "person",
-"confidence": 0.2562,
-"match_method": "canonical",
-"preferred_label": "Pilate"
-},
-{
 "id": "person:Jesus.2",
 "type": "person",
 "confidence": 0.2562,
 "match_method": "canonical",
 "preferred_label": "Jesus"
+},
+{
+"id": "person:Pilate",
+"type": "person",
+"confidence": 0.2562,
+"match_method": "canonical",
+"preferred_label": "Pilate"
 },
 {
 "id": "place:Galilee",
@@ -83,13 +83,6 @@
 "preferred_label": "Galilee"
 },
 {
-"id": "person:Joseph.5",
-"type": "person",
-"confidence": 0.2031,
-"match_method": "canonical",
-"preferred_label": "Joseph"
-},
-{
 "id": "person:James.4",
 "type": "person",
 "confidence": 0.2031,
@@ -97,11 +90,11 @@
 "preferred_label": "James"
 },
 {
-"id": "group:Angels",
-"type": "group",
-"confidence": 0.1906,
+"id": "person:Joseph.5",
+"type": "person",
+"confidence": 0.2031,
 "match_method": "canonical",
-"preferred_label": "Angels"
+"preferred_label": "Joseph"
 },
 {
 "id": "place:Arimathea",
@@ -118,11 +111,18 @@
 "preferred_label": "Joseph"
 },
 {
-"id": "person:James.3",
-"type": "person",
+"id": "group:Angels",
+"type": "group",
+"confidence": 0.1906,
+"match_method": "canonical",
+"preferred_label": "Angels"
+},
+{
+"id": "keyterm:Body.3",
+"type": "keyterm",
 "confidence": 0.1781,
 "match_method": "canonical",
-"preferred_label": "James"
+"preferred_label": "Body"
 },
 {
 "id": "keyterm:Imperishable",
@@ -130,6 +130,20 @@
 "confidence": 0.1781,
 "match_method": "canonical",
 "preferred_label": "Imperishable"
+},
+{
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.1781,
+"match_method": "canonical",
+"preferred_label": "Jerusalem"
+},
+{
+"id": "keyterm:Salvation",
+"type": "keyterm",
+"confidence": 0.1781,
+"match_method": "canonical",
+"preferred_label": "Salvation"
 },
 {
 "id": "keyterm:Surely",
@@ -146,53 +160,11 @@
 "preferred_label": "Peter"
 },
 {
-"id": "keyterm:Resurrection",
-"type": "keyterm",
-"confidence": 0.1781,
-"match_method": "canonical",
-"preferred_label": "Resurrection"
-},
-{
-"id": "keyterm:Kingdom",
-"type": "keyterm",
-"confidence": 0.1781,
-"match_method": "canonical",
-"preferred_label": "Kingdom"
-},
-{
-"id": "keyterm:DayBeforeTheSabbath",
-"type": "keyterm",
-"confidence": 0.1781,
-"match_method": "canonical",
-"preferred_label": "Day Before the Sabbath"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.1781,
-"match_method": "canonical",
-"preferred_label": "LORD"
-},
-{
-"id": "keyterm:Anointed",
-"type": "keyterm",
-"confidence": 0.1781,
-"match_method": "canonical",
-"preferred_label": "Anointed"
-},
-{
-"id": "keyterm:Command",
-"type": "keyterm",
-"confidence": 0.1781,
-"match_method": "canonical",
-"preferred_label": "To Command"
-},
-{
-"id": "place:Jerusalem",
+"id": "place:Nazareth",
 "type": "place",
 "confidence": 0.1781,
 "match_method": "canonical",
-"preferred_label": "Jerusalem"
+"preferred_label": "Nazareth"
 },
 {
 "id": "keyterm:Week",
@@ -202,25 +174,18 @@
 "preferred_label": "Week"
 },
 {
-"id": "keyterm:Body.3",
+"id": "keyterm:Command",
 "type": "keyterm",
 "confidence": 0.1781,
 "match_method": "canonical",
-"preferred_label": "Body"
+"preferred_label": "To Command"
 },
 {
-"id": "keyterm:Serve",
+"id": "keyterm:Resurrection",
 "type": "keyterm",
 "confidence": 0.1781,
 "match_method": "canonical",
-"preferred_label": "Serve"
-},
-{
-"id": "keyterm:Salvation",
-"type": "keyterm",
-"confidence": 0.1781,
-"match_method": "canonical",
-"preferred_label": "Salvation"
+"preferred_label": "Resurrection"
 },
 {
 "id": "keyterm:Fear",
@@ -228,6 +193,13 @@
 "confidence": 0.1781,
 "match_method": "canonical",
 "preferred_label": "Fear"
+},
+{
+"id": "person:James.3",
+"type": "person",
+"confidence": 0.1781,
+"match_method": "canonical",
+"preferred_label": "James"
 },
 {
 "id": "keyterm:Sabbath",
@@ -244,11 +216,39 @@
 "preferred_label": "Be a Disciple"
 },
 {
-"id": "place:Nazareth",
-"type": "place",
+"id": "keyterm:Kingdom",
+"type": "keyterm",
 "confidence": 0.1781,
 "match_method": "canonical",
-"preferred_label": "Nazareth"
+"preferred_label": "Kingdom"
+},
+{
+"id": "keyterm:DayBeforeTheSabbath",
+"type": "keyterm",
+"confidence": 0.1781,
+"match_method": "canonical",
+"preferred_label": "Day Before the Sabbath"
+},
+{
+"id": "keyterm:Serve",
+"type": "keyterm",
+"confidence": 0.1781,
+"match_method": "canonical",
+"preferred_label": "Serve"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.1781,
+"match_method": "canonical",
+"preferred_label": "LORD"
+},
+{
+"id": "keyterm:Anointed",
+"type": "keyterm",
+"confidence": 0.1781,
+"match_method": "canonical",
+"preferred_label": "Anointed"
 },
 {
 "id": "realia:Cross",
@@ -256,6 +256,13 @@
 "confidence": 0.1181,
 "match_method": "canonical",
 "preferred_label": "Cross"
+},
+{
+"id": "realia:Aloes",
+"type": "realia",
+"confidence": 0.1181,
+"match_method": "canonical",
+"preferred_label": "Aloes"
 },
 {
 "id": "realia:Linen",
@@ -270,13 +277,6 @@
 "confidence": 0.1181,
 "match_method": "canonical",
 "preferred_label": "Cloak"
-},
-{
-"id": "realia:Aloes",
-"type": "realia",
-"confidence": 0.1181,
-"match_method": "canonical",
-"preferred_label": "Aloes"
 }
 ]
 }
