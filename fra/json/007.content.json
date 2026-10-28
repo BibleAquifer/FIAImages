@@ -59,18 +59,18 @@
 "preferred_label": "régne"
 },
 {
-"id": "person:Jesus.2",
-"type": "person",
-"confidence": 0.4128,
-"match_method": "canonical",
-"preferred_label": "Jésus"
-},
-{
 "id": "keyterm:Heaven",
 "type": "keyterm",
 "confidence": 0.4128,
 "match_method": "canonical",
 "preferred_label": "cieux [également employé pour dieu pour éviter la mention du nom sacré]"
+},
+{
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.4128,
+"match_method": "canonical",
+"preferred_label": "Jésus"
 },
 {
 "id": "flora:Grain",
@@ -94,18 +94,18 @@
 "preferred_label": "Weed"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.3419,
-"match_method": "canonical",
-"preferred_label": "Éternel"
-},
-{
 "id": "keyterm:Disciple",
 "type": "keyterm",
 "confidence": 0.3419,
 "match_method": "canonical",
 "preferred_label": "trans. faire un disciple de"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.3419,
+"match_method": "canonical",
+"preferred_label": "Éternel"
 },
 {
 "id": "flora:Wheat",
@@ -136,25 +136,11 @@
 "preferred_label": "servir"
 },
 {
-"id": "keyterm:Repent",
-"type": "keyterm",
-"confidence": 0.2209,
-"match_method": "canonical",
-"preferred_label": "se repentir"
-},
-{
 "id": "keyterm:Forgive",
 "type": "keyterm",
 "confidence": 0.2209,
 "match_method": "canonical",
 "preferred_label": "pardonner"
-},
-{
-"id": "group:GenericDisciples",
-"type": "group",
-"confidence": 0.2209,
-"match_method": "canonical",
-"preferred_label": "A Group of Disciples"
 },
 {
 "id": "keyterm:Command",
@@ -164,11 +150,25 @@
 "preferred_label": "prescrire"
 },
 {
+"id": "group:GenericDisciples",
+"type": "group",
+"confidence": 0.2209,
+"match_method": "canonical",
+"preferred_label": "A Group of Disciples"
+},
+{
 "id": "keyterm:Sin",
 "type": "keyterm",
 "confidence": 0.2209,
 "match_method": "canonical",
 "preferred_label": "pécher"
+},
+{
+"id": "keyterm:Repent",
+"type": "keyterm",
+"confidence": 0.2209,
+"match_method": "canonical",
+"preferred_label": "se repentir"
 },
 {
 "id": "realia:Saton",
@@ -178,11 +178,11 @@
 "preferred_label": "Saton"
 },
 {
-"id": "keyterm:Ought",
+"id": "keyterm:CauseToStumble",
 "type": "keyterm",
 "confidence": 0.1651,
 "match_method": "canonical",
-"preferred_label": "sois obligé"
+"preferred_label": "faire pécher qqn"
 },
 {
 "id": "keyterm:StumblingBlock",
@@ -192,11 +192,11 @@
 "preferred_label": "ce qui cause le péché ou donne l'occasion de pécher"
 },
 {
-"id": "keyterm:CauseToStumble",
+"id": "keyterm:Ought",
 "type": "keyterm",
 "confidence": 0.1651,
 "match_method": "canonical",
-"preferred_label": "faire pécher qqn"
+"preferred_label": "sois obligé"
 },
 {
 "id": "flora:Barley",
@@ -206,25 +206,11 @@
 "preferred_label": "Barley"
 },
 {
-"id": "deity:Demons",
-"type": "deity",
-"confidence": 0.1605,
-"match_method": "canonical",
-"preferred_label": "Demons"
-},
-{
-"id": "keyterm:Happen",
+"id": "keyterm:Unfaithful",
 "type": "keyterm",
 "confidence": 0.1605,
 "match_method": "canonical",
-"preferred_label": "To Cause to Happen"
-},
-{
-"id": "keyterm:Surely",
-"type": "keyterm",
-"confidence": 0.1605,
-"match_method": "canonical",
-"preferred_label": "sûrement!"
+"preferred_label": "être infidèle"
 },
 {
 "id": "keyterm:Mercy",
@@ -234,18 +220,18 @@
 "preferred_label": "pitié"
 },
 {
-"id": "keyterm:Unfaithful",
+"id": "keyterm:Happen",
 "type": "keyterm",
 "confidence": 0.1605,
 "match_method": "canonical",
-"preferred_label": "être infidèle"
+"preferred_label": "To Cause to Happen"
 },
 {
-"id": "keyterm:Disaster",
-"type": "keyterm",
+"id": "deity:Demons",
+"type": "deity",
 "confidence": 0.1605,
 "match_method": "canonical",
-"preferred_label": "Disaster"
+"preferred_label": "Demons"
 },
 {
 "id": "keyterm:Favor",
@@ -255,32 +241,25 @@
 "preferred_label": "grâce"
 },
 {
+"id": "keyterm:Surely",
+"type": "keyterm",
+"confidence": 0.1605,
+"match_method": "canonical",
+"preferred_label": "sûrement!"
+},
+{
+"id": "keyterm:Disaster",
+"type": "keyterm",
+"confidence": 0.1605,
+"match_method": "canonical",
+"preferred_label": "Disaster"
+},
+{
 "id": "flora:Mulberry",
 "type": "flora",
 "confidence": 0.1051,
 "match_method": "canonical",
 "preferred_label": "Mulberry"
-},
-{
-"id": "fauna:Goat",
-"type": "fauna",
-"confidence": 0.1005,
-"match_method": "canonical",
-"preferred_label": "Goat"
-},
-{
-"id": "realia:Hand-mill",
-"type": "realia",
-"confidence": 0.1005,
-"match_method": "canonical",
-"preferred_label": "Hand-Mill"
-},
-{
-"id": "fauna:Flock",
-"type": "fauna",
-"confidence": 0.1005,
-"match_method": "canonical",
-"preferred_label": "Flock"
 },
 {
 "id": "fauna:Lamb",
@@ -290,6 +269,27 @@
 "preferred_label": "Sheep"
 },
 {
+"id": "realia:Barn",
+"type": "realia",
+"confidence": 0.1005,
+"match_method": "canonical",
+"preferred_label": "Barn"
+},
+{
+"id": "fauna:Flock",
+"type": "fauna",
+"confidence": 0.1005,
+"match_method": "canonical",
+"preferred_label": "Flock"
+},
+{
+"id": "fauna:Goat",
+"type": "fauna",
+"confidence": 0.1005,
+"match_method": "canonical",
+"preferred_label": "Goat"
+},
+{
 "id": "realia:Sickle",
 "type": "realia",
 "confidence": 0.1005,
@@ -297,11 +297,11 @@
 "preferred_label": "Sickle"
 },
 {
-"id": "realia:Barn",
+"id": "realia:Hand-mill",
 "type": "realia",
 "confidence": 0.1005,
 "match_method": "canonical",
-"preferred_label": "Barn"
+"preferred_label": "Hand-Mill"
 }
 ]
 }
@@ -366,18 +366,18 @@
 "preferred_label": "régne"
 },
 {
-"id": "person:Jesus.2",
-"type": "person",
-"confidence": 0.4128,
-"match_method": "canonical",
-"preferred_label": "Jésus"
-},
-{
 "id": "keyterm:Heaven",
 "type": "keyterm",
 "confidence": 0.4128,
 "match_method": "canonical",
 "preferred_label": "cieux [également employé pour dieu pour éviter la mention du nom sacré]"
+},
+{
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.4128,
+"match_method": "canonical",
+"preferred_label": "Jésus"
 },
 {
 "id": "flora:Grain",
@@ -401,18 +401,18 @@
 "preferred_label": "Weed"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.3419,
-"match_method": "canonical",
-"preferred_label": "Éternel"
-},
-{
 "id": "keyterm:Disciple",
 "type": "keyterm",
 "confidence": 0.3419,
 "match_method": "canonical",
 "preferred_label": "trans. faire un disciple de"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.3419,
+"match_method": "canonical",
+"preferred_label": "Éternel"
 },
 {
 "id": "flora:Wheat",
@@ -443,25 +443,11 @@
 "preferred_label": "servir"
 },
 {
-"id": "keyterm:Repent",
-"type": "keyterm",
-"confidence": 0.2209,
-"match_method": "canonical",
-"preferred_label": "se repentir"
-},
-{
 "id": "keyterm:Forgive",
 "type": "keyterm",
 "confidence": 0.2209,
 "match_method": "canonical",
 "preferred_label": "pardonner"
-},
-{
-"id": "group:GenericDisciples",
-"type": "group",
-"confidence": 0.2209,
-"match_method": "canonical",
-"preferred_label": "A Group of Disciples"
 },
 {
 "id": "keyterm:Command",
@@ -471,11 +457,25 @@
 "preferred_label": "prescrire"
 },
 {
+"id": "group:GenericDisciples",
+"type": "group",
+"confidence": 0.2209,
+"match_method": "canonical",
+"preferred_label": "A Group of Disciples"
+},
+{
 "id": "keyterm:Sin",
 "type": "keyterm",
 "confidence": 0.2209,
 "match_method": "canonical",
 "preferred_label": "pécher"
+},
+{
+"id": "keyterm:Repent",
+"type": "keyterm",
+"confidence": 0.2209,
+"match_method": "canonical",
+"preferred_label": "se repentir"
 },
 {
 "id": "realia:Saton",
@@ -485,11 +485,11 @@
 "preferred_label": "Saton"
 },
 {
-"id": "keyterm:Ought",
+"id": "keyterm:CauseToStumble",
 "type": "keyterm",
 "confidence": 0.1651,
 "match_method": "canonical",
-"preferred_label": "sois obligé"
+"preferred_label": "faire pécher qqn"
 },
 {
 "id": "keyterm:StumblingBlock",
@@ -499,11 +499,11 @@
 "preferred_label": "ce qui cause le péché ou donne l'occasion de pécher"
 },
 {
-"id": "keyterm:CauseToStumble",
+"id": "keyterm:Ought",
 "type": "keyterm",
 "confidence": 0.1651,
 "match_method": "canonical",
-"preferred_label": "faire pécher qqn"
+"preferred_label": "sois obligé"
 },
 {
 "id": "flora:Barley",
@@ -513,25 +513,11 @@
 "preferred_label": "Barley"
 },
 {
-"id": "deity:Demons",
-"type": "deity",
-"confidence": 0.1605,
-"match_method": "canonical",
-"preferred_label": "Demons"
-},
-{
-"id": "keyterm:Happen",
+"id": "keyterm:Unfaithful",
 "type": "keyterm",
 "confidence": 0.1605,
 "match_method": "canonical",
-"preferred_label": "To Cause to Happen"
-},
-{
-"id": "keyterm:Surely",
-"type": "keyterm",
-"confidence": 0.1605,
-"match_method": "canonical",
-"preferred_label": "sûrement!"
+"preferred_label": "être infidèle"
 },
 {
 "id": "keyterm:Mercy",
@@ -541,18 +527,18 @@
 "preferred_label": "pitié"
 },
 {
-"id": "keyterm:Unfaithful",
+"id": "keyterm:Happen",
 "type": "keyterm",
 "confidence": 0.1605,
 "match_method": "canonical",
-"preferred_label": "être infidèle"
+"preferred_label": "To Cause to Happen"
 },
 {
-"id": "keyterm:Disaster",
-"type": "keyterm",
+"id": "deity:Demons",
+"type": "deity",
 "confidence": 0.1605,
 "match_method": "canonical",
-"preferred_label": "Disaster"
+"preferred_label": "Demons"
 },
 {
 "id": "keyterm:Favor",
@@ -562,32 +548,25 @@
 "preferred_label": "grâce"
 },
 {
+"id": "keyterm:Surely",
+"type": "keyterm",
+"confidence": 0.1605,
+"match_method": "canonical",
+"preferred_label": "sûrement!"
+},
+{
+"id": "keyterm:Disaster",
+"type": "keyterm",
+"confidence": 0.1605,
+"match_method": "canonical",
+"preferred_label": "Disaster"
+},
+{
 "id": "flora:Mulberry",
 "type": "flora",
 "confidence": 0.1051,
 "match_method": "canonical",
 "preferred_label": "Mulberry"
-},
-{
-"id": "fauna:Goat",
-"type": "fauna",
-"confidence": 0.1005,
-"match_method": "canonical",
-"preferred_label": "Goat"
-},
-{
-"id": "realia:Hand-mill",
-"type": "realia",
-"confidence": 0.1005,
-"match_method": "canonical",
-"preferred_label": "Hand-Mill"
-},
-{
-"id": "fauna:Flock",
-"type": "fauna",
-"confidence": 0.1005,
-"match_method": "canonical",
-"preferred_label": "Flock"
 },
 {
 "id": "fauna:Lamb",
@@ -597,6 +576,27 @@
 "preferred_label": "Sheep"
 },
 {
+"id": "realia:Barn",
+"type": "realia",
+"confidence": 0.1005,
+"match_method": "canonical",
+"preferred_label": "Barn"
+},
+{
+"id": "fauna:Flock",
+"type": "fauna",
+"confidence": 0.1005,
+"match_method": "canonical",
+"preferred_label": "Flock"
+},
+{
+"id": "fauna:Goat",
+"type": "fauna",
+"confidence": 0.1005,
+"match_method": "canonical",
+"preferred_label": "Goat"
+},
+{
 "id": "realia:Sickle",
 "type": "realia",
 "confidence": 0.1005,
@@ -604,11 +604,11 @@
 "preferred_label": "Sickle"
 },
 {
-"id": "realia:Barn",
+"id": "realia:Hand-mill",
 "type": "realia",
 "confidence": 0.1005,
 "match_method": "canonical",
-"preferred_label": "Barn"
+"preferred_label": "Hand-Mill"
 }
 ]
 }
@@ -673,18 +673,18 @@
 "preferred_label": "régne"
 },
 {
-"id": "person:Jesus.2",
-"type": "person",
-"confidence": 0.4128,
-"match_method": "canonical",
-"preferred_label": "Jésus"
-},
-{
 "id": "keyterm:Heaven",
 "type": "keyterm",
 "confidence": 0.4128,
 "match_method": "canonical",
 "preferred_label": "cieux [également employé pour dieu pour éviter la mention du nom sacré]"
+},
+{
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.4128,
+"match_method": "canonical",
+"preferred_label": "Jésus"
 },
 {
 "id": "flora:Grain",
@@ -708,18 +708,18 @@
 "preferred_label": "Weed"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.3419,
-"match_method": "canonical",
-"preferred_label": "Éternel"
-},
-{
 "id": "keyterm:Disciple",
 "type": "keyterm",
 "confidence": 0.3419,
 "match_method": "canonical",
 "preferred_label": "trans. faire un disciple de"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.3419,
+"match_method": "canonical",
+"preferred_label": "Éternel"
 },
 {
 "id": "flora:Wheat",
@@ -750,25 +750,11 @@
 "preferred_label": "servir"
 },
 {
-"id": "keyterm:Repent",
-"type": "keyterm",
-"confidence": 0.2209,
-"match_method": "canonical",
-"preferred_label": "se repentir"
-},
-{
 "id": "keyterm:Forgive",
 "type": "keyterm",
 "confidence": 0.2209,
 "match_method": "canonical",
 "preferred_label": "pardonner"
-},
-{
-"id": "group:GenericDisciples",
-"type": "group",
-"confidence": 0.2209,
-"match_method": "canonical",
-"preferred_label": "A Group of Disciples"
 },
 {
 "id": "keyterm:Command",
@@ -778,11 +764,25 @@
 "preferred_label": "prescrire"
 },
 {
+"id": "group:GenericDisciples",
+"type": "group",
+"confidence": 0.2209,
+"match_method": "canonical",
+"preferred_label": "A Group of Disciples"
+},
+{
 "id": "keyterm:Sin",
 "type": "keyterm",
 "confidence": 0.2209,
 "match_method": "canonical",
 "preferred_label": "pécher"
+},
+{
+"id": "keyterm:Repent",
+"type": "keyterm",
+"confidence": 0.2209,
+"match_method": "canonical",
+"preferred_label": "se repentir"
 },
 {
 "id": "realia:Saton",
@@ -792,11 +792,11 @@
 "preferred_label": "Saton"
 },
 {
-"id": "keyterm:Ought",
+"id": "keyterm:CauseToStumble",
 "type": "keyterm",
 "confidence": 0.1651,
 "match_method": "canonical",
-"preferred_label": "sois obligé"
+"preferred_label": "faire pécher qqn"
 },
 {
 "id": "keyterm:StumblingBlock",
@@ -806,11 +806,11 @@
 "preferred_label": "ce qui cause le péché ou donne l'occasion de pécher"
 },
 {
-"id": "keyterm:CauseToStumble",
+"id": "keyterm:Ought",
 "type": "keyterm",
 "confidence": 0.1651,
 "match_method": "canonical",
-"preferred_label": "faire pécher qqn"
+"preferred_label": "sois obligé"
 },
 {
 "id": "flora:Barley",
@@ -820,25 +820,11 @@
 "preferred_label": "Barley"
 },
 {
-"id": "deity:Demons",
-"type": "deity",
-"confidence": 0.1605,
-"match_method": "canonical",
-"preferred_label": "Demons"
-},
-{
-"id": "keyterm:Happen",
+"id": "keyterm:Unfaithful",
 "type": "keyterm",
 "confidence": 0.1605,
 "match_method": "canonical",
-"preferred_label": "To Cause to Happen"
-},
-{
-"id": "keyterm:Surely",
-"type": "keyterm",
-"confidence": 0.1605,
-"match_method": "canonical",
-"preferred_label": "sûrement!"
+"preferred_label": "être infidèle"
 },
 {
 "id": "keyterm:Mercy",
@@ -848,18 +834,18 @@
 "preferred_label": "pitié"
 },
 {
-"id": "keyterm:Unfaithful",
+"id": "keyterm:Happen",
 "type": "keyterm",
 "confidence": 0.1605,
 "match_method": "canonical",
-"preferred_label": "être infidèle"
+"preferred_label": "To Cause to Happen"
 },
 {
-"id": "keyterm:Disaster",
-"type": "keyterm",
+"id": "deity:Demons",
+"type": "deity",
 "confidence": 0.1605,
 "match_method": "canonical",
-"preferred_label": "Disaster"
+"preferred_label": "Demons"
 },
 {
 "id": "keyterm:Favor",
@@ -869,32 +855,25 @@
 "preferred_label": "grâce"
 },
 {
+"id": "keyterm:Surely",
+"type": "keyterm",
+"confidence": 0.1605,
+"match_method": "canonical",
+"preferred_label": "sûrement!"
+},
+{
+"id": "keyterm:Disaster",
+"type": "keyterm",
+"confidence": 0.1605,
+"match_method": "canonical",
+"preferred_label": "Disaster"
+},
+{
 "id": "flora:Mulberry",
 "type": "flora",
 "confidence": 0.1051,
 "match_method": "canonical",
 "preferred_label": "Mulberry"
-},
-{
-"id": "fauna:Goat",
-"type": "fauna",
-"confidence": 0.1005,
-"match_method": "canonical",
-"preferred_label": "Goat"
-},
-{
-"id": "realia:Hand-mill",
-"type": "realia",
-"confidence": 0.1005,
-"match_method": "canonical",
-"preferred_label": "Hand-Mill"
-},
-{
-"id": "fauna:Flock",
-"type": "fauna",
-"confidence": 0.1005,
-"match_method": "canonical",
-"preferred_label": "Flock"
 },
 {
 "id": "fauna:Lamb",
@@ -904,6 +883,27 @@
 "preferred_label": "Sheep"
 },
 {
+"id": "realia:Barn",
+"type": "realia",
+"confidence": 0.1005,
+"match_method": "canonical",
+"preferred_label": "Barn"
+},
+{
+"id": "fauna:Flock",
+"type": "fauna",
+"confidence": 0.1005,
+"match_method": "canonical",
+"preferred_label": "Flock"
+},
+{
+"id": "fauna:Goat",
+"type": "fauna",
+"confidence": 0.1005,
+"match_method": "canonical",
+"preferred_label": "Goat"
+},
+{
 "id": "realia:Sickle",
 "type": "realia",
 "confidence": 0.1005,
@@ -911,11 +911,11 @@
 "preferred_label": "Sickle"
 },
 {
-"id": "realia:Barn",
+"id": "realia:Hand-mill",
 "type": "realia",
 "confidence": 0.1005,
 "match_method": "canonical",
-"preferred_label": "Barn"
+"preferred_label": "Hand-Mill"
 }
 ]
 }
@@ -980,18 +980,18 @@
 "preferred_label": "régne"
 },
 {
-"id": "person:Jesus.2",
-"type": "person",
-"confidence": 0.4128,
-"match_method": "canonical",
-"preferred_label": "Jésus"
-},
-{
 "id": "keyterm:Heaven",
 "type": "keyterm",
 "confidence": 0.4128,
 "match_method": "canonical",
 "preferred_label": "cieux [également employé pour dieu pour éviter la mention du nom sacré]"
+},
+{
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.4128,
+"match_method": "canonical",
+"preferred_label": "Jésus"
 },
 {
 "id": "flora:Grain",
@@ -1015,18 +1015,18 @@
 "preferred_label": "Weed"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.3419,
-"match_method": "canonical",
-"preferred_label": "Éternel"
-},
-{
 "id": "keyterm:Disciple",
 "type": "keyterm",
 "confidence": 0.3419,
 "match_method": "canonical",
 "preferred_label": "trans. faire un disciple de"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.3419,
+"match_method": "canonical",
+"preferred_label": "Éternel"
 },
 {
 "id": "flora:Wheat",
@@ -1057,25 +1057,11 @@
 "preferred_label": "servir"
 },
 {
-"id": "keyterm:Repent",
-"type": "keyterm",
-"confidence": 0.2209,
-"match_method": "canonical",
-"preferred_label": "se repentir"
-},
-{
 "id": "keyterm:Forgive",
 "type": "keyterm",
 "confidence": 0.2209,
 "match_method": "canonical",
 "preferred_label": "pardonner"
-},
-{
-"id": "group:GenericDisciples",
-"type": "group",
-"confidence": 0.2209,
-"match_method": "canonical",
-"preferred_label": "A Group of Disciples"
 },
 {
 "id": "keyterm:Command",
@@ -1085,11 +1071,25 @@
 "preferred_label": "prescrire"
 },
 {
+"id": "group:GenericDisciples",
+"type": "group",
+"confidence": 0.2209,
+"match_method": "canonical",
+"preferred_label": "A Group of Disciples"
+},
+{
 "id": "keyterm:Sin",
 "type": "keyterm",
 "confidence": 0.2209,
 "match_method": "canonical",
 "preferred_label": "pécher"
+},
+{
+"id": "keyterm:Repent",
+"type": "keyterm",
+"confidence": 0.2209,
+"match_method": "canonical",
+"preferred_label": "se repentir"
 },
 {
 "id": "realia:Saton",
@@ -1099,11 +1099,11 @@
 "preferred_label": "Saton"
 },
 {
-"id": "keyterm:Ought",
+"id": "keyterm:CauseToStumble",
 "type": "keyterm",
 "confidence": 0.1651,
 "match_method": "canonical",
-"preferred_label": "sois obligé"
+"preferred_label": "faire pécher qqn"
 },
 {
 "id": "keyterm:StumblingBlock",
@@ -1113,11 +1113,11 @@
 "preferred_label": "ce qui cause le péché ou donne l'occasion de pécher"
 },
 {
-"id": "keyterm:CauseToStumble",
+"id": "keyterm:Ought",
 "type": "keyterm",
 "confidence": 0.1651,
 "match_method": "canonical",
-"preferred_label": "faire pécher qqn"
+"preferred_label": "sois obligé"
 },
 {
 "id": "flora:Barley",
@@ -1127,25 +1127,11 @@
 "preferred_label": "Barley"
 },
 {
-"id": "deity:Demons",
-"type": "deity",
-"confidence": 0.1605,
-"match_method": "canonical",
-"preferred_label": "Demons"
-},
-{
-"id": "keyterm:Happen",
+"id": "keyterm:Unfaithful",
 "type": "keyterm",
 "confidence": 0.1605,
 "match_method": "canonical",
-"preferred_label": "To Cause to Happen"
-},
-{
-"id": "keyterm:Surely",
-"type": "keyterm",
-"confidence": 0.1605,
-"match_method": "canonical",
-"preferred_label": "sûrement!"
+"preferred_label": "être infidèle"
 },
 {
 "id": "keyterm:Mercy",
@@ -1155,18 +1141,18 @@
 "preferred_label": "pitié"
 },
 {
-"id": "keyterm:Unfaithful",
+"id": "keyterm:Happen",
 "type": "keyterm",
 "confidence": 0.1605,
 "match_method": "canonical",
-"preferred_label": "être infidèle"
+"preferred_label": "To Cause to Happen"
 },
 {
-"id": "keyterm:Disaster",
-"type": "keyterm",
+"id": "deity:Demons",
+"type": "deity",
 "confidence": 0.1605,
 "match_method": "canonical",
-"preferred_label": "Disaster"
+"preferred_label": "Demons"
 },
 {
 "id": "keyterm:Favor",
@@ -1176,32 +1162,25 @@
 "preferred_label": "grâce"
 },
 {
+"id": "keyterm:Surely",
+"type": "keyterm",
+"confidence": 0.1605,
+"match_method": "canonical",
+"preferred_label": "sûrement!"
+},
+{
+"id": "keyterm:Disaster",
+"type": "keyterm",
+"confidence": 0.1605,
+"match_method": "canonical",
+"preferred_label": "Disaster"
+},
+{
 "id": "flora:Mulberry",
 "type": "flora",
 "confidence": 0.1051,
 "match_method": "canonical",
 "preferred_label": "Mulberry"
-},
-{
-"id": "fauna:Goat",
-"type": "fauna",
-"confidence": 0.1005,
-"match_method": "canonical",
-"preferred_label": "Goat"
-},
-{
-"id": "realia:Hand-mill",
-"type": "realia",
-"confidence": 0.1005,
-"match_method": "canonical",
-"preferred_label": "Hand-Mill"
-},
-{
-"id": "fauna:Flock",
-"type": "fauna",
-"confidence": 0.1005,
-"match_method": "canonical",
-"preferred_label": "Flock"
 },
 {
 "id": "fauna:Lamb",
@@ -1211,6 +1190,27 @@
 "preferred_label": "Sheep"
 },
 {
+"id": "realia:Barn",
+"type": "realia",
+"confidence": 0.1005,
+"match_method": "canonical",
+"preferred_label": "Barn"
+},
+{
+"id": "fauna:Flock",
+"type": "fauna",
+"confidence": 0.1005,
+"match_method": "canonical",
+"preferred_label": "Flock"
+},
+{
+"id": "fauna:Goat",
+"type": "fauna",
+"confidence": 0.1005,
+"match_method": "canonical",
+"preferred_label": "Goat"
+},
+{
 "id": "realia:Sickle",
 "type": "realia",
 "confidence": 0.1005,
@@ -1218,11 +1218,11 @@
 "preferred_label": "Sickle"
 },
 {
-"id": "realia:Barn",
+"id": "realia:Hand-mill",
 "type": "realia",
 "confidence": 0.1005,
 "match_method": "canonical",
-"preferred_label": "Barn"
+"preferred_label": "Hand-Mill"
 }
 ]
 }
