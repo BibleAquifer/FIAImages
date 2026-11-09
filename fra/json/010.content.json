@@ -176,15 +176,15 @@
 "preferred_label": "Joram"
 },
 {
-"id": "person:Judah.4",
-"type": "person",
-"confidence": 0.3697,
-"match_method": "canonical",
-"preferred_label": "Juda"
-},
-{
 "id": "group:Judah",
 "type": "group",
+"confidence": 0.3697,
+"match_method": "canonical",
+"preferred_label": "tribu de Juda"
+},
+{
+"id": "person:Judah.4",
+"type": "person",
 "confidence": 0.3697,
 "match_method": "canonical",
 "preferred_label": "Juda"
@@ -204,11 +204,11 @@
 "preferred_label": "Jéroboam"
 },
 {
-"id": "person:Paul",
-"type": "person",
+"id": "group:Pharisee",
+"type": "group",
 "confidence": 0.3658,
 "match_method": "canonical",
-"preferred_label": "Paul"
+"preferred_label": "Pharisiens"
 },
 {
 "id": "place:Jerusalem",
@@ -218,18 +218,18 @@
 "preferred_label": "Jérusalem"
 },
 {
-"id": "group:Pharisee",
-"type": "group",
+"id": "person:Paul",
+"type": "person",
 "confidence": 0.3658,
 "match_method": "canonical",
-"preferred_label": "Pharisien"
+"preferred_label": "Paul"
 },
 {
 "id": "keyterm:BearWitness",
 "type": "keyterm",
 "confidence": 0.3638,
 "match_method": "canonical",
-"preferred_label": "témoigner"
+"preferred_label": "rendre témoignage"
 },
 {
 "id": "keyterm:Believe",
@@ -239,6 +239,13 @@
 "preferred_label": "croire"
 },
 {
+"id": "keyterm:Disaster",
+"type": "keyterm",
+"confidence": 0.3618,
+"match_method": "canonical",
+"preferred_label": "malheur"
+},
+{
 "id": "place:Edom",
 "type": "place",
 "confidence": 0.3618,
@@ -246,11 +253,11 @@
 "preferred_label": "Édom"
 },
 {
-"id": "keyterm:Disaster",
+"id": "keyterm:Heaven",
 "type": "keyterm",
-"confidence": 0.3618,
+"confidence": 0.3599,
 "match_method": "canonical",
-"preferred_label": "Disaster"
+"preferred_label": "ciel"
 },
 {
 "id": "keyterm:Body.3",
@@ -267,18 +274,11 @@
 "preferred_label": "vie"
 },
 {
-"id": "keyterm:Heaven",
-"type": "keyterm",
-"confidence": 0.3599,
-"match_method": "canonical",
-"preferred_label": "cieux [également employé pour dieu pour éviter la mention du nom sacré]"
-},
-{
 "id": "realia:Lamp",
 "type": "realia",
 "confidence": 0.3214,
 "match_method": "canonical",
-"preferred_label": "Lamp"
+"preferred_label": "lampe"
 },
 {
 "id": "person:Rapha",
@@ -288,6 +288,13 @@
 "preferred_label": "Rapha"
 },
 {
+"id": "keyterm:Love",
+"type": "keyterm",
+"confidence": 0.3079,
+"match_method": "canonical",
+"preferred_label": "amour"
+},
+{
 "id": "keyterm:Rebel",
 "type": "keyterm",
 "confidence": 0.3079,
@@ -295,18 +302,25 @@
 "preferred_label": "se rebeller"
 },
 {
-"id": "keyterm:Name",
-"type": "keyterm",
-"confidence": 0.3079,
-"match_method": "canonical",
-"preferred_label": "nom"
-},
-{
 "id": "keyterm:Glory",
 "type": "keyterm",
 "confidence": 0.3079,
 "match_method": "canonical",
 "preferred_label": "gloire"
+},
+{
+"id": "place:Philistine",
+"type": "place",
+"confidence": 0.3079,
+"match_method": "canonical",
+"preferred_label": "Philistie"
+},
+{
+"id": "keyterm:Name",
+"type": "keyterm",
+"confidence": 0.3079,
+"match_method": "canonical",
+"preferred_label": "nom"
 },
 {
 "id": "group:Philistine",
@@ -320,35 +334,21 @@
 "type": "keyterm",
 "confidence": 0.3079,
 "match_method": "canonical",
-"preferred_label": "prier"
-},
-{
-"id": "keyterm:Love",
-"type": "keyterm",
-"confidence": 0.3079,
-"match_method": "canonical",
-"preferred_label": "aimer"
-},
-{
-"id": "place:Philistine",
-"type": "place",
-"confidence": 0.3079,
-"match_method": "canonical",
-"preferred_label": "Philistia"
-},
-{
-"id": "realia:Lampstand.2",
-"type": "realia",
-"confidence": 0.3018,
-"match_method": "canonical",
-"preferred_label": "Lampstand"
+"preferred_label": "demander"
 },
 {
 "id": "realia:House",
 "type": "realia",
 "confidence": 0.3018,
 "match_method": "canonical",
-"preferred_label": "House"
+"preferred_label": "maison"
+},
+{
+"id": "realia:Lampstand.2",
+"type": "realia",
+"confidence": 0.3018,
+"match_method": "canonical",
+"preferred_label": "chandelier"
 }
 ]
 }
@@ -530,15 +530,15 @@
 "preferred_label": "Joram"
 },
 {
-"id": "person:Judah.4",
-"type": "person",
-"confidence": 0.3697,
-"match_method": "canonical",
-"preferred_label": "Juda"
-},
-{
 "id": "group:Judah",
 "type": "group",
+"confidence": 0.3697,
+"match_method": "canonical",
+"preferred_label": "tribu de Juda"
+},
+{
+"id": "person:Judah.4",
+"type": "person",
 "confidence": 0.3697,
 "match_method": "canonical",
 "preferred_label": "Juda"
@@ -558,11 +558,11 @@
 "preferred_label": "Jéroboam"
 },
 {
-"id": "person:Paul",
-"type": "person",
+"id": "group:Pharisee",
+"type": "group",
 "confidence": 0.3658,
 "match_method": "canonical",
-"preferred_label": "Paul"
+"preferred_label": "Pharisiens"
 },
 {
 "id": "place:Jerusalem",
@@ -572,18 +572,18 @@
 "preferred_label": "Jérusalem"
 },
 {
-"id": "group:Pharisee",
-"type": "group",
+"id": "person:Paul",
+"type": "person",
 "confidence": 0.3658,
 "match_method": "canonical",
-"preferred_label": "Pharisien"
+"preferred_label": "Paul"
 },
 {
 "id": "keyterm:BearWitness",
 "type": "keyterm",
 "confidence": 0.3638,
 "match_method": "canonical",
-"preferred_label": "témoigner"
+"preferred_label": "rendre témoignage"
 },
 {
 "id": "keyterm:Believe",
@@ -593,6 +593,13 @@
 "preferred_label": "croire"
 },
 {
+"id": "keyterm:Disaster",
+"type": "keyterm",
+"confidence": 0.3618,
+"match_method": "canonical",
+"preferred_label": "malheur"
+},
+{
 "id": "place:Edom",
 "type": "place",
 "confidence": 0.3618,
@@ -600,11 +607,11 @@
 "preferred_label": "Édom"
 },
 {
-"id": "keyterm:Disaster",
+"id": "keyterm:Heaven",
 "type": "keyterm",
-"confidence": 0.3618,
+"confidence": 0.3599,
 "match_method": "canonical",
-"preferred_label": "Disaster"
+"preferred_label": "ciel"
 },
 {
 "id": "keyterm:Body.3",
@@ -621,18 +628,11 @@
 "preferred_label": "vie"
 },
 {
-"id": "keyterm:Heaven",
-"type": "keyterm",
-"confidence": 0.3599,
-"match_method": "canonical",
-"preferred_label": "cieux [également employé pour dieu pour éviter la mention du nom sacré]"
-},
-{
 "id": "realia:Lamp",
 "type": "realia",
 "confidence": 0.3214,
 "match_method": "canonical",
-"preferred_label": "Lamp"
+"preferred_label": "lampe"
 },
 {
 "id": "person:Rapha",
@@ -642,6 +642,13 @@
 "preferred_label": "Rapha"
 },
 {
+"id": "keyterm:Love",
+"type": "keyterm",
+"confidence": 0.3079,
+"match_method": "canonical",
+"preferred_label": "amour"
+},
+{
 "id": "keyterm:Rebel",
 "type": "keyterm",
 "confidence": 0.3079,
@@ -649,18 +656,25 @@
 "preferred_label": "se rebeller"
 },
 {
-"id": "keyterm:Name",
-"type": "keyterm",
-"confidence": 0.3079,
-"match_method": "canonical",
-"preferred_label": "nom"
-},
-{
 "id": "keyterm:Glory",
 "type": "keyterm",
 "confidence": 0.3079,
 "match_method": "canonical",
 "preferred_label": "gloire"
+},
+{
+"id": "place:Philistine",
+"type": "place",
+"confidence": 0.3079,
+"match_method": "canonical",
+"preferred_label": "Philistie"
+},
+{
+"id": "keyterm:Name",
+"type": "keyterm",
+"confidence": 0.3079,
+"match_method": "canonical",
+"preferred_label": "nom"
 },
 {
 "id": "group:Philistine",
@@ -674,35 +688,21 @@
 "type": "keyterm",
 "confidence": 0.3079,
 "match_method": "canonical",
-"preferred_label": "prier"
-},
-{
-"id": "keyterm:Love",
-"type": "keyterm",
-"confidence": 0.3079,
-"match_method": "canonical",
-"preferred_label": "aimer"
-},
-{
-"id": "place:Philistine",
-"type": "place",
-"confidence": 0.3079,
-"match_method": "canonical",
-"preferred_label": "Philistia"
-},
-{
-"id": "realia:Lampstand.2",
-"type": "realia",
-"confidence": 0.3018,
-"match_method": "canonical",
-"preferred_label": "Lampstand"
+"preferred_label": "demander"
 },
 {
 "id": "realia:House",
 "type": "realia",
 "confidence": 0.3018,
 "match_method": "canonical",
-"preferred_label": "House"
+"preferred_label": "maison"
+},
+{
+"id": "realia:Lampstand.2",
+"type": "realia",
+"confidence": 0.3018,
+"match_method": "canonical",
+"preferred_label": "chandelier"
 }
 ]
 }
@@ -753,14 +753,28 @@
 "type": "group",
 "confidence": 0.372,
 "match_method": "canonical",
-"preferred_label": "Pharisien"
+"preferred_label": "Pharisiens"
+},
+{
+"id": "keyterm:Decided",
+"type": "keyterm",
+"confidence": 0.304,
+"match_method": "canonical",
+"preferred_label": "décider"
+},
+{
+"id": "keyterm:Example",
+"type": "keyterm",
+"confidence": 0.304,
+"match_method": "canonical",
+"preferred_label": "symbole"
 },
 {
 "id": "keyterm:Heaven",
 "type": "keyterm",
 "confidence": 0.304,
 "match_method": "canonical",
-"preferred_label": "cieux [également employé pour dieu pour éviter la mention du nom sacré]"
+"preferred_label": "ciel"
 },
 {
 "id": "keyterm:Spirit.2",
@@ -770,18 +784,11 @@
 "preferred_label": "esprit"
 },
 {
-"id": "keyterm:Decided",
+"id": "keyterm:Ability",
 "type": "keyterm",
-"confidence": 0.304,
+"confidence": 0.236,
 "match_method": "canonical",
-"preferred_label": "decider"
-},
-{
-"id": "keyterm:Example",
-"type": "keyterm",
-"confidence": 0.304,
-"match_method": "canonical",
-"preferred_label": "exemple"
+"preferred_label": "capacité"
 },
 {
 "id": "keyterm:Body.3",
@@ -789,13 +796,6 @@
 "confidence": 0.236,
 "match_method": "canonical",
 "preferred_label": "corps"
-},
-{
-"id": "keyterm:Ability",
-"type": "keyterm",
-"confidence": 0.236,
-"match_method": "canonical",
-"preferred_label": "capacité"
 },
 {
 "id": "keyterm:Idolater",
@@ -809,21 +809,14 @@
 "type": "realia",
 "confidence": 0.184,
 "match_method": "canonical",
-"preferred_label": "Basket"
+"preferred_label": "panier"
 },
 {
 "id": "keyterm:Passover",
 "type": "keyterm",
 "confidence": 0.176,
 "match_method": "canonical",
-"preferred_label": "sacrifice de la pâque"
-},
-{
-"id": "keyterm:Unfaithful",
-"type": "keyterm",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "être infidèle"
+"preferred_label": "sacrifice de la Pâque"
 },
 {
 "id": "keyterm:Truth",
@@ -833,53 +826,18 @@
 "preferred_label": "vérité"
 },
 {
-"id": "keyterm:Name",
+"id": "keyterm:Offering",
 "type": "keyterm",
 "confidence": 0.168,
 "match_method": "canonical",
-"preferred_label": "nom"
-},
-{
-"id": "keyterm:Pure",
-"type": "keyterm",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "sans saleté"
-},
-{
-"id": "keyterm:Salvation",
-"type": "keyterm",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "aide"
-},
-{
-"id": "keyterm:Discern",
-"type": "keyterm",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "évaluer"
+"preferred_label": "offrande"
 },
 {
 "id": "keyterm:HavingLittleFaith",
 "type": "keyterm",
 "confidence": 0.168,
 "match_method": "canonical",
-"preferred_label": "qui manque de foi"
-},
-{
-"id": "group:Gentile",
-"type": "group",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "nation; peuple"
-},
-{
-"id": "keyterm:Fornication",
-"type": "keyterm",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "fornication"
+"preferred_label": "avoir peu de foi"
 },
 {
 "id": "deity:Satan",
@@ -889,13 +847,6 @@
 "preferred_label": "Satan"
 },
 {
-"id": "keyterm:Disciple",
-"type": "keyterm",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "trans. faire un disciple de"
-},
-{
 "id": "person:Jonah.2",
 "type": "person",
 "confidence": 0.168,
@@ -903,18 +854,39 @@
 "preferred_label": "Jonas"
 },
 {
-"id": "keyterm:Offering",
+"id": "keyterm:Name",
 "type": "keyterm",
 "confidence": 0.168,
 "match_method": "canonical",
-"preferred_label": "offrande"
+"preferred_label": "nom"
 },
 {
-"id": "keyterm:Ought",
+"id": "keyterm:Fornication",
 "type": "keyterm",
 "confidence": 0.168,
 "match_method": "canonical",
-"preferred_label": "sois obligé"
+"preferred_label": "fornication"
+},
+{
+"id": "keyterm:Unfaithful",
+"type": "keyterm",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "être infidèle"
+},
+{
+"id": "keyterm:Disciple",
+"type": "keyterm",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "être un disciple"
+},
+{
+"id": "keyterm:Pure",
+"type": "keyterm",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "pur"
 },
 {
 "id": "deity:Lord",
@@ -924,11 +896,39 @@
 "preferred_label": "Éternel"
 },
 {
+"id": "keyterm:Discern",
+"type": "keyterm",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "discerner"
+},
+{
+"id": "group:Gentile",
+"type": "group",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "Gentils"
+},
+{
+"id": "keyterm:Salvation",
+"type": "keyterm",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "salut"
+},
+{
+"id": "keyterm:Ought",
+"type": "keyterm",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "être obligé"
+},
+{
 "id": "fauna:Lamb",
 "type": "fauna",
 "confidence": 0.108,
 "match_method": "canonical",
-"preferred_label": "Sheep"
+"preferred_label": "agneau"
 }
 ]
 }
@@ -979,14 +979,28 @@
 "type": "group",
 "confidence": 0.372,
 "match_method": "canonical",
-"preferred_label": "Pharisien"
+"preferred_label": "Pharisiens"
+},
+{
+"id": "keyterm:Decided",
+"type": "keyterm",
+"confidence": 0.304,
+"match_method": "canonical",
+"preferred_label": "décider"
+},
+{
+"id": "keyterm:Example",
+"type": "keyterm",
+"confidence": 0.304,
+"match_method": "canonical",
+"preferred_label": "symbole"
 },
 {
 "id": "keyterm:Heaven",
 "type": "keyterm",
 "confidence": 0.304,
 "match_method": "canonical",
-"preferred_label": "cieux [également employé pour dieu pour éviter la mention du nom sacré]"
+"preferred_label": "ciel"
 },
 {
 "id": "keyterm:Spirit.2",
@@ -996,18 +1010,11 @@
 "preferred_label": "esprit"
 },
 {
-"id": "keyterm:Decided",
+"id": "keyterm:Ability",
 "type": "keyterm",
-"confidence": 0.304,
+"confidence": 0.236,
 "match_method": "canonical",
-"preferred_label": "decider"
-},
-{
-"id": "keyterm:Example",
-"type": "keyterm",
-"confidence": 0.304,
-"match_method": "canonical",
-"preferred_label": "exemple"
+"preferred_label": "capacité"
 },
 {
 "id": "keyterm:Body.3",
@@ -1015,13 +1022,6 @@
 "confidence": 0.236,
 "match_method": "canonical",
 "preferred_label": "corps"
-},
-{
-"id": "keyterm:Ability",
-"type": "keyterm",
-"confidence": 0.236,
-"match_method": "canonical",
-"preferred_label": "capacité"
 },
 {
 "id": "keyterm:Idolater",
@@ -1035,21 +1035,14 @@
 "type": "realia",
 "confidence": 0.184,
 "match_method": "canonical",
-"preferred_label": "Basket"
+"preferred_label": "panier"
 },
 {
 "id": "keyterm:Passover",
 "type": "keyterm",
 "confidence": 0.176,
 "match_method": "canonical",
-"preferred_label": "sacrifice de la pâque"
-},
-{
-"id": "keyterm:Unfaithful",
-"type": "keyterm",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "être infidèle"
+"preferred_label": "sacrifice de la Pâque"
 },
 {
 "id": "keyterm:Truth",
@@ -1059,53 +1052,18 @@
 "preferred_label": "vérité"
 },
 {
-"id": "keyterm:Name",
+"id": "keyterm:Offering",
 "type": "keyterm",
 "confidence": 0.168,
 "match_method": "canonical",
-"preferred_label": "nom"
-},
-{
-"id": "keyterm:Pure",
-"type": "keyterm",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "sans saleté"
-},
-{
-"id": "keyterm:Salvation",
-"type": "keyterm",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "aide"
-},
-{
-"id": "keyterm:Discern",
-"type": "keyterm",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "évaluer"
+"preferred_label": "offrande"
 },
 {
 "id": "keyterm:HavingLittleFaith",
 "type": "keyterm",
 "confidence": 0.168,
 "match_method": "canonical",
-"preferred_label": "qui manque de foi"
-},
-{
-"id": "group:Gentile",
-"type": "group",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "nation; peuple"
-},
-{
-"id": "keyterm:Fornication",
-"type": "keyterm",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "fornication"
+"preferred_label": "avoir peu de foi"
 },
 {
 "id": "deity:Satan",
@@ -1115,13 +1073,6 @@
 "preferred_label": "Satan"
 },
 {
-"id": "keyterm:Disciple",
-"type": "keyterm",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "trans. faire un disciple de"
-},
-{
 "id": "person:Jonah.2",
 "type": "person",
 "confidence": 0.168,
@@ -1129,18 +1080,39 @@
 "preferred_label": "Jonas"
 },
 {
-"id": "keyterm:Offering",
+"id": "keyterm:Name",
 "type": "keyterm",
 "confidence": 0.168,
 "match_method": "canonical",
-"preferred_label": "offrande"
+"preferred_label": "nom"
 },
 {
-"id": "keyterm:Ought",
+"id": "keyterm:Fornication",
 "type": "keyterm",
 "confidence": 0.168,
 "match_method": "canonical",
-"preferred_label": "sois obligé"
+"preferred_label": "fornication"
+},
+{
+"id": "keyterm:Unfaithful",
+"type": "keyterm",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "être infidèle"
+},
+{
+"id": "keyterm:Disciple",
+"type": "keyterm",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "être un disciple"
+},
+{
+"id": "keyterm:Pure",
+"type": "keyterm",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "pur"
 },
 {
 "id": "deity:Lord",
@@ -1150,11 +1122,39 @@
 "preferred_label": "Éternel"
 },
 {
+"id": "keyterm:Discern",
+"type": "keyterm",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "discerner"
+},
+{
+"id": "group:Gentile",
+"type": "group",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "Gentils"
+},
+{
+"id": "keyterm:Salvation",
+"type": "keyterm",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "salut"
+},
+{
+"id": "keyterm:Ought",
+"type": "keyterm",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "être obligé"
+},
+{
 "id": "fauna:Lamb",
 "type": "fauna",
 "confidence": 0.108,
 "match_method": "canonical",
-"preferred_label": "Sheep"
+"preferred_label": "agneau"
 }
 ]
 }
@@ -1195,20 +1195,6 @@
 "preferred_label": "Pierre"
 },
 {
-"id": "place:Capernaum",
-"type": "place",
-"confidence": 0.225,
-"match_method": "canonical",
-"preferred_label": "Capernaüm"
-},
-{
-"id": "keyterm:Tax",
-"type": "keyterm",
-"confidence": 0.225,
-"match_method": "canonical",
-"preferred_label": "fin"
-},
-{
 "id": "keyterm:Resurrection",
 "type": "keyterm",
 "confidence": 0.225,
@@ -1220,7 +1206,7 @@
 "type": "keyterm",
 "confidence": 0.225,
 "match_method": "canonical",
-"preferred_label": "taxe"
+"preferred_label": "capitation"
 },
 {
 "id": "place:Galilee",
@@ -1230,39 +1216,53 @@
 "preferred_label": "Galilée"
 },
 {
-"id": "realia:Two-drachmaPiece",
-"type": "realia",
-"confidence": 0.1983,
+"id": "keyterm:Tax",
+"type": "keyterm",
+"confidence": 0.225,
 "match_method": "canonical",
-"preferred_label": "Two-Drachma Piece"
+"preferred_label": "impôt"
+},
+{
+"id": "place:Capernaum",
+"type": "place",
+"confidence": 0.225,
+"match_method": "canonical",
+"preferred_label": "Capernaüm"
 },
 {
 "id": "realia:Fishhook",
 "type": "realia",
 "confidence": 0.1983,
 "match_method": "canonical",
-"preferred_label": "Fishhook"
+"preferred_label": "hameçon"
 },
 {
 "id": "realia:Stater",
 "type": "realia",
 "confidence": 0.1983,
 "match_method": "canonical",
-"preferred_label": "Stater"
+"preferred_label": "statère"
+},
+{
+"id": "realia:Two-drachmaPiece",
+"type": "realia",
+"confidence": 0.1983,
+"match_method": "canonical",
+"preferred_label": "deux-drachmes"
 },
 {
 "id": "fauna:Fish",
 "type": "fauna",
 "confidence": 0.165,
 "match_method": "canonical",
-"preferred_label": "Fish"
+"preferred_label": "poisson"
 },
 {
 "id": "realia:House",
 "type": "realia",
 "confidence": 0.165,
 "match_method": "canonical",
-"preferred_label": "House"
+"preferred_label": "maison"
 }
 ]
 }
@@ -1303,20 +1303,6 @@
 "preferred_label": "Pierre"
 },
 {
-"id": "place:Capernaum",
-"type": "place",
-"confidence": 0.225,
-"match_method": "canonical",
-"preferred_label": "Capernaüm"
-},
-{
-"id": "keyterm:Tax",
-"type": "keyterm",
-"confidence": 0.225,
-"match_method": "canonical",
-"preferred_label": "fin"
-},
-{
 "id": "keyterm:Resurrection",
 "type": "keyterm",
 "confidence": 0.225,
@@ -1328,7 +1314,7 @@
 "type": "keyterm",
 "confidence": 0.225,
 "match_method": "canonical",
-"preferred_label": "taxe"
+"preferred_label": "capitation"
 },
 {
 "id": "place:Galilee",
@@ -1338,39 +1324,5058 @@
 "preferred_label": "Galilée"
 },
 {
-"id": "realia:Two-drachmaPiece",
-"type": "realia",
-"confidence": 0.1983,
+"id": "keyterm:Tax",
+"type": "keyterm",
+"confidence": 0.225,
 "match_method": "canonical",
-"preferred_label": "Two-Drachma Piece"
+"preferred_label": "impôt"
+},
+{
+"id": "place:Capernaum",
+"type": "place",
+"confidence": 0.225,
+"match_method": "canonical",
+"preferred_label": "Capernaüm"
 },
 {
 "id": "realia:Fishhook",
 "type": "realia",
 "confidence": 0.1983,
 "match_method": "canonical",
-"preferred_label": "Fishhook"
+"preferred_label": "hameçon"
 },
 {
 "id": "realia:Stater",
 "type": "realia",
 "confidence": 0.1983,
 "match_method": "canonical",
-"preferred_label": "Stater"
+"preferred_label": "statère"
+},
+{
+"id": "realia:Two-drachmaPiece",
+"type": "realia",
+"confidence": 0.1983,
+"match_method": "canonical",
+"preferred_label": "deux-drachmes"
 },
 {
 "id": "fauna:Fish",
 "type": "fauna",
 "confidence": 0.165,
 "match_method": "canonical",
-"preferred_label": "Fish"
+"preferred_label": "poisson"
 },
 {
 "id": "realia:House",
 "type": "realia",
 "confidence": 0.165,
 "match_method": "canonical",
-"preferred_label": "House"
+"preferred_label": "maison"
+}
+]
+}
+},
+{
+"content_id": "a2460",
+"reference_id": 0,
+"version": "1.0.4",
+"title": "Long drap de tissu de lin",
+"media_type": "Image",
+"index_reference": "long drap de tissu de lin",
+"language": "fra",
+"review_level": "None",
+"content": "<h3>Image Content</h3>\n<block><p><img src='https://s3.amazonaws.com/cbbt-er.public/media/photos/a2460/1000.jpg' alt='Image' width='480' /></p><p><a href='https://s3.amazonaws.com/cbbt-er.public/media/photos/a2460/1000.jpg'>link</a></p></block>",
+"associations": {
+"passage": [
+{
+"start_ref": "40027057",
+"start_ref_usfm": "MAT 27:57",
+"end_ref": "40027066",
+"end_ref_usfm": "MAT 27:66"
+},
+{
+"start_ref": "41015040",
+"start_ref_usfm": "MRK 15:40",
+"end_ref": "41015047",
+"end_ref_usfm": "MRK 15:47"
+},
+{
+"start_ref": "43019031",
+"start_ref_usfm": "JHN 19:31",
+"end_ref": "43019042",
+"end_ref_usfm": "JHN 19:42"
+},
+{
+"start_ref": "43020001",
+"start_ref_usfm": "JHN 20:1",
+"end_ref": "43020018",
+"end_ref_usfm": "JHN 20:18"
+}
+],
+"resource": [],
+"acai": [
+{
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.4719,
+"match_method": "canonical",
+"preferred_label": "Jésus"
+},
+{
+"id": "keyterm:Disciple",
+"type": "keyterm",
+"confidence": 0.4344,
+"match_method": "canonical",
+"preferred_label": "être un disciple"
+},
+{
+"id": "realia:Grave",
+"type": "realia",
+"confidence": 0.4296,
+"match_method": "canonical",
+"preferred_label": "tombeau"
+},
+{
+"id": "person:Marymagdalene",
+"type": "person",
+"confidence": 0.4198,
+"match_method": "canonical",
+"preferred_label": "Marie de Magdala"
+},
+{
+"id": "keyterm:Body.3",
+"type": "keyterm",
+"confidence": 0.4156,
+"match_method": "canonical",
+"preferred_label": "corps"
+},
+{
+"id": "person:Pilate",
+"type": "person",
+"confidence": 0.4156,
+"match_method": "canonical",
+"preferred_label": "Pilate"
+},
+{
+"id": "person:Joseph.6",
+"type": "person",
+"confidence": 0.4135,
+"match_method": "canonical",
+"preferred_label": "Joseph"
+},
+{
+"id": "realia:Linen",
+"type": "realia",
+"confidence": 0.3463,
+"match_method": "canonical",
+"preferred_label": "lin"
+},
+{
+"id": "group:Jews",
+"type": "group",
+"confidence": 0.3375,
+"match_method": "canonical",
+"preferred_label": "Juifs"
+},
+{
+"id": "person:Peter",
+"type": "person",
+"confidence": 0.3375,
+"match_method": "canonical",
+"preferred_label": "Pierre"
+},
+{
+"id": "place:Arimathea",
+"type": "place",
+"confidence": 0.2906,
+"match_method": "canonical",
+"preferred_label": "Arimathée"
+},
+{
+"id": "person:Mary.2",
+"type": "person",
+"confidence": 0.2823,
+"match_method": "canonical",
+"preferred_label": "Marie"
+},
+{
+"id": "keyterm:Scripture",
+"type": "keyterm",
+"confidence": 0.2781,
+"match_method": "canonical",
+"preferred_label": "Écritures"
+},
+{
+"id": "keyterm:Resurrection",
+"type": "keyterm",
+"confidence": 0.2188,
+"match_method": "canonical",
+"preferred_label": "résurrection"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.2188,
+"match_method": "canonical",
+"preferred_label": "Éternel"
+},
+{
+"id": "keyterm:AskFor",
+"type": "keyterm",
+"confidence": 0.2188,
+"match_method": "canonical",
+"preferred_label": "demander"
+},
+{
+"id": "realia:Cross",
+"type": "realia",
+"confidence": 0.2181,
+"match_method": "canonical",
+"preferred_label": "croix"
+},
+{
+"id": "person:Nicodemus",
+"type": "person",
+"confidence": 0.1677,
+"match_method": "canonical",
+"preferred_label": "Nicodème"
+},
+{
+"id": "person:James.4",
+"type": "person",
+"confidence": 0.1677,
+"match_method": "canonical",
+"preferred_label": "Jacques"
+},
+{
+"id": "realia:Aloes",
+"type": "realia",
+"confidence": 0.1671,
+"match_method": "canonical",
+"preferred_label": "aloès"
+},
+{
+"id": "person:Joseph.5",
+"type": "person",
+"confidence": 0.1635,
+"match_method": "canonical",
+"preferred_label": "Joseph"
+},
+{
+"id": "person:Salome",
+"type": "person",
+"confidence": 0.1635,
+"match_method": "canonical",
+"preferred_label": "Salomé"
+},
+{
+"id": "person:Joseph.3",
+"type": "person",
+"confidence": 0.1635,
+"match_method": "canonical",
+"preferred_label": "Joseph"
+},
+{
+"id": "keyterm:Happen",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "faire arriver"
+},
+{
+"id": "keyterm:DayBeforeTheSabbath",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "veille du sabbat"
+},
+{
+"id": "keyterm:Believe",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "croire"
+},
+{
+"id": "place:Galilee",
+"type": "place",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "Galilée"
+},
+{
+"id": "keyterm:Serve",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "servir"
+},
+{
+"id": "keyterm:Blood",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "sang"
+},
+{
+"id": "keyterm:Sabbath",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "sabbat"
+},
+{
+"id": "deity:Angel",
+"type": "deity",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "Un ange"
+},
+{
+"id": "keyterm:Name",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "nom"
+},
+{
+"id": "keyterm:Clean",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "pur"
+},
+{
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "Jérusalem"
+},
+{
+"id": "keyterm:Kingdom",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "royaume"
+},
+{
+"id": "keyterm:BearWitness",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "rendre témoignage"
+},
+{
+"id": "group:Pharisee",
+"type": "group",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "Pharisiens"
+},
+{
+"id": "keyterm:Life",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "vie"
+},
+{
+"id": "keyterm:Friendship",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "amitié"
+},
+{
+"id": "keyterm:Week",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "semaine"
+},
+{
+"id": "keyterm:True",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "vrai"
+},
+{
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "crainte"
+},
+{
+"id": "realia:Myrrh",
+"type": "realia",
+"confidence": 0.1035,
+"match_method": "canonical",
+"preferred_label": "myrrhe"
+},
+{
+"id": "realia:Pound",
+"type": "realia",
+"confidence": 0.1035,
+"match_method": "canonical",
+"preferred_label": "livre"
+},
+{
+"id": "realia:BandOfCloth",
+"type": "realia",
+"confidence": 0.1035,
+"match_method": "canonical",
+"preferred_label": "linge"
+},
+{
+"id": "realia:Seal",
+"type": "realia",
+"confidence": 0.1035,
+"match_method": "canonical",
+"preferred_label": "sceau"
+},
+{
+"id": "flora:Aloes",
+"type": "flora",
+"confidence": 0.1035,
+"match_method": "canonical",
+"preferred_label": "aloès"
+},
+{
+"id": "realia:Spear",
+"type": "realia",
+"confidence": 0.1035,
+"match_method": "canonical",
+"preferred_label": "lance"
+},
+{
+"id": "flora:Myrrh",
+"type": "flora",
+"confidence": 0.0994,
+"match_method": "canonical",
+"preferred_label": "myrrhe"
+}
+]
+}
+},
+{
+"content_id": "a2461",
+"reference_id": 0,
+"version": "1.0.4",
+"title": "Long drap de tissu de lin",
+"media_type": "Image",
+"index_reference": "long drap de tissu de lin",
+"language": "fra",
+"review_level": "None",
+"content": "<h3>Image Content</h3>\n<block><p><img src='https://s3.amazonaws.com/cbbt-er.public/media/photos/a2461/1000.jpg' alt='Image' width='480' /></p><p><a href='https://s3.amazonaws.com/cbbt-er.public/media/photos/a2461/1000.jpg'>link</a></p></block>",
+"associations": {
+"passage": [
+{
+"start_ref": "40027057",
+"start_ref_usfm": "MAT 27:57",
+"end_ref": "40027066",
+"end_ref_usfm": "MAT 27:66"
+},
+{
+"start_ref": "41015040",
+"start_ref_usfm": "MRK 15:40",
+"end_ref": "41015047",
+"end_ref_usfm": "MRK 15:47"
+},
+{
+"start_ref": "43019031",
+"start_ref_usfm": "JHN 19:31",
+"end_ref": "43019042",
+"end_ref_usfm": "JHN 19:42"
+},
+{
+"start_ref": "43020001",
+"start_ref_usfm": "JHN 20:1",
+"end_ref": "43020018",
+"end_ref_usfm": "JHN 20:18"
+}
+],
+"resource": [],
+"acai": [
+{
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.4719,
+"match_method": "canonical",
+"preferred_label": "Jésus"
+},
+{
+"id": "keyterm:Disciple",
+"type": "keyterm",
+"confidence": 0.4344,
+"match_method": "canonical",
+"preferred_label": "être un disciple"
+},
+{
+"id": "realia:Grave",
+"type": "realia",
+"confidence": 0.4296,
+"match_method": "canonical",
+"preferred_label": "tombeau"
+},
+{
+"id": "person:Marymagdalene",
+"type": "person",
+"confidence": 0.4198,
+"match_method": "canonical",
+"preferred_label": "Marie de Magdala"
+},
+{
+"id": "keyterm:Body.3",
+"type": "keyterm",
+"confidence": 0.4156,
+"match_method": "canonical",
+"preferred_label": "corps"
+},
+{
+"id": "person:Pilate",
+"type": "person",
+"confidence": 0.4156,
+"match_method": "canonical",
+"preferred_label": "Pilate"
+},
+{
+"id": "person:Joseph.6",
+"type": "person",
+"confidence": 0.4135,
+"match_method": "canonical",
+"preferred_label": "Joseph"
+},
+{
+"id": "realia:Linen",
+"type": "realia",
+"confidence": 0.3463,
+"match_method": "canonical",
+"preferred_label": "lin"
+},
+{
+"id": "group:Jews",
+"type": "group",
+"confidence": 0.3375,
+"match_method": "canonical",
+"preferred_label": "Juifs"
+},
+{
+"id": "person:Peter",
+"type": "person",
+"confidence": 0.3375,
+"match_method": "canonical",
+"preferred_label": "Pierre"
+},
+{
+"id": "place:Arimathea",
+"type": "place",
+"confidence": 0.2906,
+"match_method": "canonical",
+"preferred_label": "Arimathée"
+},
+{
+"id": "person:Mary.2",
+"type": "person",
+"confidence": 0.2823,
+"match_method": "canonical",
+"preferred_label": "Marie"
+},
+{
+"id": "keyterm:Scripture",
+"type": "keyterm",
+"confidence": 0.2781,
+"match_method": "canonical",
+"preferred_label": "Écritures"
+},
+{
+"id": "keyterm:Resurrection",
+"type": "keyterm",
+"confidence": 0.2188,
+"match_method": "canonical",
+"preferred_label": "résurrection"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.2188,
+"match_method": "canonical",
+"preferred_label": "Éternel"
+},
+{
+"id": "keyterm:AskFor",
+"type": "keyterm",
+"confidence": 0.2188,
+"match_method": "canonical",
+"preferred_label": "demander"
+},
+{
+"id": "realia:Cross",
+"type": "realia",
+"confidence": 0.2181,
+"match_method": "canonical",
+"preferred_label": "croix"
+},
+{
+"id": "person:Nicodemus",
+"type": "person",
+"confidence": 0.1677,
+"match_method": "canonical",
+"preferred_label": "Nicodème"
+},
+{
+"id": "person:James.4",
+"type": "person",
+"confidence": 0.1677,
+"match_method": "canonical",
+"preferred_label": "Jacques"
+},
+{
+"id": "realia:Aloes",
+"type": "realia",
+"confidence": 0.1671,
+"match_method": "canonical",
+"preferred_label": "aloès"
+},
+{
+"id": "person:Joseph.5",
+"type": "person",
+"confidence": 0.1635,
+"match_method": "canonical",
+"preferred_label": "Joseph"
+},
+{
+"id": "person:Salome",
+"type": "person",
+"confidence": 0.1635,
+"match_method": "canonical",
+"preferred_label": "Salomé"
+},
+{
+"id": "person:Joseph.3",
+"type": "person",
+"confidence": 0.1635,
+"match_method": "canonical",
+"preferred_label": "Joseph"
+},
+{
+"id": "keyterm:Happen",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "faire arriver"
+},
+{
+"id": "keyterm:DayBeforeTheSabbath",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "veille du sabbat"
+},
+{
+"id": "keyterm:Believe",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "croire"
+},
+{
+"id": "place:Galilee",
+"type": "place",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "Galilée"
+},
+{
+"id": "keyterm:Serve",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "servir"
+},
+{
+"id": "keyterm:Blood",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "sang"
+},
+{
+"id": "keyterm:Sabbath",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "sabbat"
+},
+{
+"id": "deity:Angel",
+"type": "deity",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "Un ange"
+},
+{
+"id": "keyterm:Name",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "nom"
+},
+{
+"id": "keyterm:Clean",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "pur"
+},
+{
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "Jérusalem"
+},
+{
+"id": "keyterm:Kingdom",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "royaume"
+},
+{
+"id": "keyterm:BearWitness",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "rendre témoignage"
+},
+{
+"id": "group:Pharisee",
+"type": "group",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "Pharisiens"
+},
+{
+"id": "keyterm:Life",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "vie"
+},
+{
+"id": "keyterm:Friendship",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "amitié"
+},
+{
+"id": "keyterm:Week",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "semaine"
+},
+{
+"id": "keyterm:True",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "vrai"
+},
+{
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "crainte"
+},
+{
+"id": "realia:Myrrh",
+"type": "realia",
+"confidence": 0.1035,
+"match_method": "canonical",
+"preferred_label": "myrrhe"
+},
+{
+"id": "realia:Pound",
+"type": "realia",
+"confidence": 0.1035,
+"match_method": "canonical",
+"preferred_label": "livre"
+},
+{
+"id": "realia:BandOfCloth",
+"type": "realia",
+"confidence": 0.1035,
+"match_method": "canonical",
+"preferred_label": "linge"
+},
+{
+"id": "realia:Seal",
+"type": "realia",
+"confidence": 0.1035,
+"match_method": "canonical",
+"preferred_label": "sceau"
+},
+{
+"id": "flora:Aloes",
+"type": "flora",
+"confidence": 0.1035,
+"match_method": "canonical",
+"preferred_label": "aloès"
+},
+{
+"id": "realia:Spear",
+"type": "realia",
+"confidence": 0.1035,
+"match_method": "canonical",
+"preferred_label": "lance"
+},
+{
+"id": "flora:Myrrh",
+"type": "flora",
+"confidence": 0.0994,
+"match_method": "canonical",
+"preferred_label": "myrrhe"
+}
+]
+}
+},
+{
+"content_id": "a2462",
+"reference_id": 0,
+"version": "1.0.4",
+"title": "Long drap de tissu de lin",
+"media_type": "Image",
+"index_reference": "long drap de tissu de lin",
+"language": "fra",
+"review_level": "None",
+"content": "<h3>Image Content</h3>\n<block><p><img src='https://s3.amazonaws.com/cbbt-er.public/media/photos/a2462/1000.jpg' alt='Image' width='480' /></p><p><a href='https://s3.amazonaws.com/cbbt-er.public/media/photos/a2462/1000.jpg'>link</a></p></block>",
+"associations": {
+"passage": [
+{
+"start_ref": "40027057",
+"start_ref_usfm": "MAT 27:57",
+"end_ref": "40027066",
+"end_ref_usfm": "MAT 27:66"
+},
+{
+"start_ref": "41015040",
+"start_ref_usfm": "MRK 15:40",
+"end_ref": "41015047",
+"end_ref_usfm": "MRK 15:47"
+},
+{
+"start_ref": "43019031",
+"start_ref_usfm": "JHN 19:31",
+"end_ref": "43019042",
+"end_ref_usfm": "JHN 19:42"
+},
+{
+"start_ref": "43020001",
+"start_ref_usfm": "JHN 20:1",
+"end_ref": "43020018",
+"end_ref_usfm": "JHN 20:18"
+}
+],
+"resource": [],
+"acai": [
+{
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.4719,
+"match_method": "canonical",
+"preferred_label": "Jésus"
+},
+{
+"id": "keyterm:Disciple",
+"type": "keyterm",
+"confidence": 0.4344,
+"match_method": "canonical",
+"preferred_label": "être un disciple"
+},
+{
+"id": "realia:Grave",
+"type": "realia",
+"confidence": 0.4296,
+"match_method": "canonical",
+"preferred_label": "tombeau"
+},
+{
+"id": "person:Marymagdalene",
+"type": "person",
+"confidence": 0.4198,
+"match_method": "canonical",
+"preferred_label": "Marie de Magdala"
+},
+{
+"id": "keyterm:Body.3",
+"type": "keyterm",
+"confidence": 0.4156,
+"match_method": "canonical",
+"preferred_label": "corps"
+},
+{
+"id": "person:Pilate",
+"type": "person",
+"confidence": 0.4156,
+"match_method": "canonical",
+"preferred_label": "Pilate"
+},
+{
+"id": "person:Joseph.6",
+"type": "person",
+"confidence": 0.4135,
+"match_method": "canonical",
+"preferred_label": "Joseph"
+},
+{
+"id": "realia:Linen",
+"type": "realia",
+"confidence": 0.3463,
+"match_method": "canonical",
+"preferred_label": "lin"
+},
+{
+"id": "group:Jews",
+"type": "group",
+"confidence": 0.3375,
+"match_method": "canonical",
+"preferred_label": "Juifs"
+},
+{
+"id": "person:Peter",
+"type": "person",
+"confidence": 0.3375,
+"match_method": "canonical",
+"preferred_label": "Pierre"
+},
+{
+"id": "place:Arimathea",
+"type": "place",
+"confidence": 0.2906,
+"match_method": "canonical",
+"preferred_label": "Arimathée"
+},
+{
+"id": "person:Mary.2",
+"type": "person",
+"confidence": 0.2823,
+"match_method": "canonical",
+"preferred_label": "Marie"
+},
+{
+"id": "keyterm:Scripture",
+"type": "keyterm",
+"confidence": 0.2781,
+"match_method": "canonical",
+"preferred_label": "Écritures"
+},
+{
+"id": "keyterm:Resurrection",
+"type": "keyterm",
+"confidence": 0.2188,
+"match_method": "canonical",
+"preferred_label": "résurrection"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.2188,
+"match_method": "canonical",
+"preferred_label": "Éternel"
+},
+{
+"id": "keyterm:AskFor",
+"type": "keyterm",
+"confidence": 0.2188,
+"match_method": "canonical",
+"preferred_label": "demander"
+},
+{
+"id": "realia:Cross",
+"type": "realia",
+"confidence": 0.2181,
+"match_method": "canonical",
+"preferred_label": "croix"
+},
+{
+"id": "person:Nicodemus",
+"type": "person",
+"confidence": 0.1677,
+"match_method": "canonical",
+"preferred_label": "Nicodème"
+},
+{
+"id": "person:James.4",
+"type": "person",
+"confidence": 0.1677,
+"match_method": "canonical",
+"preferred_label": "Jacques"
+},
+{
+"id": "realia:Aloes",
+"type": "realia",
+"confidence": 0.1671,
+"match_method": "canonical",
+"preferred_label": "aloès"
+},
+{
+"id": "person:Joseph.5",
+"type": "person",
+"confidence": 0.1635,
+"match_method": "canonical",
+"preferred_label": "Joseph"
+},
+{
+"id": "person:Salome",
+"type": "person",
+"confidence": 0.1635,
+"match_method": "canonical",
+"preferred_label": "Salomé"
+},
+{
+"id": "person:Joseph.3",
+"type": "person",
+"confidence": 0.1635,
+"match_method": "canonical",
+"preferred_label": "Joseph"
+},
+{
+"id": "keyterm:Happen",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "faire arriver"
+},
+{
+"id": "keyterm:DayBeforeTheSabbath",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "veille du sabbat"
+},
+{
+"id": "keyterm:Believe",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "croire"
+},
+{
+"id": "place:Galilee",
+"type": "place",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "Galilée"
+},
+{
+"id": "keyterm:Serve",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "servir"
+},
+{
+"id": "keyterm:Blood",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "sang"
+},
+{
+"id": "keyterm:Sabbath",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "sabbat"
+},
+{
+"id": "deity:Angel",
+"type": "deity",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "Un ange"
+},
+{
+"id": "keyterm:Name",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "nom"
+},
+{
+"id": "keyterm:Clean",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "pur"
+},
+{
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "Jérusalem"
+},
+{
+"id": "keyterm:Kingdom",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "royaume"
+},
+{
+"id": "keyterm:BearWitness",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "rendre témoignage"
+},
+{
+"id": "group:Pharisee",
+"type": "group",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "Pharisiens"
+},
+{
+"id": "keyterm:Life",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "vie"
+},
+{
+"id": "keyterm:Friendship",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "amitié"
+},
+{
+"id": "keyterm:Week",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "semaine"
+},
+{
+"id": "keyterm:True",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "vrai"
+},
+{
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "crainte"
+},
+{
+"id": "realia:Myrrh",
+"type": "realia",
+"confidence": 0.1035,
+"match_method": "canonical",
+"preferred_label": "myrrhe"
+},
+{
+"id": "realia:Pound",
+"type": "realia",
+"confidence": 0.1035,
+"match_method": "canonical",
+"preferred_label": "livre"
+},
+{
+"id": "realia:BandOfCloth",
+"type": "realia",
+"confidence": 0.1035,
+"match_method": "canonical",
+"preferred_label": "linge"
+},
+{
+"id": "realia:Seal",
+"type": "realia",
+"confidence": 0.1035,
+"match_method": "canonical",
+"preferred_label": "sceau"
+},
+{
+"id": "flora:Aloes",
+"type": "flora",
+"confidence": 0.1035,
+"match_method": "canonical",
+"preferred_label": "aloès"
+},
+{
+"id": "realia:Spear",
+"type": "realia",
+"confidence": 0.1035,
+"match_method": "canonical",
+"preferred_label": "lance"
+},
+{
+"id": "flora:Myrrh",
+"type": "flora",
+"confidence": 0.0994,
+"match_method": "canonical",
+"preferred_label": "myrrhe"
+}
+]
+}
+},
+{
+"content_id": "a2463",
+"reference_id": 0,
+"version": "1.0.4",
+"title": "Long drap de tissu de lin",
+"media_type": "Image",
+"index_reference": "long drap de tissu de lin",
+"language": "fra",
+"review_level": "None",
+"content": "<h3>Image Content</h3>\n<block><p><img src='https://s3.amazonaws.com/cbbt-er.public/media/photos/a2463/1000.jpg' alt='Image' width='480' /></p><p><a href='https://s3.amazonaws.com/cbbt-er.public/media/photos/a2463/1000.jpg'>link</a></p></block>",
+"associations": {
+"passage": [
+{
+"start_ref": "40027057",
+"start_ref_usfm": "MAT 27:57",
+"end_ref": "40027066",
+"end_ref_usfm": "MAT 27:66"
+},
+{
+"start_ref": "41015040",
+"start_ref_usfm": "MRK 15:40",
+"end_ref": "41015047",
+"end_ref_usfm": "MRK 15:47"
+},
+{
+"start_ref": "43019031",
+"start_ref_usfm": "JHN 19:31",
+"end_ref": "43019042",
+"end_ref_usfm": "JHN 19:42"
+},
+{
+"start_ref": "43020001",
+"start_ref_usfm": "JHN 20:1",
+"end_ref": "43020018",
+"end_ref_usfm": "JHN 20:18"
+}
+],
+"resource": [],
+"acai": [
+{
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.4719,
+"match_method": "canonical",
+"preferred_label": "Jésus"
+},
+{
+"id": "keyterm:Disciple",
+"type": "keyterm",
+"confidence": 0.4344,
+"match_method": "canonical",
+"preferred_label": "être un disciple"
+},
+{
+"id": "realia:Grave",
+"type": "realia",
+"confidence": 0.4296,
+"match_method": "canonical",
+"preferred_label": "tombeau"
+},
+{
+"id": "person:Marymagdalene",
+"type": "person",
+"confidence": 0.4198,
+"match_method": "canonical",
+"preferred_label": "Marie de Magdala"
+},
+{
+"id": "keyterm:Body.3",
+"type": "keyterm",
+"confidence": 0.4156,
+"match_method": "canonical",
+"preferred_label": "corps"
+},
+{
+"id": "person:Pilate",
+"type": "person",
+"confidence": 0.4156,
+"match_method": "canonical",
+"preferred_label": "Pilate"
+},
+{
+"id": "person:Joseph.6",
+"type": "person",
+"confidence": 0.4135,
+"match_method": "canonical",
+"preferred_label": "Joseph"
+},
+{
+"id": "realia:Linen",
+"type": "realia",
+"confidence": 0.3463,
+"match_method": "canonical",
+"preferred_label": "lin"
+},
+{
+"id": "group:Jews",
+"type": "group",
+"confidence": 0.3375,
+"match_method": "canonical",
+"preferred_label": "Juifs"
+},
+{
+"id": "person:Peter",
+"type": "person",
+"confidence": 0.3375,
+"match_method": "canonical",
+"preferred_label": "Pierre"
+},
+{
+"id": "place:Arimathea",
+"type": "place",
+"confidence": 0.2906,
+"match_method": "canonical",
+"preferred_label": "Arimathée"
+},
+{
+"id": "person:Mary.2",
+"type": "person",
+"confidence": 0.2823,
+"match_method": "canonical",
+"preferred_label": "Marie"
+},
+{
+"id": "keyterm:Scripture",
+"type": "keyterm",
+"confidence": 0.2781,
+"match_method": "canonical",
+"preferred_label": "Écritures"
+},
+{
+"id": "keyterm:Resurrection",
+"type": "keyterm",
+"confidence": 0.2188,
+"match_method": "canonical",
+"preferred_label": "résurrection"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.2188,
+"match_method": "canonical",
+"preferred_label": "Éternel"
+},
+{
+"id": "keyterm:AskFor",
+"type": "keyterm",
+"confidence": 0.2188,
+"match_method": "canonical",
+"preferred_label": "demander"
+},
+{
+"id": "realia:Cross",
+"type": "realia",
+"confidence": 0.2181,
+"match_method": "canonical",
+"preferred_label": "croix"
+},
+{
+"id": "person:Nicodemus",
+"type": "person",
+"confidence": 0.1677,
+"match_method": "canonical",
+"preferred_label": "Nicodème"
+},
+{
+"id": "person:James.4",
+"type": "person",
+"confidence": 0.1677,
+"match_method": "canonical",
+"preferred_label": "Jacques"
+},
+{
+"id": "realia:Aloes",
+"type": "realia",
+"confidence": 0.1671,
+"match_method": "canonical",
+"preferred_label": "aloès"
+},
+{
+"id": "person:Joseph.5",
+"type": "person",
+"confidence": 0.1635,
+"match_method": "canonical",
+"preferred_label": "Joseph"
+},
+{
+"id": "person:Salome",
+"type": "person",
+"confidence": 0.1635,
+"match_method": "canonical",
+"preferred_label": "Salomé"
+},
+{
+"id": "person:Joseph.3",
+"type": "person",
+"confidence": 0.1635,
+"match_method": "canonical",
+"preferred_label": "Joseph"
+},
+{
+"id": "keyterm:Happen",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "faire arriver"
+},
+{
+"id": "keyterm:DayBeforeTheSabbath",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "veille du sabbat"
+},
+{
+"id": "keyterm:Believe",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "croire"
+},
+{
+"id": "place:Galilee",
+"type": "place",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "Galilée"
+},
+{
+"id": "keyterm:Serve",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "servir"
+},
+{
+"id": "keyterm:Blood",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "sang"
+},
+{
+"id": "keyterm:Sabbath",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "sabbat"
+},
+{
+"id": "deity:Angel",
+"type": "deity",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "Un ange"
+},
+{
+"id": "keyterm:Name",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "nom"
+},
+{
+"id": "keyterm:Clean",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "pur"
+},
+{
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "Jérusalem"
+},
+{
+"id": "keyterm:Kingdom",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "royaume"
+},
+{
+"id": "keyterm:BearWitness",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "rendre témoignage"
+},
+{
+"id": "group:Pharisee",
+"type": "group",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "Pharisiens"
+},
+{
+"id": "keyterm:Life",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "vie"
+},
+{
+"id": "keyterm:Friendship",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "amitié"
+},
+{
+"id": "keyterm:Week",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "semaine"
+},
+{
+"id": "keyterm:True",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "vrai"
+},
+{
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "crainte"
+},
+{
+"id": "realia:Myrrh",
+"type": "realia",
+"confidence": 0.1035,
+"match_method": "canonical",
+"preferred_label": "myrrhe"
+},
+{
+"id": "realia:Pound",
+"type": "realia",
+"confidence": 0.1035,
+"match_method": "canonical",
+"preferred_label": "livre"
+},
+{
+"id": "realia:BandOfCloth",
+"type": "realia",
+"confidence": 0.1035,
+"match_method": "canonical",
+"preferred_label": "linge"
+},
+{
+"id": "realia:Seal",
+"type": "realia",
+"confidence": 0.1035,
+"match_method": "canonical",
+"preferred_label": "sceau"
+},
+{
+"id": "flora:Aloes",
+"type": "flora",
+"confidence": 0.1035,
+"match_method": "canonical",
+"preferred_label": "aloès"
+},
+{
+"id": "realia:Spear",
+"type": "realia",
+"confidence": 0.1035,
+"match_method": "canonical",
+"preferred_label": "lance"
+},
+{
+"id": "flora:Myrrh",
+"type": "flora",
+"confidence": 0.0994,
+"match_method": "canonical",
+"preferred_label": "myrrhe"
+}
+]
+}
+},
+{
+"content_id": "a2464",
+"reference_id": 0,
+"version": "1.0.4",
+"title": "Long drap de tissu de lin",
+"media_type": "Image",
+"index_reference": "long drap de tissu de lin",
+"language": "fra",
+"review_level": "None",
+"content": "<h3>Image Content</h3>\n<block><p><img src='https://s3.amazonaws.com/cbbt-er.public/media/photos/a2464/1000.jpg' alt='Image' width='480' /></p><p><a href='https://s3.amazonaws.com/cbbt-er.public/media/photos/a2464/1000.jpg'>link</a></p></block>",
+"associations": {
+"passage": [
+{
+"start_ref": "40027057",
+"start_ref_usfm": "MAT 27:57",
+"end_ref": "40027066",
+"end_ref_usfm": "MAT 27:66"
+},
+{
+"start_ref": "41015040",
+"start_ref_usfm": "MRK 15:40",
+"end_ref": "41015047",
+"end_ref_usfm": "MRK 15:47"
+},
+{
+"start_ref": "43019031",
+"start_ref_usfm": "JHN 19:31",
+"end_ref": "43019042",
+"end_ref_usfm": "JHN 19:42"
+},
+{
+"start_ref": "43020001",
+"start_ref_usfm": "JHN 20:1",
+"end_ref": "43020018",
+"end_ref_usfm": "JHN 20:18"
+}
+],
+"resource": [],
+"acai": [
+{
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.4719,
+"match_method": "canonical",
+"preferred_label": "Jésus"
+},
+{
+"id": "keyterm:Disciple",
+"type": "keyterm",
+"confidence": 0.4344,
+"match_method": "canonical",
+"preferred_label": "être un disciple"
+},
+{
+"id": "realia:Grave",
+"type": "realia",
+"confidence": 0.4296,
+"match_method": "canonical",
+"preferred_label": "tombeau"
+},
+{
+"id": "person:Marymagdalene",
+"type": "person",
+"confidence": 0.4198,
+"match_method": "canonical",
+"preferred_label": "Marie de Magdala"
+},
+{
+"id": "keyterm:Body.3",
+"type": "keyterm",
+"confidence": 0.4156,
+"match_method": "canonical",
+"preferred_label": "corps"
+},
+{
+"id": "person:Pilate",
+"type": "person",
+"confidence": 0.4156,
+"match_method": "canonical",
+"preferred_label": "Pilate"
+},
+{
+"id": "person:Joseph.6",
+"type": "person",
+"confidence": 0.4135,
+"match_method": "canonical",
+"preferred_label": "Joseph"
+},
+{
+"id": "realia:Linen",
+"type": "realia",
+"confidence": 0.3463,
+"match_method": "canonical",
+"preferred_label": "lin"
+},
+{
+"id": "group:Jews",
+"type": "group",
+"confidence": 0.3375,
+"match_method": "canonical",
+"preferred_label": "Juifs"
+},
+{
+"id": "person:Peter",
+"type": "person",
+"confidence": 0.3375,
+"match_method": "canonical",
+"preferred_label": "Pierre"
+},
+{
+"id": "place:Arimathea",
+"type": "place",
+"confidence": 0.2906,
+"match_method": "canonical",
+"preferred_label": "Arimathée"
+},
+{
+"id": "person:Mary.2",
+"type": "person",
+"confidence": 0.2823,
+"match_method": "canonical",
+"preferred_label": "Marie"
+},
+{
+"id": "keyterm:Scripture",
+"type": "keyterm",
+"confidence": 0.2781,
+"match_method": "canonical",
+"preferred_label": "Écritures"
+},
+{
+"id": "keyterm:Resurrection",
+"type": "keyterm",
+"confidence": 0.2188,
+"match_method": "canonical",
+"preferred_label": "résurrection"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.2188,
+"match_method": "canonical",
+"preferred_label": "Éternel"
+},
+{
+"id": "keyterm:AskFor",
+"type": "keyterm",
+"confidence": 0.2188,
+"match_method": "canonical",
+"preferred_label": "demander"
+},
+{
+"id": "realia:Cross",
+"type": "realia",
+"confidence": 0.2181,
+"match_method": "canonical",
+"preferred_label": "croix"
+},
+{
+"id": "person:Nicodemus",
+"type": "person",
+"confidence": 0.1677,
+"match_method": "canonical",
+"preferred_label": "Nicodème"
+},
+{
+"id": "person:James.4",
+"type": "person",
+"confidence": 0.1677,
+"match_method": "canonical",
+"preferred_label": "Jacques"
+},
+{
+"id": "realia:Aloes",
+"type": "realia",
+"confidence": 0.1671,
+"match_method": "canonical",
+"preferred_label": "aloès"
+},
+{
+"id": "person:Joseph.5",
+"type": "person",
+"confidence": 0.1635,
+"match_method": "canonical",
+"preferred_label": "Joseph"
+},
+{
+"id": "person:Salome",
+"type": "person",
+"confidence": 0.1635,
+"match_method": "canonical",
+"preferred_label": "Salomé"
+},
+{
+"id": "person:Joseph.3",
+"type": "person",
+"confidence": 0.1635,
+"match_method": "canonical",
+"preferred_label": "Joseph"
+},
+{
+"id": "keyterm:Happen",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "faire arriver"
+},
+{
+"id": "keyterm:DayBeforeTheSabbath",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "veille du sabbat"
+},
+{
+"id": "keyterm:Believe",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "croire"
+},
+{
+"id": "place:Galilee",
+"type": "place",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "Galilée"
+},
+{
+"id": "keyterm:Serve",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "servir"
+},
+{
+"id": "keyterm:Blood",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "sang"
+},
+{
+"id": "keyterm:Sabbath",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "sabbat"
+},
+{
+"id": "deity:Angel",
+"type": "deity",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "Un ange"
+},
+{
+"id": "keyterm:Name",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "nom"
+},
+{
+"id": "keyterm:Clean",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "pur"
+},
+{
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "Jérusalem"
+},
+{
+"id": "keyterm:Kingdom",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "royaume"
+},
+{
+"id": "keyterm:BearWitness",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "rendre témoignage"
+},
+{
+"id": "group:Pharisee",
+"type": "group",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "Pharisiens"
+},
+{
+"id": "keyterm:Life",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "vie"
+},
+{
+"id": "keyterm:Friendship",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "amitié"
+},
+{
+"id": "keyterm:Week",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "semaine"
+},
+{
+"id": "keyterm:True",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "vrai"
+},
+{
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "crainte"
+},
+{
+"id": "realia:Myrrh",
+"type": "realia",
+"confidence": 0.1035,
+"match_method": "canonical",
+"preferred_label": "myrrhe"
+},
+{
+"id": "realia:Pound",
+"type": "realia",
+"confidence": 0.1035,
+"match_method": "canonical",
+"preferred_label": "livre"
+},
+{
+"id": "realia:BandOfCloth",
+"type": "realia",
+"confidence": 0.1035,
+"match_method": "canonical",
+"preferred_label": "linge"
+},
+{
+"id": "realia:Seal",
+"type": "realia",
+"confidence": 0.1035,
+"match_method": "canonical",
+"preferred_label": "sceau"
+},
+{
+"id": "flora:Aloes",
+"type": "flora",
+"confidence": 0.1035,
+"match_method": "canonical",
+"preferred_label": "aloès"
+},
+{
+"id": "realia:Spear",
+"type": "realia",
+"confidence": 0.1035,
+"match_method": "canonical",
+"preferred_label": "lance"
+},
+{
+"id": "flora:Myrrh",
+"type": "flora",
+"confidence": 0.0994,
+"match_method": "canonical",
+"preferred_label": "myrrhe"
+}
+]
+}
+},
+{
+"content_id": "a2465",
+"reference_id": 0,
+"version": "1.0.4",
+"title": "Long drap de tissu de lin",
+"media_type": "Image",
+"index_reference": "long drap de tissu de lin",
+"language": "fra",
+"review_level": "None",
+"content": "<h3>Image Content</h3>\n<block><p><img src='https://s3.amazonaws.com/cbbt-er.public/media/photos/a2465/1000.jpg' alt='Image' width='480' /></p><p><a href='https://s3.amazonaws.com/cbbt-er.public/media/photos/a2465/1000.jpg'>link</a></p></block>",
+"associations": {
+"passage": [
+{
+"start_ref": "40027057",
+"start_ref_usfm": "MAT 27:57",
+"end_ref": "40027066",
+"end_ref_usfm": "MAT 27:66"
+},
+{
+"start_ref": "41015040",
+"start_ref_usfm": "MRK 15:40",
+"end_ref": "41015047",
+"end_ref_usfm": "MRK 15:47"
+},
+{
+"start_ref": "43019031",
+"start_ref_usfm": "JHN 19:31",
+"end_ref": "43019042",
+"end_ref_usfm": "JHN 19:42"
+},
+{
+"start_ref": "43020001",
+"start_ref_usfm": "JHN 20:1",
+"end_ref": "43020018",
+"end_ref_usfm": "JHN 20:18"
+}
+],
+"resource": [],
+"acai": [
+{
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.4719,
+"match_method": "canonical",
+"preferred_label": "Jésus"
+},
+{
+"id": "keyterm:Disciple",
+"type": "keyterm",
+"confidence": 0.4344,
+"match_method": "canonical",
+"preferred_label": "être un disciple"
+},
+{
+"id": "realia:Grave",
+"type": "realia",
+"confidence": 0.4296,
+"match_method": "canonical",
+"preferred_label": "tombeau"
+},
+{
+"id": "person:Marymagdalene",
+"type": "person",
+"confidence": 0.4198,
+"match_method": "canonical",
+"preferred_label": "Marie de Magdala"
+},
+{
+"id": "keyterm:Body.3",
+"type": "keyterm",
+"confidence": 0.4156,
+"match_method": "canonical",
+"preferred_label": "corps"
+},
+{
+"id": "person:Pilate",
+"type": "person",
+"confidence": 0.4156,
+"match_method": "canonical",
+"preferred_label": "Pilate"
+},
+{
+"id": "person:Joseph.6",
+"type": "person",
+"confidence": 0.4135,
+"match_method": "canonical",
+"preferred_label": "Joseph"
+},
+{
+"id": "realia:Linen",
+"type": "realia",
+"confidence": 0.3463,
+"match_method": "canonical",
+"preferred_label": "lin"
+},
+{
+"id": "group:Jews",
+"type": "group",
+"confidence": 0.3375,
+"match_method": "canonical",
+"preferred_label": "Juifs"
+},
+{
+"id": "person:Peter",
+"type": "person",
+"confidence": 0.3375,
+"match_method": "canonical",
+"preferred_label": "Pierre"
+},
+{
+"id": "place:Arimathea",
+"type": "place",
+"confidence": 0.2906,
+"match_method": "canonical",
+"preferred_label": "Arimathée"
+},
+{
+"id": "person:Mary.2",
+"type": "person",
+"confidence": 0.2823,
+"match_method": "canonical",
+"preferred_label": "Marie"
+},
+{
+"id": "keyterm:Scripture",
+"type": "keyterm",
+"confidence": 0.2781,
+"match_method": "canonical",
+"preferred_label": "Écritures"
+},
+{
+"id": "keyterm:Resurrection",
+"type": "keyterm",
+"confidence": 0.2188,
+"match_method": "canonical",
+"preferred_label": "résurrection"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.2188,
+"match_method": "canonical",
+"preferred_label": "Éternel"
+},
+{
+"id": "keyterm:AskFor",
+"type": "keyterm",
+"confidence": 0.2188,
+"match_method": "canonical",
+"preferred_label": "demander"
+},
+{
+"id": "realia:Cross",
+"type": "realia",
+"confidence": 0.2181,
+"match_method": "canonical",
+"preferred_label": "croix"
+},
+{
+"id": "person:Nicodemus",
+"type": "person",
+"confidence": 0.1677,
+"match_method": "canonical",
+"preferred_label": "Nicodème"
+},
+{
+"id": "person:James.4",
+"type": "person",
+"confidence": 0.1677,
+"match_method": "canonical",
+"preferred_label": "Jacques"
+},
+{
+"id": "realia:Aloes",
+"type": "realia",
+"confidence": 0.1671,
+"match_method": "canonical",
+"preferred_label": "aloès"
+},
+{
+"id": "person:Joseph.5",
+"type": "person",
+"confidence": 0.1635,
+"match_method": "canonical",
+"preferred_label": "Joseph"
+},
+{
+"id": "person:Salome",
+"type": "person",
+"confidence": 0.1635,
+"match_method": "canonical",
+"preferred_label": "Salomé"
+},
+{
+"id": "person:Joseph.3",
+"type": "person",
+"confidence": 0.1635,
+"match_method": "canonical",
+"preferred_label": "Joseph"
+},
+{
+"id": "keyterm:Happen",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "faire arriver"
+},
+{
+"id": "keyterm:DayBeforeTheSabbath",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "veille du sabbat"
+},
+{
+"id": "keyterm:Believe",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "croire"
+},
+{
+"id": "place:Galilee",
+"type": "place",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "Galilée"
+},
+{
+"id": "keyterm:Serve",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "servir"
+},
+{
+"id": "keyterm:Blood",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "sang"
+},
+{
+"id": "keyterm:Sabbath",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "sabbat"
+},
+{
+"id": "deity:Angel",
+"type": "deity",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "Un ange"
+},
+{
+"id": "keyterm:Name",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "nom"
+},
+{
+"id": "keyterm:Clean",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "pur"
+},
+{
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "Jérusalem"
+},
+{
+"id": "keyterm:Kingdom",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "royaume"
+},
+{
+"id": "keyterm:BearWitness",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "rendre témoignage"
+},
+{
+"id": "group:Pharisee",
+"type": "group",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "Pharisiens"
+},
+{
+"id": "keyterm:Life",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "vie"
+},
+{
+"id": "keyterm:Friendship",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "amitié"
+},
+{
+"id": "keyterm:Week",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "semaine"
+},
+{
+"id": "keyterm:True",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "vrai"
+},
+{
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "crainte"
+},
+{
+"id": "realia:Myrrh",
+"type": "realia",
+"confidence": 0.1035,
+"match_method": "canonical",
+"preferred_label": "myrrhe"
+},
+{
+"id": "realia:Pound",
+"type": "realia",
+"confidence": 0.1035,
+"match_method": "canonical",
+"preferred_label": "livre"
+},
+{
+"id": "realia:BandOfCloth",
+"type": "realia",
+"confidence": 0.1035,
+"match_method": "canonical",
+"preferred_label": "linge"
+},
+{
+"id": "realia:Seal",
+"type": "realia",
+"confidence": 0.1035,
+"match_method": "canonical",
+"preferred_label": "sceau"
+},
+{
+"id": "flora:Aloes",
+"type": "flora",
+"confidence": 0.1035,
+"match_method": "canonical",
+"preferred_label": "aloès"
+},
+{
+"id": "realia:Spear",
+"type": "realia",
+"confidence": 0.1035,
+"match_method": "canonical",
+"preferred_label": "lance"
+},
+{
+"id": "flora:Myrrh",
+"type": "flora",
+"confidence": 0.0994,
+"match_method": "canonical",
+"preferred_label": "myrrhe"
+}
+]
+}
+},
+{
+"content_id": "a2466",
+"reference_id": 0,
+"version": "1.0.4",
+"title": "Long drap de tissu de lin",
+"media_type": "Image",
+"index_reference": "long drap de tissu de lin",
+"language": "fra",
+"review_level": "None",
+"content": "<h3>Image Content</h3>\n<block><p><img src='https://s3.amazonaws.com/cbbt-er.public/media/photos/a2466/1000.jpg' alt='Image' width='480' /></p><p><a href='https://s3.amazonaws.com/cbbt-er.public/media/photos/a2466/1000.jpg'>link</a></p></block>",
+"associations": {
+"passage": [
+{
+"start_ref": "40027057",
+"start_ref_usfm": "MAT 27:57",
+"end_ref": "40027066",
+"end_ref_usfm": "MAT 27:66"
+},
+{
+"start_ref": "41015040",
+"start_ref_usfm": "MRK 15:40",
+"end_ref": "41015047",
+"end_ref_usfm": "MRK 15:47"
+},
+{
+"start_ref": "43019031",
+"start_ref_usfm": "JHN 19:31",
+"end_ref": "43019042",
+"end_ref_usfm": "JHN 19:42"
+},
+{
+"start_ref": "43020001",
+"start_ref_usfm": "JHN 20:1",
+"end_ref": "43020018",
+"end_ref_usfm": "JHN 20:18"
+}
+],
+"resource": [],
+"acai": [
+{
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.4719,
+"match_method": "canonical",
+"preferred_label": "Jésus"
+},
+{
+"id": "keyterm:Disciple",
+"type": "keyterm",
+"confidence": 0.4344,
+"match_method": "canonical",
+"preferred_label": "être un disciple"
+},
+{
+"id": "realia:Grave",
+"type": "realia",
+"confidence": 0.4296,
+"match_method": "canonical",
+"preferred_label": "tombeau"
+},
+{
+"id": "person:Marymagdalene",
+"type": "person",
+"confidence": 0.4198,
+"match_method": "canonical",
+"preferred_label": "Marie de Magdala"
+},
+{
+"id": "keyterm:Body.3",
+"type": "keyterm",
+"confidence": 0.4156,
+"match_method": "canonical",
+"preferred_label": "corps"
+},
+{
+"id": "person:Pilate",
+"type": "person",
+"confidence": 0.4156,
+"match_method": "canonical",
+"preferred_label": "Pilate"
+},
+{
+"id": "person:Joseph.6",
+"type": "person",
+"confidence": 0.4135,
+"match_method": "canonical",
+"preferred_label": "Joseph"
+},
+{
+"id": "realia:Linen",
+"type": "realia",
+"confidence": 0.3463,
+"match_method": "canonical",
+"preferred_label": "lin"
+},
+{
+"id": "group:Jews",
+"type": "group",
+"confidence": 0.3375,
+"match_method": "canonical",
+"preferred_label": "Juifs"
+},
+{
+"id": "person:Peter",
+"type": "person",
+"confidence": 0.3375,
+"match_method": "canonical",
+"preferred_label": "Pierre"
+},
+{
+"id": "place:Arimathea",
+"type": "place",
+"confidence": 0.2906,
+"match_method": "canonical",
+"preferred_label": "Arimathée"
+},
+{
+"id": "person:Mary.2",
+"type": "person",
+"confidence": 0.2823,
+"match_method": "canonical",
+"preferred_label": "Marie"
+},
+{
+"id": "keyterm:Scripture",
+"type": "keyterm",
+"confidence": 0.2781,
+"match_method": "canonical",
+"preferred_label": "Écritures"
+},
+{
+"id": "keyterm:Resurrection",
+"type": "keyterm",
+"confidence": 0.2188,
+"match_method": "canonical",
+"preferred_label": "résurrection"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.2188,
+"match_method": "canonical",
+"preferred_label": "Éternel"
+},
+{
+"id": "keyterm:AskFor",
+"type": "keyterm",
+"confidence": 0.2188,
+"match_method": "canonical",
+"preferred_label": "demander"
+},
+{
+"id": "realia:Cross",
+"type": "realia",
+"confidence": 0.2181,
+"match_method": "canonical",
+"preferred_label": "croix"
+},
+{
+"id": "person:Nicodemus",
+"type": "person",
+"confidence": 0.1677,
+"match_method": "canonical",
+"preferred_label": "Nicodème"
+},
+{
+"id": "person:James.4",
+"type": "person",
+"confidence": 0.1677,
+"match_method": "canonical",
+"preferred_label": "Jacques"
+},
+{
+"id": "realia:Aloes",
+"type": "realia",
+"confidence": 0.1671,
+"match_method": "canonical",
+"preferred_label": "aloès"
+},
+{
+"id": "person:Joseph.5",
+"type": "person",
+"confidence": 0.1635,
+"match_method": "canonical",
+"preferred_label": "Joseph"
+},
+{
+"id": "person:Salome",
+"type": "person",
+"confidence": 0.1635,
+"match_method": "canonical",
+"preferred_label": "Salomé"
+},
+{
+"id": "person:Joseph.3",
+"type": "person",
+"confidence": 0.1635,
+"match_method": "canonical",
+"preferred_label": "Joseph"
+},
+{
+"id": "keyterm:Happen",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "faire arriver"
+},
+{
+"id": "keyterm:DayBeforeTheSabbath",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "veille du sabbat"
+},
+{
+"id": "keyterm:Believe",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "croire"
+},
+{
+"id": "place:Galilee",
+"type": "place",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "Galilée"
+},
+{
+"id": "keyterm:Serve",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "servir"
+},
+{
+"id": "keyterm:Blood",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "sang"
+},
+{
+"id": "keyterm:Sabbath",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "sabbat"
+},
+{
+"id": "deity:Angel",
+"type": "deity",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "Un ange"
+},
+{
+"id": "keyterm:Name",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "nom"
+},
+{
+"id": "keyterm:Clean",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "pur"
+},
+{
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "Jérusalem"
+},
+{
+"id": "keyterm:Kingdom",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "royaume"
+},
+{
+"id": "keyterm:BearWitness",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "rendre témoignage"
+},
+{
+"id": "group:Pharisee",
+"type": "group",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "Pharisiens"
+},
+{
+"id": "keyterm:Life",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "vie"
+},
+{
+"id": "keyterm:Friendship",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "amitié"
+},
+{
+"id": "keyterm:Week",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "semaine"
+},
+{
+"id": "keyterm:True",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "vrai"
+},
+{
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "crainte"
+},
+{
+"id": "realia:Myrrh",
+"type": "realia",
+"confidence": 0.1035,
+"match_method": "canonical",
+"preferred_label": "myrrhe"
+},
+{
+"id": "realia:Pound",
+"type": "realia",
+"confidence": 0.1035,
+"match_method": "canonical",
+"preferred_label": "livre"
+},
+{
+"id": "realia:BandOfCloth",
+"type": "realia",
+"confidence": 0.1035,
+"match_method": "canonical",
+"preferred_label": "linge"
+},
+{
+"id": "realia:Seal",
+"type": "realia",
+"confidence": 0.1035,
+"match_method": "canonical",
+"preferred_label": "sceau"
+},
+{
+"id": "flora:Aloes",
+"type": "flora",
+"confidence": 0.1035,
+"match_method": "canonical",
+"preferred_label": "aloès"
+},
+{
+"id": "realia:Spear",
+"type": "realia",
+"confidence": 0.1035,
+"match_method": "canonical",
+"preferred_label": "lance"
+},
+{
+"id": "flora:Myrrh",
+"type": "flora",
+"confidence": 0.0994,
+"match_method": "canonical",
+"preferred_label": "myrrhe"
+}
+]
+}
+},
+{
+"content_id": "a2467",
+"reference_id": 0,
+"version": "1.0.4",
+"title": "Long drap de tissu de lin",
+"media_type": "Image",
+"index_reference": "long drap de tissu de lin",
+"language": "fra",
+"review_level": "None",
+"content": "<h3>Image Content</h3>\n<block><p><img src='https://s3.amazonaws.com/cbbt-er.public/media/photos/a2467/1000.jpg' alt='Image' width='480' /></p><p><a href='https://s3.amazonaws.com/cbbt-er.public/media/photos/a2467/1000.jpg'>link</a></p></block>",
+"associations": {
+"passage": [
+{
+"start_ref": "40027057",
+"start_ref_usfm": "MAT 27:57",
+"end_ref": "40027066",
+"end_ref_usfm": "MAT 27:66"
+},
+{
+"start_ref": "41015040",
+"start_ref_usfm": "MRK 15:40",
+"end_ref": "41015047",
+"end_ref_usfm": "MRK 15:47"
+},
+{
+"start_ref": "43019031",
+"start_ref_usfm": "JHN 19:31",
+"end_ref": "43019042",
+"end_ref_usfm": "JHN 19:42"
+},
+{
+"start_ref": "43020001",
+"start_ref_usfm": "JHN 20:1",
+"end_ref": "43020018",
+"end_ref_usfm": "JHN 20:18"
+}
+],
+"resource": [],
+"acai": [
+{
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.4719,
+"match_method": "canonical",
+"preferred_label": "Jésus"
+},
+{
+"id": "keyterm:Disciple",
+"type": "keyterm",
+"confidence": 0.4344,
+"match_method": "canonical",
+"preferred_label": "être un disciple"
+},
+{
+"id": "realia:Grave",
+"type": "realia",
+"confidence": 0.4296,
+"match_method": "canonical",
+"preferred_label": "tombeau"
+},
+{
+"id": "person:Marymagdalene",
+"type": "person",
+"confidence": 0.4198,
+"match_method": "canonical",
+"preferred_label": "Marie de Magdala"
+},
+{
+"id": "keyterm:Body.3",
+"type": "keyterm",
+"confidence": 0.4156,
+"match_method": "canonical",
+"preferred_label": "corps"
+},
+{
+"id": "person:Pilate",
+"type": "person",
+"confidence": 0.4156,
+"match_method": "canonical",
+"preferred_label": "Pilate"
+},
+{
+"id": "person:Joseph.6",
+"type": "person",
+"confidence": 0.4135,
+"match_method": "canonical",
+"preferred_label": "Joseph"
+},
+{
+"id": "realia:Linen",
+"type": "realia",
+"confidence": 0.3463,
+"match_method": "canonical",
+"preferred_label": "lin"
+},
+{
+"id": "group:Jews",
+"type": "group",
+"confidence": 0.3375,
+"match_method": "canonical",
+"preferred_label": "Juifs"
+},
+{
+"id": "person:Peter",
+"type": "person",
+"confidence": 0.3375,
+"match_method": "canonical",
+"preferred_label": "Pierre"
+},
+{
+"id": "place:Arimathea",
+"type": "place",
+"confidence": 0.2906,
+"match_method": "canonical",
+"preferred_label": "Arimathée"
+},
+{
+"id": "person:Mary.2",
+"type": "person",
+"confidence": 0.2823,
+"match_method": "canonical",
+"preferred_label": "Marie"
+},
+{
+"id": "keyterm:Scripture",
+"type": "keyterm",
+"confidence": 0.2781,
+"match_method": "canonical",
+"preferred_label": "Écritures"
+},
+{
+"id": "keyterm:Resurrection",
+"type": "keyterm",
+"confidence": 0.2188,
+"match_method": "canonical",
+"preferred_label": "résurrection"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.2188,
+"match_method": "canonical",
+"preferred_label": "Éternel"
+},
+{
+"id": "keyterm:AskFor",
+"type": "keyterm",
+"confidence": 0.2188,
+"match_method": "canonical",
+"preferred_label": "demander"
+},
+{
+"id": "realia:Cross",
+"type": "realia",
+"confidence": 0.2181,
+"match_method": "canonical",
+"preferred_label": "croix"
+},
+{
+"id": "person:Nicodemus",
+"type": "person",
+"confidence": 0.1677,
+"match_method": "canonical",
+"preferred_label": "Nicodème"
+},
+{
+"id": "person:James.4",
+"type": "person",
+"confidence": 0.1677,
+"match_method": "canonical",
+"preferred_label": "Jacques"
+},
+{
+"id": "realia:Aloes",
+"type": "realia",
+"confidence": 0.1671,
+"match_method": "canonical",
+"preferred_label": "aloès"
+},
+{
+"id": "person:Joseph.5",
+"type": "person",
+"confidence": 0.1635,
+"match_method": "canonical",
+"preferred_label": "Joseph"
+},
+{
+"id": "person:Salome",
+"type": "person",
+"confidence": 0.1635,
+"match_method": "canonical",
+"preferred_label": "Salomé"
+},
+{
+"id": "person:Joseph.3",
+"type": "person",
+"confidence": 0.1635,
+"match_method": "canonical",
+"preferred_label": "Joseph"
+},
+{
+"id": "keyterm:Happen",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "faire arriver"
+},
+{
+"id": "keyterm:DayBeforeTheSabbath",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "veille du sabbat"
+},
+{
+"id": "keyterm:Believe",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "croire"
+},
+{
+"id": "place:Galilee",
+"type": "place",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "Galilée"
+},
+{
+"id": "keyterm:Serve",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "servir"
+},
+{
+"id": "keyterm:Blood",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "sang"
+},
+{
+"id": "keyterm:Sabbath",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "sabbat"
+},
+{
+"id": "deity:Angel",
+"type": "deity",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "Un ange"
+},
+{
+"id": "keyterm:Name",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "nom"
+},
+{
+"id": "keyterm:Clean",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "pur"
+},
+{
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "Jérusalem"
+},
+{
+"id": "keyterm:Kingdom",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "royaume"
+},
+{
+"id": "keyterm:BearWitness",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "rendre témoignage"
+},
+{
+"id": "group:Pharisee",
+"type": "group",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "Pharisiens"
+},
+{
+"id": "keyterm:Life",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "vie"
+},
+{
+"id": "keyterm:Friendship",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "amitié"
+},
+{
+"id": "keyterm:Week",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "semaine"
+},
+{
+"id": "keyterm:True",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "vrai"
+},
+{
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "crainte"
+},
+{
+"id": "realia:Myrrh",
+"type": "realia",
+"confidence": 0.1035,
+"match_method": "canonical",
+"preferred_label": "myrrhe"
+},
+{
+"id": "realia:Pound",
+"type": "realia",
+"confidence": 0.1035,
+"match_method": "canonical",
+"preferred_label": "livre"
+},
+{
+"id": "realia:BandOfCloth",
+"type": "realia",
+"confidence": 0.1035,
+"match_method": "canonical",
+"preferred_label": "linge"
+},
+{
+"id": "realia:Seal",
+"type": "realia",
+"confidence": 0.1035,
+"match_method": "canonical",
+"preferred_label": "sceau"
+},
+{
+"id": "flora:Aloes",
+"type": "flora",
+"confidence": 0.1035,
+"match_method": "canonical",
+"preferred_label": "aloès"
+},
+{
+"id": "realia:Spear",
+"type": "realia",
+"confidence": 0.1035,
+"match_method": "canonical",
+"preferred_label": "lance"
+},
+{
+"id": "flora:Myrrh",
+"type": "flora",
+"confidence": 0.0994,
+"match_method": "canonical",
+"preferred_label": "myrrhe"
+}
+]
+}
+},
+{
+"content_id": "a2468",
+"reference_id": 0,
+"version": "1.0.4",
+"title": "Long drap de tissu de lin",
+"media_type": "Image",
+"index_reference": "long drap de tissu de lin",
+"language": "fra",
+"review_level": "None",
+"content": "<h3>Image Content</h3>\n<block><p><img src='https://s3.amazonaws.com/cbbt-er.public/media/photos/a2468/1000.jpg' alt='Image' width='480' /></p><p><a href='https://s3.amazonaws.com/cbbt-er.public/media/photos/a2468/1000.jpg'>link</a></p></block>",
+"associations": {
+"passage": [
+{
+"start_ref": "40027057",
+"start_ref_usfm": "MAT 27:57",
+"end_ref": "40027066",
+"end_ref_usfm": "MAT 27:66"
+},
+{
+"start_ref": "41015040",
+"start_ref_usfm": "MRK 15:40",
+"end_ref": "41015047",
+"end_ref_usfm": "MRK 15:47"
+},
+{
+"start_ref": "43019031",
+"start_ref_usfm": "JHN 19:31",
+"end_ref": "43019042",
+"end_ref_usfm": "JHN 19:42"
+},
+{
+"start_ref": "43020001",
+"start_ref_usfm": "JHN 20:1",
+"end_ref": "43020018",
+"end_ref_usfm": "JHN 20:18"
+}
+],
+"resource": [],
+"acai": [
+{
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.4719,
+"match_method": "canonical",
+"preferred_label": "Jésus"
+},
+{
+"id": "keyterm:Disciple",
+"type": "keyterm",
+"confidence": 0.4344,
+"match_method": "canonical",
+"preferred_label": "être un disciple"
+},
+{
+"id": "realia:Grave",
+"type": "realia",
+"confidence": 0.4296,
+"match_method": "canonical",
+"preferred_label": "tombeau"
+},
+{
+"id": "person:Marymagdalene",
+"type": "person",
+"confidence": 0.4198,
+"match_method": "canonical",
+"preferred_label": "Marie de Magdala"
+},
+{
+"id": "keyterm:Body.3",
+"type": "keyterm",
+"confidence": 0.4156,
+"match_method": "canonical",
+"preferred_label": "corps"
+},
+{
+"id": "person:Pilate",
+"type": "person",
+"confidence": 0.4156,
+"match_method": "canonical",
+"preferred_label": "Pilate"
+},
+{
+"id": "person:Joseph.6",
+"type": "person",
+"confidence": 0.4135,
+"match_method": "canonical",
+"preferred_label": "Joseph"
+},
+{
+"id": "realia:Linen",
+"type": "realia",
+"confidence": 0.3463,
+"match_method": "canonical",
+"preferred_label": "lin"
+},
+{
+"id": "group:Jews",
+"type": "group",
+"confidence": 0.3375,
+"match_method": "canonical",
+"preferred_label": "Juifs"
+},
+{
+"id": "person:Peter",
+"type": "person",
+"confidence": 0.3375,
+"match_method": "canonical",
+"preferred_label": "Pierre"
+},
+{
+"id": "place:Arimathea",
+"type": "place",
+"confidence": 0.2906,
+"match_method": "canonical",
+"preferred_label": "Arimathée"
+},
+{
+"id": "person:Mary.2",
+"type": "person",
+"confidence": 0.2823,
+"match_method": "canonical",
+"preferred_label": "Marie"
+},
+{
+"id": "keyterm:Scripture",
+"type": "keyterm",
+"confidence": 0.2781,
+"match_method": "canonical",
+"preferred_label": "Écritures"
+},
+{
+"id": "keyterm:Resurrection",
+"type": "keyterm",
+"confidence": 0.2188,
+"match_method": "canonical",
+"preferred_label": "résurrection"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.2188,
+"match_method": "canonical",
+"preferred_label": "Éternel"
+},
+{
+"id": "keyterm:AskFor",
+"type": "keyterm",
+"confidence": 0.2188,
+"match_method": "canonical",
+"preferred_label": "demander"
+},
+{
+"id": "realia:Cross",
+"type": "realia",
+"confidence": 0.2181,
+"match_method": "canonical",
+"preferred_label": "croix"
+},
+{
+"id": "person:Nicodemus",
+"type": "person",
+"confidence": 0.1677,
+"match_method": "canonical",
+"preferred_label": "Nicodème"
+},
+{
+"id": "person:James.4",
+"type": "person",
+"confidence": 0.1677,
+"match_method": "canonical",
+"preferred_label": "Jacques"
+},
+{
+"id": "realia:Aloes",
+"type": "realia",
+"confidence": 0.1671,
+"match_method": "canonical",
+"preferred_label": "aloès"
+},
+{
+"id": "person:Joseph.5",
+"type": "person",
+"confidence": 0.1635,
+"match_method": "canonical",
+"preferred_label": "Joseph"
+},
+{
+"id": "person:Salome",
+"type": "person",
+"confidence": 0.1635,
+"match_method": "canonical",
+"preferred_label": "Salomé"
+},
+{
+"id": "person:Joseph.3",
+"type": "person",
+"confidence": 0.1635,
+"match_method": "canonical",
+"preferred_label": "Joseph"
+},
+{
+"id": "keyterm:Happen",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "faire arriver"
+},
+{
+"id": "keyterm:DayBeforeTheSabbath",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "veille du sabbat"
+},
+{
+"id": "keyterm:Believe",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "croire"
+},
+{
+"id": "place:Galilee",
+"type": "place",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "Galilée"
+},
+{
+"id": "keyterm:Serve",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "servir"
+},
+{
+"id": "keyterm:Blood",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "sang"
+},
+{
+"id": "keyterm:Sabbath",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "sabbat"
+},
+{
+"id": "deity:Angel",
+"type": "deity",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "Un ange"
+},
+{
+"id": "keyterm:Name",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "nom"
+},
+{
+"id": "keyterm:Clean",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "pur"
+},
+{
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "Jérusalem"
+},
+{
+"id": "keyterm:Kingdom",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "royaume"
+},
+{
+"id": "keyterm:BearWitness",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "rendre témoignage"
+},
+{
+"id": "group:Pharisee",
+"type": "group",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "Pharisiens"
+},
+{
+"id": "keyterm:Life",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "vie"
+},
+{
+"id": "keyterm:Friendship",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "amitié"
+},
+{
+"id": "keyterm:Week",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "semaine"
+},
+{
+"id": "keyterm:True",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "vrai"
+},
+{
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "crainte"
+},
+{
+"id": "realia:Myrrh",
+"type": "realia",
+"confidence": 0.1035,
+"match_method": "canonical",
+"preferred_label": "myrrhe"
+},
+{
+"id": "realia:Pound",
+"type": "realia",
+"confidence": 0.1035,
+"match_method": "canonical",
+"preferred_label": "livre"
+},
+{
+"id": "realia:BandOfCloth",
+"type": "realia",
+"confidence": 0.1035,
+"match_method": "canonical",
+"preferred_label": "linge"
+},
+{
+"id": "realia:Seal",
+"type": "realia",
+"confidence": 0.1035,
+"match_method": "canonical",
+"preferred_label": "sceau"
+},
+{
+"id": "flora:Aloes",
+"type": "flora",
+"confidence": 0.1035,
+"match_method": "canonical",
+"preferred_label": "aloès"
+},
+{
+"id": "realia:Spear",
+"type": "realia",
+"confidence": 0.1035,
+"match_method": "canonical",
+"preferred_label": "lance"
+},
+{
+"id": "flora:Myrrh",
+"type": "flora",
+"confidence": 0.0994,
+"match_method": "canonical",
+"preferred_label": "myrrhe"
+}
+]
+}
+},
+{
+"content_id": "a2469",
+"reference_id": 0,
+"version": "1.0.4",
+"title": "Long drap de tissu de lin",
+"media_type": "Image",
+"index_reference": "long drap de tissu de lin",
+"language": "fra",
+"review_level": "None",
+"content": "<h3>Image Content</h3>\n<block><p><img src='https://s3.amazonaws.com/cbbt-er.public/media/photos/a2469/1000.jpg' alt='Image' width='480' /></p><p><a href='https://s3.amazonaws.com/cbbt-er.public/media/photos/a2469/1000.jpg'>link</a></p></block>",
+"associations": {
+"passage": [
+{
+"start_ref": "40027057",
+"start_ref_usfm": "MAT 27:57",
+"end_ref": "40027066",
+"end_ref_usfm": "MAT 27:66"
+},
+{
+"start_ref": "41015040",
+"start_ref_usfm": "MRK 15:40",
+"end_ref": "41015047",
+"end_ref_usfm": "MRK 15:47"
+},
+{
+"start_ref": "43019031",
+"start_ref_usfm": "JHN 19:31",
+"end_ref": "43019042",
+"end_ref_usfm": "JHN 19:42"
+},
+{
+"start_ref": "43020001",
+"start_ref_usfm": "JHN 20:1",
+"end_ref": "43020018",
+"end_ref_usfm": "JHN 20:18"
+}
+],
+"resource": [],
+"acai": [
+{
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.4719,
+"match_method": "canonical",
+"preferred_label": "Jésus"
+},
+{
+"id": "keyterm:Disciple",
+"type": "keyterm",
+"confidence": 0.4344,
+"match_method": "canonical",
+"preferred_label": "être un disciple"
+},
+{
+"id": "realia:Grave",
+"type": "realia",
+"confidence": 0.4296,
+"match_method": "canonical",
+"preferred_label": "tombeau"
+},
+{
+"id": "person:Marymagdalene",
+"type": "person",
+"confidence": 0.4198,
+"match_method": "canonical",
+"preferred_label": "Marie de Magdala"
+},
+{
+"id": "keyterm:Body.3",
+"type": "keyterm",
+"confidence": 0.4156,
+"match_method": "canonical",
+"preferred_label": "corps"
+},
+{
+"id": "person:Pilate",
+"type": "person",
+"confidence": 0.4156,
+"match_method": "canonical",
+"preferred_label": "Pilate"
+},
+{
+"id": "person:Joseph.6",
+"type": "person",
+"confidence": 0.4135,
+"match_method": "canonical",
+"preferred_label": "Joseph"
+},
+{
+"id": "realia:Linen",
+"type": "realia",
+"confidence": 0.3463,
+"match_method": "canonical",
+"preferred_label": "lin"
+},
+{
+"id": "group:Jews",
+"type": "group",
+"confidence": 0.3375,
+"match_method": "canonical",
+"preferred_label": "Juifs"
+},
+{
+"id": "person:Peter",
+"type": "person",
+"confidence": 0.3375,
+"match_method": "canonical",
+"preferred_label": "Pierre"
+},
+{
+"id": "place:Arimathea",
+"type": "place",
+"confidence": 0.2906,
+"match_method": "canonical",
+"preferred_label": "Arimathée"
+},
+{
+"id": "person:Mary.2",
+"type": "person",
+"confidence": 0.2823,
+"match_method": "canonical",
+"preferred_label": "Marie"
+},
+{
+"id": "keyterm:Scripture",
+"type": "keyterm",
+"confidence": 0.2781,
+"match_method": "canonical",
+"preferred_label": "Écritures"
+},
+{
+"id": "keyterm:Resurrection",
+"type": "keyterm",
+"confidence": 0.2188,
+"match_method": "canonical",
+"preferred_label": "résurrection"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.2188,
+"match_method": "canonical",
+"preferred_label": "Éternel"
+},
+{
+"id": "keyterm:AskFor",
+"type": "keyterm",
+"confidence": 0.2188,
+"match_method": "canonical",
+"preferred_label": "demander"
+},
+{
+"id": "realia:Cross",
+"type": "realia",
+"confidence": 0.2181,
+"match_method": "canonical",
+"preferred_label": "croix"
+},
+{
+"id": "person:Nicodemus",
+"type": "person",
+"confidence": 0.1677,
+"match_method": "canonical",
+"preferred_label": "Nicodème"
+},
+{
+"id": "person:James.4",
+"type": "person",
+"confidence": 0.1677,
+"match_method": "canonical",
+"preferred_label": "Jacques"
+},
+{
+"id": "realia:Aloes",
+"type": "realia",
+"confidence": 0.1671,
+"match_method": "canonical",
+"preferred_label": "aloès"
+},
+{
+"id": "person:Joseph.5",
+"type": "person",
+"confidence": 0.1635,
+"match_method": "canonical",
+"preferred_label": "Joseph"
+},
+{
+"id": "person:Salome",
+"type": "person",
+"confidence": 0.1635,
+"match_method": "canonical",
+"preferred_label": "Salomé"
+},
+{
+"id": "person:Joseph.3",
+"type": "person",
+"confidence": 0.1635,
+"match_method": "canonical",
+"preferred_label": "Joseph"
+},
+{
+"id": "keyterm:Happen",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "faire arriver"
+},
+{
+"id": "keyterm:DayBeforeTheSabbath",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "veille du sabbat"
+},
+{
+"id": "keyterm:Believe",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "croire"
+},
+{
+"id": "place:Galilee",
+"type": "place",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "Galilée"
+},
+{
+"id": "keyterm:Serve",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "servir"
+},
+{
+"id": "keyterm:Blood",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "sang"
+},
+{
+"id": "keyterm:Sabbath",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "sabbat"
+},
+{
+"id": "deity:Angel",
+"type": "deity",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "Un ange"
+},
+{
+"id": "keyterm:Name",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "nom"
+},
+{
+"id": "keyterm:Clean",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "pur"
+},
+{
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "Jérusalem"
+},
+{
+"id": "keyterm:Kingdom",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "royaume"
+},
+{
+"id": "keyterm:BearWitness",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "rendre témoignage"
+},
+{
+"id": "group:Pharisee",
+"type": "group",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "Pharisiens"
+},
+{
+"id": "keyterm:Life",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "vie"
+},
+{
+"id": "keyterm:Friendship",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "amitié"
+},
+{
+"id": "keyterm:Week",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "semaine"
+},
+{
+"id": "keyterm:True",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "vrai"
+},
+{
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "crainte"
+},
+{
+"id": "realia:Myrrh",
+"type": "realia",
+"confidence": 0.1035,
+"match_method": "canonical",
+"preferred_label": "myrrhe"
+},
+{
+"id": "realia:Pound",
+"type": "realia",
+"confidence": 0.1035,
+"match_method": "canonical",
+"preferred_label": "livre"
+},
+{
+"id": "realia:BandOfCloth",
+"type": "realia",
+"confidence": 0.1035,
+"match_method": "canonical",
+"preferred_label": "linge"
+},
+{
+"id": "realia:Seal",
+"type": "realia",
+"confidence": 0.1035,
+"match_method": "canonical",
+"preferred_label": "sceau"
+},
+{
+"id": "flora:Aloes",
+"type": "flora",
+"confidence": 0.1035,
+"match_method": "canonical",
+"preferred_label": "aloès"
+},
+{
+"id": "realia:Spear",
+"type": "realia",
+"confidence": 0.1035,
+"match_method": "canonical",
+"preferred_label": "lance"
+},
+{
+"id": "flora:Myrrh",
+"type": "flora",
+"confidence": 0.0994,
+"match_method": "canonical",
+"preferred_label": "myrrhe"
+}
+]
+}
+},
+{
+"content_id": "a2470",
+"reference_id": 0,
+"version": "1.0.4",
+"title": "Long drap de tissu de lin",
+"media_type": "Image",
+"index_reference": "long drap de tissu de lin",
+"language": "fra",
+"review_level": "None",
+"content": "<h3>Image Content</h3>\n<block><p><img src='https://s3.amazonaws.com/cbbt-er.public/media/photos/a2470/1000.jpg' alt='Image' width='480' /></p><p><a href='https://s3.amazonaws.com/cbbt-er.public/media/photos/a2470/1000.jpg'>link</a></p></block>",
+"associations": {
+"passage": [
+{
+"start_ref": "40027057",
+"start_ref_usfm": "MAT 27:57",
+"end_ref": "40027066",
+"end_ref_usfm": "MAT 27:66"
+},
+{
+"start_ref": "41015040",
+"start_ref_usfm": "MRK 15:40",
+"end_ref": "41015047",
+"end_ref_usfm": "MRK 15:47"
+},
+{
+"start_ref": "43019031",
+"start_ref_usfm": "JHN 19:31",
+"end_ref": "43019042",
+"end_ref_usfm": "JHN 19:42"
+},
+{
+"start_ref": "43020001",
+"start_ref_usfm": "JHN 20:1",
+"end_ref": "43020018",
+"end_ref_usfm": "JHN 20:18"
+}
+],
+"resource": [],
+"acai": [
+{
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.4719,
+"match_method": "canonical",
+"preferred_label": "Jésus"
+},
+{
+"id": "keyterm:Disciple",
+"type": "keyterm",
+"confidence": 0.4344,
+"match_method": "canonical",
+"preferred_label": "être un disciple"
+},
+{
+"id": "realia:Grave",
+"type": "realia",
+"confidence": 0.4296,
+"match_method": "canonical",
+"preferred_label": "tombeau"
+},
+{
+"id": "person:Marymagdalene",
+"type": "person",
+"confidence": 0.4198,
+"match_method": "canonical",
+"preferred_label": "Marie de Magdala"
+},
+{
+"id": "keyterm:Body.3",
+"type": "keyterm",
+"confidence": 0.4156,
+"match_method": "canonical",
+"preferred_label": "corps"
+},
+{
+"id": "person:Pilate",
+"type": "person",
+"confidence": 0.4156,
+"match_method": "canonical",
+"preferred_label": "Pilate"
+},
+{
+"id": "person:Joseph.6",
+"type": "person",
+"confidence": 0.4135,
+"match_method": "canonical",
+"preferred_label": "Joseph"
+},
+{
+"id": "realia:Linen",
+"type": "realia",
+"confidence": 0.3463,
+"match_method": "canonical",
+"preferred_label": "lin"
+},
+{
+"id": "group:Jews",
+"type": "group",
+"confidence": 0.3375,
+"match_method": "canonical",
+"preferred_label": "Juifs"
+},
+{
+"id": "person:Peter",
+"type": "person",
+"confidence": 0.3375,
+"match_method": "canonical",
+"preferred_label": "Pierre"
+},
+{
+"id": "place:Arimathea",
+"type": "place",
+"confidence": 0.2906,
+"match_method": "canonical",
+"preferred_label": "Arimathée"
+},
+{
+"id": "person:Mary.2",
+"type": "person",
+"confidence": 0.2823,
+"match_method": "canonical",
+"preferred_label": "Marie"
+},
+{
+"id": "keyterm:Scripture",
+"type": "keyterm",
+"confidence": 0.2781,
+"match_method": "canonical",
+"preferred_label": "Écritures"
+},
+{
+"id": "keyterm:Resurrection",
+"type": "keyterm",
+"confidence": 0.2188,
+"match_method": "canonical",
+"preferred_label": "résurrection"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.2188,
+"match_method": "canonical",
+"preferred_label": "Éternel"
+},
+{
+"id": "keyterm:AskFor",
+"type": "keyterm",
+"confidence": 0.2188,
+"match_method": "canonical",
+"preferred_label": "demander"
+},
+{
+"id": "realia:Cross",
+"type": "realia",
+"confidence": 0.2181,
+"match_method": "canonical",
+"preferred_label": "croix"
+},
+{
+"id": "person:Nicodemus",
+"type": "person",
+"confidence": 0.1677,
+"match_method": "canonical",
+"preferred_label": "Nicodème"
+},
+{
+"id": "person:James.4",
+"type": "person",
+"confidence": 0.1677,
+"match_method": "canonical",
+"preferred_label": "Jacques"
+},
+{
+"id": "realia:Aloes",
+"type": "realia",
+"confidence": 0.1671,
+"match_method": "canonical",
+"preferred_label": "aloès"
+},
+{
+"id": "person:Joseph.5",
+"type": "person",
+"confidence": 0.1635,
+"match_method": "canonical",
+"preferred_label": "Joseph"
+},
+{
+"id": "person:Salome",
+"type": "person",
+"confidence": 0.1635,
+"match_method": "canonical",
+"preferred_label": "Salomé"
+},
+{
+"id": "person:Joseph.3",
+"type": "person",
+"confidence": 0.1635,
+"match_method": "canonical",
+"preferred_label": "Joseph"
+},
+{
+"id": "keyterm:Happen",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "faire arriver"
+},
+{
+"id": "keyterm:DayBeforeTheSabbath",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "veille du sabbat"
+},
+{
+"id": "keyterm:Believe",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "croire"
+},
+{
+"id": "place:Galilee",
+"type": "place",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "Galilée"
+},
+{
+"id": "keyterm:Serve",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "servir"
+},
+{
+"id": "keyterm:Blood",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "sang"
+},
+{
+"id": "keyterm:Sabbath",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "sabbat"
+},
+{
+"id": "deity:Angel",
+"type": "deity",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "Un ange"
+},
+{
+"id": "keyterm:Name",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "nom"
+},
+{
+"id": "keyterm:Clean",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "pur"
+},
+{
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "Jérusalem"
+},
+{
+"id": "keyterm:Kingdom",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "royaume"
+},
+{
+"id": "keyterm:BearWitness",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "rendre témoignage"
+},
+{
+"id": "group:Pharisee",
+"type": "group",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "Pharisiens"
+},
+{
+"id": "keyterm:Life",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "vie"
+},
+{
+"id": "keyterm:Friendship",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "amitié"
+},
+{
+"id": "keyterm:Week",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "semaine"
+},
+{
+"id": "keyterm:True",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "vrai"
+},
+{
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "crainte"
+},
+{
+"id": "realia:Myrrh",
+"type": "realia",
+"confidence": 0.1035,
+"match_method": "canonical",
+"preferred_label": "myrrhe"
+},
+{
+"id": "realia:Pound",
+"type": "realia",
+"confidence": 0.1035,
+"match_method": "canonical",
+"preferred_label": "livre"
+},
+{
+"id": "realia:BandOfCloth",
+"type": "realia",
+"confidence": 0.1035,
+"match_method": "canonical",
+"preferred_label": "linge"
+},
+{
+"id": "realia:Seal",
+"type": "realia",
+"confidence": 0.1035,
+"match_method": "canonical",
+"preferred_label": "sceau"
+},
+{
+"id": "flora:Aloes",
+"type": "flora",
+"confidence": 0.1035,
+"match_method": "canonical",
+"preferred_label": "aloès"
+},
+{
+"id": "realia:Spear",
+"type": "realia",
+"confidence": 0.1035,
+"match_method": "canonical",
+"preferred_label": "lance"
+},
+{
+"id": "flora:Myrrh",
+"type": "flora",
+"confidence": 0.0994,
+"match_method": "canonical",
+"preferred_label": "myrrhe"
+}
+]
+}
+},
+{
+"content_id": "a2471",
+"reference_id": 0,
+"version": "1.0.4",
+"title": "Long drap de tissu de lin",
+"media_type": "Image",
+"index_reference": "long drap de tissu de lin",
+"language": "fra",
+"review_level": "None",
+"content": "<h3>Image Content</h3>\n<block><p><img src='https://s3.amazonaws.com/cbbt-er.public/media/photos/a2471/1000.jpg' alt='Image' width='480' /></p><p><a href='https://s3.amazonaws.com/cbbt-er.public/media/photos/a2471/1000.jpg'>link</a></p></block>",
+"associations": {
+"passage": [
+{
+"start_ref": "40027057",
+"start_ref_usfm": "MAT 27:57",
+"end_ref": "40027066",
+"end_ref_usfm": "MAT 27:66"
+},
+{
+"start_ref": "41015040",
+"start_ref_usfm": "MRK 15:40",
+"end_ref": "41015047",
+"end_ref_usfm": "MRK 15:47"
+},
+{
+"start_ref": "43019031",
+"start_ref_usfm": "JHN 19:31",
+"end_ref": "43019042",
+"end_ref_usfm": "JHN 19:42"
+},
+{
+"start_ref": "43020001",
+"start_ref_usfm": "JHN 20:1",
+"end_ref": "43020018",
+"end_ref_usfm": "JHN 20:18"
+}
+],
+"resource": [],
+"acai": [
+{
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.4719,
+"match_method": "canonical",
+"preferred_label": "Jésus"
+},
+{
+"id": "keyterm:Disciple",
+"type": "keyterm",
+"confidence": 0.4344,
+"match_method": "canonical",
+"preferred_label": "être un disciple"
+},
+{
+"id": "realia:Grave",
+"type": "realia",
+"confidence": 0.4296,
+"match_method": "canonical",
+"preferred_label": "tombeau"
+},
+{
+"id": "person:Marymagdalene",
+"type": "person",
+"confidence": 0.4198,
+"match_method": "canonical",
+"preferred_label": "Marie de Magdala"
+},
+{
+"id": "keyterm:Body.3",
+"type": "keyterm",
+"confidence": 0.4156,
+"match_method": "canonical",
+"preferred_label": "corps"
+},
+{
+"id": "person:Pilate",
+"type": "person",
+"confidence": 0.4156,
+"match_method": "canonical",
+"preferred_label": "Pilate"
+},
+{
+"id": "person:Joseph.6",
+"type": "person",
+"confidence": 0.4135,
+"match_method": "canonical",
+"preferred_label": "Joseph"
+},
+{
+"id": "realia:Linen",
+"type": "realia",
+"confidence": 0.3463,
+"match_method": "canonical",
+"preferred_label": "lin"
+},
+{
+"id": "group:Jews",
+"type": "group",
+"confidence": 0.3375,
+"match_method": "canonical",
+"preferred_label": "Juifs"
+},
+{
+"id": "person:Peter",
+"type": "person",
+"confidence": 0.3375,
+"match_method": "canonical",
+"preferred_label": "Pierre"
+},
+{
+"id": "place:Arimathea",
+"type": "place",
+"confidence": 0.2906,
+"match_method": "canonical",
+"preferred_label": "Arimathée"
+},
+{
+"id": "person:Mary.2",
+"type": "person",
+"confidence": 0.2823,
+"match_method": "canonical",
+"preferred_label": "Marie"
+},
+{
+"id": "keyterm:Scripture",
+"type": "keyterm",
+"confidence": 0.2781,
+"match_method": "canonical",
+"preferred_label": "Écritures"
+},
+{
+"id": "keyterm:Resurrection",
+"type": "keyterm",
+"confidence": 0.2188,
+"match_method": "canonical",
+"preferred_label": "résurrection"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.2188,
+"match_method": "canonical",
+"preferred_label": "Éternel"
+},
+{
+"id": "keyterm:AskFor",
+"type": "keyterm",
+"confidence": 0.2188,
+"match_method": "canonical",
+"preferred_label": "demander"
+},
+{
+"id": "realia:Cross",
+"type": "realia",
+"confidence": 0.2181,
+"match_method": "canonical",
+"preferred_label": "croix"
+},
+{
+"id": "person:Nicodemus",
+"type": "person",
+"confidence": 0.1677,
+"match_method": "canonical",
+"preferred_label": "Nicodème"
+},
+{
+"id": "person:James.4",
+"type": "person",
+"confidence": 0.1677,
+"match_method": "canonical",
+"preferred_label": "Jacques"
+},
+{
+"id": "realia:Aloes",
+"type": "realia",
+"confidence": 0.1671,
+"match_method": "canonical",
+"preferred_label": "aloès"
+},
+{
+"id": "person:Joseph.5",
+"type": "person",
+"confidence": 0.1635,
+"match_method": "canonical",
+"preferred_label": "Joseph"
+},
+{
+"id": "person:Salome",
+"type": "person",
+"confidence": 0.1635,
+"match_method": "canonical",
+"preferred_label": "Salomé"
+},
+{
+"id": "person:Joseph.3",
+"type": "person",
+"confidence": 0.1635,
+"match_method": "canonical",
+"preferred_label": "Joseph"
+},
+{
+"id": "keyterm:Happen",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "faire arriver"
+},
+{
+"id": "keyterm:DayBeforeTheSabbath",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "veille du sabbat"
+},
+{
+"id": "keyterm:Believe",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "croire"
+},
+{
+"id": "place:Galilee",
+"type": "place",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "Galilée"
+},
+{
+"id": "keyterm:Serve",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "servir"
+},
+{
+"id": "keyterm:Blood",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "sang"
+},
+{
+"id": "keyterm:Sabbath",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "sabbat"
+},
+{
+"id": "deity:Angel",
+"type": "deity",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "Un ange"
+},
+{
+"id": "keyterm:Name",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "nom"
+},
+{
+"id": "keyterm:Clean",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "pur"
+},
+{
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "Jérusalem"
+},
+{
+"id": "keyterm:Kingdom",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "royaume"
+},
+{
+"id": "keyterm:BearWitness",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "rendre témoignage"
+},
+{
+"id": "group:Pharisee",
+"type": "group",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "Pharisiens"
+},
+{
+"id": "keyterm:Life",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "vie"
+},
+{
+"id": "keyterm:Friendship",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "amitié"
+},
+{
+"id": "keyterm:Week",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "semaine"
+},
+{
+"id": "keyterm:True",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "vrai"
+},
+{
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "crainte"
+},
+{
+"id": "realia:Myrrh",
+"type": "realia",
+"confidence": 0.1035,
+"match_method": "canonical",
+"preferred_label": "myrrhe"
+},
+{
+"id": "realia:Pound",
+"type": "realia",
+"confidence": 0.1035,
+"match_method": "canonical",
+"preferred_label": "livre"
+},
+{
+"id": "realia:BandOfCloth",
+"type": "realia",
+"confidence": 0.1035,
+"match_method": "canonical",
+"preferred_label": "linge"
+},
+{
+"id": "realia:Seal",
+"type": "realia",
+"confidence": 0.1035,
+"match_method": "canonical",
+"preferred_label": "sceau"
+},
+{
+"id": "flora:Aloes",
+"type": "flora",
+"confidence": 0.1035,
+"match_method": "canonical",
+"preferred_label": "aloès"
+},
+{
+"id": "realia:Spear",
+"type": "realia",
+"confidence": 0.1035,
+"match_method": "canonical",
+"preferred_label": "lance"
+},
+{
+"id": "flora:Myrrh",
+"type": "flora",
+"confidence": 0.0994,
+"match_method": "canonical",
+"preferred_label": "myrrhe"
+}
+]
+}
+},
+{
+"content_id": "a2472",
+"reference_id": 0,
+"version": "1.0.4",
+"title": "Long drap de tissu de lin",
+"media_type": "Image",
+"index_reference": "long drap de tissu de lin",
+"language": "fra",
+"review_level": "None",
+"content": "<h3>Image Content</h3>\n<block><p><img src='https://s3.amazonaws.com/cbbt-er.public/media/photos/a2472/1000.jpg' alt='Image' width='480' /></p><p><a href='https://s3.amazonaws.com/cbbt-er.public/media/photos/a2472/1000.jpg'>link</a></p></block>",
+"associations": {
+"passage": [
+{
+"start_ref": "40027057",
+"start_ref_usfm": "MAT 27:57",
+"end_ref": "40027066",
+"end_ref_usfm": "MAT 27:66"
+},
+{
+"start_ref": "41015040",
+"start_ref_usfm": "MRK 15:40",
+"end_ref": "41015047",
+"end_ref_usfm": "MRK 15:47"
+},
+{
+"start_ref": "43019031",
+"start_ref_usfm": "JHN 19:31",
+"end_ref": "43019042",
+"end_ref_usfm": "JHN 19:42"
+},
+{
+"start_ref": "43020001",
+"start_ref_usfm": "JHN 20:1",
+"end_ref": "43020018",
+"end_ref_usfm": "JHN 20:18"
+}
+],
+"resource": [],
+"acai": [
+{
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.4719,
+"match_method": "canonical",
+"preferred_label": "Jésus"
+},
+{
+"id": "keyterm:Disciple",
+"type": "keyterm",
+"confidence": 0.4344,
+"match_method": "canonical",
+"preferred_label": "être un disciple"
+},
+{
+"id": "realia:Grave",
+"type": "realia",
+"confidence": 0.4296,
+"match_method": "canonical",
+"preferred_label": "tombeau"
+},
+{
+"id": "person:Marymagdalene",
+"type": "person",
+"confidence": 0.4198,
+"match_method": "canonical",
+"preferred_label": "Marie de Magdala"
+},
+{
+"id": "keyterm:Body.3",
+"type": "keyterm",
+"confidence": 0.4156,
+"match_method": "canonical",
+"preferred_label": "corps"
+},
+{
+"id": "person:Pilate",
+"type": "person",
+"confidence": 0.4156,
+"match_method": "canonical",
+"preferred_label": "Pilate"
+},
+{
+"id": "person:Joseph.6",
+"type": "person",
+"confidence": 0.4135,
+"match_method": "canonical",
+"preferred_label": "Joseph"
+},
+{
+"id": "realia:Linen",
+"type": "realia",
+"confidence": 0.3463,
+"match_method": "canonical",
+"preferred_label": "lin"
+},
+{
+"id": "group:Jews",
+"type": "group",
+"confidence": 0.3375,
+"match_method": "canonical",
+"preferred_label": "Juifs"
+},
+{
+"id": "person:Peter",
+"type": "person",
+"confidence": 0.3375,
+"match_method": "canonical",
+"preferred_label": "Pierre"
+},
+{
+"id": "place:Arimathea",
+"type": "place",
+"confidence": 0.2906,
+"match_method": "canonical",
+"preferred_label": "Arimathée"
+},
+{
+"id": "person:Mary.2",
+"type": "person",
+"confidence": 0.2823,
+"match_method": "canonical",
+"preferred_label": "Marie"
+},
+{
+"id": "keyterm:Scripture",
+"type": "keyterm",
+"confidence": 0.2781,
+"match_method": "canonical",
+"preferred_label": "Écritures"
+},
+{
+"id": "keyterm:Resurrection",
+"type": "keyterm",
+"confidence": 0.2188,
+"match_method": "canonical",
+"preferred_label": "résurrection"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.2188,
+"match_method": "canonical",
+"preferred_label": "Éternel"
+},
+{
+"id": "keyterm:AskFor",
+"type": "keyterm",
+"confidence": 0.2188,
+"match_method": "canonical",
+"preferred_label": "demander"
+},
+{
+"id": "realia:Cross",
+"type": "realia",
+"confidence": 0.2181,
+"match_method": "canonical",
+"preferred_label": "croix"
+},
+{
+"id": "person:Nicodemus",
+"type": "person",
+"confidence": 0.1677,
+"match_method": "canonical",
+"preferred_label": "Nicodème"
+},
+{
+"id": "person:James.4",
+"type": "person",
+"confidence": 0.1677,
+"match_method": "canonical",
+"preferred_label": "Jacques"
+},
+{
+"id": "realia:Aloes",
+"type": "realia",
+"confidence": 0.1671,
+"match_method": "canonical",
+"preferred_label": "aloès"
+},
+{
+"id": "person:Joseph.5",
+"type": "person",
+"confidence": 0.1635,
+"match_method": "canonical",
+"preferred_label": "Joseph"
+},
+{
+"id": "person:Salome",
+"type": "person",
+"confidence": 0.1635,
+"match_method": "canonical",
+"preferred_label": "Salomé"
+},
+{
+"id": "person:Joseph.3",
+"type": "person",
+"confidence": 0.1635,
+"match_method": "canonical",
+"preferred_label": "Joseph"
+},
+{
+"id": "keyterm:Happen",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "faire arriver"
+},
+{
+"id": "keyterm:DayBeforeTheSabbath",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "veille du sabbat"
+},
+{
+"id": "keyterm:Believe",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "croire"
+},
+{
+"id": "place:Galilee",
+"type": "place",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "Galilée"
+},
+{
+"id": "keyterm:Serve",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "servir"
+},
+{
+"id": "keyterm:Blood",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "sang"
+},
+{
+"id": "keyterm:Sabbath",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "sabbat"
+},
+{
+"id": "deity:Angel",
+"type": "deity",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "Un ange"
+},
+{
+"id": "keyterm:Name",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "nom"
+},
+{
+"id": "keyterm:Clean",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "pur"
+},
+{
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "Jérusalem"
+},
+{
+"id": "keyterm:Kingdom",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "royaume"
+},
+{
+"id": "keyterm:BearWitness",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "rendre témoignage"
+},
+{
+"id": "group:Pharisee",
+"type": "group",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "Pharisiens"
+},
+{
+"id": "keyterm:Life",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "vie"
+},
+{
+"id": "keyterm:Friendship",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "amitié"
+},
+{
+"id": "keyterm:Week",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "semaine"
+},
+{
+"id": "keyterm:True",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "vrai"
+},
+{
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "crainte"
+},
+{
+"id": "realia:Myrrh",
+"type": "realia",
+"confidence": 0.1035,
+"match_method": "canonical",
+"preferred_label": "myrrhe"
+},
+{
+"id": "realia:Pound",
+"type": "realia",
+"confidence": 0.1035,
+"match_method": "canonical",
+"preferred_label": "livre"
+},
+{
+"id": "realia:BandOfCloth",
+"type": "realia",
+"confidence": 0.1035,
+"match_method": "canonical",
+"preferred_label": "linge"
+},
+{
+"id": "realia:Seal",
+"type": "realia",
+"confidence": 0.1035,
+"match_method": "canonical",
+"preferred_label": "sceau"
+},
+{
+"id": "flora:Aloes",
+"type": "flora",
+"confidence": 0.1035,
+"match_method": "canonical",
+"preferred_label": "aloès"
+},
+{
+"id": "realia:Spear",
+"type": "realia",
+"confidence": 0.1035,
+"match_method": "canonical",
+"preferred_label": "lance"
+},
+{
+"id": "flora:Myrrh",
+"type": "flora",
+"confidence": 0.0994,
+"match_method": "canonical",
+"preferred_label": "myrrhe"
 }
 ]
 }

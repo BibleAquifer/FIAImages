@@ -48,13 +48,6 @@
 "preferred_label": "Samuel"
 },
 {
-"id": "group:Philistine",
-"type": "group",
-"confidence": 0.236,
-"match_method": "canonical",
-"preferred_label": "Philistins"
-},
-{
 "id": "keyterm:Strength",
 "type": "keyterm",
 "confidence": 0.236,
@@ -62,25 +55,32 @@
 "preferred_label": "force"
 },
 {
+"id": "group:Philistine",
+"type": "group",
+"confidence": 0.236,
+"match_method": "canonical",
+"preferred_label": "Philistins"
+},
+{
 "id": "place:Philistine",
 "type": "place",
 "confidence": 0.236,
 "match_method": "canonical",
-"preferred_label": "Philistia"
-},
-{
-"id": "realia:Clothing",
-"type": "realia",
-"confidence": 0.176,
-"match_method": "canonical",
-"preferred_label": "Clothing"
+"preferred_label": "Philistie"
 },
 {
 "id": "fauna:Bull",
 "type": "fauna",
 "confidence": 0.176,
 "match_method": "canonical",
-"preferred_label": "Cattle"
+"preferred_label": "gros bétail"
+},
+{
+"id": "realia:Clothing",
+"type": "realia",
+"confidence": 0.176,
+"match_method": "canonical",
+"preferred_label": "vêtement"
 },
 {
 "id": "place:Amalek",
@@ -88,34 +88,6 @@
 "confidence": 0.176,
 "match_method": "canonical",
 "preferred_label": "Amalek"
-},
-{
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "Israël"
-},
-{
-"id": "keyterm:Heaven",
-"type": "keyterm",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "cieux [également employé pour dieu pour éviter la mention du nom sacré]"
-},
-{
-"id": "person:Jesus.2",
-"type": "person",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "Jésus"
-},
-{
-"id": "keyterm:Good",
-"type": "keyterm",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "le bien"
 },
 {
 "id": "keyterm:Parable",
@@ -129,35 +101,14 @@
 "type": "keyterm",
 "confidence": 0.168,
 "match_method": "canonical",
-"preferred_label": "prescrire"
+"preferred_label": "ordonner"
 },
 {
-"id": "keyterm:Fear",
+"id": "keyterm:Good",
 "type": "keyterm",
 "confidence": 0.168,
 "match_method": "canonical",
-"preferred_label": "craindre"
-},
-{
-"id": "keyterm:OuterDarkness",
-"type": "keyterm",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "les ténèbres du dehors"
-},
-{
-"id": "person:David",
-"type": "person",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "David"
-},
-{
-"id": "keyterm:Kingdom",
-"type": "keyterm",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "régne"
+"preferred_label": "bon"
 },
 {
 "id": "keyterm:Chosen",
@@ -167,39 +118,88 @@
 "preferred_label": "choisi"
 },
 {
-"id": "realia:MoltenImage",
-"type": "realia",
-"confidence": 0.108,
+"id": "keyterm:Heaven",
+"type": "keyterm",
+"confidence": 0.168,
 "match_method": "canonical",
-"preferred_label": "Molten Image"
+"preferred_label": "ciel"
 },
 {
-"id": "realia:AnimalPen",
-"type": "realia",
-"confidence": 0.108,
+"id": "person:David",
+"type": "person",
+"confidence": 0.168,
 "match_method": "canonical",
-"preferred_label": "Animal Pen"
+"preferred_label": "David"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "Israël"
+},
+{
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "Jésus"
+},
+{
+"id": "keyterm:Kingdom",
+"type": "keyterm",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "royaume"
+},
+{
+"id": "keyterm:OuterDarkness",
+"type": "keyterm",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "ténèbres du dehors"
+},
+{
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "crainte"
 },
 {
 "id": "realia:Bed",
 "type": "realia",
 "confidence": 0.108,
 "match_method": "canonical",
-"preferred_label": "Bed"
+"preferred_label": "lit"
+},
+{
+"id": "realia:MoltenImage",
+"type": "realia",
+"confidence": 0.108,
+"match_method": "canonical",
+"preferred_label": "image en fonte"
+},
+{
+"id": "realia:AnimalPen",
+"type": "realia",
+"confidence": 0.108,
+"match_method": "canonical",
+"preferred_label": "enclos pour animaux"
 },
 {
 "id": "realia:House",
 "type": "realia",
 "confidence": 0.108,
 "match_method": "canonical",
-"preferred_label": "House"
+"preferred_label": "maison"
 },
 {
 "id": "realia:UnleavenedBread",
 "type": "realia",
 "confidence": 0.108,
 "match_method": "canonical",
-"preferred_label": "Unleavened Bread"
+"preferred_label": "pain sans levain"
 }
 ]
 }
@@ -253,13 +253,6 @@
 "preferred_label": "Samuel"
 },
 {
-"id": "group:Philistine",
-"type": "group",
-"confidence": 0.236,
-"match_method": "canonical",
-"preferred_label": "Philistins"
-},
-{
 "id": "keyterm:Strength",
 "type": "keyterm",
 "confidence": 0.236,
@@ -267,25 +260,32 @@
 "preferred_label": "force"
 },
 {
+"id": "group:Philistine",
+"type": "group",
+"confidence": 0.236,
+"match_method": "canonical",
+"preferred_label": "Philistins"
+},
+{
 "id": "place:Philistine",
 "type": "place",
 "confidence": 0.236,
 "match_method": "canonical",
-"preferred_label": "Philistia"
-},
-{
-"id": "realia:Clothing",
-"type": "realia",
-"confidence": 0.176,
-"match_method": "canonical",
-"preferred_label": "Clothing"
+"preferred_label": "Philistie"
 },
 {
 "id": "fauna:Bull",
 "type": "fauna",
 "confidence": 0.176,
 "match_method": "canonical",
-"preferred_label": "Cattle"
+"preferred_label": "gros bétail"
+},
+{
+"id": "realia:Clothing",
+"type": "realia",
+"confidence": 0.176,
+"match_method": "canonical",
+"preferred_label": "vêtement"
 },
 {
 "id": "place:Amalek",
@@ -293,34 +293,6 @@
 "confidence": 0.176,
 "match_method": "canonical",
 "preferred_label": "Amalek"
-},
-{
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "Israël"
-},
-{
-"id": "keyterm:Heaven",
-"type": "keyterm",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "cieux [également employé pour dieu pour éviter la mention du nom sacré]"
-},
-{
-"id": "person:Jesus.2",
-"type": "person",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "Jésus"
-},
-{
-"id": "keyterm:Good",
-"type": "keyterm",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "le bien"
 },
 {
 "id": "keyterm:Parable",
@@ -334,35 +306,14 @@
 "type": "keyterm",
 "confidence": 0.168,
 "match_method": "canonical",
-"preferred_label": "prescrire"
+"preferred_label": "ordonner"
 },
 {
-"id": "keyterm:Fear",
+"id": "keyterm:Good",
 "type": "keyterm",
 "confidence": 0.168,
 "match_method": "canonical",
-"preferred_label": "craindre"
-},
-{
-"id": "keyterm:OuterDarkness",
-"type": "keyterm",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "les ténèbres du dehors"
-},
-{
-"id": "person:David",
-"type": "person",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "David"
-},
-{
-"id": "keyterm:Kingdom",
-"type": "keyterm",
-"confidence": 0.168,
-"match_method": "canonical",
-"preferred_label": "régne"
+"preferred_label": "bon"
 },
 {
 "id": "keyterm:Chosen",
@@ -372,39 +323,88 @@
 "preferred_label": "choisi"
 },
 {
-"id": "realia:MoltenImage",
-"type": "realia",
-"confidence": 0.108,
+"id": "keyterm:Heaven",
+"type": "keyterm",
+"confidence": 0.168,
 "match_method": "canonical",
-"preferred_label": "Molten Image"
+"preferred_label": "ciel"
 },
 {
-"id": "realia:AnimalPen",
-"type": "realia",
-"confidence": 0.108,
+"id": "person:David",
+"type": "person",
+"confidence": 0.168,
 "match_method": "canonical",
-"preferred_label": "Animal Pen"
+"preferred_label": "David"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "Israël"
+},
+{
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "Jésus"
+},
+{
+"id": "keyterm:Kingdom",
+"type": "keyterm",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "royaume"
+},
+{
+"id": "keyterm:OuterDarkness",
+"type": "keyterm",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "ténèbres du dehors"
+},
+{
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.168,
+"match_method": "canonical",
+"preferred_label": "crainte"
 },
 {
 "id": "realia:Bed",
 "type": "realia",
 "confidence": 0.108,
 "match_method": "canonical",
-"preferred_label": "Bed"
+"preferred_label": "lit"
+},
+{
+"id": "realia:MoltenImage",
+"type": "realia",
+"confidence": 0.108,
+"match_method": "canonical",
+"preferred_label": "image en fonte"
+},
+{
+"id": "realia:AnimalPen",
+"type": "realia",
+"confidence": 0.108,
+"match_method": "canonical",
+"preferred_label": "enclos pour animaux"
 },
 {
 "id": "realia:House",
 "type": "realia",
 "confidence": 0.108,
 "match_method": "canonical",
-"preferred_label": "House"
+"preferred_label": "maison"
 },
 {
 "id": "realia:UnleavenedBread",
 "type": "realia",
 "confidence": 0.108,
 "match_method": "canonical",
-"preferred_label": "Unleavened Bread"
+"preferred_label": "pain sans levain"
 }
 ]
 }
@@ -431,25 +431,18 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Kingdom",
+"id": "keyterm:Ability",
 "type": "keyterm",
 "confidence": 0.225,
 "match_method": "canonical",
-"preferred_label": "régne"
-},
-{
-"id": "keyterm:Heart",
-"type": "keyterm",
-"confidence": 0.225,
-"match_method": "canonical",
-"preferred_label": "coeur"
+"preferred_label": "capacité"
 },
 {
 "id": "keyterm:Always",
 "type": "keyterm",
 "confidence": 0.225,
 "match_method": "canonical",
-"preferred_label": "éternellement"
+"preferred_label": "toujours"
 },
 {
 "id": "keyterm:Parable",
@@ -459,46 +452,53 @@
 "preferred_label": "parabole"
 },
 {
+"id": "keyterm:Kingdom",
+"type": "keyterm",
+"confidence": 0.225,
+"match_method": "canonical",
+"preferred_label": "royaume"
+},
+{
 "id": "keyterm:CauseOfJoy",
 "type": "keyterm",
 "confidence": 0.225,
 "match_method": "canonical",
-"preferred_label": "Cause of Joy"
+"preferred_label": "sujet de joie"
 },
 {
-"id": "keyterm:Ability",
+"id": "keyterm:Heart",
 "type": "keyterm",
 "confidence": 0.225,
 "match_method": "canonical",
-"preferred_label": "capacité"
-},
-{
-"id": "flora:Acacia",
-"type": "flora",
-"confidence": 0.165,
-"match_method": "canonical",
-"preferred_label": "Acacia"
-},
-{
-"id": "flora:Brier",
-"type": "flora",
-"confidence": 0.165,
-"match_method": "canonical",
-"preferred_label": "Brier"
-},
-{
-"id": "flora:Boxthorn",
-"type": "flora",
-"confidence": 0.165,
-"match_method": "canonical",
-"preferred_label": "Boxthorn"
+"preferred_label": "cœur"
 },
 {
 "id": "flora:Thistle",
 "type": "flora",
 "confidence": 0.165,
 "match_method": "canonical",
-"preferred_label": "Thistle"
+"preferred_label": "chardon"
+},
+{
+"id": "flora:Boxthorn",
+"type": "flora",
+"confidence": 0.165,
+"match_method": "canonical",
+"preferred_label": "buisson d'épines"
+},
+{
+"id": "flora:Brier",
+"type": "flora",
+"confidence": 0.165,
+"match_method": "canonical",
+"preferred_label": "ronce"
+},
+{
+"id": "flora:Acacia",
+"type": "flora",
+"confidence": 0.165,
+"match_method": "canonical",
+"preferred_label": "acacia"
 }
 ]
 }
@@ -525,25 +525,18 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Kingdom",
+"id": "keyterm:Ability",
 "type": "keyterm",
 "confidence": 0.225,
 "match_method": "canonical",
-"preferred_label": "régne"
-},
-{
-"id": "keyterm:Heart",
-"type": "keyterm",
-"confidence": 0.225,
-"match_method": "canonical",
-"preferred_label": "coeur"
+"preferred_label": "capacité"
 },
 {
 "id": "keyterm:Always",
 "type": "keyterm",
 "confidence": 0.225,
 "match_method": "canonical",
-"preferred_label": "éternellement"
+"preferred_label": "toujours"
 },
 {
 "id": "keyterm:Parable",
@@ -553,46 +546,53 @@
 "preferred_label": "parabole"
 },
 {
+"id": "keyterm:Kingdom",
+"type": "keyterm",
+"confidence": 0.225,
+"match_method": "canonical",
+"preferred_label": "royaume"
+},
+{
 "id": "keyterm:CauseOfJoy",
 "type": "keyterm",
 "confidence": 0.225,
 "match_method": "canonical",
-"preferred_label": "Cause of Joy"
+"preferred_label": "sujet de joie"
 },
 {
-"id": "keyterm:Ability",
+"id": "keyterm:Heart",
 "type": "keyterm",
 "confidence": 0.225,
 "match_method": "canonical",
-"preferred_label": "capacité"
-},
-{
-"id": "flora:Acacia",
-"type": "flora",
-"confidence": 0.165,
-"match_method": "canonical",
-"preferred_label": "Acacia"
-},
-{
-"id": "flora:Brier",
-"type": "flora",
-"confidence": 0.165,
-"match_method": "canonical",
-"preferred_label": "Brier"
-},
-{
-"id": "flora:Boxthorn",
-"type": "flora",
-"confidence": 0.165,
-"match_method": "canonical",
-"preferred_label": "Boxthorn"
+"preferred_label": "cœur"
 },
 {
 "id": "flora:Thistle",
 "type": "flora",
 "confidence": 0.165,
 "match_method": "canonical",
-"preferred_label": "Thistle"
+"preferred_label": "chardon"
+},
+{
+"id": "flora:Boxthorn",
+"type": "flora",
+"confidence": 0.165,
+"match_method": "canonical",
+"preferred_label": "buisson d'épines"
+},
+{
+"id": "flora:Brier",
+"type": "flora",
+"confidence": 0.165,
+"match_method": "canonical",
+"preferred_label": "ronce"
+},
+{
+"id": "flora:Acacia",
+"type": "flora",
+"confidence": 0.165,
+"match_method": "canonical",
+"preferred_label": "acacia"
 }
 ]
 }
@@ -619,25 +619,18 @@
 "resource": [],
 "acai": [
 {
-"id": "keyterm:Kingdom",
+"id": "keyterm:Ability",
 "type": "keyterm",
 "confidence": 0.225,
 "match_method": "canonical",
-"preferred_label": "régne"
-},
-{
-"id": "keyterm:Heart",
-"type": "keyterm",
-"confidence": 0.225,
-"match_method": "canonical",
-"preferred_label": "coeur"
+"preferred_label": "capacité"
 },
 {
 "id": "keyterm:Always",
 "type": "keyterm",
 "confidence": 0.225,
 "match_method": "canonical",
-"preferred_label": "éternellement"
+"preferred_label": "toujours"
 },
 {
 "id": "keyterm:Parable",
@@ -647,46 +640,53 @@
 "preferred_label": "parabole"
 },
 {
+"id": "keyterm:Kingdom",
+"type": "keyterm",
+"confidence": 0.225,
+"match_method": "canonical",
+"preferred_label": "royaume"
+},
+{
 "id": "keyterm:CauseOfJoy",
 "type": "keyterm",
 "confidence": 0.225,
 "match_method": "canonical",
-"preferred_label": "Cause of Joy"
+"preferred_label": "sujet de joie"
 },
 {
-"id": "keyterm:Ability",
+"id": "keyterm:Heart",
 "type": "keyterm",
 "confidence": 0.225,
 "match_method": "canonical",
-"preferred_label": "capacité"
-},
-{
-"id": "flora:Acacia",
-"type": "flora",
-"confidence": 0.165,
-"match_method": "canonical",
-"preferred_label": "Acacia"
-},
-{
-"id": "flora:Brier",
-"type": "flora",
-"confidence": 0.165,
-"match_method": "canonical",
-"preferred_label": "Brier"
-},
-{
-"id": "flora:Boxthorn",
-"type": "flora",
-"confidence": 0.165,
-"match_method": "canonical",
-"preferred_label": "Boxthorn"
+"preferred_label": "cœur"
 },
 {
 "id": "flora:Thistle",
 "type": "flora",
 "confidence": 0.165,
 "match_method": "canonical",
-"preferred_label": "Thistle"
+"preferred_label": "chardon"
+},
+{
+"id": "flora:Boxthorn",
+"type": "flora",
+"confidence": 0.165,
+"match_method": "canonical",
+"preferred_label": "buisson d'épines"
+},
+{
+"id": "flora:Brier",
+"type": "flora",
+"confidence": 0.165,
+"match_method": "canonical",
+"preferred_label": "ronce"
+},
+{
+"id": "flora:Acacia",
+"type": "flora",
+"confidence": 0.165,
+"match_method": "canonical",
+"preferred_label": "acacia"
 }
 ]
 }
@@ -856,7 +856,7 @@
 "type": "flora",
 "confidence": 0.3804,
 "match_method": "canonical",
-"preferred_label": "Vine"
+"preferred_label": "vigne"
 },
 {
 "id": "person:Naboth",
@@ -898,7 +898,7 @@
 "type": "keyterm",
 "confidence": 0.3661,
 "match_method": "canonical",
-"preferred_label": "craindre"
+"preferred_label": "crainte"
 },
 {
 "id": "keyterm:Dispossess",
@@ -922,6 +922,13 @@
 "preferred_label": "Jézabel"
 },
 {
+"id": "place:Philistine",
+"type": "place",
+"confidence": 0.3625,
+"match_method": "canonical",
+"preferred_label": "Philistie"
+},
+{
 "id": "group:Philistine",
 "type": "group",
 "confidence": 0.3625,
@@ -936,18 +943,11 @@
 "preferred_label": "Jizreel"
 },
 {
-"id": "place:Philistine",
-"type": "place",
-"confidence": 0.3625,
-"match_method": "canonical",
-"preferred_label": "Philistia"
-},
-{
-"id": "keyterm:Bless",
+"id": "keyterm:Parable",
 "type": "keyterm",
 "confidence": 0.3608,
 "match_method": "canonical",
-"preferred_label": "benir"
+"preferred_label": "parabole"
 },
 {
 "id": "group:Jezreel",
@@ -957,25 +957,25 @@
 "preferred_label": "Jizreel"
 },
 {
+"id": "person:Noah",
+"type": "person",
+"confidence": 0.3608,
+"match_method": "canonical",
+"preferred_label": "Noé"
+},
+{
+"id": "keyterm:Bless",
+"type": "keyterm",
+"confidence": 0.3608,
+"match_method": "canonical",
+"preferred_label": "bénir"
+},
+{
 "id": "person:Jesus.2",
 "type": "person",
 "confidence": 0.3608,
 "match_method": "canonical",
 "preferred_label": "Jésus"
-},
-{
-"id": "person:Noah",
-"type": "person",
-"confidence": 0.3608,
-"match_method": "canonical",
-"preferred_label": "Noah"
-},
-{
-"id": "keyterm:Parable",
-"type": "keyterm",
-"confidence": 0.3608,
-"match_method": "canonical",
-"preferred_label": "parabole"
 },
 {
 "id": "keyterm:Swear",
@@ -1003,14 +1003,14 @@
 "type": "realia",
 "confidence": 0.3151,
 "match_method": "canonical",
-"preferred_label": "House"
+"preferred_label": "maison"
 },
 {
 "id": "group:Amorites",
 "type": "group",
 "confidence": 0.3072,
 "match_method": "canonical",
-"preferred_label": "Amorites"
+"preferred_label": "Amoréens"
 },
 {
 "id": "person:Shem",
@@ -1038,21 +1038,21 @@
 "type": "realia",
 "confidence": 0.3061,
 "match_method": "canonical",
-"preferred_label": "Money"
-},
-{
-"id": "fauna:Goat",
-"type": "fauna",
-"confidence": 0.3061,
-"match_method": "canonical",
-"preferred_label": "Goat"
+"preferred_label": "argent"
 },
 {
 "id": "flora:OliveTree",
 "type": "flora",
 "confidence": 0.3061,
 "match_method": "canonical",
-"preferred_label": "Olive Tree"
+"preferred_label": "olivier"
+},
+{
+"id": "fauna:Goat",
+"type": "fauna",
+"confidence": 0.3061,
+"match_method": "canonical",
+"preferred_label": "chèvre"
 }
 ]
 }
@@ -1222,7 +1222,7 @@
 "type": "flora",
 "confidence": 0.3804,
 "match_method": "canonical",
-"preferred_label": "Vine"
+"preferred_label": "vigne"
 },
 {
 "id": "person:Naboth",
@@ -1264,7 +1264,7 @@
 "type": "keyterm",
 "confidence": 0.3661,
 "match_method": "canonical",
-"preferred_label": "craindre"
+"preferred_label": "crainte"
 },
 {
 "id": "keyterm:Dispossess",
@@ -1288,6 +1288,13 @@
 "preferred_label": "Jézabel"
 },
 {
+"id": "place:Philistine",
+"type": "place",
+"confidence": 0.3625,
+"match_method": "canonical",
+"preferred_label": "Philistie"
+},
+{
 "id": "group:Philistine",
 "type": "group",
 "confidence": 0.3625,
@@ -1302,18 +1309,11 @@
 "preferred_label": "Jizreel"
 },
 {
-"id": "place:Philistine",
-"type": "place",
-"confidence": 0.3625,
-"match_method": "canonical",
-"preferred_label": "Philistia"
-},
-{
-"id": "keyterm:Bless",
+"id": "keyterm:Parable",
 "type": "keyterm",
 "confidence": 0.3608,
 "match_method": "canonical",
-"preferred_label": "benir"
+"preferred_label": "parabole"
 },
 {
 "id": "group:Jezreel",
@@ -1323,25 +1323,25 @@
 "preferred_label": "Jizreel"
 },
 {
+"id": "person:Noah",
+"type": "person",
+"confidence": 0.3608,
+"match_method": "canonical",
+"preferred_label": "Noé"
+},
+{
+"id": "keyterm:Bless",
+"type": "keyterm",
+"confidence": 0.3608,
+"match_method": "canonical",
+"preferred_label": "bénir"
+},
+{
 "id": "person:Jesus.2",
 "type": "person",
 "confidence": 0.3608,
 "match_method": "canonical",
 "preferred_label": "Jésus"
-},
-{
-"id": "person:Noah",
-"type": "person",
-"confidence": 0.3608,
-"match_method": "canonical",
-"preferred_label": "Noah"
-},
-{
-"id": "keyterm:Parable",
-"type": "keyterm",
-"confidence": 0.3608,
-"match_method": "canonical",
-"preferred_label": "parabole"
 },
 {
 "id": "keyterm:Swear",
@@ -1369,14 +1369,14 @@
 "type": "realia",
 "confidence": 0.3151,
 "match_method": "canonical",
-"preferred_label": "House"
+"preferred_label": "maison"
 },
 {
 "id": "group:Amorites",
 "type": "group",
 "confidence": 0.3072,
 "match_method": "canonical",
-"preferred_label": "Amorites"
+"preferred_label": "Amoréens"
 },
 {
 "id": "person:Shem",
@@ -1404,21 +1404,21 @@
 "type": "realia",
 "confidence": 0.3061,
 "match_method": "canonical",
-"preferred_label": "Money"
-},
-{
-"id": "fauna:Goat",
-"type": "fauna",
-"confidence": 0.3061,
-"match_method": "canonical",
-"preferred_label": "Goat"
+"preferred_label": "argent"
 },
 {
 "id": "flora:OliveTree",
 "type": "flora",
 "confidence": 0.3061,
 "match_method": "canonical",
-"preferred_label": "Olive Tree"
+"preferred_label": "olivier"
+},
+{
+"id": "fauna:Goat",
+"type": "fauna",
+"confidence": 0.3061,
+"match_method": "canonical",
+"preferred_label": "chèvre"
 }
 ]
 }
@@ -1588,7 +1588,7 @@
 "type": "flora",
 "confidence": 0.3804,
 "match_method": "canonical",
-"preferred_label": "Vine"
+"preferred_label": "vigne"
 },
 {
 "id": "person:Naboth",
@@ -1630,7 +1630,7 @@
 "type": "keyterm",
 "confidence": 0.3661,
 "match_method": "canonical",
-"preferred_label": "craindre"
+"preferred_label": "crainte"
 },
 {
 "id": "keyterm:Dispossess",
@@ -1654,6 +1654,13 @@
 "preferred_label": "Jézabel"
 },
 {
+"id": "place:Philistine",
+"type": "place",
+"confidence": 0.3625,
+"match_method": "canonical",
+"preferred_label": "Philistie"
+},
+{
 "id": "group:Philistine",
 "type": "group",
 "confidence": 0.3625,
@@ -1668,18 +1675,11 @@
 "preferred_label": "Jizreel"
 },
 {
-"id": "place:Philistine",
-"type": "place",
-"confidence": 0.3625,
-"match_method": "canonical",
-"preferred_label": "Philistia"
-},
-{
-"id": "keyterm:Bless",
+"id": "keyterm:Parable",
 "type": "keyterm",
 "confidence": 0.3608,
 "match_method": "canonical",
-"preferred_label": "benir"
+"preferred_label": "parabole"
 },
 {
 "id": "group:Jezreel",
@@ -1689,25 +1689,25 @@
 "preferred_label": "Jizreel"
 },
 {
+"id": "person:Noah",
+"type": "person",
+"confidence": 0.3608,
+"match_method": "canonical",
+"preferred_label": "Noé"
+},
+{
+"id": "keyterm:Bless",
+"type": "keyterm",
+"confidence": 0.3608,
+"match_method": "canonical",
+"preferred_label": "bénir"
+},
+{
 "id": "person:Jesus.2",
 "type": "person",
 "confidence": 0.3608,
 "match_method": "canonical",
 "preferred_label": "Jésus"
-},
-{
-"id": "person:Noah",
-"type": "person",
-"confidence": 0.3608,
-"match_method": "canonical",
-"preferred_label": "Noah"
-},
-{
-"id": "keyterm:Parable",
-"type": "keyterm",
-"confidence": 0.3608,
-"match_method": "canonical",
-"preferred_label": "parabole"
 },
 {
 "id": "keyterm:Swear",
@@ -1735,14 +1735,14 @@
 "type": "realia",
 "confidence": 0.3151,
 "match_method": "canonical",
-"preferred_label": "House"
+"preferred_label": "maison"
 },
 {
 "id": "group:Amorites",
 "type": "group",
 "confidence": 0.3072,
 "match_method": "canonical",
-"preferred_label": "Amorites"
+"preferred_label": "Amoréens"
 },
 {
 "id": "person:Shem",
@@ -1770,21 +1770,21 @@
 "type": "realia",
 "confidence": 0.3061,
 "match_method": "canonical",
-"preferred_label": "Money"
-},
-{
-"id": "fauna:Goat",
-"type": "fauna",
-"confidence": 0.3061,
-"match_method": "canonical",
-"preferred_label": "Goat"
+"preferred_label": "argent"
 },
 {
 "id": "flora:OliveTree",
 "type": "flora",
 "confidence": 0.3061,
 "match_method": "canonical",
-"preferred_label": "Olive Tree"
+"preferred_label": "olivier"
+},
+{
+"id": "fauna:Goat",
+"type": "fauna",
+"confidence": 0.3061,
+"match_method": "canonical",
+"preferred_label": "chèvre"
 }
 ]
 }

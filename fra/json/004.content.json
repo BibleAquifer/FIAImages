@@ -91,6 +91,13 @@
 "preferred_label": "Tibère"
 },
 {
+"id": "keyterm:Disciple",
+"type": "keyterm",
+"confidence": 0.3792,
+"match_method": "canonical",
+"preferred_label": "être un disciple"
+},
+{
 "id": "keyterm:Resurrection",
 "type": "keyterm",
 "confidence": 0.3792,
@@ -98,32 +105,25 @@
 "preferred_label": "résurrection"
 },
 {
-"id": "keyterm:Disciple",
-"type": "keyterm",
-"confidence": 0.3792,
-"match_method": "canonical",
-"preferred_label": "trans. faire un disciple de"
-},
-{
 "id": "group:Pharisee",
 "type": "group",
 "confidence": 0.3708,
 "match_method": "canonical",
-"preferred_label": "Pharisien"
+"preferred_label": "Pharisiens"
 },
 {
 "id": "realia:Denarius",
 "type": "realia",
 "confidence": 0.327,
 "match_method": "canonical",
-"preferred_label": "Denarius"
+"preferred_label": "denier"
 },
 {
 "id": "keyterm:Owe",
 "type": "keyterm",
 "confidence": 0.3204,
 "match_method": "canonical",
-"preferred_label": "devoir (qch) à [qqn]"
+"preferred_label": "devoir"
 },
 {
 "id": "person:Lazarus.2",
@@ -133,13 +133,6 @@
 "preferred_label": "Lazare"
 },
 {
-"id": "keyterm:Ability",
-"type": "keyterm",
-"confidence": 0.3167,
-"match_method": "canonical",
-"preferred_label": "capacité"
-},
-{
 "id": "keyterm:Sin",
 "type": "keyterm",
 "confidence": 0.3167,
@@ -147,25 +140,32 @@
 "preferred_label": "pécher"
 },
 {
-"id": "realia:Myrrh",
-"type": "realia",
-"confidence": 0.3108,
+"id": "keyterm:Ability",
+"type": "keyterm",
+"confidence": 0.3167,
 "match_method": "canonical",
-"preferred_label": "Myrrh"
-},
-{
-"id": "fauna:Fish",
-"type": "fauna",
-"confidence": 0.3108,
-"match_method": "canonical",
-"preferred_label": "Fish"
+"preferred_label": "capacité"
 },
 {
 "id": "flora:Myrrh",
 "type": "flora",
 "confidence": 0.3108,
 "match_method": "canonical",
-"preferred_label": "Myrrh"
+"preferred_label": "myrrhe"
+},
+{
+"id": "realia:Myrrh",
+"type": "realia",
+"confidence": 0.3108,
+"match_method": "canonical",
+"preferred_label": "myrrhe"
+},
+{
+"id": "fauna:Fish",
+"type": "fauna",
+"confidence": 0.3108,
+"match_method": "canonical",
+"preferred_label": "poisson"
 },
 {
 "id": "person:Simon.6",
@@ -182,53 +182,18 @@
 "preferred_label": "vérité"
 },
 {
-"id": "keyterm:Lawful",
-"type": "keyterm",
-"confidence": 0.2625,
-"match_method": "canonical",
-"preferred_label": "Be Lawful"
-},
-{
 "id": "keyterm:PollTax",
 "type": "keyterm",
 "confidence": 0.2625,
 "match_method": "canonical",
-"preferred_label": "taxe"
-},
-{
-"id": "keyterm:Serve",
-"type": "keyterm",
-"confidence": 0.2625,
-"match_method": "canonical",
-"preferred_label": "servir"
-},
-{
-"id": "keyterm:TheWay",
-"type": "keyterm",
-"confidence": 0.2625,
-"match_method": "canonical",
-"preferred_label": "chemin"
-},
-{
-"id": "keyterm:True",
-"type": "keyterm",
-"confidence": 0.2625,
-"match_method": "canonical",
-"preferred_label": "vrai"
+"preferred_label": "capitation"
 },
 {
 "id": "group:Jews",
 "type": "group",
 "confidence": 0.2625,
 "match_method": "canonical",
-"preferred_label": "Jews"
-},
-{
-"id": "keyterm:AskFor",
-"type": "keyterm",
-"confidence": 0.2625,
-"match_method": "canonical",
-"preferred_label": "prier"
+"preferred_label": "Juifs"
 },
 {
 "id": "keyterm:Anointed",
@@ -238,39 +203,74 @@
 "preferred_label": "oint"
 },
 {
+"id": "keyterm:Serve",
+"type": "keyterm",
+"confidence": 0.2625,
+"match_method": "canonical",
+"preferred_label": "servir"
+},
+{
+"id": "keyterm:Lawful",
+"type": "keyterm",
+"confidence": 0.2625,
+"match_method": "canonical",
+"preferred_label": "être permis"
+},
+{
+"id": "keyterm:TheWay",
+"type": "keyterm",
+"confidence": 0.2625,
+"match_method": "canonical",
+"preferred_label": "la Voie"
+},
+{
+"id": "keyterm:True",
+"type": "keyterm",
+"confidence": 0.2625,
+"match_method": "canonical",
+"preferred_label": "vrai"
+},
+{
+"id": "keyterm:AskFor",
+"type": "keyterm",
+"confidence": 0.2625,
+"match_method": "canonical",
+"preferred_label": "demander"
+},
+{
 "id": "realia:House",
 "type": "realia",
 "confidence": 0.2567,
 "match_method": "canonical",
-"preferred_label": "House"
+"preferred_label": "maison"
 },
 {
 "id": "group:Herodian",
 "type": "group",
 "confidence": 0.212,
 "match_method": "canonical",
-"preferred_label": "les partisans d'Hérode; Hérodiens"
+"preferred_label": "Hérodiens"
 },
 {
 "id": "keyterm:Affection",
 "type": "keyterm",
 "confidence": 0.2102,
 "match_method": "canonical",
-"preferred_label": "ses sentiments ou son être les plus profonds"
+"preferred_label": "affection"
 },
 {
-"id": "keyterm:Hypocrisy",
+"id": "keyterm:Love",
 "type": "keyterm",
 "confidence": 0.2083,
 "match_method": "canonical",
-"preferred_label": "hypocrisie"
+"preferred_label": "amour"
 },
 {
-"id": "person:Moses",
-"type": "person",
+"id": "keyterm:Heaven",
+"type": "keyterm",
 "confidence": 0.2083,
 "match_method": "canonical",
-"preferred_label": "Moïse"
+"preferred_label": "ciel"
 }
 ]
 }
@@ -367,6 +367,13 @@
 "preferred_label": "Tibère"
 },
 {
+"id": "keyterm:Disciple",
+"type": "keyterm",
+"confidence": 0.3792,
+"match_method": "canonical",
+"preferred_label": "être un disciple"
+},
+{
 "id": "keyterm:Resurrection",
 "type": "keyterm",
 "confidence": 0.3792,
@@ -374,32 +381,25 @@
 "preferred_label": "résurrection"
 },
 {
-"id": "keyterm:Disciple",
-"type": "keyterm",
-"confidence": 0.3792,
-"match_method": "canonical",
-"preferred_label": "trans. faire un disciple de"
-},
-{
 "id": "group:Pharisee",
 "type": "group",
 "confidence": 0.3708,
 "match_method": "canonical",
-"preferred_label": "Pharisien"
+"preferred_label": "Pharisiens"
 },
 {
 "id": "realia:Denarius",
 "type": "realia",
 "confidence": 0.327,
 "match_method": "canonical",
-"preferred_label": "Denarius"
+"preferred_label": "denier"
 },
 {
 "id": "keyterm:Owe",
 "type": "keyterm",
 "confidence": 0.3204,
 "match_method": "canonical",
-"preferred_label": "devoir (qch) à [qqn]"
+"preferred_label": "devoir"
 },
 {
 "id": "person:Lazarus.2",
@@ -409,13 +409,6 @@
 "preferred_label": "Lazare"
 },
 {
-"id": "keyterm:Ability",
-"type": "keyterm",
-"confidence": 0.3167,
-"match_method": "canonical",
-"preferred_label": "capacité"
-},
-{
 "id": "keyterm:Sin",
 "type": "keyterm",
 "confidence": 0.3167,
@@ -423,25 +416,32 @@
 "preferred_label": "pécher"
 },
 {
-"id": "realia:Myrrh",
-"type": "realia",
-"confidence": 0.3108,
+"id": "keyterm:Ability",
+"type": "keyterm",
+"confidence": 0.3167,
 "match_method": "canonical",
-"preferred_label": "Myrrh"
-},
-{
-"id": "fauna:Fish",
-"type": "fauna",
-"confidence": 0.3108,
-"match_method": "canonical",
-"preferred_label": "Fish"
+"preferred_label": "capacité"
 },
 {
 "id": "flora:Myrrh",
 "type": "flora",
 "confidence": 0.3108,
 "match_method": "canonical",
-"preferred_label": "Myrrh"
+"preferred_label": "myrrhe"
+},
+{
+"id": "realia:Myrrh",
+"type": "realia",
+"confidence": 0.3108,
+"match_method": "canonical",
+"preferred_label": "myrrhe"
+},
+{
+"id": "fauna:Fish",
+"type": "fauna",
+"confidence": 0.3108,
+"match_method": "canonical",
+"preferred_label": "poisson"
 },
 {
 "id": "person:Simon.6",
@@ -458,53 +458,18 @@
 "preferred_label": "vérité"
 },
 {
-"id": "keyterm:Lawful",
-"type": "keyterm",
-"confidence": 0.2625,
-"match_method": "canonical",
-"preferred_label": "Be Lawful"
-},
-{
 "id": "keyterm:PollTax",
 "type": "keyterm",
 "confidence": 0.2625,
 "match_method": "canonical",
-"preferred_label": "taxe"
-},
-{
-"id": "keyterm:Serve",
-"type": "keyterm",
-"confidence": 0.2625,
-"match_method": "canonical",
-"preferred_label": "servir"
-},
-{
-"id": "keyterm:TheWay",
-"type": "keyterm",
-"confidence": 0.2625,
-"match_method": "canonical",
-"preferred_label": "chemin"
-},
-{
-"id": "keyterm:True",
-"type": "keyterm",
-"confidence": 0.2625,
-"match_method": "canonical",
-"preferred_label": "vrai"
+"preferred_label": "capitation"
 },
 {
 "id": "group:Jews",
 "type": "group",
 "confidence": 0.2625,
 "match_method": "canonical",
-"preferred_label": "Jews"
-},
-{
-"id": "keyterm:AskFor",
-"type": "keyterm",
-"confidence": 0.2625,
-"match_method": "canonical",
-"preferred_label": "prier"
+"preferred_label": "Juifs"
 },
 {
 "id": "keyterm:Anointed",
@@ -514,39 +479,74 @@
 "preferred_label": "oint"
 },
 {
+"id": "keyterm:Serve",
+"type": "keyterm",
+"confidence": 0.2625,
+"match_method": "canonical",
+"preferred_label": "servir"
+},
+{
+"id": "keyterm:Lawful",
+"type": "keyterm",
+"confidence": 0.2625,
+"match_method": "canonical",
+"preferred_label": "être permis"
+},
+{
+"id": "keyterm:TheWay",
+"type": "keyterm",
+"confidence": 0.2625,
+"match_method": "canonical",
+"preferred_label": "la Voie"
+},
+{
+"id": "keyterm:True",
+"type": "keyterm",
+"confidence": 0.2625,
+"match_method": "canonical",
+"preferred_label": "vrai"
+},
+{
+"id": "keyterm:AskFor",
+"type": "keyterm",
+"confidence": 0.2625,
+"match_method": "canonical",
+"preferred_label": "demander"
+},
+{
 "id": "realia:House",
 "type": "realia",
 "confidence": 0.2567,
 "match_method": "canonical",
-"preferred_label": "House"
+"preferred_label": "maison"
 },
 {
 "id": "group:Herodian",
 "type": "group",
 "confidence": 0.212,
 "match_method": "canonical",
-"preferred_label": "les partisans d'Hérode; Hérodiens"
+"preferred_label": "Hérodiens"
 },
 {
 "id": "keyterm:Affection",
 "type": "keyterm",
 "confidence": 0.2102,
 "match_method": "canonical",
-"preferred_label": "ses sentiments ou son être les plus profonds"
+"preferred_label": "affection"
 },
 {
-"id": "keyterm:Hypocrisy",
+"id": "keyterm:Love",
 "type": "keyterm",
 "confidence": 0.2083,
 "match_method": "canonical",
-"preferred_label": "hypocrisie"
+"preferred_label": "amour"
 },
 {
-"id": "person:Moses",
-"type": "person",
+"id": "keyterm:Heaven",
+"type": "keyterm",
 "confidence": 0.2083,
 "match_method": "canonical",
-"preferred_label": "Moïse"
+"preferred_label": "ciel"
 }
 ]
 }
@@ -816,14 +816,7 @@
 "type": "deity",
 "confidence": 0.3645,
 "match_method": "canonical",
-"preferred_label": "An Angel"
-},
-{
-"id": "deity:HolySpirit",
-"type": "deity",
-"confidence": 0.3632,
-"match_method": "canonical",
-"preferred_label": "Saint-Esprit"
+"preferred_label": "Un ange"
 },
 {
 "id": "keyterm:Holy",
@@ -831,6 +824,13 @@
 "confidence": 0.3632,
 "match_method": "canonical",
 "preferred_label": "saint"
+},
+{
+"id": "deity:HolySpirit",
+"type": "deity",
+"confidence": 0.3632,
+"match_method": "canonical",
+"preferred_label": "Saint-Esprit"
 },
 {
 "id": "person:Saul.2",
@@ -858,7 +858,7 @@
 "type": "keyterm",
 "confidence": 0.361,
 "match_method": "canonical",
-"preferred_label": "mis à l'essai"
+"preferred_label": "mettre à l'épreuve"
 },
 {
 "id": "keyterm:Serve",
@@ -893,7 +893,7 @@
 "type": "keyterm",
 "confidence": 0.3592,
 "match_method": "canonical",
-"preferred_label": "cieux [également employé pour dieu pour éviter la mention du nom sacré]"
+"preferred_label": "ciel"
 },
 {
 "id": "person:Abishai",
@@ -917,6 +917,20 @@
 "preferred_label": "Canaan"
 },
 {
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.3579,
+"match_method": "canonical",
+"preferred_label": "Jérusalem"
+},
+{
+"id": "person:Judah.4",
+"type": "person",
+"confidence": 0.3579,
+"match_method": "canonical",
+"preferred_label": "Juda"
+},
+{
 "id": "person:Abraham",
 "type": "person",
 "confidence": 0.3579,
@@ -928,21 +942,7 @@
 "type": "group",
 "confidence": 0.3579,
 "match_method": "canonical",
-"preferred_label": "Juda"
-},
-{
-"id": "person:Judah.4",
-"type": "person",
-"confidence": 0.3579,
-"match_method": "canonical",
-"preferred_label": "Juda"
-},
-{
-"id": "place:Jerusalem",
-"type": "place",
-"confidence": 0.3579,
-"match_method": "canonical",
-"preferred_label": "Jérusalem"
+"preferred_label": "tribu de Juda"
 }
 ]
 }
