@@ -83,13 +83,6 @@
 "preferred_label": "Macedônia"
 },
 {
-"id": "person:Jesus.2",
-"type": "person",
-"confidence": 0.3891,
-"match_method": "canonical",
-"preferred_label": "Jesus"
-},
-{
 "id": "deity:Lord",
 "type": "deity",
 "confidence": 0.3891,
@@ -97,11 +90,25 @@
 "preferred_label": "SENHOR"
 },
 {
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.3891,
+"match_method": "canonical",
+"preferred_label": "Jesus"
+},
+{
+"id": "keyterm:Disciple",
+"type": "keyterm",
+"confidence": 0.3826,
+"match_method": "canonical",
+"preferred_label": "ser discípulo"
+},
+{
 "id": "keyterm:Name",
 "type": "keyterm",
 "confidence": 0.3826,
 "match_method": "canonical",
-"preferred_label": "Name"
+"preferred_label": "nome"
 },
 {
 "id": "place:Jerusalem",
@@ -118,39 +125,25 @@
 "preferred_label": "rogar"
 },
 {
-"id": "keyterm:Disciple",
-"type": "keyterm",
-"confidence": 0.3826,
-"match_method": "canonical",
-"preferred_label": "ser discípulo"
-},
-{
 "id": "realia:Ship",
 "type": "realia",
 "confidence": 0.3581,
 "match_method": "canonical",
-"preferred_label": "Ship"
+"preferred_label": "navio"
 },
 {
 "id": "place:Asia",
 "type": "place",
 "confidence": 0.3319,
 "match_method": "canonical",
-"preferred_label": "Asia"
+"preferred_label": "Ásia"
 },
 {
 "id": "place:Troas",
 "type": "place",
 "confidence": 0.3319,
 "match_method": "canonical",
-"preferred_label": "Troas"
-},
-{
-"id": "person:Barnabas",
-"type": "person",
-"confidence": 0.3261,
-"match_method": "canonical",
-"preferred_label": "Barnabé"
+"preferred_label": "Trôade"
 },
 {
 "id": "place:Cyprus",
@@ -164,7 +157,14 @@
 "type": "deity",
 "confidence": 0.3261,
 "match_method": "canonical",
-"preferred_label": "Holy Spirit"
+"preferred_label": "Espírito Santo"
+},
+{
+"id": "person:Barnabas",
+"type": "person",
+"confidence": 0.3261,
+"match_method": "canonical",
+"preferred_label": "Barnabé"
 },
 {
 "id": "place:Damascus",
@@ -174,39 +174,39 @@
 "preferred_label": "Damasco"
 },
 {
-"id": "keyterm:Church",
-"type": "keyterm",
-"confidence": 0.2696,
-"match_method": "canonical",
-"preferred_label": "igreja"
-},
-{
 "id": "keyterm:Decided",
 "type": "keyterm",
 "confidence": 0.2696,
 "match_method": "canonical",
-"preferred_label": "decidir"
+"preferred_label": "Decidido"
 },
 {
 "id": "group:Jews",
 "type": "group",
 "confidence": 0.2696,
 "match_method": "canonical",
-"preferred_label": "Jews"
+"preferred_label": "judeus"
+},
+{
+"id": "keyterm:Church",
+"type": "keyterm",
+"confidence": 0.2696,
+"match_method": "canonical",
+"preferred_label": "Igreja"
 },
 {
 "id": "keyterm:Saying",
 "type": "keyterm",
 "confidence": 0.2696,
 "match_method": "canonical",
-"preferred_label": "saying"
+"preferred_label": "provérbio"
 },
 {
 "id": "realia:Temple",
 "type": "realia",
 "confidence": 0.2661,
 "match_method": "canonical",
-"preferred_label": "Temple"
+"preferred_label": "Templo"
 },
 {
 "id": "place:Miletus",
@@ -214,6 +214,13 @@
 "confidence": 0.2188,
 "match_method": "canonical",
 "preferred_label": "Mileto"
+},
+{
+"id": "place:Cilicia",
+"type": "place",
+"confidence": 0.2188,
+"match_method": "canonical",
+"preferred_label": "Cilícia"
 },
 {
 "id": "person:Julius",
@@ -230,11 +237,32 @@
 "preferred_label": "Filipos"
 },
 {
-"id": "place:Cilicia",
+"id": "place:Pamphylia",
 "type": "place",
-"confidence": 0.2188,
+"confidence": 0.2159,
 "match_method": "canonical",
-"preferred_label": "Cilícia"
+"preferred_label": "Panfília"
+},
+{
+"id": "place:Mysia",
+"type": "place",
+"confidence": 0.2159,
+"match_method": "canonical",
+"preferred_label": "Mísia"
+},
+{
+"id": "place:Italy",
+"type": "place",
+"confidence": 0.2159,
+"match_method": "canonical",
+"preferred_label": "Itália"
+},
+{
+"id": "person:Mark",
+"type": "person",
+"confidence": 0.2159,
+"match_method": "canonical",
+"preferred_label": "Marcos"
 },
 {
 "id": "person:Aristarchus",
@@ -244,39 +272,11 @@
 "preferred_label": "Aristarco"
 },
 {
-"id": "place:Italy",
-"type": "place",
-"confidence": 0.2159,
-"match_method": "canonical",
-"preferred_label": "Italy"
-},
-{
-"id": "place:Caesarea",
-"type": "place",
-"confidence": 0.2159,
-"match_method": "canonical",
-"preferred_label": "Cesareia"
-},
-{
-"id": "place:Greece",
-"type": "place",
-"confidence": 0.2159,
-"match_method": "canonical",
-"preferred_label": "Grécia"
-},
-{
 "id": "place:Ephesus",
 "type": "place",
 "confidence": 0.2159,
 "match_method": "canonical",
 "preferred_label": "Éfeso"
-},
-{
-"id": "place:Pamphylia",
-"type": "place",
-"confidence": 0.2159,
-"match_method": "canonical",
-"preferred_label": "Panfília"
 }
 ]
 }
@@ -314,7 +314,7 @@
 "type": "place",
 "confidence": 0.3375,
 "match_method": "canonical",
-"preferred_label": "Italy"
+"preferred_label": "Itália"
 },
 {
 "id": "person:Paul",
@@ -328,14 +328,21 @@
 "type": "realia",
 "confidence": 0.2525,
 "match_method": "canonical",
-"preferred_label": "Ship"
+"preferred_label": "navio"
 },
 {
-"id": "place:Myra",
+"id": "place:Lasea",
 "type": "place",
 "confidence": 0.2313,
 "match_method": "canonical",
-"preferred_label": "Mirra"
+"preferred_label": "Laseia"
+},
+{
+"id": "place:Asia",
+"type": "place",
+"confidence": 0.2313,
+"match_method": "canonical",
+"preferred_label": "Ásia"
 },
 {
 "id": "place:Alexandria",
@@ -345,25 +352,18 @@
 "preferred_label": "Alexandria"
 },
 {
-"id": "person:Augustus",
-"type": "person",
-"confidence": 0.2313,
-"match_method": "canonical",
-"preferred_label": "Augusto"
-},
-{
-"id": "place:Salmone",
+"id": "place:Cilicia",
 "type": "place",
 "confidence": 0.2313,
 "match_method": "canonical",
-"preferred_label": "Salmona"
+"preferred_label": "Cilícia"
 },
 {
-"id": "place:Pamphylia",
+"id": "place:FairHavens",
 "type": "place",
 "confidence": 0.2313,
 "match_method": "canonical",
-"preferred_label": "Panfília"
+"preferred_label": "Bons Portos"
 },
 {
 "id": "person:Aristarchus",
@@ -373,32 +373,18 @@
 "preferred_label": "Aristarco"
 },
 {
-"id": "place:Lasea",
+"id": "place:Pamphylia",
 "type": "place",
 "confidence": 0.2313,
 "match_method": "canonical",
-"preferred_label": "Laséia"
+"preferred_label": "Panfília"
 },
 {
-"id": "place:Sidon",
+"id": "place:Myra",
 "type": "place",
 "confidence": 0.2313,
 "match_method": "canonical",
-"preferred_label": "Sidom"
-},
-{
-"id": "place:FairHavens",
-"type": "place",
-"confidence": 0.2313,
-"match_method": "canonical",
-"preferred_label": "Fair Havens"
-},
-{
-"id": "place:Adramyttium",
-"type": "place",
-"confidence": 0.2313,
-"match_method": "canonical",
-"preferred_label": "Adramício"
+"preferred_label": "Mirra"
 },
 {
 "id": "place:Lycia",
@@ -408,6 +394,13 @@
 "preferred_label": "Lícia"
 },
 {
+"id": "place:Sidon",
+"type": "place",
+"confidence": 0.2313,
+"match_method": "canonical",
+"preferred_label": "Sidom"
+},
+{
 "id": "place:Crete",
 "type": "place",
 "confidence": 0.2313,
@@ -415,11 +408,25 @@
 "preferred_label": "Creta"
 },
 {
-"id": "place:Cilicia",
+"id": "person:Augustus",
+"type": "person",
+"confidence": 0.2313,
+"match_method": "canonical",
+"preferred_label": "Augusto"
+},
+{
+"id": "place:Adramyttium",
 "type": "place",
 "confidence": 0.2313,
 "match_method": "canonical",
-"preferred_label": "Cilícia"
+"preferred_label": "Adramítio"
+},
+{
+"id": "place:Salmone",
+"type": "place",
+"confidence": 0.2313,
+"match_method": "canonical",
+"preferred_label": "Salmona"
 },
 {
 "id": "place:Cnidus",
@@ -429,32 +436,32 @@
 "preferred_label": "Cnido"
 },
 {
-"id": "place:Asia",
-"type": "place",
-"confidence": 0.2313,
-"match_method": "canonical",
-"preferred_label": "Asia"
-},
-{
-"id": "place:Cyprus",
-"type": "place",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "Chipre"
-},
-{
 "id": "group:Thessalonica",
 "type": "group",
 "confidence": 0.2063,
 "match_method": "canonical",
-"preferred_label": "Thessalonians"
+"preferred_label": "tessalonicenses"
+},
+{
+"id": "keyterm:Decided",
+"type": "keyterm",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "Decidido"
 },
 {
 "id": "keyterm:Name",
 "type": "keyterm",
 "confidence": 0.2063,
 "match_method": "canonical",
-"preferred_label": "Name"
+"preferred_label": "nome"
+},
+{
+"id": "place:Macedonia",
+"type": "place",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "Macedônia"
 },
 {
 "id": "place:Thessalonica",
@@ -464,18 +471,11 @@
 "preferred_label": "Tessalônica"
 },
 {
-"id": "keyterm:Decided",
-"type": "keyterm",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "decidir"
-},
-{
-"id": "place:Macedonia",
+"id": "place:Cyprus",
 "type": "place",
 "confidence": 0.2063,
 "match_method": "canonical",
-"preferred_label": "Macedônia"
+"preferred_label": "Chipre"
 }
 ]
 }
@@ -513,7 +513,7 @@
 "type": "place",
 "confidence": 0.3375,
 "match_method": "canonical",
-"preferred_label": "Italy"
+"preferred_label": "Itália"
 },
 {
 "id": "person:Paul",
@@ -527,14 +527,21 @@
 "type": "realia",
 "confidence": 0.2525,
 "match_method": "canonical",
-"preferred_label": "Ship"
+"preferred_label": "navio"
 },
 {
-"id": "place:Myra",
+"id": "place:Lasea",
 "type": "place",
 "confidence": 0.2313,
 "match_method": "canonical",
-"preferred_label": "Mirra"
+"preferred_label": "Laseia"
+},
+{
+"id": "place:Asia",
+"type": "place",
+"confidence": 0.2313,
+"match_method": "canonical",
+"preferred_label": "Ásia"
 },
 {
 "id": "place:Alexandria",
@@ -544,25 +551,18 @@
 "preferred_label": "Alexandria"
 },
 {
-"id": "person:Augustus",
-"type": "person",
-"confidence": 0.2313,
-"match_method": "canonical",
-"preferred_label": "Augusto"
-},
-{
-"id": "place:Salmone",
+"id": "place:Cilicia",
 "type": "place",
 "confidence": 0.2313,
 "match_method": "canonical",
-"preferred_label": "Salmona"
+"preferred_label": "Cilícia"
 },
 {
-"id": "place:Pamphylia",
+"id": "place:FairHavens",
 "type": "place",
 "confidence": 0.2313,
 "match_method": "canonical",
-"preferred_label": "Panfília"
+"preferred_label": "Bons Portos"
 },
 {
 "id": "person:Aristarchus",
@@ -572,32 +572,18 @@
 "preferred_label": "Aristarco"
 },
 {
-"id": "place:Lasea",
+"id": "place:Pamphylia",
 "type": "place",
 "confidence": 0.2313,
 "match_method": "canonical",
-"preferred_label": "Laséia"
+"preferred_label": "Panfília"
 },
 {
-"id": "place:Sidon",
+"id": "place:Myra",
 "type": "place",
 "confidence": 0.2313,
 "match_method": "canonical",
-"preferred_label": "Sidom"
-},
-{
-"id": "place:FairHavens",
-"type": "place",
-"confidence": 0.2313,
-"match_method": "canonical",
-"preferred_label": "Fair Havens"
-},
-{
-"id": "place:Adramyttium",
-"type": "place",
-"confidence": 0.2313,
-"match_method": "canonical",
-"preferred_label": "Adramício"
+"preferred_label": "Mirra"
 },
 {
 "id": "place:Lycia",
@@ -607,6 +593,13 @@
 "preferred_label": "Lícia"
 },
 {
+"id": "place:Sidon",
+"type": "place",
+"confidence": 0.2313,
+"match_method": "canonical",
+"preferred_label": "Sidom"
+},
+{
 "id": "place:Crete",
 "type": "place",
 "confidence": 0.2313,
@@ -614,11 +607,25 @@
 "preferred_label": "Creta"
 },
 {
-"id": "place:Cilicia",
+"id": "person:Augustus",
+"type": "person",
+"confidence": 0.2313,
+"match_method": "canonical",
+"preferred_label": "Augusto"
+},
+{
+"id": "place:Adramyttium",
 "type": "place",
 "confidence": 0.2313,
 "match_method": "canonical",
-"preferred_label": "Cilícia"
+"preferred_label": "Adramítio"
+},
+{
+"id": "place:Salmone",
+"type": "place",
+"confidence": 0.2313,
+"match_method": "canonical",
+"preferred_label": "Salmona"
 },
 {
 "id": "place:Cnidus",
@@ -628,32 +635,32 @@
 "preferred_label": "Cnido"
 },
 {
-"id": "place:Asia",
-"type": "place",
-"confidence": 0.2313,
-"match_method": "canonical",
-"preferred_label": "Asia"
-},
-{
-"id": "place:Cyprus",
-"type": "place",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "Chipre"
-},
-{
 "id": "group:Thessalonica",
 "type": "group",
 "confidence": 0.2063,
 "match_method": "canonical",
-"preferred_label": "Thessalonians"
+"preferred_label": "tessalonicenses"
+},
+{
+"id": "keyterm:Decided",
+"type": "keyterm",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "Decidido"
 },
 {
 "id": "keyterm:Name",
 "type": "keyterm",
 "confidence": 0.2063,
 "match_method": "canonical",
-"preferred_label": "Name"
+"preferred_label": "nome"
+},
+{
+"id": "place:Macedonia",
+"type": "place",
+"confidence": 0.2063,
+"match_method": "canonical",
+"preferred_label": "Macedônia"
 },
 {
 "id": "place:Thessalonica",
@@ -663,18 +670,11 @@
 "preferred_label": "Tessalônica"
 },
 {
-"id": "keyterm:Decided",
-"type": "keyterm",
-"confidence": 0.2063,
-"match_method": "canonical",
-"preferred_label": "decidir"
-},
-{
-"id": "place:Macedonia",
+"id": "place:Cyprus",
 "type": "place",
 "confidence": 0.2063,
 "match_method": "canonical",
-"preferred_label": "Macedônia"
+"preferred_label": "Chipre"
 }
 ]
 }
@@ -747,13 +747,6 @@
 "preferred_label": "Arão"
 },
 {
-"id": "keyterm:Fear",
-"type": "keyterm",
-"confidence": 0.3902,
-"match_method": "canonical",
-"preferred_label": "fear"
-},
-{
 "id": "person:Naaman.3",
 "type": "person",
 "confidence": 0.3902,
@@ -761,11 +754,18 @@
 "preferred_label": "Naamã"
 },
 {
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.3902,
+"match_method": "canonical",
+"preferred_label": "Temor"
+},
+{
 "id": "person:Jehoiada",
 "type": "person",
 "confidence": 0.3393,
 "match_method": "canonical",
-"preferred_label": "Jeoiada"
+"preferred_label": "Joiada"
 },
 {
 "id": "person:Benaiah",
@@ -779,7 +779,7 @@
 "type": "keyterm",
 "confidence": 0.3321,
 "match_method": "canonical",
-"preferred_label": "being honor and glory on oneself"
+"preferred_label": "granjear honra e glória para si mesmo"
 },
 {
 "id": "person:Gehazi",
@@ -789,11 +789,11 @@
 "preferred_label": "Geazi"
 },
 {
-"id": "person:Jesus.2",
-"type": "person",
+"id": "keyterm:IntactState",
+"type": "keyterm",
 "confidence": 0.2741,
 "match_method": "canonical",
-"preferred_label": "Jesus"
+"preferred_label": "paz"
 },
 {
 "id": "keyterm:Disciple",
@@ -803,18 +803,18 @@
 "preferred_label": "ser discípulo"
 },
 {
-"id": "keyterm:IntactState",
-"type": "keyterm",
+"id": "person:Jesus.2",
+"type": "person",
 "confidence": 0.2741,
 "match_method": "canonical",
-"preferred_label": "peace"
+"preferred_label": "Jesus"
 },
 {
 "id": "realia:Spear",
 "type": "realia",
 "confidence": 0.2721,
 "match_method": "canonical",
-"preferred_label": "Spear"
+"preferred_label": "lança"
 },
 {
 "id": "person:Abishai",
@@ -824,32 +824,18 @@
 "preferred_label": "Abisai"
 },
 {
+"id": "keyterm:Resurrection",
+"type": "keyterm",
+"confidence": 0.2196,
+"match_method": "canonical",
+"preferred_label": "ressurreição"
+},
+{
 "id": "place:Kabzeel",
 "type": "place",
 "confidence": 0.2196,
 "match_method": "canonical",
 "preferred_label": "Cabzeel"
-},
-{
-"id": "keyterm:Resurrection",
-"type": "keyterm",
-"confidence": 0.2196,
-"match_method": "canonical",
-"preferred_label": "levantamento"
-},
-{
-"id": "place:Egypt",
-"type": "place",
-"confidence": 0.2161,
-"match_method": "canonical",
-"preferred_label": "Egito"
-},
-{
-"id": "person:Joab",
-"type": "person",
-"confidence": 0.2161,
-"match_method": "canonical",
-"preferred_label": "Joabe"
 },
 {
 "id": "place:Galilee",
@@ -859,6 +845,13 @@
 "preferred_label": "Galileia"
 },
 {
+"id": "deity:Angel",
+"type": "deity",
+"confidence": 0.2161,
+"match_method": "canonical",
+"preferred_label": "Um Anjo"
+},
+{
 "id": "person:David",
 "type": "person",
 "confidence": 0.2161,
@@ -866,18 +859,18 @@
 "preferred_label": "Davi"
 },
 {
-"id": "place:Moab",
-"type": "place",
-"confidence": 0.2161,
-"match_method": "canonical",
-"preferred_label": "Moabe"
-},
-{
 "id": "keyterm:InfectiousSkinDisease",
 "type": "keyterm",
 "confidence": 0.2161,
 "match_method": "canonical",
-"preferred_label": "Infectious Skin Disease"
+"preferred_label": "doença infecciosa da pele"
+},
+{
+"id": "group:Egypt",
+"type": "group",
+"confidence": 0.2161,
+"match_method": "canonical",
+"preferred_label": "egípcios"
 },
 {
 "id": "person:Elisha",
@@ -887,46 +880,53 @@
 "preferred_label": "Eliseu"
 },
 {
-"id": "deity:Angel",
-"type": "deity",
+"id": "person:Joab",
+"type": "person",
 "confidence": 0.2161,
 "match_method": "canonical",
-"preferred_label": "An Angel"
+"preferred_label": "Joabe"
 },
 {
-"id": "group:Egypt",
-"type": "group",
+"id": "place:Egypt",
+"type": "place",
 "confidence": 0.2161,
 "match_method": "canonical",
-"preferred_label": "Egyptians"
+"preferred_label": "Egito"
+},
+{
+"id": "place:Moab",
+"type": "place",
+"confidence": 0.2161,
+"match_method": "canonical",
+"preferred_label": "Moabe"
 },
 {
 "id": "realia:Money",
 "type": "realia",
 "confidence": 0.2141,
 "match_method": "canonical",
-"preferred_label": "Money"
+"preferred_label": "Dinheiro"
 },
 {
-"id": "deity:Rimmon",
-"type": "deity",
+"id": "group:Angels",
+"type": "group",
 "confidence": 0.1616,
 "match_method": "canonical",
-"preferred_label": "Rimom"
+"preferred_label": "anjos"
+},
+{
+"id": "place:Paran",
+"type": "place",
+"confidence": 0.1616,
+"match_method": "canonical",
+"preferred_label": "Parã"
 },
 {
 "id": "keyterm:Vision",
 "type": "keyterm",
 "confidence": 0.1616,
 "match_method": "canonical",
-"preferred_label": "vision"
-},
-{
-"id": "keyterm:Week",
-"type": "keyterm",
-"confidence": 0.1616,
-"match_method": "canonical",
-"preferred_label": "Week"
+"preferred_label": "visão"
 }
 ]
 }
@@ -999,13 +999,6 @@
 "preferred_label": "Arão"
 },
 {
-"id": "keyterm:Fear",
-"type": "keyterm",
-"confidence": 0.3902,
-"match_method": "canonical",
-"preferred_label": "fear"
-},
-{
 "id": "person:Naaman.3",
 "type": "person",
 "confidence": 0.3902,
@@ -1013,11 +1006,18 @@
 "preferred_label": "Naamã"
 },
 {
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.3902,
+"match_method": "canonical",
+"preferred_label": "Temor"
+},
+{
 "id": "person:Jehoiada",
 "type": "person",
 "confidence": 0.3393,
 "match_method": "canonical",
-"preferred_label": "Jeoiada"
+"preferred_label": "Joiada"
 },
 {
 "id": "person:Benaiah",
@@ -1031,7 +1031,7 @@
 "type": "keyterm",
 "confidence": 0.3321,
 "match_method": "canonical",
-"preferred_label": "being honor and glory on oneself"
+"preferred_label": "granjear honra e glória para si mesmo"
 },
 {
 "id": "person:Gehazi",
@@ -1041,11 +1041,11 @@
 "preferred_label": "Geazi"
 },
 {
-"id": "person:Jesus.2",
-"type": "person",
+"id": "keyterm:IntactState",
+"type": "keyterm",
 "confidence": 0.2741,
 "match_method": "canonical",
-"preferred_label": "Jesus"
+"preferred_label": "paz"
 },
 {
 "id": "keyterm:Disciple",
@@ -1055,18 +1055,18 @@
 "preferred_label": "ser discípulo"
 },
 {
-"id": "keyterm:IntactState",
-"type": "keyterm",
+"id": "person:Jesus.2",
+"type": "person",
 "confidence": 0.2741,
 "match_method": "canonical",
-"preferred_label": "peace"
+"preferred_label": "Jesus"
 },
 {
 "id": "realia:Spear",
 "type": "realia",
 "confidence": 0.2721,
 "match_method": "canonical",
-"preferred_label": "Spear"
+"preferred_label": "lança"
 },
 {
 "id": "person:Abishai",
@@ -1076,32 +1076,18 @@
 "preferred_label": "Abisai"
 },
 {
+"id": "keyterm:Resurrection",
+"type": "keyterm",
+"confidence": 0.2196,
+"match_method": "canonical",
+"preferred_label": "ressurreição"
+},
+{
 "id": "place:Kabzeel",
 "type": "place",
 "confidence": 0.2196,
 "match_method": "canonical",
 "preferred_label": "Cabzeel"
-},
-{
-"id": "keyterm:Resurrection",
-"type": "keyterm",
-"confidence": 0.2196,
-"match_method": "canonical",
-"preferred_label": "levantamento"
-},
-{
-"id": "place:Egypt",
-"type": "place",
-"confidence": 0.2161,
-"match_method": "canonical",
-"preferred_label": "Egito"
-},
-{
-"id": "person:Joab",
-"type": "person",
-"confidence": 0.2161,
-"match_method": "canonical",
-"preferred_label": "Joabe"
 },
 {
 "id": "place:Galilee",
@@ -1111,6 +1097,13 @@
 "preferred_label": "Galileia"
 },
 {
+"id": "deity:Angel",
+"type": "deity",
+"confidence": 0.2161,
+"match_method": "canonical",
+"preferred_label": "Um Anjo"
+},
+{
 "id": "person:David",
 "type": "person",
 "confidence": 0.2161,
@@ -1118,18 +1111,18 @@
 "preferred_label": "Davi"
 },
 {
-"id": "place:Moab",
-"type": "place",
-"confidence": 0.2161,
-"match_method": "canonical",
-"preferred_label": "Moabe"
-},
-{
 "id": "keyterm:InfectiousSkinDisease",
 "type": "keyterm",
 "confidence": 0.2161,
 "match_method": "canonical",
-"preferred_label": "Infectious Skin Disease"
+"preferred_label": "doença infecciosa da pele"
+},
+{
+"id": "group:Egypt",
+"type": "group",
+"confidence": 0.2161,
+"match_method": "canonical",
+"preferred_label": "egípcios"
 },
 {
 "id": "person:Elisha",
@@ -1139,46 +1132,53 @@
 "preferred_label": "Eliseu"
 },
 {
-"id": "deity:Angel",
-"type": "deity",
+"id": "person:Joab",
+"type": "person",
 "confidence": 0.2161,
 "match_method": "canonical",
-"preferred_label": "An Angel"
+"preferred_label": "Joabe"
 },
 {
-"id": "group:Egypt",
-"type": "group",
+"id": "place:Egypt",
+"type": "place",
 "confidence": 0.2161,
 "match_method": "canonical",
-"preferred_label": "Egyptians"
+"preferred_label": "Egito"
+},
+{
+"id": "place:Moab",
+"type": "place",
+"confidence": 0.2161,
+"match_method": "canonical",
+"preferred_label": "Moabe"
 },
 {
 "id": "realia:Money",
 "type": "realia",
 "confidence": 0.2141,
 "match_method": "canonical",
-"preferred_label": "Money"
+"preferred_label": "Dinheiro"
 },
 {
-"id": "deity:Rimmon",
-"type": "deity",
+"id": "group:Angels",
+"type": "group",
 "confidence": 0.1616,
 "match_method": "canonical",
-"preferred_label": "Rimom"
+"preferred_label": "anjos"
+},
+{
+"id": "place:Paran",
+"type": "place",
+"confidence": 0.1616,
+"match_method": "canonical",
+"preferred_label": "Parã"
 },
 {
 "id": "keyterm:Vision",
 "type": "keyterm",
 "confidence": 0.1616,
 "match_method": "canonical",
-"preferred_label": "vision"
-},
-{
-"id": "keyterm:Week",
-"type": "keyterm",
-"confidence": 0.1616,
-"match_method": "canonical",
-"preferred_label": "Week"
+"preferred_label": "visão"
 }
 ]
 }
@@ -1215,14 +1215,7 @@
 "type": "flora",
 "confidence": 0.36,
 "match_method": "canonical",
-"preferred_label": "Grain"
-},
-{
-"id": "keyterm:Saying",
-"type": "keyterm",
-"confidence": 0.34,
-"match_method": "canonical",
-"preferred_label": "saying"
+"preferred_label": "cereal"
 },
 {
 "id": "keyterm:Parable",
@@ -1239,32 +1232,39 @@
 "preferred_label": "SENHOR"
 },
 {
+"id": "keyterm:Saying",
+"type": "keyterm",
+"confidence": 0.34,
+"match_method": "canonical",
+"preferred_label": "provérbio"
+},
+{
 "id": "place:Assyria",
 "type": "place",
 "confidence": 0.26,
 "match_method": "canonical",
-"preferred_label": "Assyria"
+"preferred_label": "Assíria"
 },
 {
 "id": "keyterm:Kingdom",
 "type": "keyterm",
 "confidence": 0.26,
 "match_method": "canonical",
-"preferred_label": "reino"
-},
-{
-"id": "flora:Grass",
-"type": "flora",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "Grass"
+"preferred_label": "Reino"
 },
 {
 "id": "flora:Barley",
 "type": "flora",
 "confidence": 0.2,
 "match_method": "canonical",
-"preferred_label": "Barley"
+"preferred_label": "cevada"
+},
+{
+"id": "flora:Grass",
+"type": "flora",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "erva"
 },
 {
 "id": "place:Kain",
@@ -1274,53 +1274,11 @@
 "preferred_label": "Caim"
 },
 {
-"id": "place:Cyprus",
-"type": "place",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Chipre"
-},
-{
-"id": "keyterm:Heaven",
-"type": "keyterm",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "céu"
-},
-{
-"id": "group:Kenite",
-"type": "group",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Kenites"
-},
-{
 "id": "person:Eber",
 "type": "person",
 "confidence": 0.18,
 "match_method": "canonical",
-"preferred_label": "Eber"
-},
-{
-"id": "keyterm:Woe",
-"type": "keyterm",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Woe"
-},
-{
-"id": "person:Balak",
-"type": "person",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Balaque"
-},
-{
-"id": "keyterm:Disciple",
-"type": "keyterm",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "ser discípulo"
+"preferred_label": "Héber"
 },
 {
 "id": "person:Balaam",
@@ -1330,39 +1288,81 @@
 "preferred_label": "Balaão"
 },
 {
+"id": "keyterm:Heaven",
+"type": "keyterm",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "céu"
+},
+{
+"id": "keyterm:Disciple",
+"type": "keyterm",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "ser discípulo"
+},
+{
+"id": "person:Balak",
+"type": "person",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "Balaque"
+},
+{
 "id": "place:Amalek",
 "type": "place",
 "confidence": 0.18,
 "match_method": "canonical",
-"preferred_label": "Ameleque"
+"preferred_label": "Amaleque"
+},
+{
+"id": "keyterm:Woe",
+"type": "keyterm",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "Ai"
+},
+{
+"id": "place:Cyprus",
+"type": "place",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "Chipre"
+},
+{
+"id": "group:Kenite",
+"type": "group",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "queneus"
 },
 {
 "id": "flora:Mustard",
 "type": "flora",
 "confidence": 0.1333,
 "match_method": "canonical",
-"preferred_label": "Mustard"
+"preferred_label": "mostarda"
 },
 {
 "id": "flora:Wheat",
 "type": "flora",
 "confidence": 0.1333,
 "match_method": "canonical",
-"preferred_label": "Wheat"
-},
-{
-"id": "realia:Sickle",
-"type": "realia",
-"confidence": 0.12,
-"match_method": "canonical",
-"preferred_label": "Sickle"
+"preferred_label": "trigo"
 },
 {
 "id": "realia:Ship",
 "type": "realia",
 "confidence": 0.12,
 "match_method": "canonical",
-"preferred_label": "Ship"
+"preferred_label": "navio"
+},
+{
+"id": "realia:Sickle",
+"type": "realia",
+"confidence": 0.12,
+"match_method": "canonical",
+"preferred_label": "foice"
 }
 ]
 }
@@ -1399,14 +1399,7 @@
 "type": "flora",
 "confidence": 0.36,
 "match_method": "canonical",
-"preferred_label": "Grain"
-},
-{
-"id": "keyterm:Saying",
-"type": "keyterm",
-"confidence": 0.34,
-"match_method": "canonical",
-"preferred_label": "saying"
+"preferred_label": "cereal"
 },
 {
 "id": "keyterm:Parable",
@@ -1423,32 +1416,39 @@
 "preferred_label": "SENHOR"
 },
 {
+"id": "keyterm:Saying",
+"type": "keyterm",
+"confidence": 0.34,
+"match_method": "canonical",
+"preferred_label": "provérbio"
+},
+{
 "id": "place:Assyria",
 "type": "place",
 "confidence": 0.26,
 "match_method": "canonical",
-"preferred_label": "Assyria"
+"preferred_label": "Assíria"
 },
 {
 "id": "keyterm:Kingdom",
 "type": "keyterm",
 "confidence": 0.26,
 "match_method": "canonical",
-"preferred_label": "reino"
-},
-{
-"id": "flora:Grass",
-"type": "flora",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "Grass"
+"preferred_label": "Reino"
 },
 {
 "id": "flora:Barley",
 "type": "flora",
 "confidence": 0.2,
 "match_method": "canonical",
-"preferred_label": "Barley"
+"preferred_label": "cevada"
+},
+{
+"id": "flora:Grass",
+"type": "flora",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "erva"
 },
 {
 "id": "place:Kain",
@@ -1458,53 +1458,11 @@
 "preferred_label": "Caim"
 },
 {
-"id": "place:Cyprus",
-"type": "place",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Chipre"
-},
-{
-"id": "keyterm:Heaven",
-"type": "keyterm",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "céu"
-},
-{
-"id": "group:Kenite",
-"type": "group",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Kenites"
-},
-{
 "id": "person:Eber",
 "type": "person",
 "confidence": 0.18,
 "match_method": "canonical",
-"preferred_label": "Eber"
-},
-{
-"id": "keyterm:Woe",
-"type": "keyterm",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Woe"
-},
-{
-"id": "person:Balak",
-"type": "person",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "Balaque"
-},
-{
-"id": "keyterm:Disciple",
-"type": "keyterm",
-"confidence": 0.18,
-"match_method": "canonical",
-"preferred_label": "ser discípulo"
+"preferred_label": "Héber"
 },
 {
 "id": "person:Balaam",
@@ -1514,39 +1472,81 @@
 "preferred_label": "Balaão"
 },
 {
+"id": "keyterm:Heaven",
+"type": "keyterm",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "céu"
+},
+{
+"id": "keyterm:Disciple",
+"type": "keyterm",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "ser discípulo"
+},
+{
+"id": "person:Balak",
+"type": "person",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "Balaque"
+},
+{
 "id": "place:Amalek",
 "type": "place",
 "confidence": 0.18,
 "match_method": "canonical",
-"preferred_label": "Ameleque"
+"preferred_label": "Amaleque"
+},
+{
+"id": "keyterm:Woe",
+"type": "keyterm",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "Ai"
+},
+{
+"id": "place:Cyprus",
+"type": "place",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "Chipre"
+},
+{
+"id": "group:Kenite",
+"type": "group",
+"confidence": 0.18,
+"match_method": "canonical",
+"preferred_label": "queneus"
 },
 {
 "id": "flora:Mustard",
 "type": "flora",
 "confidence": 0.1333,
 "match_method": "canonical",
-"preferred_label": "Mustard"
+"preferred_label": "mostarda"
 },
 {
 "id": "flora:Wheat",
 "type": "flora",
 "confidence": 0.1333,
 "match_method": "canonical",
-"preferred_label": "Wheat"
-},
-{
-"id": "realia:Sickle",
-"type": "realia",
-"confidence": 0.12,
-"match_method": "canonical",
-"preferred_label": "Sickle"
+"preferred_label": "trigo"
 },
 {
 "id": "realia:Ship",
 "type": "realia",
 "confidence": 0.12,
 "match_method": "canonical",
-"preferred_label": "Ship"
+"preferred_label": "navio"
+},
+{
+"id": "realia:Sickle",
+"type": "realia",
+"confidence": 0.12,
+"match_method": "canonical",
+"preferred_label": "foice"
 }
 ]
 }
