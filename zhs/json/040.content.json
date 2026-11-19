@@ -265,18 +265,18 @@
 "preferred_label": "约翰"
 },
 {
-"id": "keyterm:Sabbath",
-"type": "keyterm",
-"confidence": 0.3638,
-"match_method": "canonical",
-"preferred_label": "安息日"
-},
-{
 "id": "keyterm:Name",
 "type": "keyterm",
 "confidence": 0.3638,
 "match_method": "canonical",
 "preferred_label": "名字"
+},
+{
+"id": "person:Peter",
+"type": "person",
+"confidence": 0.3638,
+"match_method": "canonical",
+"preferred_label": "彼得"
 },
 {
 "id": "keyterm:Fear",
@@ -286,11 +286,11 @@
 "preferred_label": "惧怕/敬畏"
 },
 {
-"id": "person:Peter",
-"type": "person",
+"id": "keyterm:Sabbath",
+"type": "keyterm",
 "confidence": 0.3638,
 "match_method": "canonical",
-"preferred_label": "彼得"
+"preferred_label": "安息日"
 },
 {
 "id": "keyterm:Authority.2",
@@ -307,6 +307,13 @@
 "preferred_label": "天"
 },
 {
+"id": "keyterm:Example",
+"type": "keyterm",
+"confidence": 0.3607,
+"match_method": "canonical",
+"preferred_label": "象征"
+},
+{
 "id": "keyterm:Law",
 "type": "keyterm",
 "confidence": 0.3607,
@@ -321,13 +328,6 @@
 "preferred_label": "一群人"
 },
 {
-"id": "keyterm:Example",
-"type": "keyterm",
-"confidence": 0.3607,
-"match_method": "canonical",
-"preferred_label": "象征"
-},
-{
 "id": "keyterm:Just",
 "type": "keyterm",
 "confidence": 0.3599,
@@ -335,11 +335,11 @@
 "preferred_label": "显为公义/行事公正"
 },
 {
-"id": "keyterm:Serve",
+"id": "keyterm:True",
 "type": "keyterm",
 "confidence": 0.3592,
 "match_method": "canonical",
-"preferred_label": "服侍"
+"preferred_label": "真实"
 },
 {
 "id": "deity:Angel",
@@ -356,11 +356,11 @@
 "preferred_label": "保罗"
 },
 {
-"id": "keyterm:True",
+"id": "keyterm:Serve",
 "type": "keyterm",
 "confidence": 0.3592,
 "match_method": "canonical",
-"preferred_label": "真实"
+"preferred_label": "服侍"
 },
 {
 "id": "person:Zechariah",
@@ -377,20 +377,6 @@
 "preferred_label": "可以的"
 },
 {
-"id": "keyterm:Cleanse.2",
-"type": "keyterm",
-"confidence": 0.3577,
-"match_method": "canonical",
-"preferred_label": "洁净"
-},
-{
-"id": "keyterm:AskFor",
-"type": "keyterm",
-"confidence": 0.3577,
-"match_method": "canonical",
-"preferred_label": "求（恳求）"
-},
-{
 "id": "person:Elijah",
 "type": "person",
 "confidence": 0.3577,
@@ -398,11 +384,25 @@
 "preferred_label": "以利亚"
 },
 {
-"id": "keyterm:Kingdom",
+"id": "keyterm:Defilement",
 "type": "keyterm",
 "confidence": 0.3577,
 "match_method": "canonical",
-"preferred_label": "国度"
+"preferred_label": "玷污（行为）"
+},
+{
+"id": "keyterm:Holy",
+"type": "keyterm",
+"confidence": 0.3577,
+"match_method": "canonical",
+"preferred_label": "圣洁"
+},
+{
+"id": "person:Moses",
+"type": "person",
+"confidence": 0.3577,
+"match_method": "canonical",
+"preferred_label": "摩西"
 }
 ]
 }
@@ -477,11 +477,25 @@
 "preferred_label": "十字架旁的百夫长"
 },
 {
+"id": "keyterm:Glory",
+"type": "keyterm",
+"confidence": 0.1846,
+"match_method": "canonical",
+"preferred_label": "荣耀"
+},
+{
 "id": "group:GenericGroup",
 "type": "group",
 "confidence": 0.1846,
 "match_method": "canonical",
 "preferred_label": "一群人"
+},
+{
+"id": "keyterm:Just",
+"type": "keyterm",
+"confidence": 0.1846,
+"match_method": "canonical",
+"preferred_label": "显为公义/行事公正"
 },
 {
 "id": "keyterm:True",
@@ -498,13 +512,6 @@
 "preferred_label": "加利利"
 },
 {
-"id": "keyterm:Just",
-"type": "keyterm",
-"confidence": 0.1846,
-"match_method": "canonical",
-"preferred_label": "显为公义/行事公正"
-},
-{
 "id": "keyterm:Spirit.2",
 "type": "keyterm",
 "confidence": 0.1846,
@@ -512,11 +519,11 @@
 "preferred_label": "灵"
 },
 {
-"id": "keyterm:Glory",
-"type": "keyterm",
-"confidence": 0.1846,
+"id": "flora:Reed",
+"type": "flora",
+"confidence": 0.1246,
 "match_method": "canonical",
-"preferred_label": "荣耀"
+"preferred_label": "芦苇"
 },
 {
 "id": "realia:SourWine",
@@ -524,13 +531,6 @@
 "confidence": 0.1246,
 "match_method": "canonical",
 "preferred_label": "酸酒"
-},
-{
-"id": "flora:Reed",
-"type": "flora",
-"confidence": 0.1246,
-"match_method": "canonical",
-"preferred_label": "芦苇"
 }
 ]
 }
@@ -605,11 +605,25 @@
 "preferred_label": "十字架旁的百夫长"
 },
 {
+"id": "keyterm:Glory",
+"type": "keyterm",
+"confidence": 0.1846,
+"match_method": "canonical",
+"preferred_label": "荣耀"
+},
+{
 "id": "group:GenericGroup",
 "type": "group",
 "confidence": 0.1846,
 "match_method": "canonical",
 "preferred_label": "一群人"
+},
+{
+"id": "keyterm:Just",
+"type": "keyterm",
+"confidence": 0.1846,
+"match_method": "canonical",
+"preferred_label": "显为公义/行事公正"
 },
 {
 "id": "keyterm:True",
@@ -626,13 +640,6 @@
 "preferred_label": "加利利"
 },
 {
-"id": "keyterm:Just",
-"type": "keyterm",
-"confidence": 0.1846,
-"match_method": "canonical",
-"preferred_label": "显为公义/行事公正"
-},
-{
 "id": "keyterm:Spirit.2",
 "type": "keyterm",
 "confidence": 0.1846,
@@ -640,11 +647,11 @@
 "preferred_label": "灵"
 },
 {
-"id": "keyterm:Glory",
-"type": "keyterm",
-"confidence": 0.1846,
+"id": "flora:Reed",
+"type": "flora",
+"confidence": 0.1246,
 "match_method": "canonical",
-"preferred_label": "荣耀"
+"preferred_label": "芦苇"
 },
 {
 "id": "realia:SourWine",
@@ -652,13 +659,6 @@
 "confidence": 0.1246,
 "match_method": "canonical",
 "preferred_label": "酸酒"
-},
-{
-"id": "flora:Reed",
-"type": "flora",
-"confidence": 0.1246,
-"match_method": "canonical",
-"preferred_label": "芦苇"
 }
 ]
 }

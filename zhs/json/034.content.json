@@ -261,13 +261,6 @@
 "preferred_label": "耶路撒冷"
 },
 {
-"id": "keyterm:Baptism",
-"type": "keyterm",
-"confidence": 0.3616,
-"match_method": "canonical",
-"preferred_label": "洗礼"
-},
-{
 "id": "person:Ornan",
 "type": "person",
 "confidence": 0.3616,
@@ -275,11 +268,25 @@
 "preferred_label": "阿珥楠"
 },
 {
+"id": "keyterm:Baptism",
+"type": "keyterm",
+"confidence": 0.3616,
+"match_method": "canonical",
+"preferred_label": "洗礼"
+},
+{
 "id": "person:Aaron",
 "type": "person",
 "confidence": 0.3609,
 "match_method": "canonical",
 "preferred_label": "亚伦"
+},
+{
+"id": "person:Gideon",
+"type": "person",
+"confidence": 0.3602,
+"match_method": "canonical",
+"preferred_label": "基甸"
 },
 {
 "id": "person:Hiram",
@@ -296,11 +303,11 @@
 "preferred_label": "约翰"
 },
 {
-"id": "person:Gideon",
-"type": "person",
-"confidence": 0.3602,
+"id": "keyterm:PleasingOdor",
+"type": "keyterm",
+"confidence": 0.3596,
 "match_method": "canonical",
-"preferred_label": "基甸"
+"preferred_label": "馨香之气"
 },
 {
 "id": "keyterm:Heaven",
@@ -315,13 +322,6 @@
 "confidence": 0.3596,
 "match_method": "canonical",
 "preferred_label": "所罗门"
-},
-{
-"id": "keyterm:PleasingOdor",
-"type": "keyterm",
-"confidence": 0.3596,
-"match_method": "canonical",
-"preferred_label": "馨香之气"
 },
 {
 "id": "person:Absalom",
@@ -345,11 +345,18 @@
 "preferred_label": "尼罗河"
 },
 {
-"id": "keyterm:Body.3",
+"id": "keyterm:Holy",
 "type": "keyterm",
 "confidence": 0.3568,
 "match_method": "canonical",
-"preferred_label": "身体（肉体）"
+"preferred_label": "圣洁"
+},
+{
+"id": "person:Joseph.10",
+"type": "person",
+"confidence": 0.3568,
+"match_method": "canonical",
+"preferred_label": "约瑟"
 },
 {
 "id": "person:Hezekiah",
@@ -366,25 +373,18 @@
 "preferred_label": "荣耀"
 },
 {
-"id": "person:Joseph.10",
-"type": "person",
-"confidence": 0.3568,
-"match_method": "canonical",
-"preferred_label": "约瑟"
-},
-{
-"id": "keyterm:Holy",
+"id": "keyterm:Ability",
 "type": "keyterm",
 "confidence": 0.3568,
 "match_method": "canonical",
-"preferred_label": "圣洁"
+"preferred_label": "技能"
 },
 {
-"id": "person:Saul.2",
+"id": "person:Samson",
 "type": "person",
 "confidence": 0.3568,
 "match_method": "canonical",
-"preferred_label": "扫罗"
+"preferred_label": "参孙"
 }
 ]
 }
@@ -477,6 +477,13 @@
 "preferred_label": "慈心"
 },
 {
+"id": "keyterm:Bless",
+"type": "keyterm",
+"confidence": 0.2699,
+"match_method": "canonical",
+"preferred_label": "赐福（嘉许）"
+},
+{
 "id": "keyterm:Serve",
 "type": "keyterm",
 "confidence": 0.2699,
@@ -489,13 +496,6 @@
 "confidence": 0.2699,
 "match_method": "canonical",
 "preferred_label": "摩西"
-},
-{
-"id": "keyterm:Bless",
-"type": "keyterm",
-"confidence": 0.2699,
-"match_method": "canonical",
-"preferred_label": "赐福（嘉许）"
 },
 {
 "id": "realia:Basket",
@@ -512,18 +512,18 @@
 "preferred_label": "马加丹"
 },
 {
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.2132,
+"match_method": "canonical",
+"preferred_label": "以色列"
+},
+{
 "id": "person:Herod.2",
 "type": "person",
 "confidence": 0.2132,
 "match_method": "canonical",
 "preferred_label": "希律·安提帕"
-},
-{
-"id": "keyterm:Kingdom",
-"type": "keyterm",
-"confidence": 0.2132,
-"match_method": "canonical",
-"preferred_label": "国度"
 },
 {
 "id": "keyterm:Heaven",
@@ -533,11 +533,11 @@
 "preferred_label": "天"
 },
 {
-"id": "person:Israel",
+"id": "person:John",
 "type": "person",
 "confidence": 0.2132,
 "match_method": "canonical",
-"preferred_label": "以色列"
+"preferred_label": "约翰"
 },
 {
 "id": "keyterm:Favor",
@@ -547,11 +547,11 @@
 "preferred_label": "恩宠"
 },
 {
-"id": "person:John",
-"type": "person",
+"id": "keyterm:Kingdom",
+"type": "keyterm",
 "confidence": 0.2132,
 "match_method": "canonical",
-"preferred_label": "约翰"
+"preferred_label": "国度"
 },
 {
 "id": "realia:Ship",
@@ -568,67 +568,11 @@
 "preferred_label": "他备拉"
 },
 {
-"id": "keyterm:GoodNews",
-"type": "keyterm",
-"confidence": 0.1566,
-"match_method": "canonical",
-"preferred_label": "福音"
-},
-{
 "id": "keyterm:Proclaim",
 "type": "keyterm",
 "confidence": 0.1566,
 "match_method": "canonical",
 "preferred_label": "宣告"
-},
-{
-"id": "keyterm:Authority.2",
-"type": "keyterm",
-"confidence": 0.1566,
-"match_method": "canonical",
-"preferred_label": "权柄（统管）"
-},
-{
-"id": "keyterm:AskFor",
-"type": "keyterm",
-"confidence": 0.1566,
-"match_method": "canonical",
-"preferred_label": "求（恳求）"
-},
-{
-"id": "keyterm:Ability",
-"type": "keyterm",
-"confidence": 0.1566,
-"match_method": "canonical",
-"preferred_label": "技能"
-},
-{
-"id": "place:Bethsaida",
-"type": "place",
-"confidence": 0.1566,
-"match_method": "canonical",
-"preferred_label": "伯赛大"
-},
-{
-"id": "keyterm:BearWitness",
-"type": "keyterm",
-"confidence": 0.1566,
-"match_method": "canonical",
-"preferred_label": "作见证"
-},
-{
-"id": "deity:Demons",
-"type": "deity",
-"confidence": 0.1566,
-"match_method": "canonical",
-"preferred_label": "鬼魔"
-},
-{
-"id": "place:GalileeSea",
-"type": "place",
-"confidence": 0.1566,
-"match_method": "canonical",
-"preferred_label": "加利利海"
 },
 {
 "id": "person:Elijah",
@@ -638,11 +582,67 @@
 "preferred_label": "以利亚"
 },
 {
+"id": "keyterm:Glory",
+"type": "keyterm",
+"confidence": 0.1566,
+"match_method": "canonical",
+"preferred_label": "荣耀"
+},
+{
+"id": "place:Bethsaida",
+"type": "place",
+"confidence": 0.1566,
+"match_method": "canonical",
+"preferred_label": "伯赛大"
+},
+{
 "id": "place:Egypt",
 "type": "place",
 "confidence": 0.1566,
 "match_method": "canonical",
 "preferred_label": "埃及"
+},
+{
+"id": "keyterm:BearWitness",
+"type": "keyterm",
+"confidence": 0.1566,
+"match_method": "canonical",
+"preferred_label": "作见证"
+},
+{
+"id": "keyterm:Swear",
+"type": "keyterm",
+"confidence": 0.1566,
+"match_method": "canonical",
+"preferred_label": "起誓"
+},
+{
+"id": "keyterm:GoodNews",
+"type": "keyterm",
+"confidence": 0.1566,
+"match_method": "canonical",
+"preferred_label": "福音"
+},
+{
+"id": "keyterm:Ability",
+"type": "keyterm",
+"confidence": 0.1566,
+"match_method": "canonical",
+"preferred_label": "技能"
+},
+{
+"id": "deity:Demons",
+"type": "deity",
+"confidence": 0.1566,
+"match_method": "canonical",
+"preferred_label": "鬼魔"
+},
+{
+"id": "keyterm:Authority.2",
+"type": "keyterm",
+"confidence": 0.1566,
+"match_method": "canonical",
+"preferred_label": "权柄（统管）"
 }
 ]
 }
