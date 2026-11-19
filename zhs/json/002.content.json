@@ -80,13 +80,6 @@
 "preferred_label": "奉献"
 },
 {
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.3375,
-"match_method": "canonical",
-"preferred_label": "以色列"
-},
-{
 "id": "keyterm:Disciple",
 "type": "keyterm",
 "confidence": 0.3375,
@@ -108,6 +101,13 @@
 "preferred_label": "彼得"
 },
 {
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.3375,
+"match_method": "canonical",
+"preferred_label": "以色列"
+},
+{
 "id": "place:Galilee",
 "type": "place",
 "confidence": 0.2229,
@@ -122,11 +122,11 @@
 "preferred_label": "犹太"
 },
 {
-"id": "keyterm:Ability",
-"type": "keyterm",
+"id": "group:Jews",
+"type": "group",
 "confidence": 0.2188,
 "match_method": "canonical",
-"preferred_label": "技能"
+"preferred_label": "犹大人"
 },
 {
 "id": "keyterm:Beloved",
@@ -136,11 +136,18 @@
 "preferred_label": "亲爱的"
 },
 {
-"id": "person:James",
-"type": "person",
+"id": "keyterm:Fear",
+"type": "keyterm",
 "confidence": 0.2188,
 "match_method": "canonical",
-"preferred_label": "雅各"
+"preferred_label": "惧怕/敬畏"
+},
+{
+"id": "keyterm:Ability",
+"type": "keyterm",
+"confidence": 0.2188,
+"match_method": "canonical",
+"preferred_label": "技能"
 },
 {
 "id": "place:Jerusalem",
@@ -150,13 +157,6 @@
 "preferred_label": "耶路撒冷"
 },
 {
-"id": "group:Jews",
-"type": "group",
-"confidence": 0.2188,
-"match_method": "canonical",
-"preferred_label": "犹大人"
-},
-{
 "id": "person:John.2",
 "type": "person",
 "confidence": 0.2188,
@@ -164,25 +164,11 @@
 "preferred_label": "约翰"
 },
 {
-"id": "keyterm:Fear",
-"type": "keyterm",
+"id": "person:James",
+"type": "person",
 "confidence": 0.2188,
 "match_method": "canonical",
-"preferred_label": "惧怕/敬畏"
-},
-{
-"id": "place:EphraimGate",
-"type": "place",
-"confidence": 0.1635,
-"match_method": "canonical",
-"preferred_label": "以法莲门"
-},
-{
-"id": "group:Relatives",
-"type": "group",
-"confidence": 0.1635,
-"match_method": "canonical",
-"preferred_label": "亲属"
+"preferred_label": "雅各"
 },
 {
 "id": "person:Zerubbabel.2",
@@ -220,109 +206,18 @@
 "preferred_label": "约书亚"
 },
 {
-"id": "person:John",
-"type": "person",
-"confidence": 0.1594,
-"match_method": "canonical",
-"preferred_label": "约翰"
-},
-{
-"id": "keyterm:Happen",
-"type": "keyterm",
-"confidence": 0.1594,
-"match_method": "canonical",
-"preferred_label": "成就"
-},
-{
-"id": "keyterm:Believe",
-"type": "keyterm",
-"confidence": 0.1594,
-"match_method": "canonical",
-"preferred_label": "相信"
-},
-{
-"id": "keyterm:Command",
-"type": "keyterm",
-"confidence": 0.1594,
-"match_method": "canonical",
-"preferred_label": "吩咐（发号施令）"
-},
-{
-"id": "keyterm:Resurrection",
-"type": "keyterm",
-"confidence": 0.1594,
-"match_method": "canonical",
-"preferred_label": "复活（事件）"
-},
-{
-"id": "place:Persia",
-"type": "place",
-"confidence": 0.1594,
-"match_method": "canonical",
-"preferred_label": "波斯"
-},
-{
-"id": "place:Joppa",
-"type": "place",
-"confidence": 0.1594,
-"match_method": "canonical",
-"preferred_label": "约帕"
-},
-{
-"id": "person:Levi.3",
-"type": "person",
-"confidence": 0.1594,
-"match_method": "canonical",
-"preferred_label": "利未"
-},
-{
-"id": "keyterm:Baptist",
-"type": "keyterm",
-"confidence": 0.1594,
-"match_method": "canonical",
-"preferred_label": "施洗者"
-},
-{
-"id": "group:Sidon",
+"id": "group:Relatives",
 "type": "group",
-"confidence": 0.1594,
+"confidence": 0.1635,
 "match_method": "canonical",
-"preferred_label": "西顿人"
+"preferred_label": "亲属"
 },
 {
-"id": "person:Ezra",
-"type": "person",
-"confidence": 0.1594,
-"match_method": "canonical",
-"preferred_label": "以斯拉"
-},
-{
-"id": "keyterm:FeastOfTabernacles",
-"type": "keyterm",
-"confidence": 0.1594,
-"match_method": "canonical",
-"preferred_label": "住棚节"
-},
-{
-"id": "group:Levi",
-"type": "group",
-"confidence": 0.1594,
-"match_method": "canonical",
-"preferred_label": "利未支派"
-},
-{
-"id": "place:Lebanon",
+"id": "place:EphraimGate",
 "type": "place",
-"confidence": 0.1594,
+"confidence": 0.1635,
 "match_method": "canonical",
-"preferred_label": "黎巴嫩"
-},
-{
-"id": "keyterm:AppointedFeast",
-"type": "keyterm",
-"confidence": 0.1594,
-"match_method": "canonical",
-"preferred_label": "节期"
+"preferred_label": "以法莲门"
 },
 {
 "id": "place:Tyre",
@@ -332,11 +227,11 @@
 "preferred_label": "推罗"
 },
 {
-"id": "keyterm:Terror",
-"type": "keyterm",
+"id": "group:Tyre",
+"type": "group",
 "confidence": 0.1594,
 "match_method": "canonical",
-"preferred_label": "惊恐"
+"preferred_label": "泰尔人"
 },
 {
 "id": "keyterm:NewMoonFestival",
@@ -346,18 +241,11 @@
 "preferred_label": "月朔节"
 },
 {
-"id": "keyterm:BearWitness",
-"type": "keyterm",
+"id": "person:Levi.3",
+"type": "person",
 "confidence": 0.1594,
 "match_method": "canonical",
-"preferred_label": "作见证"
-},
-{
-"id": "place:Sidon",
-"type": "place",
-"confidence": 0.1594,
-"match_method": "canonical",
-"preferred_label": "西顿"
+"preferred_label": "利未"
 },
 {
 "id": "person:Nun",
@@ -367,32 +255,11 @@
 "preferred_label": "嫩"
 },
 {
-"id": "keyterm:Holy",
-"type": "keyterm",
-"confidence": 0.1594,
-"match_method": "canonical",
-"preferred_label": "圣洁"
-},
-{
-"id": "person:Cyrus",
-"type": "person",
-"confidence": 0.1594,
-"match_method": "canonical",
-"preferred_label": "塞鲁士"
-},
-{
 "id": "person:Joshua.2",
 "type": "person",
 "confidence": 0.1594,
 "match_method": "canonical",
 "preferred_label": "约书亚"
-},
-{
-"id": "group:Tyre",
-"type": "group",
-"confidence": 0.1594,
-"match_method": "canonical",
-"preferred_label": "泰尔人"
 },
 {
 "id": "keyterm:HaveInsight",
@@ -402,18 +269,144 @@
 "preferred_label": "有洞见"
 },
 {
+"id": "keyterm:Believe",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "相信"
+},
+{
+"id": "place:Sidon",
+"type": "place",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "西顿"
+},
+{
+"id": "keyterm:Command",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "吩咐（发号施令）"
+},
+{
+"id": "person:Cyrus",
+"type": "person",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "塞鲁士"
+},
+{
+"id": "keyterm:Terror",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "惊恐"
+},
+{
+"id": "keyterm:BearWitness",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "作见证"
+},
+{
+"id": "keyterm:Baptist",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "施洗者"
+},
+{
+"id": "place:Persia",
+"type": "place",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "波斯"
+},
+{
+"id": "person:Ezra",
+"type": "person",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "以斯拉"
+},
+{
+"id": "keyterm:AppointedFeast",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "节期"
+},
+{
+"id": "keyterm:FeastOfTabernacles",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "住棚节"
+},
+{
+"id": "keyterm:Happen",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "成就"
+},
+{
+"id": "keyterm:Holy",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "圣洁"
+},
+{
+"id": "person:John",
+"type": "person",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "约翰"
+},
+{
+"id": "group:Levi",
+"type": "group",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "利未支派"
+},
+{
+"id": "group:Sidon",
+"type": "group",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "西顿人"
+},
+{
+"id": "keyterm:Resurrection",
+"type": "keyterm",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "复活（事件）"
+},
+{
+"id": "place:Joppa",
+"type": "place",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "约帕"
+},
+{
+"id": "place:Lebanon",
+"type": "place",
+"confidence": 0.1594,
+"match_method": "canonical",
+"preferred_label": "黎巴嫩"
+},
+{
 "id": "realia:TempleAltar",
 "type": "realia",
 "confidence": 0.1588,
 "match_method": "canonical",
 "preferred_label": "圣殿祭坛"
-},
-{
-"id": "realia:Tent",
-"type": "realia",
-"confidence": 0.1588,
-"match_method": "canonical",
-"preferred_label": "帐棚"
 },
 {
 "id": "realia:TabernacleAltar",
@@ -423,11 +416,18 @@
 "preferred_label": "祭坛"
 },
 {
-"id": "realia:Altar",
+"id": "realia:Clothing",
 "type": "realia",
 "confidence": 0.1588,
 "match_method": "canonical",
-"preferred_label": "祭坛"
+"preferred_label": "衣服"
+},
+{
+"id": "realia:Tent",
+"type": "realia",
+"confidence": 0.1588,
+"match_method": "canonical",
+"preferred_label": "帐棚"
 },
 {
 "id": "realia:StoneAltar",
@@ -437,18 +437,11 @@
 "preferred_label": "石坛"
 },
 {
-"id": "realia:Clothing",
+"id": "realia:Altar",
 "type": "realia",
 "confidence": 0.1588,
 "match_method": "canonical",
-"preferred_label": "衣服"
-},
-{
-"id": "realia:FestivalOfTheTabernacles",
-"type": "realia",
-"confidence": 0.1035,
-"match_method": "canonical",
-"preferred_label": "住棚节"
+"preferred_label": "祭坛"
 },
 {
 "id": "flora:Myrtle",
@@ -458,39 +451,11 @@
 "preferred_label": "番石榴树"
 },
 {
-"id": "flora:DatePalm",
-"type": "flora",
-"confidence": 0.0994,
-"match_method": "canonical",
-"preferred_label": "棕树"
-},
-{
-"id": "flora:Cedar",
-"type": "flora",
-"confidence": 0.0994,
-"match_method": "canonical",
-"preferred_label": "香柏树"
-},
-{
-"id": "flora:PineTree",
-"type": "flora",
-"confidence": 0.0994,
-"match_method": "canonical",
-"preferred_label": "阿勒颇松"
-},
-{
-"id": "realia:Money",
+"id": "realia:FestivalOfTheTabernacles",
 "type": "realia",
-"confidence": 0.0994,
+"confidence": 0.1035,
 "match_method": "canonical",
-"preferred_label": "金钱"
-},
-{
-"id": "realia:Scroll",
-"type": "realia",
-"confidence": 0.0994,
-"match_method": "canonical",
-"preferred_label": "书卷"
+"preferred_label": "住棚节"
 },
 {
 "id": "realia:AnointingOil",
@@ -500,11 +465,32 @@
 "preferred_label": "膏油"
 },
 {
-"id": "realia:Craftsman",
+"id": "flora:PineTree",
+"type": "flora",
+"confidence": 0.0994,
+"match_method": "canonical",
+"preferred_label": "阿勒颇松"
+},
+{
+"id": "flora:OliveTree",
+"type": "flora",
+"confidence": 0.0994,
+"match_method": "canonical",
+"preferred_label": "橄榄树"
+},
+{
+"id": "realia:Scroll",
 "type": "realia",
 "confidence": 0.0994,
 "match_method": "canonical",
-"preferred_label": "匠人"
+"preferred_label": "书卷"
+},
+{
+"id": "flora:Cedar",
+"type": "flora",
+"confidence": 0.0994,
+"match_method": "canonical",
+"preferred_label": "香柏树"
 },
 {
 "id": "realia:House",
@@ -521,11 +507,25 @@
 "preferred_label": "橄榄油"
 },
 {
-"id": "flora:OliveTree",
+"id": "realia:Craftsman",
+"type": "realia",
+"confidence": 0.0994,
+"match_method": "canonical",
+"preferred_label": "匠人"
+},
+{
+"id": "flora:DatePalm",
 "type": "flora",
 "confidence": 0.0994,
 "match_method": "canonical",
-"preferred_label": "橄榄树"
+"preferred_label": "棕树"
+},
+{
+"id": "realia:Money",
+"type": "realia",
+"confidence": 0.0994,
+"match_method": "canonical",
+"preferred_label": "金钱"
 }
 ]
 }

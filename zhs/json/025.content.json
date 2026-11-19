@@ -39,13 +39,6 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.4294,
-"match_method": "canonical",
-"preferred_label": "以色列"
-},
-{
 "id": "place:Amalek",
 "type": "place",
 "confidence": 0.4294,
@@ -60,11 +53,11 @@
 "preferred_label": "扫罗"
 },
 {
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.4162,
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.4294,
 "match_method": "canonical",
-"preferred_label": "犹大支派"
+"preferred_label": "以色列"
 },
 {
 "id": "person:Judah.4",
@@ -72,6 +65,13 @@
 "confidence": 0.4162,
 "match_method": "canonical",
 "preferred_label": "犹大"
+},
+{
+"id": "group:Judah",
+"type": "group",
+"confidence": 0.4162,
+"match_method": "canonical",
+"preferred_label": "犹大支派"
 },
 {
 "id": "fauna:Donkey",
@@ -95,11 +95,11 @@
 "preferred_label": "迦勒"
 },
 {
-"id": "group:Amalek",
-"type": "group",
+"id": "keyterm:Bless",
+"type": "keyterm",
 "confidence": 0.2897,
 "match_method": "canonical",
-"preferred_label": "亚玛力人"
+"preferred_label": "赐福（嘉许）"
 },
 {
 "id": "place:Canaan",
@@ -107,20 +107,6 @@
 "confidence": 0.2897,
 "match_method": "canonical",
 "preferred_label": "迦南"
-},
-{
-"id": "group:Canaan",
-"type": "group",
-"confidence": 0.2897,
-"match_method": "canonical",
-"preferred_label": "迦南人"
-},
-{
-"id": "place:Negeb",
-"type": "place",
-"confidence": 0.2897,
-"match_method": "canonical",
-"preferred_label": "南地"
 },
 {
 "id": "person:Jesus.2",
@@ -137,11 +123,11 @@
 "preferred_label": "耶和华"
 },
 {
-"id": "keyterm:Bless",
-"type": "keyterm",
+"id": "group:Amalek",
+"type": "group",
 "confidence": 0.2897,
 "match_method": "canonical",
-"preferred_label": "赐福（嘉许）"
+"preferred_label": "亚玛力人"
 },
 {
 "id": "place:Egypt",
@@ -151,18 +137,18 @@
 "preferred_label": "埃及"
 },
 {
-"id": "person:Jair.3",
-"type": "person",
-"confidence": 0.2382,
+"id": "place:Negeb",
+"type": "place",
+"confidence": 0.2897,
 "match_method": "canonical",
-"preferred_label": "睚珥"
+"preferred_label": "南地"
 },
 {
-"id": "person:Achsah",
-"type": "person",
-"confidence": 0.2382,
+"id": "group:Canaan",
+"type": "group",
+"confidence": 0.2897,
 "match_method": "canonical",
-"preferred_label": "押撒"
+"preferred_label": "迦南人"
 },
 {
 "id": "place:Shamir.2",
@@ -179,18 +165,18 @@
 "preferred_label": "基尼人"
 },
 {
-"id": "place:Bethany",
-"type": "place",
-"confidence": 0.2324,
+"id": "person:Achsah",
+"type": "person",
+"confidence": 0.2382,
 "match_method": "canonical",
-"preferred_label": "伯大尼（橄榄山）"
+"preferred_label": "押撒"
 },
 {
-"id": "keyterm:Hosanna",
-"type": "keyterm",
-"confidence": 0.2324,
+"id": "person:Jair.3",
+"type": "person",
+"confidence": 0.2382,
 "match_method": "canonical",
-"preferred_label": "和散那"
+"preferred_label": "睚珥"
 },
 {
 "id": "person:Agag.2",
@@ -200,11 +186,25 @@
 "preferred_label": "亚甲"
 },
 {
+"id": "keyterm:Hosanna",
+"type": "keyterm",
+"confidence": 0.2324,
+"match_method": "canonical",
+"preferred_label": "和散那"
+},
+{
 "id": "place:Jerusalem",
 "type": "place",
 "confidence": 0.2324,
 "match_method": "canonical",
 "preferred_label": "耶路撒冷"
+},
+{
+"id": "place:Bethany",
+"type": "place",
+"confidence": 0.2324,
+"match_method": "canonical",
+"preferred_label": "伯大尼（橄榄山）"
 },
 {
 "id": "group:GenericGroup",
@@ -214,13 +214,6 @@
 "preferred_label": "一群人"
 },
 {
-"id": "place:Debir",
-"type": "place",
-"confidence": 0.2265,
-"match_method": "canonical",
-"preferred_label": "底璧"
-},
-{
 "id": "place:Gilead",
 "type": "place",
 "confidence": 0.2265,
@@ -228,18 +221,11 @@
 "preferred_label": "基列"
 },
 {
-"id": "place:Arad",
+"id": "place:Debir",
 "type": "place",
-"confidence": 0.1691,
+"confidence": 0.2265,
 "match_method": "canonical",
-"preferred_label": "亚拉得"
-},
-{
-"id": "place:Kamon",
-"type": "place",
-"confidence": 0.1691,
-"match_method": "canonical",
-"preferred_label": "加们"
+"preferred_label": "底璧"
 },
 {
 "id": "person:Dodo",
@@ -249,18 +235,25 @@
 "preferred_label": "朵多"
 },
 {
-"id": "person:Talmai",
-"type": "person",
-"confidence": 0.1691,
-"match_method": "canonical",
-"preferred_label": "挞买"
-},
-{
 "id": "place:Zephath",
 "type": "place",
 "confidence": 0.1691,
 "match_method": "canonical",
 "preferred_label": "洗法"
+},
+{
+"id": "place:Havilah.2",
+"type": "place",
+"confidence": 0.1691,
+"match_method": "canonical",
+"preferred_label": "哈腓拉"
+},
+{
+"id": "place:Arad",
+"type": "place",
+"confidence": 0.1691,
+"match_method": "canonical",
+"preferred_label": "亚拉得"
 },
 {
 "id": "place:Bethphage",
@@ -270,18 +263,11 @@
 "preferred_label": "伯法其"
 },
 {
-"id": "person:Puah.2",
-"type": "person",
+"id": "place:Kamon",
+"type": "place",
 "confidence": 0.1691,
 "match_method": "canonical",
-"preferred_label": "普瓦"
-},
-{
-"id": "person:Tola.2",
-"type": "person",
-"confidence": 0.1691,
-"match_method": "canonical",
-"preferred_label": "陀拉"
+"preferred_label": "加们"
 },
 {
 "id": "person:Ahiman",
@@ -291,11 +277,32 @@
 "preferred_label": "亚希幔"
 },
 {
+"id": "person:Puah.2",
+"type": "person",
+"confidence": 0.1691,
+"match_method": "canonical",
+"preferred_label": "普瓦"
+},
+{
 "id": "keyterm:Appoint",
 "type": "keyterm",
 "confidence": 0.1691,
 "match_method": "canonical",
 "preferred_label": "委派"
+},
+{
+"id": "person:Sheshai",
+"type": "person",
+"confidence": 0.1691,
+"match_method": "canonical",
+"preferred_label": "示筛"
+},
+{
+"id": "person:Talmai",
+"type": "person",
+"confidence": 0.1691,
+"match_method": "canonical",
+"preferred_label": "挞买"
 },
 {
 "id": "person:Kenaz.3",
@@ -312,25 +319,11 @@
 "preferred_label": "提拉因"
 },
 {
-"id": "place:Havilah.2",
-"type": "place",
-"confidence": 0.1691,
-"match_method": "canonical",
-"preferred_label": "哈腓拉"
-},
-{
-"id": "person:Sheshai",
+"id": "person:Tola.2",
 "type": "person",
 "confidence": 0.1691,
 "match_method": "canonical",
-"preferred_label": "示筛"
-},
-{
-"id": "realia:Cloak",
-"type": "realia",
-"confidence": 0.1665,
-"match_method": "canonical",
-"preferred_label": "外衣"
+"preferred_label": "陀拉"
 },
 {
 "id": "fauna:Bull",
@@ -347,11 +340,39 @@
 "preferred_label": "羊羔"
 },
 {
-"id": "person:Othniel",
-"type": "person",
+"id": "realia:Cloak",
+"type": "realia",
+"confidence": 0.1665,
+"match_method": "canonical",
+"preferred_label": "外衣"
+},
+{
+"id": "place:Havvoth-jair",
+"type": "place",
 "confidence": 0.1632,
 "match_method": "canonical",
-"preferred_label": "俄陀聂"
+"preferred_label": "哈倭特·雅珥"
+},
+{
+"id": "keyterm:Kingdom",
+"type": "keyterm",
+"confidence": 0.1632,
+"match_method": "canonical",
+"preferred_label": "国度"
+},
+{
+"id": "group:Simeon",
+"type": "group",
+"confidence": 0.1632,
+"match_method": "canonical",
+"preferred_label": "西缅支派"
+},
+{
+"id": "keyterm:Disciple",
+"type": "keyterm",
+"confidence": 0.1632,
+"match_method": "canonical",
+"preferred_label": "作门徒"
 },
 {
 "id": "person:Simeon.5",
@@ -361,11 +382,88 @@
 "preferred_label": "西缅"
 },
 {
-"id": "group:Simeon",
+"id": "person:Moses",
+"type": "person",
+"confidence": 0.1632,
+"match_method": "canonical",
+"preferred_label": "摩西"
+},
+{
+"id": "person:Samuel",
+"type": "person",
+"confidence": 0.1632,
+"match_method": "canonical",
+"preferred_label": "撒母耳"
+},
+{
+"id": "keyterm:WordOfTheLord",
+"type": "keyterm",
+"confidence": 0.1632,
+"match_method": "canonical",
+"preferred_label": "耶和华的话"
+},
+{
+"id": "person:Othniel",
+"type": "person",
+"confidence": 0.1632,
+"match_method": "canonical",
+"preferred_label": "俄陀聂"
+},
+{
+"id": "keyterm:Kindness",
+"type": "keyterm",
+"confidence": 0.1632,
+"match_method": "canonical",
+"preferred_label": "慈爱"
+},
+{
+"id": "place:Hebron",
+"type": "place",
+"confidence": 0.1632,
+"match_method": "canonical",
+"preferred_label": "希伯仑"
+},
+{
+"id": "person:David",
+"type": "person",
+"confidence": 0.1632,
+"match_method": "canonical",
+"preferred_label": "大卫"
+},
+{
+"id": "group:Ephraim",
 "type": "group",
 "confidence": 0.1632,
 "match_method": "canonical",
-"preferred_label": "西缅支派"
+"preferred_label": "以法莲支派"
+},
+{
+"id": "person:Abimelech.2",
+"type": "person",
+"confidence": 0.1632,
+"match_method": "canonical",
+"preferred_label": "亚比米勒"
+},
+{
+"id": "place:Shephelah",
+"type": "place",
+"confidence": 0.1632,
+"match_method": "canonical",
+"preferred_label": "谢非拉"
+},
+{
+"id": "keyterm:Smear",
+"type": "keyterm",
+"confidence": 0.1632,
+"match_method": "canonical",
+"preferred_label": "涂抹"
+},
+{
+"id": "person:Ephraim",
+"type": "person",
+"confidence": 0.1632,
+"match_method": "canonical",
+"preferred_label": "以法莲"
 },
 {
 "id": "group:Issachar",
@@ -382,109 +480,11 @@
 "preferred_label": "名字"
 },
 {
-"id": "person:David",
-"type": "person",
-"confidence": 0.1632,
-"match_method": "canonical",
-"preferred_label": "大卫"
-},
-{
-"id": "person:Abimelech.2",
-"type": "person",
-"confidence": 0.1632,
-"match_method": "canonical",
-"preferred_label": "亚比米勒"
-},
-{
 "id": "keyterm:Height",
 "type": "keyterm",
 "confidence": 0.1632,
 "match_method": "canonical",
 "preferred_label": "高"
-},
-{
-"id": "person:Issachar",
-"type": "person",
-"confidence": 0.1632,
-"match_method": "canonical",
-"preferred_label": "以萨迦"
-},
-{
-"id": "keyterm:Disciple",
-"type": "keyterm",
-"confidence": 0.1632,
-"match_method": "canonical",
-"preferred_label": "作门徒"
-},
-{
-"id": "keyterm:WordOfTheLord",
-"type": "keyterm",
-"confidence": 0.1632,
-"match_method": "canonical",
-"preferred_label": "耶和华的话"
-},
-{
-"id": "keyterm:Kingdom",
-"type": "keyterm",
-"confidence": 0.1632,
-"match_method": "canonical",
-"preferred_label": "国度"
-},
-{
-"id": "keyterm:Smear",
-"type": "keyterm",
-"confidence": 0.1632,
-"match_method": "canonical",
-"preferred_label": "涂抹"
-},
-{
-"id": "place:Havvoth-jair",
-"type": "place",
-"confidence": 0.1632,
-"match_method": "canonical",
-"preferred_label": "哈倭特·雅珥"
-},
-{
-"id": "place:Shur",
-"type": "place",
-"confidence": 0.1632,
-"match_method": "canonical",
-"preferred_label": "书珥"
-},
-{
-"id": "person:Moses",
-"type": "person",
-"confidence": 0.1632,
-"match_method": "canonical",
-"preferred_label": "摩西"
-},
-{
-"id": "place:Hebron",
-"type": "place",
-"confidence": 0.1632,
-"match_method": "canonical",
-"preferred_label": "希伯仑"
-},
-{
-"id": "place:Shephelah",
-"type": "place",
-"confidence": 0.1632,
-"match_method": "canonical",
-"preferred_label": "谢非拉"
-},
-{
-"id": "group:Ephraim",
-"type": "group",
-"confidence": 0.1632,
-"match_method": "canonical",
-"preferred_label": "以法莲支派"
-},
-{
-"id": "person:Ephraim",
-"type": "person",
-"confidence": 0.1632,
-"match_method": "canonical",
-"preferred_label": "以法莲"
 },
 {
 "id": "group:Gilead",
@@ -494,18 +494,18 @@
 "preferred_label": "基列人"
 },
 {
-"id": "keyterm:Kindness",
-"type": "keyterm",
-"confidence": 0.1632,
-"match_method": "canonical",
-"preferred_label": "慈爱"
-},
-{
-"id": "person:Samuel",
+"id": "person:Issachar",
 "type": "person",
 "confidence": 0.1632,
 "match_method": "canonical",
-"preferred_label": "撒母耳"
+"preferred_label": "以萨迦"
+},
+{
+"id": "place:Shur",
+"type": "place",
+"confidence": 0.1632,
+"match_method": "canonical",
+"preferred_label": "书珥"
 },
 {
 "id": "flora:Rush",
@@ -515,11 +515,11 @@
 "preferred_label": "灯心草"
 },
 {
-"id": "flora:DatePalm",
+"id": "flora:OliveTree",
 "type": "flora",
 "confidence": 0.1032,
 "match_method": "canonical",
-"preferred_label": "棕树"
+"preferred_label": "橄榄树"
 },
 {
 "id": "fauna:Camel",
@@ -529,18 +529,18 @@
 "preferred_label": "骆驼"
 },
 {
-"id": "realia:Sword",
-"type": "realia",
-"confidence": 0.1032,
-"match_method": "canonical",
-"preferred_label": "剑"
-},
-{
 "id": "realia:Temple",
 "type": "realia",
 "confidence": 0.1032,
 "match_method": "canonical",
 "preferred_label": "圣殿"
+},
+{
+"id": "realia:Sword",
+"type": "realia",
+"confidence": 0.1032,
+"match_method": "canonical",
+"preferred_label": "剑"
 },
 {
 "id": "fauna:Goat",
@@ -550,18 +550,18 @@
 "preferred_label": "山羊"
 },
 {
+"id": "flora:DatePalm",
+"type": "flora",
+"confidence": 0.1032,
+"match_method": "canonical",
+"preferred_label": "棕树"
+},
+{
 "id": "fauna:Flock",
 "type": "fauna",
 "confidence": 0.1032,
 "match_method": "canonical",
 "preferred_label": "羊群"
-},
-{
-"id": "flora:OliveTree",
-"type": "flora",
-"confidence": 0.1032,
-"match_method": "canonical",
-"preferred_label": "橄榄树"
 }
 ]
 }
@@ -606,13 +606,6 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.4294,
-"match_method": "canonical",
-"preferred_label": "以色列"
-},
-{
 "id": "place:Amalek",
 "type": "place",
 "confidence": 0.4294,
@@ -627,11 +620,11 @@
 "preferred_label": "扫罗"
 },
 {
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.4162,
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.4294,
 "match_method": "canonical",
-"preferred_label": "犹大支派"
+"preferred_label": "以色列"
 },
 {
 "id": "person:Judah.4",
@@ -639,6 +632,13 @@
 "confidence": 0.4162,
 "match_method": "canonical",
 "preferred_label": "犹大"
+},
+{
+"id": "group:Judah",
+"type": "group",
+"confidence": 0.4162,
+"match_method": "canonical",
+"preferred_label": "犹大支派"
 },
 {
 "id": "fauna:Donkey",
@@ -662,11 +662,11 @@
 "preferred_label": "迦勒"
 },
 {
-"id": "group:Amalek",
-"type": "group",
+"id": "keyterm:Bless",
+"type": "keyterm",
 "confidence": 0.2897,
 "match_method": "canonical",
-"preferred_label": "亚玛力人"
+"preferred_label": "赐福（嘉许）"
 },
 {
 "id": "place:Canaan",
@@ -674,20 +674,6 @@
 "confidence": 0.2897,
 "match_method": "canonical",
 "preferred_label": "迦南"
-},
-{
-"id": "group:Canaan",
-"type": "group",
-"confidence": 0.2897,
-"match_method": "canonical",
-"preferred_label": "迦南人"
-},
-{
-"id": "place:Negeb",
-"type": "place",
-"confidence": 0.2897,
-"match_method": "canonical",
-"preferred_label": "南地"
 },
 {
 "id": "person:Jesus.2",
@@ -704,11 +690,11 @@
 "preferred_label": "耶和华"
 },
 {
-"id": "keyterm:Bless",
-"type": "keyterm",
+"id": "group:Amalek",
+"type": "group",
 "confidence": 0.2897,
 "match_method": "canonical",
-"preferred_label": "赐福（嘉许）"
+"preferred_label": "亚玛力人"
 },
 {
 "id": "place:Egypt",
@@ -718,18 +704,18 @@
 "preferred_label": "埃及"
 },
 {
-"id": "person:Jair.3",
-"type": "person",
-"confidence": 0.2382,
+"id": "place:Negeb",
+"type": "place",
+"confidence": 0.2897,
 "match_method": "canonical",
-"preferred_label": "睚珥"
+"preferred_label": "南地"
 },
 {
-"id": "person:Achsah",
-"type": "person",
-"confidence": 0.2382,
+"id": "group:Canaan",
+"type": "group",
+"confidence": 0.2897,
 "match_method": "canonical",
-"preferred_label": "押撒"
+"preferred_label": "迦南人"
 },
 {
 "id": "place:Shamir.2",
@@ -746,18 +732,18 @@
 "preferred_label": "基尼人"
 },
 {
-"id": "place:Bethany",
-"type": "place",
-"confidence": 0.2324,
+"id": "person:Achsah",
+"type": "person",
+"confidence": 0.2382,
 "match_method": "canonical",
-"preferred_label": "伯大尼（橄榄山）"
+"preferred_label": "押撒"
 },
 {
-"id": "keyterm:Hosanna",
-"type": "keyterm",
-"confidence": 0.2324,
+"id": "person:Jair.3",
+"type": "person",
+"confidence": 0.2382,
 "match_method": "canonical",
-"preferred_label": "和散那"
+"preferred_label": "睚珥"
 },
 {
 "id": "person:Agag.2",
@@ -767,11 +753,25 @@
 "preferred_label": "亚甲"
 },
 {
+"id": "keyterm:Hosanna",
+"type": "keyterm",
+"confidence": 0.2324,
+"match_method": "canonical",
+"preferred_label": "和散那"
+},
+{
 "id": "place:Jerusalem",
 "type": "place",
 "confidence": 0.2324,
 "match_method": "canonical",
 "preferred_label": "耶路撒冷"
+},
+{
+"id": "place:Bethany",
+"type": "place",
+"confidence": 0.2324,
+"match_method": "canonical",
+"preferred_label": "伯大尼（橄榄山）"
 },
 {
 "id": "group:GenericGroup",
@@ -781,13 +781,6 @@
 "preferred_label": "一群人"
 },
 {
-"id": "place:Debir",
-"type": "place",
-"confidence": 0.2265,
-"match_method": "canonical",
-"preferred_label": "底璧"
-},
-{
 "id": "place:Gilead",
 "type": "place",
 "confidence": 0.2265,
@@ -795,18 +788,11 @@
 "preferred_label": "基列"
 },
 {
-"id": "place:Arad",
+"id": "place:Debir",
 "type": "place",
-"confidence": 0.1691,
+"confidence": 0.2265,
 "match_method": "canonical",
-"preferred_label": "亚拉得"
-},
-{
-"id": "place:Kamon",
-"type": "place",
-"confidence": 0.1691,
-"match_method": "canonical",
-"preferred_label": "加们"
+"preferred_label": "底璧"
 },
 {
 "id": "person:Dodo",
@@ -816,18 +802,25 @@
 "preferred_label": "朵多"
 },
 {
-"id": "person:Talmai",
-"type": "person",
-"confidence": 0.1691,
-"match_method": "canonical",
-"preferred_label": "挞买"
-},
-{
 "id": "place:Zephath",
 "type": "place",
 "confidence": 0.1691,
 "match_method": "canonical",
 "preferred_label": "洗法"
+},
+{
+"id": "place:Havilah.2",
+"type": "place",
+"confidence": 0.1691,
+"match_method": "canonical",
+"preferred_label": "哈腓拉"
+},
+{
+"id": "place:Arad",
+"type": "place",
+"confidence": 0.1691,
+"match_method": "canonical",
+"preferred_label": "亚拉得"
 },
 {
 "id": "place:Bethphage",
@@ -837,18 +830,11 @@
 "preferred_label": "伯法其"
 },
 {
-"id": "person:Puah.2",
-"type": "person",
+"id": "place:Kamon",
+"type": "place",
 "confidence": 0.1691,
 "match_method": "canonical",
-"preferred_label": "普瓦"
-},
-{
-"id": "person:Tola.2",
-"type": "person",
-"confidence": 0.1691,
-"match_method": "canonical",
-"preferred_label": "陀拉"
+"preferred_label": "加们"
 },
 {
 "id": "person:Ahiman",
@@ -858,11 +844,32 @@
 "preferred_label": "亚希幔"
 },
 {
+"id": "person:Puah.2",
+"type": "person",
+"confidence": 0.1691,
+"match_method": "canonical",
+"preferred_label": "普瓦"
+},
+{
 "id": "keyterm:Appoint",
 "type": "keyterm",
 "confidence": 0.1691,
 "match_method": "canonical",
 "preferred_label": "委派"
+},
+{
+"id": "person:Sheshai",
+"type": "person",
+"confidence": 0.1691,
+"match_method": "canonical",
+"preferred_label": "示筛"
+},
+{
+"id": "person:Talmai",
+"type": "person",
+"confidence": 0.1691,
+"match_method": "canonical",
+"preferred_label": "挞买"
 },
 {
 "id": "person:Kenaz.3",
@@ -879,25 +886,11 @@
 "preferred_label": "提拉因"
 },
 {
-"id": "place:Havilah.2",
-"type": "place",
-"confidence": 0.1691,
-"match_method": "canonical",
-"preferred_label": "哈腓拉"
-},
-{
-"id": "person:Sheshai",
+"id": "person:Tola.2",
 "type": "person",
 "confidence": 0.1691,
 "match_method": "canonical",
-"preferred_label": "示筛"
-},
-{
-"id": "realia:Cloak",
-"type": "realia",
-"confidence": 0.1665,
-"match_method": "canonical",
-"preferred_label": "外衣"
+"preferred_label": "陀拉"
 },
 {
 "id": "fauna:Bull",
@@ -914,11 +907,39 @@
 "preferred_label": "羊羔"
 },
 {
-"id": "person:Othniel",
-"type": "person",
+"id": "realia:Cloak",
+"type": "realia",
+"confidence": 0.1665,
+"match_method": "canonical",
+"preferred_label": "外衣"
+},
+{
+"id": "place:Havvoth-jair",
+"type": "place",
 "confidence": 0.1632,
 "match_method": "canonical",
-"preferred_label": "俄陀聂"
+"preferred_label": "哈倭特·雅珥"
+},
+{
+"id": "keyterm:Kingdom",
+"type": "keyterm",
+"confidence": 0.1632,
+"match_method": "canonical",
+"preferred_label": "国度"
+},
+{
+"id": "group:Simeon",
+"type": "group",
+"confidence": 0.1632,
+"match_method": "canonical",
+"preferred_label": "西缅支派"
+},
+{
+"id": "keyterm:Disciple",
+"type": "keyterm",
+"confidence": 0.1632,
+"match_method": "canonical",
+"preferred_label": "作门徒"
 },
 {
 "id": "person:Simeon.5",
@@ -928,11 +949,88 @@
 "preferred_label": "西缅"
 },
 {
-"id": "group:Simeon",
+"id": "person:Moses",
+"type": "person",
+"confidence": 0.1632,
+"match_method": "canonical",
+"preferred_label": "摩西"
+},
+{
+"id": "person:Samuel",
+"type": "person",
+"confidence": 0.1632,
+"match_method": "canonical",
+"preferred_label": "撒母耳"
+},
+{
+"id": "keyterm:WordOfTheLord",
+"type": "keyterm",
+"confidence": 0.1632,
+"match_method": "canonical",
+"preferred_label": "耶和华的话"
+},
+{
+"id": "person:Othniel",
+"type": "person",
+"confidence": 0.1632,
+"match_method": "canonical",
+"preferred_label": "俄陀聂"
+},
+{
+"id": "keyterm:Kindness",
+"type": "keyterm",
+"confidence": 0.1632,
+"match_method": "canonical",
+"preferred_label": "慈爱"
+},
+{
+"id": "place:Hebron",
+"type": "place",
+"confidence": 0.1632,
+"match_method": "canonical",
+"preferred_label": "希伯仑"
+},
+{
+"id": "person:David",
+"type": "person",
+"confidence": 0.1632,
+"match_method": "canonical",
+"preferred_label": "大卫"
+},
+{
+"id": "group:Ephraim",
 "type": "group",
 "confidence": 0.1632,
 "match_method": "canonical",
-"preferred_label": "西缅支派"
+"preferred_label": "以法莲支派"
+},
+{
+"id": "person:Abimelech.2",
+"type": "person",
+"confidence": 0.1632,
+"match_method": "canonical",
+"preferred_label": "亚比米勒"
+},
+{
+"id": "place:Shephelah",
+"type": "place",
+"confidence": 0.1632,
+"match_method": "canonical",
+"preferred_label": "谢非拉"
+},
+{
+"id": "keyterm:Smear",
+"type": "keyterm",
+"confidence": 0.1632,
+"match_method": "canonical",
+"preferred_label": "涂抹"
+},
+{
+"id": "person:Ephraim",
+"type": "person",
+"confidence": 0.1632,
+"match_method": "canonical",
+"preferred_label": "以法莲"
 },
 {
 "id": "group:Issachar",
@@ -949,109 +1047,11 @@
 "preferred_label": "名字"
 },
 {
-"id": "person:David",
-"type": "person",
-"confidence": 0.1632,
-"match_method": "canonical",
-"preferred_label": "大卫"
-},
-{
-"id": "person:Abimelech.2",
-"type": "person",
-"confidence": 0.1632,
-"match_method": "canonical",
-"preferred_label": "亚比米勒"
-},
-{
 "id": "keyterm:Height",
 "type": "keyterm",
 "confidence": 0.1632,
 "match_method": "canonical",
 "preferred_label": "高"
-},
-{
-"id": "person:Issachar",
-"type": "person",
-"confidence": 0.1632,
-"match_method": "canonical",
-"preferred_label": "以萨迦"
-},
-{
-"id": "keyterm:Disciple",
-"type": "keyterm",
-"confidence": 0.1632,
-"match_method": "canonical",
-"preferred_label": "作门徒"
-},
-{
-"id": "keyterm:WordOfTheLord",
-"type": "keyterm",
-"confidence": 0.1632,
-"match_method": "canonical",
-"preferred_label": "耶和华的话"
-},
-{
-"id": "keyterm:Kingdom",
-"type": "keyterm",
-"confidence": 0.1632,
-"match_method": "canonical",
-"preferred_label": "国度"
-},
-{
-"id": "keyterm:Smear",
-"type": "keyterm",
-"confidence": 0.1632,
-"match_method": "canonical",
-"preferred_label": "涂抹"
-},
-{
-"id": "place:Havvoth-jair",
-"type": "place",
-"confidence": 0.1632,
-"match_method": "canonical",
-"preferred_label": "哈倭特·雅珥"
-},
-{
-"id": "place:Shur",
-"type": "place",
-"confidence": 0.1632,
-"match_method": "canonical",
-"preferred_label": "书珥"
-},
-{
-"id": "person:Moses",
-"type": "person",
-"confidence": 0.1632,
-"match_method": "canonical",
-"preferred_label": "摩西"
-},
-{
-"id": "place:Hebron",
-"type": "place",
-"confidence": 0.1632,
-"match_method": "canonical",
-"preferred_label": "希伯仑"
-},
-{
-"id": "place:Shephelah",
-"type": "place",
-"confidence": 0.1632,
-"match_method": "canonical",
-"preferred_label": "谢非拉"
-},
-{
-"id": "group:Ephraim",
-"type": "group",
-"confidence": 0.1632,
-"match_method": "canonical",
-"preferred_label": "以法莲支派"
-},
-{
-"id": "person:Ephraim",
-"type": "person",
-"confidence": 0.1632,
-"match_method": "canonical",
-"preferred_label": "以法莲"
 },
 {
 "id": "group:Gilead",
@@ -1061,18 +1061,18 @@
 "preferred_label": "基列人"
 },
 {
-"id": "keyterm:Kindness",
-"type": "keyterm",
-"confidence": 0.1632,
-"match_method": "canonical",
-"preferred_label": "慈爱"
-},
-{
-"id": "person:Samuel",
+"id": "person:Issachar",
 "type": "person",
 "confidence": 0.1632,
 "match_method": "canonical",
-"preferred_label": "撒母耳"
+"preferred_label": "以萨迦"
+},
+{
+"id": "place:Shur",
+"type": "place",
+"confidence": 0.1632,
+"match_method": "canonical",
+"preferred_label": "书珥"
 },
 {
 "id": "flora:Rush",
@@ -1082,11 +1082,11 @@
 "preferred_label": "灯心草"
 },
 {
-"id": "flora:DatePalm",
+"id": "flora:OliveTree",
 "type": "flora",
 "confidence": 0.1032,
 "match_method": "canonical",
-"preferred_label": "棕树"
+"preferred_label": "橄榄树"
 },
 {
 "id": "fauna:Camel",
@@ -1096,18 +1096,18 @@
 "preferred_label": "骆驼"
 },
 {
-"id": "realia:Sword",
-"type": "realia",
-"confidence": 0.1032,
-"match_method": "canonical",
-"preferred_label": "剑"
-},
-{
 "id": "realia:Temple",
 "type": "realia",
 "confidence": 0.1032,
 "match_method": "canonical",
 "preferred_label": "圣殿"
+},
+{
+"id": "realia:Sword",
+"type": "realia",
+"confidence": 0.1032,
+"match_method": "canonical",
+"preferred_label": "剑"
 },
 {
 "id": "fauna:Goat",
@@ -1117,18 +1117,18 @@
 "preferred_label": "山羊"
 },
 {
+"id": "flora:DatePalm",
+"type": "flora",
+"confidence": 0.1032,
+"match_method": "canonical",
+"preferred_label": "棕树"
+},
+{
 "id": "fauna:Flock",
 "type": "fauna",
 "confidence": 0.1032,
 "match_method": "canonical",
 "preferred_label": "羊群"
-},
-{
-"id": "flora:OliveTree",
-"type": "flora",
-"confidence": 0.1032,
-"match_method": "canonical",
-"preferred_label": "橄榄树"
 }
 ]
 }
@@ -1173,13 +1173,6 @@
 "resource": [],
 "acai": [
 {
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.4294,
-"match_method": "canonical",
-"preferred_label": "以色列"
-},
-{
 "id": "place:Amalek",
 "type": "place",
 "confidence": 0.4294,
@@ -1194,11 +1187,11 @@
 "preferred_label": "扫罗"
 },
 {
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.4162,
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.4294,
 "match_method": "canonical",
-"preferred_label": "犹大支派"
+"preferred_label": "以色列"
 },
 {
 "id": "person:Judah.4",
@@ -1206,6 +1199,13 @@
 "confidence": 0.4162,
 "match_method": "canonical",
 "preferred_label": "犹大"
+},
+{
+"id": "group:Judah",
+"type": "group",
+"confidence": 0.4162,
+"match_method": "canonical",
+"preferred_label": "犹大支派"
 },
 {
 "id": "fauna:Donkey",
@@ -1229,11 +1229,11 @@
 "preferred_label": "迦勒"
 },
 {
-"id": "group:Amalek",
-"type": "group",
+"id": "keyterm:Bless",
+"type": "keyterm",
 "confidence": 0.2897,
 "match_method": "canonical",
-"preferred_label": "亚玛力人"
+"preferred_label": "赐福（嘉许）"
 },
 {
 "id": "place:Canaan",
@@ -1241,20 +1241,6 @@
 "confidence": 0.2897,
 "match_method": "canonical",
 "preferred_label": "迦南"
-},
-{
-"id": "group:Canaan",
-"type": "group",
-"confidence": 0.2897,
-"match_method": "canonical",
-"preferred_label": "迦南人"
-},
-{
-"id": "place:Negeb",
-"type": "place",
-"confidence": 0.2897,
-"match_method": "canonical",
-"preferred_label": "南地"
 },
 {
 "id": "person:Jesus.2",
@@ -1271,11 +1257,11 @@
 "preferred_label": "耶和华"
 },
 {
-"id": "keyterm:Bless",
-"type": "keyterm",
+"id": "group:Amalek",
+"type": "group",
 "confidence": 0.2897,
 "match_method": "canonical",
-"preferred_label": "赐福（嘉许）"
+"preferred_label": "亚玛力人"
 },
 {
 "id": "place:Egypt",
@@ -1285,18 +1271,18 @@
 "preferred_label": "埃及"
 },
 {
-"id": "person:Jair.3",
-"type": "person",
-"confidence": 0.2382,
+"id": "place:Negeb",
+"type": "place",
+"confidence": 0.2897,
 "match_method": "canonical",
-"preferred_label": "睚珥"
+"preferred_label": "南地"
 },
 {
-"id": "person:Achsah",
-"type": "person",
-"confidence": 0.2382,
+"id": "group:Canaan",
+"type": "group",
+"confidence": 0.2897,
 "match_method": "canonical",
-"preferred_label": "押撒"
+"preferred_label": "迦南人"
 },
 {
 "id": "place:Shamir.2",
@@ -1313,18 +1299,18 @@
 "preferred_label": "基尼人"
 },
 {
-"id": "place:Bethany",
-"type": "place",
-"confidence": 0.2324,
+"id": "person:Achsah",
+"type": "person",
+"confidence": 0.2382,
 "match_method": "canonical",
-"preferred_label": "伯大尼（橄榄山）"
+"preferred_label": "押撒"
 },
 {
-"id": "keyterm:Hosanna",
-"type": "keyterm",
-"confidence": 0.2324,
+"id": "person:Jair.3",
+"type": "person",
+"confidence": 0.2382,
 "match_method": "canonical",
-"preferred_label": "和散那"
+"preferred_label": "睚珥"
 },
 {
 "id": "person:Agag.2",
@@ -1334,11 +1320,25 @@
 "preferred_label": "亚甲"
 },
 {
+"id": "keyterm:Hosanna",
+"type": "keyterm",
+"confidence": 0.2324,
+"match_method": "canonical",
+"preferred_label": "和散那"
+},
+{
 "id": "place:Jerusalem",
 "type": "place",
 "confidence": 0.2324,
 "match_method": "canonical",
 "preferred_label": "耶路撒冷"
+},
+{
+"id": "place:Bethany",
+"type": "place",
+"confidence": 0.2324,
+"match_method": "canonical",
+"preferred_label": "伯大尼（橄榄山）"
 },
 {
 "id": "group:GenericGroup",
@@ -1348,13 +1348,6 @@
 "preferred_label": "一群人"
 },
 {
-"id": "place:Debir",
-"type": "place",
-"confidence": 0.2265,
-"match_method": "canonical",
-"preferred_label": "底璧"
-},
-{
 "id": "place:Gilead",
 "type": "place",
 "confidence": 0.2265,
@@ -1362,18 +1355,11 @@
 "preferred_label": "基列"
 },
 {
-"id": "place:Arad",
+"id": "place:Debir",
 "type": "place",
-"confidence": 0.1691,
+"confidence": 0.2265,
 "match_method": "canonical",
-"preferred_label": "亚拉得"
-},
-{
-"id": "place:Kamon",
-"type": "place",
-"confidence": 0.1691,
-"match_method": "canonical",
-"preferred_label": "加们"
+"preferred_label": "底璧"
 },
 {
 "id": "person:Dodo",
@@ -1383,18 +1369,25 @@
 "preferred_label": "朵多"
 },
 {
-"id": "person:Talmai",
-"type": "person",
-"confidence": 0.1691,
-"match_method": "canonical",
-"preferred_label": "挞买"
-},
-{
 "id": "place:Zephath",
 "type": "place",
 "confidence": 0.1691,
 "match_method": "canonical",
 "preferred_label": "洗法"
+},
+{
+"id": "place:Havilah.2",
+"type": "place",
+"confidence": 0.1691,
+"match_method": "canonical",
+"preferred_label": "哈腓拉"
+},
+{
+"id": "place:Arad",
+"type": "place",
+"confidence": 0.1691,
+"match_method": "canonical",
+"preferred_label": "亚拉得"
 },
 {
 "id": "place:Bethphage",
@@ -1404,18 +1397,11 @@
 "preferred_label": "伯法其"
 },
 {
-"id": "person:Puah.2",
-"type": "person",
+"id": "place:Kamon",
+"type": "place",
 "confidence": 0.1691,
 "match_method": "canonical",
-"preferred_label": "普瓦"
-},
-{
-"id": "person:Tola.2",
-"type": "person",
-"confidence": 0.1691,
-"match_method": "canonical",
-"preferred_label": "陀拉"
+"preferred_label": "加们"
 },
 {
 "id": "person:Ahiman",
@@ -1425,11 +1411,32 @@
 "preferred_label": "亚希幔"
 },
 {
+"id": "person:Puah.2",
+"type": "person",
+"confidence": 0.1691,
+"match_method": "canonical",
+"preferred_label": "普瓦"
+},
+{
 "id": "keyterm:Appoint",
 "type": "keyterm",
 "confidence": 0.1691,
 "match_method": "canonical",
 "preferred_label": "委派"
+},
+{
+"id": "person:Sheshai",
+"type": "person",
+"confidence": 0.1691,
+"match_method": "canonical",
+"preferred_label": "示筛"
+},
+{
+"id": "person:Talmai",
+"type": "person",
+"confidence": 0.1691,
+"match_method": "canonical",
+"preferred_label": "挞买"
 },
 {
 "id": "person:Kenaz.3",
@@ -1446,25 +1453,11 @@
 "preferred_label": "提拉因"
 },
 {
-"id": "place:Havilah.2",
-"type": "place",
-"confidence": 0.1691,
-"match_method": "canonical",
-"preferred_label": "哈腓拉"
-},
-{
-"id": "person:Sheshai",
+"id": "person:Tola.2",
 "type": "person",
 "confidence": 0.1691,
 "match_method": "canonical",
-"preferred_label": "示筛"
-},
-{
-"id": "realia:Cloak",
-"type": "realia",
-"confidence": 0.1665,
-"match_method": "canonical",
-"preferred_label": "外衣"
+"preferred_label": "陀拉"
 },
 {
 "id": "fauna:Bull",
@@ -1481,11 +1474,39 @@
 "preferred_label": "羊羔"
 },
 {
-"id": "person:Othniel",
-"type": "person",
+"id": "realia:Cloak",
+"type": "realia",
+"confidence": 0.1665,
+"match_method": "canonical",
+"preferred_label": "外衣"
+},
+{
+"id": "place:Havvoth-jair",
+"type": "place",
 "confidence": 0.1632,
 "match_method": "canonical",
-"preferred_label": "俄陀聂"
+"preferred_label": "哈倭特·雅珥"
+},
+{
+"id": "keyterm:Kingdom",
+"type": "keyterm",
+"confidence": 0.1632,
+"match_method": "canonical",
+"preferred_label": "国度"
+},
+{
+"id": "group:Simeon",
+"type": "group",
+"confidence": 0.1632,
+"match_method": "canonical",
+"preferred_label": "西缅支派"
+},
+{
+"id": "keyterm:Disciple",
+"type": "keyterm",
+"confidence": 0.1632,
+"match_method": "canonical",
+"preferred_label": "作门徒"
 },
 {
 "id": "person:Simeon.5",
@@ -1495,11 +1516,88 @@
 "preferred_label": "西缅"
 },
 {
-"id": "group:Simeon",
+"id": "person:Moses",
+"type": "person",
+"confidence": 0.1632,
+"match_method": "canonical",
+"preferred_label": "摩西"
+},
+{
+"id": "person:Samuel",
+"type": "person",
+"confidence": 0.1632,
+"match_method": "canonical",
+"preferred_label": "撒母耳"
+},
+{
+"id": "keyterm:WordOfTheLord",
+"type": "keyterm",
+"confidence": 0.1632,
+"match_method": "canonical",
+"preferred_label": "耶和华的话"
+},
+{
+"id": "person:Othniel",
+"type": "person",
+"confidence": 0.1632,
+"match_method": "canonical",
+"preferred_label": "俄陀聂"
+},
+{
+"id": "keyterm:Kindness",
+"type": "keyterm",
+"confidence": 0.1632,
+"match_method": "canonical",
+"preferred_label": "慈爱"
+},
+{
+"id": "place:Hebron",
+"type": "place",
+"confidence": 0.1632,
+"match_method": "canonical",
+"preferred_label": "希伯仑"
+},
+{
+"id": "person:David",
+"type": "person",
+"confidence": 0.1632,
+"match_method": "canonical",
+"preferred_label": "大卫"
+},
+{
+"id": "group:Ephraim",
 "type": "group",
 "confidence": 0.1632,
 "match_method": "canonical",
-"preferred_label": "西缅支派"
+"preferred_label": "以法莲支派"
+},
+{
+"id": "person:Abimelech.2",
+"type": "person",
+"confidence": 0.1632,
+"match_method": "canonical",
+"preferred_label": "亚比米勒"
+},
+{
+"id": "place:Shephelah",
+"type": "place",
+"confidence": 0.1632,
+"match_method": "canonical",
+"preferred_label": "谢非拉"
+},
+{
+"id": "keyterm:Smear",
+"type": "keyterm",
+"confidence": 0.1632,
+"match_method": "canonical",
+"preferred_label": "涂抹"
+},
+{
+"id": "person:Ephraim",
+"type": "person",
+"confidence": 0.1632,
+"match_method": "canonical",
+"preferred_label": "以法莲"
 },
 {
 "id": "group:Issachar",
@@ -1516,109 +1614,11 @@
 "preferred_label": "名字"
 },
 {
-"id": "person:David",
-"type": "person",
-"confidence": 0.1632,
-"match_method": "canonical",
-"preferred_label": "大卫"
-},
-{
-"id": "person:Abimelech.2",
-"type": "person",
-"confidence": 0.1632,
-"match_method": "canonical",
-"preferred_label": "亚比米勒"
-},
-{
 "id": "keyterm:Height",
 "type": "keyterm",
 "confidence": 0.1632,
 "match_method": "canonical",
 "preferred_label": "高"
-},
-{
-"id": "person:Issachar",
-"type": "person",
-"confidence": 0.1632,
-"match_method": "canonical",
-"preferred_label": "以萨迦"
-},
-{
-"id": "keyterm:Disciple",
-"type": "keyterm",
-"confidence": 0.1632,
-"match_method": "canonical",
-"preferred_label": "作门徒"
-},
-{
-"id": "keyterm:WordOfTheLord",
-"type": "keyterm",
-"confidence": 0.1632,
-"match_method": "canonical",
-"preferred_label": "耶和华的话"
-},
-{
-"id": "keyterm:Kingdom",
-"type": "keyterm",
-"confidence": 0.1632,
-"match_method": "canonical",
-"preferred_label": "国度"
-},
-{
-"id": "keyterm:Smear",
-"type": "keyterm",
-"confidence": 0.1632,
-"match_method": "canonical",
-"preferred_label": "涂抹"
-},
-{
-"id": "place:Havvoth-jair",
-"type": "place",
-"confidence": 0.1632,
-"match_method": "canonical",
-"preferred_label": "哈倭特·雅珥"
-},
-{
-"id": "place:Shur",
-"type": "place",
-"confidence": 0.1632,
-"match_method": "canonical",
-"preferred_label": "书珥"
-},
-{
-"id": "person:Moses",
-"type": "person",
-"confidence": 0.1632,
-"match_method": "canonical",
-"preferred_label": "摩西"
-},
-{
-"id": "place:Hebron",
-"type": "place",
-"confidence": 0.1632,
-"match_method": "canonical",
-"preferred_label": "希伯仑"
-},
-{
-"id": "place:Shephelah",
-"type": "place",
-"confidence": 0.1632,
-"match_method": "canonical",
-"preferred_label": "谢非拉"
-},
-{
-"id": "group:Ephraim",
-"type": "group",
-"confidence": 0.1632,
-"match_method": "canonical",
-"preferred_label": "以法莲支派"
-},
-{
-"id": "person:Ephraim",
-"type": "person",
-"confidence": 0.1632,
-"match_method": "canonical",
-"preferred_label": "以法莲"
 },
 {
 "id": "group:Gilead",
@@ -1628,18 +1628,18 @@
 "preferred_label": "基列人"
 },
 {
-"id": "keyterm:Kindness",
-"type": "keyterm",
-"confidence": 0.1632,
-"match_method": "canonical",
-"preferred_label": "慈爱"
-},
-{
-"id": "person:Samuel",
+"id": "person:Issachar",
 "type": "person",
 "confidence": 0.1632,
 "match_method": "canonical",
-"preferred_label": "撒母耳"
+"preferred_label": "以萨迦"
+},
+{
+"id": "place:Shur",
+"type": "place",
+"confidence": 0.1632,
+"match_method": "canonical",
+"preferred_label": "书珥"
 },
 {
 "id": "flora:Rush",
@@ -1649,11 +1649,11 @@
 "preferred_label": "灯心草"
 },
 {
-"id": "flora:DatePalm",
+"id": "flora:OliveTree",
 "type": "flora",
 "confidence": 0.1032,
 "match_method": "canonical",
-"preferred_label": "棕树"
+"preferred_label": "橄榄树"
 },
 {
 "id": "fauna:Camel",
@@ -1663,18 +1663,18 @@
 "preferred_label": "骆驼"
 },
 {
-"id": "realia:Sword",
-"type": "realia",
-"confidence": 0.1032,
-"match_method": "canonical",
-"preferred_label": "剑"
-},
-{
 "id": "realia:Temple",
 "type": "realia",
 "confidence": 0.1032,
 "match_method": "canonical",
 "preferred_label": "圣殿"
+},
+{
+"id": "realia:Sword",
+"type": "realia",
+"confidence": 0.1032,
+"match_method": "canonical",
+"preferred_label": "剑"
 },
 {
 "id": "fauna:Goat",
@@ -1684,18 +1684,18 @@
 "preferred_label": "山羊"
 },
 {
+"id": "flora:DatePalm",
+"type": "flora",
+"confidence": 0.1032,
+"match_method": "canonical",
+"preferred_label": "棕树"
+},
+{
 "id": "fauna:Flock",
 "type": "fauna",
 "confidence": 0.1032,
 "match_method": "canonical",
 "preferred_label": "羊群"
-},
-{
-"id": "flora:OliveTree",
-"type": "flora",
-"confidence": 0.1032,
-"match_method": "canonical",
-"preferred_label": "橄榄树"
 }
 ]
 }

@@ -122,13 +122,6 @@
 "preferred_label": "herbe"
 },
 {
-"id": "keyterm:Believe",
-"type": "keyterm",
-"confidence": 0.2814,
-"match_method": "canonical",
-"preferred_label": "croire"
-},
-{
 "id": "keyterm:Serve",
 "type": "keyterm",
 "confidence": 0.2814,
@@ -136,18 +129,18 @@
 "preferred_label": "servir"
 },
 {
-"id": "keyterm:Command",
+"id": "keyterm:Believe",
 "type": "keyterm",
-"confidence": 0.2209,
+"confidence": 0.2814,
 "match_method": "canonical",
-"preferred_label": "ordonner"
+"preferred_label": "croire"
 },
 {
-"id": "keyterm:Forgive",
+"id": "keyterm:Sin",
 "type": "keyterm",
 "confidence": 0.2209,
 "match_method": "canonical",
-"preferred_label": "pardonner"
+"preferred_label": "pécher"
 },
 {
 "id": "keyterm:Repent",
@@ -157,6 +150,13 @@
 "preferred_label": "se repentir"
 },
 {
+"id": "keyterm:Command",
+"type": "keyterm",
+"confidence": 0.2209,
+"match_method": "canonical",
+"preferred_label": "ordonner"
+},
+{
 "id": "group:GenericDisciples",
 "type": "group",
 "confidence": 0.2209,
@@ -164,11 +164,11 @@
 "preferred_label": "groupe de disciples"
 },
 {
-"id": "keyterm:Sin",
+"id": "keyterm:Forgive",
 "type": "keyterm",
 "confidence": 0.2209,
 "match_method": "canonical",
-"preferred_label": "pécher"
+"preferred_label": "pardonner"
 },
 {
 "id": "realia:Saton",
@@ -185,18 +185,18 @@
 "preferred_label": "faire trébucher"
 },
 {
-"id": "keyterm:StumblingBlock",
-"type": "keyterm",
-"confidence": 0.1651,
-"match_method": "canonical",
-"preferred_label": "pierre d'achoppement"
-},
-{
 "id": "keyterm:Ought",
 "type": "keyterm",
 "confidence": 0.1651,
 "match_method": "canonical",
 "preferred_label": "être obligé"
+},
+{
+"id": "keyterm:StumblingBlock",
+"type": "keyterm",
+"confidence": 0.1651,
+"match_method": "canonical",
+"preferred_label": "pierre d'achoppement"
 },
 {
 "id": "flora:Barley",
@@ -206,25 +206,11 @@
 "preferred_label": "orge"
 },
 {
-"id": "keyterm:Disaster",
+"id": "keyterm:Surely",
 "type": "keyterm",
 "confidence": 0.1605,
 "match_method": "canonical",
-"preferred_label": "malheur"
-},
-{
-"id": "keyterm:Happen",
-"type": "keyterm",
-"confidence": 0.1605,
-"match_method": "canonical",
-"preferred_label": "faire arriver"
-},
-{
-"id": "deity:Demons",
-"type": "deity",
-"confidence": 0.1605,
-"match_method": "canonical",
-"preferred_label": "Démons"
+"preferred_label": "certainement !"
 },
 {
 "id": "keyterm:Unfaithful",
@@ -234,6 +220,13 @@
 "preferred_label": "être infidèle"
 },
 {
+"id": "deity:Demons",
+"type": "deity",
+"confidence": 0.1605,
+"match_method": "canonical",
+"preferred_label": "Démons"
+},
+{
 "id": "keyterm:Mercy",
 "type": "keyterm",
 "confidence": 0.1605,
@@ -241,11 +234,11 @@
 "preferred_label": "pitié"
 },
 {
-"id": "keyterm:Surely",
+"id": "keyterm:Happen",
 "type": "keyterm",
 "confidence": 0.1605,
 "match_method": "canonical",
-"preferred_label": "certainement !"
+"preferred_label": "faire arriver"
 },
 {
 "id": "keyterm:Favor",
@@ -255,18 +248,18 @@
 "preferred_label": "faveur"
 },
 {
+"id": "keyterm:Disaster",
+"type": "keyterm",
+"confidence": 0.1605,
+"match_method": "canonical",
+"preferred_label": "malheur"
+},
+{
 "id": "flora:Mulberry",
 "type": "flora",
 "confidence": 0.1051,
 "match_method": "canonical",
 "preferred_label": "mûrier"
-},
-{
-"id": "realia:Hand-mill",
-"type": "realia",
-"confidence": 0.1005,
-"match_method": "canonical",
-"preferred_label": "moulin à bras"
 },
 {
 "id": "realia:Barn",
@@ -276,18 +269,18 @@
 "preferred_label": "grenier"
 },
 {
-"id": "realia:Sickle",
-"type": "realia",
-"confidence": 0.1005,
-"match_method": "canonical",
-"preferred_label": "faucille"
-},
-{
 "id": "fauna:Lamb",
 "type": "fauna",
 "confidence": 0.1005,
 "match_method": "canonical",
 "preferred_label": "agneau"
+},
+{
+"id": "realia:Sickle",
+"type": "realia",
+"confidence": 0.1005,
+"match_method": "canonical",
+"preferred_label": "faucille"
 },
 {
 "id": "fauna:Goat",
@@ -302,6 +295,13 @@
 "confidence": 0.1005,
 "match_method": "canonical",
 "preferred_label": "troupeau"
+},
+{
+"id": "realia:Hand-mill",
+"type": "realia",
+"confidence": 0.1005,
+"match_method": "canonical",
+"preferred_label": "moulin à bras"
 }
 ]
 }
@@ -429,13 +429,6 @@
 "preferred_label": "herbe"
 },
 {
-"id": "keyterm:Believe",
-"type": "keyterm",
-"confidence": 0.2814,
-"match_method": "canonical",
-"preferred_label": "croire"
-},
-{
 "id": "keyterm:Serve",
 "type": "keyterm",
 "confidence": 0.2814,
@@ -443,18 +436,18 @@
 "preferred_label": "servir"
 },
 {
-"id": "keyterm:Command",
+"id": "keyterm:Believe",
 "type": "keyterm",
-"confidence": 0.2209,
+"confidence": 0.2814,
 "match_method": "canonical",
-"preferred_label": "ordonner"
+"preferred_label": "croire"
 },
 {
-"id": "keyterm:Forgive",
+"id": "keyterm:Sin",
 "type": "keyterm",
 "confidence": 0.2209,
 "match_method": "canonical",
-"preferred_label": "pardonner"
+"preferred_label": "pécher"
 },
 {
 "id": "keyterm:Repent",
@@ -464,6 +457,13 @@
 "preferred_label": "se repentir"
 },
 {
+"id": "keyterm:Command",
+"type": "keyterm",
+"confidence": 0.2209,
+"match_method": "canonical",
+"preferred_label": "ordonner"
+},
+{
 "id": "group:GenericDisciples",
 "type": "group",
 "confidence": 0.2209,
@@ -471,11 +471,11 @@
 "preferred_label": "groupe de disciples"
 },
 {
-"id": "keyterm:Sin",
+"id": "keyterm:Forgive",
 "type": "keyterm",
 "confidence": 0.2209,
 "match_method": "canonical",
-"preferred_label": "pécher"
+"preferred_label": "pardonner"
 },
 {
 "id": "realia:Saton",
@@ -492,18 +492,18 @@
 "preferred_label": "faire trébucher"
 },
 {
-"id": "keyterm:StumblingBlock",
-"type": "keyterm",
-"confidence": 0.1651,
-"match_method": "canonical",
-"preferred_label": "pierre d'achoppement"
-},
-{
 "id": "keyterm:Ought",
 "type": "keyterm",
 "confidence": 0.1651,
 "match_method": "canonical",
 "preferred_label": "être obligé"
+},
+{
+"id": "keyterm:StumblingBlock",
+"type": "keyterm",
+"confidence": 0.1651,
+"match_method": "canonical",
+"preferred_label": "pierre d'achoppement"
 },
 {
 "id": "flora:Barley",
@@ -513,25 +513,11 @@
 "preferred_label": "orge"
 },
 {
-"id": "keyterm:Disaster",
+"id": "keyterm:Surely",
 "type": "keyterm",
 "confidence": 0.1605,
 "match_method": "canonical",
-"preferred_label": "malheur"
-},
-{
-"id": "keyterm:Happen",
-"type": "keyterm",
-"confidence": 0.1605,
-"match_method": "canonical",
-"preferred_label": "faire arriver"
-},
-{
-"id": "deity:Demons",
-"type": "deity",
-"confidence": 0.1605,
-"match_method": "canonical",
-"preferred_label": "Démons"
+"preferred_label": "certainement !"
 },
 {
 "id": "keyterm:Unfaithful",
@@ -541,6 +527,13 @@
 "preferred_label": "être infidèle"
 },
 {
+"id": "deity:Demons",
+"type": "deity",
+"confidence": 0.1605,
+"match_method": "canonical",
+"preferred_label": "Démons"
+},
+{
 "id": "keyterm:Mercy",
 "type": "keyterm",
 "confidence": 0.1605,
@@ -548,11 +541,11 @@
 "preferred_label": "pitié"
 },
 {
-"id": "keyterm:Surely",
+"id": "keyterm:Happen",
 "type": "keyterm",
 "confidence": 0.1605,
 "match_method": "canonical",
-"preferred_label": "certainement !"
+"preferred_label": "faire arriver"
 },
 {
 "id": "keyterm:Favor",
@@ -562,18 +555,18 @@
 "preferred_label": "faveur"
 },
 {
+"id": "keyterm:Disaster",
+"type": "keyterm",
+"confidence": 0.1605,
+"match_method": "canonical",
+"preferred_label": "malheur"
+},
+{
 "id": "flora:Mulberry",
 "type": "flora",
 "confidence": 0.1051,
 "match_method": "canonical",
 "preferred_label": "mûrier"
-},
-{
-"id": "realia:Hand-mill",
-"type": "realia",
-"confidence": 0.1005,
-"match_method": "canonical",
-"preferred_label": "moulin à bras"
 },
 {
 "id": "realia:Barn",
@@ -583,18 +576,18 @@
 "preferred_label": "grenier"
 },
 {
-"id": "realia:Sickle",
-"type": "realia",
-"confidence": 0.1005,
-"match_method": "canonical",
-"preferred_label": "faucille"
-},
-{
 "id": "fauna:Lamb",
 "type": "fauna",
 "confidence": 0.1005,
 "match_method": "canonical",
 "preferred_label": "agneau"
+},
+{
+"id": "realia:Sickle",
+"type": "realia",
+"confidence": 0.1005,
+"match_method": "canonical",
+"preferred_label": "faucille"
 },
 {
 "id": "fauna:Goat",
@@ -609,6 +602,13 @@
 "confidence": 0.1005,
 "match_method": "canonical",
 "preferred_label": "troupeau"
+},
+{
+"id": "realia:Hand-mill",
+"type": "realia",
+"confidence": 0.1005,
+"match_method": "canonical",
+"preferred_label": "moulin à bras"
 }
 ]
 }
@@ -736,13 +736,6 @@
 "preferred_label": "herbe"
 },
 {
-"id": "keyterm:Believe",
-"type": "keyterm",
-"confidence": 0.2814,
-"match_method": "canonical",
-"preferred_label": "croire"
-},
-{
 "id": "keyterm:Serve",
 "type": "keyterm",
 "confidence": 0.2814,
@@ -750,18 +743,18 @@
 "preferred_label": "servir"
 },
 {
-"id": "keyterm:Command",
+"id": "keyterm:Believe",
 "type": "keyterm",
-"confidence": 0.2209,
+"confidence": 0.2814,
 "match_method": "canonical",
-"preferred_label": "ordonner"
+"preferred_label": "croire"
 },
 {
-"id": "keyterm:Forgive",
+"id": "keyterm:Sin",
 "type": "keyterm",
 "confidence": 0.2209,
 "match_method": "canonical",
-"preferred_label": "pardonner"
+"preferred_label": "pécher"
 },
 {
 "id": "keyterm:Repent",
@@ -771,6 +764,13 @@
 "preferred_label": "se repentir"
 },
 {
+"id": "keyterm:Command",
+"type": "keyterm",
+"confidence": 0.2209,
+"match_method": "canonical",
+"preferred_label": "ordonner"
+},
+{
 "id": "group:GenericDisciples",
 "type": "group",
 "confidence": 0.2209,
@@ -778,11 +778,11 @@
 "preferred_label": "groupe de disciples"
 },
 {
-"id": "keyterm:Sin",
+"id": "keyterm:Forgive",
 "type": "keyterm",
 "confidence": 0.2209,
 "match_method": "canonical",
-"preferred_label": "pécher"
+"preferred_label": "pardonner"
 },
 {
 "id": "realia:Saton",
@@ -799,18 +799,18 @@
 "preferred_label": "faire trébucher"
 },
 {
-"id": "keyterm:StumblingBlock",
-"type": "keyterm",
-"confidence": 0.1651,
-"match_method": "canonical",
-"preferred_label": "pierre d'achoppement"
-},
-{
 "id": "keyterm:Ought",
 "type": "keyterm",
 "confidence": 0.1651,
 "match_method": "canonical",
 "preferred_label": "être obligé"
+},
+{
+"id": "keyterm:StumblingBlock",
+"type": "keyterm",
+"confidence": 0.1651,
+"match_method": "canonical",
+"preferred_label": "pierre d'achoppement"
 },
 {
 "id": "flora:Barley",
@@ -820,25 +820,11 @@
 "preferred_label": "orge"
 },
 {
-"id": "keyterm:Disaster",
+"id": "keyterm:Surely",
 "type": "keyterm",
 "confidence": 0.1605,
 "match_method": "canonical",
-"preferred_label": "malheur"
-},
-{
-"id": "keyterm:Happen",
-"type": "keyterm",
-"confidence": 0.1605,
-"match_method": "canonical",
-"preferred_label": "faire arriver"
-},
-{
-"id": "deity:Demons",
-"type": "deity",
-"confidence": 0.1605,
-"match_method": "canonical",
-"preferred_label": "Démons"
+"preferred_label": "certainement !"
 },
 {
 "id": "keyterm:Unfaithful",
@@ -848,6 +834,13 @@
 "preferred_label": "être infidèle"
 },
 {
+"id": "deity:Demons",
+"type": "deity",
+"confidence": 0.1605,
+"match_method": "canonical",
+"preferred_label": "Démons"
+},
+{
 "id": "keyterm:Mercy",
 "type": "keyterm",
 "confidence": 0.1605,
@@ -855,11 +848,11 @@
 "preferred_label": "pitié"
 },
 {
-"id": "keyterm:Surely",
+"id": "keyterm:Happen",
 "type": "keyterm",
 "confidence": 0.1605,
 "match_method": "canonical",
-"preferred_label": "certainement !"
+"preferred_label": "faire arriver"
 },
 {
 "id": "keyterm:Favor",
@@ -869,18 +862,18 @@
 "preferred_label": "faveur"
 },
 {
+"id": "keyterm:Disaster",
+"type": "keyterm",
+"confidence": 0.1605,
+"match_method": "canonical",
+"preferred_label": "malheur"
+},
+{
 "id": "flora:Mulberry",
 "type": "flora",
 "confidence": 0.1051,
 "match_method": "canonical",
 "preferred_label": "mûrier"
-},
-{
-"id": "realia:Hand-mill",
-"type": "realia",
-"confidence": 0.1005,
-"match_method": "canonical",
-"preferred_label": "moulin à bras"
 },
 {
 "id": "realia:Barn",
@@ -890,18 +883,18 @@
 "preferred_label": "grenier"
 },
 {
-"id": "realia:Sickle",
-"type": "realia",
-"confidence": 0.1005,
-"match_method": "canonical",
-"preferred_label": "faucille"
-},
-{
 "id": "fauna:Lamb",
 "type": "fauna",
 "confidence": 0.1005,
 "match_method": "canonical",
 "preferred_label": "agneau"
+},
+{
+"id": "realia:Sickle",
+"type": "realia",
+"confidence": 0.1005,
+"match_method": "canonical",
+"preferred_label": "faucille"
 },
 {
 "id": "fauna:Goat",
@@ -916,6 +909,13 @@
 "confidence": 0.1005,
 "match_method": "canonical",
 "preferred_label": "troupeau"
+},
+{
+"id": "realia:Hand-mill",
+"type": "realia",
+"confidence": 0.1005,
+"match_method": "canonical",
+"preferred_label": "moulin à bras"
 }
 ]
 }
@@ -1043,13 +1043,6 @@
 "preferred_label": "herbe"
 },
 {
-"id": "keyterm:Believe",
-"type": "keyterm",
-"confidence": 0.2814,
-"match_method": "canonical",
-"preferred_label": "croire"
-},
-{
 "id": "keyterm:Serve",
 "type": "keyterm",
 "confidence": 0.2814,
@@ -1057,18 +1050,18 @@
 "preferred_label": "servir"
 },
 {
-"id": "keyterm:Command",
+"id": "keyterm:Believe",
 "type": "keyterm",
-"confidence": 0.2209,
+"confidence": 0.2814,
 "match_method": "canonical",
-"preferred_label": "ordonner"
+"preferred_label": "croire"
 },
 {
-"id": "keyterm:Forgive",
+"id": "keyterm:Sin",
 "type": "keyterm",
 "confidence": 0.2209,
 "match_method": "canonical",
-"preferred_label": "pardonner"
+"preferred_label": "pécher"
 },
 {
 "id": "keyterm:Repent",
@@ -1078,6 +1071,13 @@
 "preferred_label": "se repentir"
 },
 {
+"id": "keyterm:Command",
+"type": "keyterm",
+"confidence": 0.2209,
+"match_method": "canonical",
+"preferred_label": "ordonner"
+},
+{
 "id": "group:GenericDisciples",
 "type": "group",
 "confidence": 0.2209,
@@ -1085,11 +1085,11 @@
 "preferred_label": "groupe de disciples"
 },
 {
-"id": "keyterm:Sin",
+"id": "keyterm:Forgive",
 "type": "keyterm",
 "confidence": 0.2209,
 "match_method": "canonical",
-"preferred_label": "pécher"
+"preferred_label": "pardonner"
 },
 {
 "id": "realia:Saton",
@@ -1106,18 +1106,18 @@
 "preferred_label": "faire trébucher"
 },
 {
-"id": "keyterm:StumblingBlock",
-"type": "keyterm",
-"confidence": 0.1651,
-"match_method": "canonical",
-"preferred_label": "pierre d'achoppement"
-},
-{
 "id": "keyterm:Ought",
 "type": "keyterm",
 "confidence": 0.1651,
 "match_method": "canonical",
 "preferred_label": "être obligé"
+},
+{
+"id": "keyterm:StumblingBlock",
+"type": "keyterm",
+"confidence": 0.1651,
+"match_method": "canonical",
+"preferred_label": "pierre d'achoppement"
 },
 {
 "id": "flora:Barley",
@@ -1127,25 +1127,11 @@
 "preferred_label": "orge"
 },
 {
-"id": "keyterm:Disaster",
+"id": "keyterm:Surely",
 "type": "keyterm",
 "confidence": 0.1605,
 "match_method": "canonical",
-"preferred_label": "malheur"
-},
-{
-"id": "keyterm:Happen",
-"type": "keyterm",
-"confidence": 0.1605,
-"match_method": "canonical",
-"preferred_label": "faire arriver"
-},
-{
-"id": "deity:Demons",
-"type": "deity",
-"confidence": 0.1605,
-"match_method": "canonical",
-"preferred_label": "Démons"
+"preferred_label": "certainement !"
 },
 {
 "id": "keyterm:Unfaithful",
@@ -1155,6 +1141,13 @@
 "preferred_label": "être infidèle"
 },
 {
+"id": "deity:Demons",
+"type": "deity",
+"confidence": 0.1605,
+"match_method": "canonical",
+"preferred_label": "Démons"
+},
+{
 "id": "keyterm:Mercy",
 "type": "keyterm",
 "confidence": 0.1605,
@@ -1162,11 +1155,11 @@
 "preferred_label": "pitié"
 },
 {
-"id": "keyterm:Surely",
+"id": "keyterm:Happen",
 "type": "keyterm",
 "confidence": 0.1605,
 "match_method": "canonical",
-"preferred_label": "certainement !"
+"preferred_label": "faire arriver"
 },
 {
 "id": "keyterm:Favor",
@@ -1176,18 +1169,18 @@
 "preferred_label": "faveur"
 },
 {
+"id": "keyterm:Disaster",
+"type": "keyterm",
+"confidence": 0.1605,
+"match_method": "canonical",
+"preferred_label": "malheur"
+},
+{
 "id": "flora:Mulberry",
 "type": "flora",
 "confidence": 0.1051,
 "match_method": "canonical",
 "preferred_label": "mûrier"
-},
-{
-"id": "realia:Hand-mill",
-"type": "realia",
-"confidence": 0.1005,
-"match_method": "canonical",
-"preferred_label": "moulin à bras"
 },
 {
 "id": "realia:Barn",
@@ -1197,18 +1190,18 @@
 "preferred_label": "grenier"
 },
 {
-"id": "realia:Sickle",
-"type": "realia",
-"confidence": 0.1005,
-"match_method": "canonical",
-"preferred_label": "faucille"
-},
-{
 "id": "fauna:Lamb",
 "type": "fauna",
 "confidence": 0.1005,
 "match_method": "canonical",
 "preferred_label": "agneau"
+},
+{
+"id": "realia:Sickle",
+"type": "realia",
+"confidence": 0.1005,
+"match_method": "canonical",
+"preferred_label": "faucille"
 },
 {
 "id": "fauna:Goat",
@@ -1223,6 +1216,13 @@
 "confidence": 0.1005,
 "match_method": "canonical",
 "preferred_label": "troupeau"
+},
+{
+"id": "realia:Hand-mill",
+"type": "realia",
+"confidence": 0.1005,
+"match_method": "canonical",
+"preferred_label": "moulin à bras"
 }
 ]
 }
