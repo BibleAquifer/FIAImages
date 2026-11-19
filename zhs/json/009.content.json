@@ -153,18 +153,18 @@
 "preferred_label": "祷告"
 },
 {
-"id": "keyterm:Kingdom",
-"type": "keyterm",
-"confidence": 0.3684,
-"match_method": "canonical",
-"preferred_label": "国度"
-},
-{
 "id": "keyterm:Name",
 "type": "keyterm",
 "confidence": 0.3684,
 "match_method": "canonical",
 "preferred_label": "名字"
+},
+{
+"id": "keyterm:Kingdom",
+"type": "keyterm",
+"confidence": 0.3684,
+"match_method": "canonical",
+"preferred_label": "国度"
 },
 {
 "id": "keyterm:Bless",
@@ -209,6 +209,13 @@
 "preferred_label": "橄榄树"
 },
 {
+"id": "person:Ziba",
+"type": "person",
+"confidence": 0.3122,
+"match_method": "canonical",
+"preferred_label": "洗巴"
+},
+{
 "id": "group:GenericGroup",
 "type": "group",
 "confidence": 0.3122,
@@ -221,13 +228,6 @@
 "confidence": 0.3122,
 "match_method": "canonical",
 "preferred_label": "彼得"
-},
-{
-"id": "person:Ziba",
-"type": "person",
-"confidence": 0.3122,
-"match_method": "canonical",
-"preferred_label": "洗巴"
 },
 {
 "id": "keyterm:Command",
@@ -244,18 +244,18 @@
 "preferred_label": "伯法其"
 },
 {
-"id": "place:Bethany",
-"type": "place",
-"confidence": 0.2619,
-"match_method": "canonical",
-"preferred_label": "伯大尼（橄榄山）"
-},
-{
 "id": "keyterm:Hosanna",
 "type": "keyterm",
 "confidence": 0.2619,
 "match_method": "canonical",
 "preferred_label": "和散那"
+},
+{
+"id": "place:Bethany",
+"type": "place",
+"confidence": 0.2619,
+"match_method": "canonical",
+"preferred_label": "伯大尼（橄榄山）"
 },
 {
 "id": "keyterm:Height",
@@ -265,18 +265,11 @@
 "preferred_label": "高"
 },
 {
-"id": "person:David",
-"type": "person",
-"confidence": 0.2592,
-"match_method": "canonical",
-"preferred_label": "大卫"
-},
-{
-"id": "keyterm:Example",
+"id": "keyterm:Passover",
 "type": "keyterm",
 "confidence": 0.2592,
 "match_method": "canonical",
-"preferred_label": "象征"
+"preferred_label": "逾越节祭物"
 },
 {
 "id": "keyterm:Glory",
@@ -286,11 +279,18 @@
 "preferred_label": "荣耀"
 },
 {
-"id": "keyterm:Passover",
+"id": "keyterm:Example",
 "type": "keyterm",
 "confidence": 0.2592,
 "match_method": "canonical",
-"preferred_label": "逾越节祭物"
+"preferred_label": "象征"
+},
+{
+"id": "person:David",
+"type": "person",
+"confidence": 0.2592,
+"match_method": "canonical",
+"preferred_label": "大卫"
 },
 {
 "id": "flora:Vine",
@@ -300,18 +300,18 @@
 "preferred_label": "葡萄树"
 },
 {
-"id": "realia:House",
-"type": "realia",
-"confidence": 0.2522,
-"match_method": "canonical",
-"preferred_label": "房屋"
-},
-{
 "id": "realia:Clothing",
 "type": "realia",
 "confidence": 0.2522,
 "match_method": "canonical",
 "preferred_label": "衣服"
+},
+{
+"id": "realia:House",
+"type": "realia",
+"confidence": 0.2522,
+"match_method": "canonical",
+"preferred_label": "房屋"
 },
 {
 "id": "realia:Temple",
@@ -378,6 +378,12 @@
 "end_ref_usfm": "2KI 4:7"
 },
 {
+"start_ref": "12018026",
+"start_ref_usfm": "2KI 18:26",
+"end_ref": "12018037",
+"end_ref_usfm": "2KI 18:37"
+},
+{
 "start_ref": "16008013",
 "start_ref_usfm": "NEH 8:13",
 "end_ref": "16008018",
@@ -443,212 +449,212 @@
 {
 "id": "deity:Lord",
 "type": "deity",
-"confidence": 0.4196,
+"confidence": 0.4275,
 "match_method": "canonical",
 "preferred_label": "耶和华"
 },
 {
 "id": "keyterm:Pray",
 "type": "keyterm",
-"confidence": 0.3914,
+"confidence": 0.3886,
 "match_method": "canonical",
 "preferred_label": "祷告"
 },
 {
 "id": "keyterm:Disciple",
 "type": "keyterm",
-"confidence": 0.3795,
+"confidence": 0.3775,
 "match_method": "canonical",
 "preferred_label": "作门徒"
 },
 {
 "id": "person:Jesus.2",
 "type": "person",
-"confidence": 0.3795,
+"confidence": 0.3775,
 "match_method": "canonical",
 "preferred_label": "耶稣"
 },
 {
 "id": "place:Jerusalem",
 "type": "place",
-"confidence": 0.3696,
+"confidence": 0.3708,
 "match_method": "canonical",
 "preferred_label": "耶路撒冷"
 },
 {
-"id": "person:Peter",
-"type": "person",
-"confidence": 0.3661,
-"match_method": "canonical",
-"preferred_label": "彼得"
-},
-{
-"id": "person:Noah",
-"type": "person",
-"confidence": 0.3661,
-"match_method": "canonical",
-"preferred_label": "挪亚"
-},
-{
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.3661,
-"match_method": "canonical",
-"preferred_label": "以色列"
-},
-{
 "id": "keyterm:Bless",
 "type": "keyterm",
-"confidence": 0.3661,
+"confidence": 0.3675,
 "match_method": "canonical",
 "preferred_label": "赐福（嘉许）"
 },
 {
 "id": "keyterm:Holy",
 "type": "keyterm",
-"confidence": 0.3661,
+"confidence": 0.365,
 "match_method": "canonical",
 "preferred_label": "圣洁"
 },
 {
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.365,
+"match_method": "canonical",
+"preferred_label": "以色列"
+},
+{
+"id": "person:Noah",
+"type": "person",
+"confidence": 0.365,
+"match_method": "canonical",
+"preferred_label": "挪亚"
+},
+{
+"id": "person:Peter",
+"type": "person",
+"confidence": 0.365,
+"match_method": "canonical",
+"preferred_label": "彼得"
+},
+{
 "id": "keyterm:Body.3",
 "type": "keyterm",
-"confidence": 0.3634,
+"confidence": 0.3625,
 "match_method": "canonical",
 "preferred_label": "身体（肉体）"
 },
 {
 "id": "person:Abimelech.2",
 "type": "person",
-"confidence": 0.3634,
+"confidence": 0.3625,
 "match_method": "canonical",
 "preferred_label": "亚比米勒"
 },
 {
+"id": "person:Hezekiah",
+"type": "person",
+"confidence": 0.3625,
+"match_method": "canonical",
+"preferred_label": "希西家"
+},
+{
 "id": "flora:OliveTree",
 "type": "flora",
-"confidence": 0.3314,
+"confidence": 0.3311,
 "match_method": "canonical",
 "preferred_label": "橄榄树"
 },
 {
+"id": "flora:Vine",
+"type": "flora",
+"confidence": 0.3125,
+"match_method": "canonical",
+"preferred_label": "葡萄树"
+},
+{
 "id": "realia:Ship",
 "type": "realia",
-"confidence": 0.3141,
+"confidence": 0.3125,
 "match_method": "canonical",
 "preferred_label": "船"
 },
 {
 "id": "keyterm:Heaven",
 "type": "keyterm",
-"confidence": 0.3119,
+"confidence": 0.3111,
 "match_method": "canonical",
 "preferred_label": "天"
 },
 {
-"id": "keyterm:Smear",
-"type": "keyterm",
-"confidence": 0.3107,
+"id": "realia:AnointingOil",
+"type": "realia",
+"confidence": 0.3111,
 "match_method": "canonical",
-"preferred_label": "涂抹"
+"preferred_label": "膏油"
+},
+{
+"id": "person:Rabshakeh",
+"type": "person",
+"confidence": 0.3111,
+"match_method": "canonical",
+"preferred_label": "拉伯沙基"
 },
 {
 "id": "keyterm:Name",
 "type": "keyterm",
-"confidence": 0.3107,
+"confidence": 0.31,
 "match_method": "canonical",
 "preferred_label": "名字"
 },
 {
 "id": "keyterm:PutToTheTest",
 "type": "keyterm",
-"confidence": 0.3107,
+"confidence": 0.31,
 "match_method": "canonical",
 "preferred_label": "试探"
 },
 {
+"id": "keyterm:Smear",
+"type": "keyterm",
+"confidence": 0.31,
+"match_method": "canonical",
+"preferred_label": "涂抹"
+},
+{
 "id": "keyterm:Ability",
 "type": "keyterm",
-"confidence": 0.3107,
+"confidence": 0.31,
 "match_method": "canonical",
 "preferred_label": "技能"
 },
 {
 "id": "person:Moses",
 "type": "person",
-"confidence": 0.3107,
+"confidence": 0.31,
 "match_method": "canonical",
 "preferred_label": "摩西"
 },
 {
-"id": "realia:AnointingOil",
-"type": "realia",
-"confidence": 0.3099,
-"match_method": "canonical",
-"preferred_label": "膏油"
-},
-{
 "id": "realia:OliveOil",
 "type": "realia",
-"confidence": 0.3087,
+"confidence": 0.31,
 "match_method": "canonical",
 "preferred_label": "橄榄油"
 },
 {
+"id": "place:Assyria",
+"type": "place",
+"confidence": 0.31,
+"match_method": "canonical",
+"preferred_label": "亚述"
+},
+{
 "id": "fauna:Donkey",
 "type": "fauna",
-"confidence": 0.3087,
+"confidence": 0.3075,
 "match_method": "canonical",
 "preferred_label": "驴"
 },
 {
-"id": "flora:Vine",
-"type": "flora",
-"confidence": 0.3087,
-"match_method": "canonical",
-"preferred_label": "葡萄树"
-},
-{
 "id": "fauna:Dove",
 "type": "fauna",
-"confidence": 0.3046,
+"confidence": 0.3036,
 "match_method": "canonical",
 "preferred_label": "鸽子"
 },
 {
 "id": "place:Bethany",
 "type": "place",
-"confidence": 0.2604,
+"confidence": 0.2597,
 "match_method": "canonical",
 "preferred_label": "伯大尼（橄榄山）"
 },
 {
-"id": "keyterm:Truth",
-"type": "keyterm",
-"confidence": 0.258,
-"match_method": "canonical",
-"preferred_label": "信实"
-},
-{
-"id": "group:GenericGroup",
-"type": "group",
-"confidence": 0.258,
-"match_method": "canonical",
-"preferred_label": "一群人"
-},
-{
 "id": "keyterm:Sabbath",
 "type": "keyterm",
-"confidence": 0.258,
+"confidence": 0.2575,
 "match_method": "canonical",
 "preferred_label": "安息日"
-},
-{
-"id": "keyterm:Kingdom",
-"type": "keyterm",
-"confidence": 0.258,
-"match_method": "canonical",
-"preferred_label": "国度"
 }
 ]
 }
@@ -708,6 +714,12 @@
 "end_ref_usfm": "2KI 4:7"
 },
 {
+"start_ref": "12018026",
+"start_ref_usfm": "2KI 18:26",
+"end_ref": "12018037",
+"end_ref_usfm": "2KI 18:37"
+},
+{
 "start_ref": "16008013",
 "start_ref_usfm": "NEH 8:13",
 "end_ref": "16008018",
@@ -773,212 +785,212 @@
 {
 "id": "deity:Lord",
 "type": "deity",
-"confidence": 0.4196,
+"confidence": 0.4275,
 "match_method": "canonical",
 "preferred_label": "耶和华"
 },
 {
 "id": "keyterm:Pray",
 "type": "keyterm",
-"confidence": 0.3914,
+"confidence": 0.3886,
 "match_method": "canonical",
 "preferred_label": "祷告"
 },
 {
 "id": "keyterm:Disciple",
 "type": "keyterm",
-"confidence": 0.3795,
+"confidence": 0.3775,
 "match_method": "canonical",
 "preferred_label": "作门徒"
 },
 {
 "id": "person:Jesus.2",
 "type": "person",
-"confidence": 0.3795,
+"confidence": 0.3775,
 "match_method": "canonical",
 "preferred_label": "耶稣"
 },
 {
 "id": "place:Jerusalem",
 "type": "place",
-"confidence": 0.3696,
+"confidence": 0.3708,
 "match_method": "canonical",
 "preferred_label": "耶路撒冷"
 },
 {
-"id": "person:Peter",
-"type": "person",
-"confidence": 0.3661,
-"match_method": "canonical",
-"preferred_label": "彼得"
-},
-{
-"id": "person:Noah",
-"type": "person",
-"confidence": 0.3661,
-"match_method": "canonical",
-"preferred_label": "挪亚"
-},
-{
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.3661,
-"match_method": "canonical",
-"preferred_label": "以色列"
-},
-{
 "id": "keyterm:Bless",
 "type": "keyterm",
-"confidence": 0.3661,
+"confidence": 0.3675,
 "match_method": "canonical",
 "preferred_label": "赐福（嘉许）"
 },
 {
 "id": "keyterm:Holy",
 "type": "keyterm",
-"confidence": 0.3661,
+"confidence": 0.365,
 "match_method": "canonical",
 "preferred_label": "圣洁"
 },
 {
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.365,
+"match_method": "canonical",
+"preferred_label": "以色列"
+},
+{
+"id": "person:Noah",
+"type": "person",
+"confidence": 0.365,
+"match_method": "canonical",
+"preferred_label": "挪亚"
+},
+{
+"id": "person:Peter",
+"type": "person",
+"confidence": 0.365,
+"match_method": "canonical",
+"preferred_label": "彼得"
+},
+{
 "id": "keyterm:Body.3",
 "type": "keyterm",
-"confidence": 0.3634,
+"confidence": 0.3625,
 "match_method": "canonical",
 "preferred_label": "身体（肉体）"
 },
 {
 "id": "person:Abimelech.2",
 "type": "person",
-"confidence": 0.3634,
+"confidence": 0.3625,
 "match_method": "canonical",
 "preferred_label": "亚比米勒"
 },
 {
+"id": "person:Hezekiah",
+"type": "person",
+"confidence": 0.3625,
+"match_method": "canonical",
+"preferred_label": "希西家"
+},
+{
 "id": "flora:OliveTree",
 "type": "flora",
-"confidence": 0.3314,
+"confidence": 0.3311,
 "match_method": "canonical",
 "preferred_label": "橄榄树"
 },
 {
+"id": "flora:Vine",
+"type": "flora",
+"confidence": 0.3125,
+"match_method": "canonical",
+"preferred_label": "葡萄树"
+},
+{
 "id": "realia:Ship",
 "type": "realia",
-"confidence": 0.3141,
+"confidence": 0.3125,
 "match_method": "canonical",
 "preferred_label": "船"
 },
 {
 "id": "keyterm:Heaven",
 "type": "keyterm",
-"confidence": 0.3119,
+"confidence": 0.3111,
 "match_method": "canonical",
 "preferred_label": "天"
 },
 {
-"id": "keyterm:Smear",
-"type": "keyterm",
-"confidence": 0.3107,
+"id": "realia:AnointingOil",
+"type": "realia",
+"confidence": 0.3111,
 "match_method": "canonical",
-"preferred_label": "涂抹"
+"preferred_label": "膏油"
+},
+{
+"id": "person:Rabshakeh",
+"type": "person",
+"confidence": 0.3111,
+"match_method": "canonical",
+"preferred_label": "拉伯沙基"
 },
 {
 "id": "keyterm:Name",
 "type": "keyterm",
-"confidence": 0.3107,
+"confidence": 0.31,
 "match_method": "canonical",
 "preferred_label": "名字"
 },
 {
 "id": "keyterm:PutToTheTest",
 "type": "keyterm",
-"confidence": 0.3107,
+"confidence": 0.31,
 "match_method": "canonical",
 "preferred_label": "试探"
 },
 {
+"id": "keyterm:Smear",
+"type": "keyterm",
+"confidence": 0.31,
+"match_method": "canonical",
+"preferred_label": "涂抹"
+},
+{
 "id": "keyterm:Ability",
 "type": "keyterm",
-"confidence": 0.3107,
+"confidence": 0.31,
 "match_method": "canonical",
 "preferred_label": "技能"
 },
 {
 "id": "person:Moses",
 "type": "person",
-"confidence": 0.3107,
+"confidence": 0.31,
 "match_method": "canonical",
 "preferred_label": "摩西"
 },
 {
-"id": "realia:AnointingOil",
-"type": "realia",
-"confidence": 0.3099,
-"match_method": "canonical",
-"preferred_label": "膏油"
-},
-{
 "id": "realia:OliveOil",
 "type": "realia",
-"confidence": 0.3087,
+"confidence": 0.31,
 "match_method": "canonical",
 "preferred_label": "橄榄油"
 },
 {
+"id": "place:Assyria",
+"type": "place",
+"confidence": 0.31,
+"match_method": "canonical",
+"preferred_label": "亚述"
+},
+{
 "id": "fauna:Donkey",
 "type": "fauna",
-"confidence": 0.3087,
+"confidence": 0.3075,
 "match_method": "canonical",
 "preferred_label": "驴"
 },
 {
-"id": "flora:Vine",
-"type": "flora",
-"confidence": 0.3087,
-"match_method": "canonical",
-"preferred_label": "葡萄树"
-},
-{
 "id": "fauna:Dove",
 "type": "fauna",
-"confidence": 0.3046,
+"confidence": 0.3036,
 "match_method": "canonical",
 "preferred_label": "鸽子"
 },
 {
 "id": "place:Bethany",
 "type": "place",
-"confidence": 0.2604,
+"confidence": 0.2597,
 "match_method": "canonical",
 "preferred_label": "伯大尼（橄榄山）"
 },
 {
-"id": "keyterm:Truth",
-"type": "keyterm",
-"confidence": 0.258,
-"match_method": "canonical",
-"preferred_label": "信实"
-},
-{
-"id": "group:GenericGroup",
-"type": "group",
-"confidence": 0.258,
-"match_method": "canonical",
-"preferred_label": "一群人"
-},
-{
 "id": "keyterm:Sabbath",
 "type": "keyterm",
-"confidence": 0.258,
+"confidence": 0.2575,
 "match_method": "canonical",
 "preferred_label": "安息日"
-},
-{
-"id": "keyterm:Kingdom",
-"type": "keyterm",
-"confidence": 0.258,
-"match_method": "canonical",
-"preferred_label": "国度"
 }
 ]
 }
@@ -1060,13 +1072,6 @@
 "preferred_label": "一群人"
 },
 {
-"id": "keyterm:Name",
-"type": "keyterm",
-"confidence": 0.2474,
-"match_method": "canonical",
-"preferred_label": "名字"
-},
-{
 "id": "keyterm:Disciple",
 "type": "keyterm",
 "confidence": 0.2474,
@@ -1079,6 +1084,13 @@
 "confidence": 0.2474,
 "match_method": "canonical",
 "preferred_label": "耶和华"
+},
+{
+"id": "keyterm:Name",
+"type": "keyterm",
+"confidence": 0.2474,
+"match_method": "canonical",
+"preferred_label": "名字"
 },
 {
 "id": "realia:Cloak",
@@ -1095,18 +1107,25 @@
 "preferred_label": "伯法其"
 },
 {
+"id": "keyterm:Kingdom",
+"type": "keyterm",
+"confidence": 0.1737,
+"match_method": "canonical",
+"preferred_label": "国度"
+},
+{
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.1737,
+"match_method": "canonical",
+"preferred_label": "惧怕/敬畏"
+},
+{
 "id": "keyterm:Ability",
 "type": "keyterm",
 "confidence": 0.1737,
 "match_method": "canonical",
 "preferred_label": "技能"
-},
-{
-"id": "keyterm:Resurrection",
-"type": "keyterm",
-"confidence": 0.1737,
-"match_method": "canonical",
-"preferred_label": "复活（事件）"
 },
 {
 "id": "keyterm:Example",
@@ -1116,39 +1135,11 @@
 "preferred_label": "象征"
 },
 {
-"id": "person:Lazarus.2",
-"type": "person",
-"confidence": 0.1737,
-"match_method": "canonical",
-"preferred_label": "拉撒路"
-},
-{
 "id": "person:David",
 "type": "person",
 "confidence": 0.1737,
 "match_method": "canonical",
 "preferred_label": "大卫"
-},
-{
-"id": "keyterm:Height",
-"type": "keyterm",
-"confidence": 0.1737,
-"match_method": "canonical",
-"preferred_label": "高"
-},
-{
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.1737,
-"match_method": "canonical",
-"preferred_label": "以色列"
-},
-{
-"id": "keyterm:Glory",
-"type": "keyterm",
-"confidence": 0.1737,
-"match_method": "canonical",
-"preferred_label": "荣耀"
 },
 {
 "id": "keyterm:BearWitness",
@@ -1165,11 +1156,32 @@
 "preferred_label": "法利赛人"
 },
 {
-"id": "keyterm:Kingdom",
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.1737,
+"match_method": "canonical",
+"preferred_label": "以色列"
+},
+{
+"id": "person:Lazarus.2",
+"type": "person",
+"confidence": 0.1737,
+"match_method": "canonical",
+"preferred_label": "拉撒路"
+},
+{
+"id": "keyterm:Height",
 "type": "keyterm",
 "confidence": 0.1737,
 "match_method": "canonical",
-"preferred_label": "国度"
+"preferred_label": "高"
+},
+{
+"id": "keyterm:Resurrection",
+"type": "keyterm",
+"confidence": 0.1737,
+"match_method": "canonical",
+"preferred_label": "复活（事件）"
 },
 {
 "id": "group:ReligiousOfficials",
@@ -1179,18 +1191,11 @@
 "preferred_label": "宗教官员"
 },
 {
-"id": "keyterm:Fear",
+"id": "keyterm:Glory",
 "type": "keyterm",
 "confidence": 0.1737,
 "match_method": "canonical",
-"preferred_label": "惧怕/敬畏"
-},
-{
-"id": "flora:DatePalm",
-"type": "flora",
-"confidence": 0.1242,
-"match_method": "canonical",
-"preferred_label": "棕树"
+"preferred_label": "荣耀"
 },
 {
 "id": "flora:Rush",
@@ -1200,11 +1205,11 @@
 "preferred_label": "灯心草"
 },
 {
-"id": "flora:OliveTree",
+"id": "flora:DatePalm",
 "type": "flora",
-"confidence": 0.1137,
+"confidence": 0.1242,
 "match_method": "canonical",
-"preferred_label": "橄榄树"
+"preferred_label": "棕树"
 },
 {
 "id": "realia:Grave",
@@ -1212,6 +1217,13 @@
 "confidence": 0.1137,
 "match_method": "canonical",
 "preferred_label": "坟墓"
+},
+{
+"id": "flora:OliveTree",
+"type": "flora",
+"confidence": 0.1137,
+"match_method": "canonical",
+"preferred_label": "橄榄树"
 },
 {
 "id": "realia:Temple",
@@ -1300,13 +1312,6 @@
 "preferred_label": "一群人"
 },
 {
-"id": "keyterm:Name",
-"type": "keyterm",
-"confidence": 0.2474,
-"match_method": "canonical",
-"preferred_label": "名字"
-},
-{
 "id": "keyterm:Disciple",
 "type": "keyterm",
 "confidence": 0.2474,
@@ -1319,6 +1324,13 @@
 "confidence": 0.2474,
 "match_method": "canonical",
 "preferred_label": "耶和华"
+},
+{
+"id": "keyterm:Name",
+"type": "keyterm",
+"confidence": 0.2474,
+"match_method": "canonical",
+"preferred_label": "名字"
 },
 {
 "id": "realia:Cloak",
@@ -1335,18 +1347,25 @@
 "preferred_label": "伯法其"
 },
 {
+"id": "keyterm:Kingdom",
+"type": "keyterm",
+"confidence": 0.1737,
+"match_method": "canonical",
+"preferred_label": "国度"
+},
+{
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.1737,
+"match_method": "canonical",
+"preferred_label": "惧怕/敬畏"
+},
+{
 "id": "keyterm:Ability",
 "type": "keyterm",
 "confidence": 0.1737,
 "match_method": "canonical",
 "preferred_label": "技能"
-},
-{
-"id": "keyterm:Resurrection",
-"type": "keyterm",
-"confidence": 0.1737,
-"match_method": "canonical",
-"preferred_label": "复活（事件）"
 },
 {
 "id": "keyterm:Example",
@@ -1356,39 +1375,11 @@
 "preferred_label": "象征"
 },
 {
-"id": "person:Lazarus.2",
-"type": "person",
-"confidence": 0.1737,
-"match_method": "canonical",
-"preferred_label": "拉撒路"
-},
-{
 "id": "person:David",
 "type": "person",
 "confidence": 0.1737,
 "match_method": "canonical",
 "preferred_label": "大卫"
-},
-{
-"id": "keyterm:Height",
-"type": "keyterm",
-"confidence": 0.1737,
-"match_method": "canonical",
-"preferred_label": "高"
-},
-{
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.1737,
-"match_method": "canonical",
-"preferred_label": "以色列"
-},
-{
-"id": "keyterm:Glory",
-"type": "keyterm",
-"confidence": 0.1737,
-"match_method": "canonical",
-"preferred_label": "荣耀"
 },
 {
 "id": "keyterm:BearWitness",
@@ -1405,11 +1396,32 @@
 "preferred_label": "法利赛人"
 },
 {
-"id": "keyterm:Kingdom",
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.1737,
+"match_method": "canonical",
+"preferred_label": "以色列"
+},
+{
+"id": "person:Lazarus.2",
+"type": "person",
+"confidence": 0.1737,
+"match_method": "canonical",
+"preferred_label": "拉撒路"
+},
+{
+"id": "keyterm:Height",
 "type": "keyterm",
 "confidence": 0.1737,
 "match_method": "canonical",
-"preferred_label": "国度"
+"preferred_label": "高"
+},
+{
+"id": "keyterm:Resurrection",
+"type": "keyterm",
+"confidence": 0.1737,
+"match_method": "canonical",
+"preferred_label": "复活（事件）"
 },
 {
 "id": "group:ReligiousOfficials",
@@ -1419,18 +1431,11 @@
 "preferred_label": "宗教官员"
 },
 {
-"id": "keyterm:Fear",
+"id": "keyterm:Glory",
 "type": "keyterm",
 "confidence": 0.1737,
 "match_method": "canonical",
-"preferred_label": "惧怕/敬畏"
-},
-{
-"id": "flora:DatePalm",
-"type": "flora",
-"confidence": 0.1242,
-"match_method": "canonical",
-"preferred_label": "棕树"
+"preferred_label": "荣耀"
 },
 {
 "id": "flora:Rush",
@@ -1440,11 +1445,11 @@
 "preferred_label": "灯心草"
 },
 {
-"id": "flora:OliveTree",
+"id": "flora:DatePalm",
 "type": "flora",
-"confidence": 0.1137,
+"confidence": 0.1242,
 "match_method": "canonical",
-"preferred_label": "橄榄树"
+"preferred_label": "棕树"
 },
 {
 "id": "realia:Grave",
@@ -1452,6 +1457,13 @@
 "confidence": 0.1137,
 "match_method": "canonical",
 "preferred_label": "坟墓"
+},
+{
+"id": "flora:OliveTree",
+"type": "flora",
+"confidence": 0.1137,
+"match_method": "canonical",
+"preferred_label": "橄榄树"
 },
 {
 "id": "realia:Temple",
