@@ -152,13 +152,6 @@
 "preferred_label": "vid"
 },
 {
-"id": "group:Pharisee",
-"type": "group",
-"confidence": 0.3194,
-"match_method": "canonical",
-"preferred_label": "fariseos"
-},
-{
 "id": "person:Levi.3",
 "type": "person",
 "confidence": 0.3194,
@@ -173,25 +166,11 @@
 "preferred_label": "pacto"
 },
 {
-"id": "person:Ziba",
+"id": "person:Jesse",
 "type": "person",
 "confidence": 0.3194,
 "match_method": "canonical",
-"preferred_label": "Siba"
-},
-{
-"id": "person:Ezra",
-"type": "person",
-"confidence": 0.3194,
-"match_method": "canonical",
-"preferred_label": "Esdras"
-},
-{
-"id": "group:Levi",
-"type": "group",
-"confidence": 0.3194,
-"match_method": "canonical",
-"preferred_label": "tribu de Leví"
+"preferred_label": "Isaí"
 },
 {
 "id": "keyterm:Disciple",
@@ -201,11 +180,32 @@
 "preferred_label": "ser discípulo"
 },
 {
-"id": "person:Jesse",
+"id": "group:Pharisee",
+"type": "group",
+"confidence": 0.3194,
+"match_method": "canonical",
+"preferred_label": "fariseos"
+},
+{
+"id": "person:Ezra",
 "type": "person",
 "confidence": 0.3194,
 "match_method": "canonical",
-"preferred_label": "Isaí"
+"preferred_label": "Esdras"
+},
+{
+"id": "person:Ziba",
+"type": "person",
+"confidence": 0.3194,
+"match_method": "canonical",
+"preferred_label": "Siba"
+},
+{
+"id": "group:Levi",
+"type": "group",
+"confidence": 0.3194,
+"match_method": "canonical",
+"preferred_label": "tribu de Leví"
 },
 {
 "id": "fauna:Donkey",
@@ -229,18 +229,18 @@
 "preferred_label": "dinero"
 },
 {
-"id": "person:Elkanah.2",
-"type": "person",
-"confidence": 0.2667,
-"match_method": "canonical",
-"preferred_label": "Elcaná"
-},
-{
 "id": "person:Hannah",
 "type": "person",
 "confidence": 0.2667,
 "match_method": "canonical",
 "preferred_label": "Ana"
+},
+{
+"id": "person:Elkanah.2",
+"type": "person",
+"confidence": 0.2667,
+"match_method": "canonical",
+"preferred_label": "Elcaná"
 },
 {
 "id": "keyterm:TaxCollector",
@@ -257,6 +257,13 @@
 "preferred_label": "remiendo"
 },
 {
+"id": "person:John",
+"type": "person",
+"confidence": 0.2645,
+"match_method": "canonical",
+"preferred_label": "Juan"
+},
+{
 "id": "person:Artaxerxes",
 "type": "person",
 "confidence": 0.2645,
@@ -269,13 +276,6 @@
 "confidence": 0.2645,
 "match_method": "canonical",
 "preferred_label": "Jesús"
-},
-{
-"id": "person:John",
-"type": "person",
-"confidence": 0.2645,
-"match_method": "canonical",
-"preferred_label": "Juan"
 },
 {
 "id": "fauna:Goat",
@@ -349,13 +349,6 @@
 "preferred_label": "vida"
 },
 {
-"id": "keyterm:Good",
-"type": "keyterm",
-"confidence": 0.404,
-"match_method": "canonical",
-"preferred_label": "bueno"
-},
-{
 "id": "keyterm:Disciple",
 "type": "keyterm",
 "confidence": 0.404,
@@ -370,11 +363,25 @@
 "preferred_label": "para siempre"
 },
 {
+"id": "keyterm:Good",
+"type": "keyterm",
+"confidence": 0.404,
+"match_method": "canonical",
+"preferred_label": "bueno"
+},
+{
 "id": "keyterm:Heaven",
 "type": "keyterm",
 "confidence": 0.395,
 "match_method": "canonical",
 "preferred_label": "cielo"
+},
+{
+"id": "person:RichYoungRuler",
+"type": "person",
+"confidence": 0.395,
+"match_method": "canonical",
+"preferred_label": "Joven rico"
 },
 {
 "id": "keyterm:Surely",
@@ -384,11 +391,18 @@
 "preferred_label": "¡ciertamente!"
 },
 {
-"id": "person:RichYoungRuler",
-"type": "person",
-"confidence": 0.395,
+"id": "keyterm:Fornication",
+"type": "keyterm",
+"confidence": 0.277,
 "match_method": "canonical",
-"preferred_label": "Joven rico"
+"preferred_label": "fornicación"
+},
+{
+"id": "keyterm:Commandment",
+"type": "keyterm",
+"confidence": 0.277,
+"match_method": "canonical",
+"preferred_label": "mandamiento"
 },
 {
 "id": "keyterm:Salvation",
@@ -403,20 +417,6 @@
 "confidence": 0.277,
 "match_method": "canonical",
 "preferred_label": "Pedro"
-},
-{
-"id": "keyterm:Commandment",
-"type": "keyterm",
-"confidence": 0.277,
-"match_method": "canonical",
-"preferred_label": "mandamiento"
-},
-{
-"id": "keyterm:Fornication",
-"type": "keyterm",
-"confidence": 0.277,
-"match_method": "canonical",
-"preferred_label": "fornicación"
 },
 {
 "id": "realia:House",
@@ -440,11 +440,11 @@
 "preferred_label": "camello"
 },
 {
-"id": "keyterm:Ability",
+"id": "keyterm:Command",
 "type": "keyterm",
 "confidence": 0.218,
 "match_method": "canonical",
-"preferred_label": "habilidad"
+"preferred_label": "mandar"
 },
 {
 "id": "keyterm:Love",
@@ -454,32 +454,25 @@
 "preferred_label": "amor"
 },
 {
-"id": "keyterm:Command",
+"id": "keyterm:Ability",
 "type": "keyterm",
 "confidence": 0.218,
 "match_method": "canonical",
-"preferred_label": "mandar"
+"preferred_label": "habilidad"
 },
 {
-"id": "keyterm:GoodNews",
+"id": "keyterm:Glory",
 "type": "keyterm",
 "confidence": 0.159,
 "match_method": "canonical",
-"preferred_label": "buenas noticias"
+"preferred_label": "gloria"
 },
 {
-"id": "keyterm:Decided",
-"type": "keyterm",
+"id": "person:Israel",
+"type": "person",
 "confidence": 0.159,
 "match_method": "canonical",
-"preferred_label": "decidir"
-},
-{
-"id": "keyterm:AskFor",
-"type": "keyterm",
-"confidence": 0.159,
-"match_method": "canonical",
-"preferred_label": "rogar"
+"preferred_label": "Israel"
 },
 {
 "id": "keyterm:Bless",
@@ -489,11 +482,18 @@
 "preferred_label": "bendecir"
 },
 {
-"id": "person:Israel",
-"type": "person",
+"id": "keyterm:GoodNews",
+"type": "keyterm",
 "confidence": 0.159,
 "match_method": "canonical",
-"preferred_label": "Israel"
+"preferred_label": "buenas noticias"
+},
+{
+"id": "keyterm:Name",
+"type": "keyterm",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "nombre"
 },
 {
 "id": "keyterm:NewWorld",
@@ -510,18 +510,18 @@
 "preferred_label": "orar"
 },
 {
-"id": "keyterm:Name",
+"id": "keyterm:AskFor",
 "type": "keyterm",
 "confidence": 0.159,
 "match_method": "canonical",
-"preferred_label": "nombre"
+"preferred_label": "rogar"
 },
 {
-"id": "keyterm:Glory",
+"id": "keyterm:Decided",
 "type": "keyterm",
 "confidence": 0.159,
 "match_method": "canonical",
-"preferred_label": "gloria"
+"preferred_label": "decidir"
 },
 {
 "id": "realia:Throne",
@@ -595,13 +595,6 @@
 "preferred_label": "vida"
 },
 {
-"id": "keyterm:Good",
-"type": "keyterm",
-"confidence": 0.404,
-"match_method": "canonical",
-"preferred_label": "bueno"
-},
-{
 "id": "keyterm:Disciple",
 "type": "keyterm",
 "confidence": 0.404,
@@ -616,11 +609,25 @@
 "preferred_label": "para siempre"
 },
 {
+"id": "keyterm:Good",
+"type": "keyterm",
+"confidence": 0.404,
+"match_method": "canonical",
+"preferred_label": "bueno"
+},
+{
 "id": "keyterm:Heaven",
 "type": "keyterm",
 "confidence": 0.395,
 "match_method": "canonical",
 "preferred_label": "cielo"
+},
+{
+"id": "person:RichYoungRuler",
+"type": "person",
+"confidence": 0.395,
+"match_method": "canonical",
+"preferred_label": "Joven rico"
 },
 {
 "id": "keyterm:Surely",
@@ -630,11 +637,18 @@
 "preferred_label": "¡ciertamente!"
 },
 {
-"id": "person:RichYoungRuler",
-"type": "person",
-"confidence": 0.395,
+"id": "keyterm:Fornication",
+"type": "keyterm",
+"confidence": 0.277,
 "match_method": "canonical",
-"preferred_label": "Joven rico"
+"preferred_label": "fornicación"
+},
+{
+"id": "keyterm:Commandment",
+"type": "keyterm",
+"confidence": 0.277,
+"match_method": "canonical",
+"preferred_label": "mandamiento"
 },
 {
 "id": "keyterm:Salvation",
@@ -649,20 +663,6 @@
 "confidence": 0.277,
 "match_method": "canonical",
 "preferred_label": "Pedro"
-},
-{
-"id": "keyterm:Commandment",
-"type": "keyterm",
-"confidence": 0.277,
-"match_method": "canonical",
-"preferred_label": "mandamiento"
-},
-{
-"id": "keyterm:Fornication",
-"type": "keyterm",
-"confidence": 0.277,
-"match_method": "canonical",
-"preferred_label": "fornicación"
 },
 {
 "id": "realia:House",
@@ -686,11 +686,11 @@
 "preferred_label": "camello"
 },
 {
-"id": "keyterm:Ability",
+"id": "keyterm:Command",
 "type": "keyterm",
 "confidence": 0.218,
 "match_method": "canonical",
-"preferred_label": "habilidad"
+"preferred_label": "mandar"
 },
 {
 "id": "keyterm:Love",
@@ -700,32 +700,25 @@
 "preferred_label": "amor"
 },
 {
-"id": "keyterm:Command",
+"id": "keyterm:Ability",
 "type": "keyterm",
 "confidence": 0.218,
 "match_method": "canonical",
-"preferred_label": "mandar"
+"preferred_label": "habilidad"
 },
 {
-"id": "keyterm:GoodNews",
+"id": "keyterm:Glory",
 "type": "keyterm",
 "confidence": 0.159,
 "match_method": "canonical",
-"preferred_label": "buenas noticias"
+"preferred_label": "gloria"
 },
 {
-"id": "keyterm:Decided",
-"type": "keyterm",
+"id": "person:Israel",
+"type": "person",
 "confidence": 0.159,
 "match_method": "canonical",
-"preferred_label": "decidir"
-},
-{
-"id": "keyterm:AskFor",
-"type": "keyterm",
-"confidence": 0.159,
-"match_method": "canonical",
-"preferred_label": "rogar"
+"preferred_label": "Israel"
 },
 {
 "id": "keyterm:Bless",
@@ -735,11 +728,18 @@
 "preferred_label": "bendecir"
 },
 {
-"id": "person:Israel",
-"type": "person",
+"id": "keyterm:GoodNews",
+"type": "keyterm",
 "confidence": 0.159,
 "match_method": "canonical",
-"preferred_label": "Israel"
+"preferred_label": "buenas noticias"
+},
+{
+"id": "keyterm:Name",
+"type": "keyterm",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "nombre"
 },
 {
 "id": "keyterm:NewWorld",
@@ -756,18 +756,18 @@
 "preferred_label": "orar"
 },
 {
-"id": "keyterm:Name",
+"id": "keyterm:AskFor",
 "type": "keyterm",
 "confidence": 0.159,
 "match_method": "canonical",
-"preferred_label": "nombre"
+"preferred_label": "rogar"
 },
 {
-"id": "keyterm:Glory",
+"id": "keyterm:Decided",
 "type": "keyterm",
 "confidence": 0.159,
 "match_method": "canonical",
-"preferred_label": "gloria"
+"preferred_label": "decidir"
 },
 {
 "id": "realia:Throne",
@@ -841,13 +841,6 @@
 "preferred_label": "vida"
 },
 {
-"id": "keyterm:Good",
-"type": "keyterm",
-"confidence": 0.404,
-"match_method": "canonical",
-"preferred_label": "bueno"
-},
-{
 "id": "keyterm:Disciple",
 "type": "keyterm",
 "confidence": 0.404,
@@ -862,11 +855,25 @@
 "preferred_label": "para siempre"
 },
 {
+"id": "keyterm:Good",
+"type": "keyterm",
+"confidence": 0.404,
+"match_method": "canonical",
+"preferred_label": "bueno"
+},
+{
 "id": "keyterm:Heaven",
 "type": "keyterm",
 "confidence": 0.395,
 "match_method": "canonical",
 "preferred_label": "cielo"
+},
+{
+"id": "person:RichYoungRuler",
+"type": "person",
+"confidence": 0.395,
+"match_method": "canonical",
+"preferred_label": "Joven rico"
 },
 {
 "id": "keyterm:Surely",
@@ -876,11 +883,18 @@
 "preferred_label": "¡ciertamente!"
 },
 {
-"id": "person:RichYoungRuler",
-"type": "person",
-"confidence": 0.395,
+"id": "keyterm:Fornication",
+"type": "keyterm",
+"confidence": 0.277,
 "match_method": "canonical",
-"preferred_label": "Joven rico"
+"preferred_label": "fornicación"
+},
+{
+"id": "keyterm:Commandment",
+"type": "keyterm",
+"confidence": 0.277,
+"match_method": "canonical",
+"preferred_label": "mandamiento"
 },
 {
 "id": "keyterm:Salvation",
@@ -895,20 +909,6 @@
 "confidence": 0.277,
 "match_method": "canonical",
 "preferred_label": "Pedro"
-},
-{
-"id": "keyterm:Commandment",
-"type": "keyterm",
-"confidence": 0.277,
-"match_method": "canonical",
-"preferred_label": "mandamiento"
-},
-{
-"id": "keyterm:Fornication",
-"type": "keyterm",
-"confidence": 0.277,
-"match_method": "canonical",
-"preferred_label": "fornicación"
 },
 {
 "id": "realia:House",
@@ -932,11 +932,11 @@
 "preferred_label": "camello"
 },
 {
-"id": "keyterm:Ability",
+"id": "keyterm:Command",
 "type": "keyterm",
 "confidence": 0.218,
 "match_method": "canonical",
-"preferred_label": "habilidad"
+"preferred_label": "mandar"
 },
 {
 "id": "keyterm:Love",
@@ -946,32 +946,25 @@
 "preferred_label": "amor"
 },
 {
-"id": "keyterm:Command",
+"id": "keyterm:Ability",
 "type": "keyterm",
 "confidence": 0.218,
 "match_method": "canonical",
-"preferred_label": "mandar"
+"preferred_label": "habilidad"
 },
 {
-"id": "keyterm:GoodNews",
+"id": "keyterm:Glory",
 "type": "keyterm",
 "confidence": 0.159,
 "match_method": "canonical",
-"preferred_label": "buenas noticias"
+"preferred_label": "gloria"
 },
 {
-"id": "keyterm:Decided",
-"type": "keyterm",
+"id": "person:Israel",
+"type": "person",
 "confidence": 0.159,
 "match_method": "canonical",
-"preferred_label": "decidir"
-},
-{
-"id": "keyterm:AskFor",
-"type": "keyterm",
-"confidence": 0.159,
-"match_method": "canonical",
-"preferred_label": "rogar"
+"preferred_label": "Israel"
 },
 {
 "id": "keyterm:Bless",
@@ -981,11 +974,18 @@
 "preferred_label": "bendecir"
 },
 {
-"id": "person:Israel",
-"type": "person",
+"id": "keyterm:GoodNews",
+"type": "keyterm",
 "confidence": 0.159,
 "match_method": "canonical",
-"preferred_label": "Israel"
+"preferred_label": "buenas noticias"
+},
+{
+"id": "keyterm:Name",
+"type": "keyterm",
+"confidence": 0.159,
+"match_method": "canonical",
+"preferred_label": "nombre"
 },
 {
 "id": "keyterm:NewWorld",
@@ -1002,18 +1002,18 @@
 "preferred_label": "orar"
 },
 {
-"id": "keyterm:Name",
+"id": "keyterm:AskFor",
 "type": "keyterm",
 "confidence": 0.159,
 "match_method": "canonical",
-"preferred_label": "nombre"
+"preferred_label": "rogar"
 },
 {
-"id": "keyterm:Glory",
+"id": "keyterm:Decided",
 "type": "keyterm",
 "confidence": 0.159,
 "match_method": "canonical",
-"preferred_label": "gloria"
+"preferred_label": "decidir"
 },
 {
 "id": "realia:Throne",
