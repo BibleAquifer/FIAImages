@@ -68,18 +68,18 @@
 "preferred_label": "भेड़"
 },
 {
-"id": "person:Moses",
-"type": "person",
-"confidence": 0.3474,
-"match_method": "canonical",
-"preferred_label": "मूसा"
-},
-{
 "id": "person:Israel",
 "type": "person",
 "confidence": 0.3474,
 "match_method": "canonical",
 "preferred_label": "इस्राएल"
+},
+{
+"id": "person:Moses",
+"type": "person",
+"confidence": 0.3474,
+"match_method": "canonical",
+"preferred_label": "मूसा"
 },
 {
 "id": "realia:OliveOil",
@@ -124,11 +124,11 @@
 "preferred_label": "रुपया"
 },
 {
-"id": "keyterm:Sabbath",
+"id": "keyterm:Complete",
 "type": "keyterm",
 "confidence": 0.2237,
 "match_method": "canonical",
-"preferred_label": "विश्रामदिन"
+"preferred_label": "खरा / सिद्ध"
 },
 {
 "id": "keyterm:Favor",
@@ -138,11 +138,11 @@
 "preferred_label": "अनुग्रह"
 },
 {
-"id": "keyterm:Complete",
+"id": "keyterm:Sabbath",
 "type": "keyterm",
 "confidence": 0.2237,
 "match_method": "canonical",
-"preferred_label": "खरा / सिद्ध"
+"preferred_label": "विश्रामदिन"
 },
 {
 "id": "place:Taberah",
@@ -152,13 +152,6 @@
 "preferred_label": "तबेरा"
 },
 {
-"id": "realia:Hin",
-"type": "realia",
-"confidence": 0.1637,
-"match_method": "canonical",
-"preferred_label": "हीन"
-},
-{
 "id": "fauna:Mule",
 "type": "fauna",
 "confidence": 0.1637,
@@ -166,32 +159,18 @@
 "preferred_label": "खच्चर"
 },
 {
+"id": "realia:Hin",
+"type": "realia",
+"confidence": 0.1637,
+"match_method": "canonical",
+"preferred_label": "हीन"
+},
+{
 "id": "realia:Spindle",
 "type": "realia",
 "confidence": 0.1637,
 "match_method": "canonical",
 "preferred_label": "तकली"
-},
-{
-"id": "person:Aaron",
-"type": "person",
-"confidence": 0.1618,
-"match_method": "canonical",
-"preferred_label": "हारून"
-},
-{
-"id": "keyterm:Witness.2",
-"type": "keyterm",
-"confidence": 0.1618,
-"match_method": "canonical",
-"preferred_label": "साक्षी"
-},
-{
-"id": "place:SinaiMount",
-"type": "place",
-"confidence": 0.1618,
-"match_method": "canonical",
-"preferred_label": "सीनै पर्वत"
 },
 {
 "id": "place:HolyPlace",
@@ -208,11 +187,53 @@
 "preferred_label": "मिस्र"
 },
 {
+"id": "place:SinaiMount",
+"type": "place",
+"confidence": 0.1618,
+"match_method": "canonical",
+"preferred_label": "सीनै पर्वत"
+},
+{
+"id": "keyterm:Witness.2",
+"type": "keyterm",
+"confidence": 0.1618,
+"match_method": "canonical",
+"preferred_label": "साक्षी"
+},
+{
+"id": "person:Aaron",
+"type": "person",
+"confidence": 0.1618,
+"match_method": "canonical",
+"preferred_label": "हारून"
+},
+{
 "id": "keyterm:Swear",
 "type": "keyterm",
 "confidence": 0.1618,
 "match_method": "canonical",
 "preferred_label": "शपथ खाना"
+},
+{
+"id": "realia:EmbroideredCloth",
+"type": "realia",
+"confidence": 0.1071,
+"match_method": "canonical",
+"preferred_label": "कढ़ाईदार कपड़ा"
+},
+{
+"id": "realia:Screen",
+"type": "realia",
+"confidence": 0.1071,
+"match_method": "canonical",
+"preferred_label": "परदा"
+},
+{
+"id": "flora:Watermelon",
+"type": "flora",
+"confidence": 0.1071,
+"match_method": "canonical",
+"preferred_label": "तरबूज"
 },
 {
 "id": "flora:Leek",
@@ -236,18 +257,11 @@
 "preferred_label": "धनिया"
 },
 {
-"id": "realia:EmbroideredCloth",
+"id": "realia:Peg.2",
 "type": "realia",
 "confidence": 0.1071,
 "match_method": "canonical",
-"preferred_label": "कढ़ाईदार कपड़ा"
-},
-{
-"id": "flora:Watermelon",
-"type": "flora",
-"confidence": 0.1071,
-"match_method": "canonical",
-"preferred_label": "तरबूज"
+"preferred_label": "खूंटी"
 },
 {
 "id": "flora:Muskmelon",
@@ -257,67 +271,11 @@
 "preferred_label": "खरबूजा"
 },
 {
-"id": "realia:Peg.2",
-"type": "realia",
-"confidence": 0.1071,
-"match_method": "canonical",
-"preferred_label": "खूंटी"
-},
-{
 "id": "flora:Onion",
 "type": "flora",
 "confidence": 0.1071,
 "match_method": "canonical",
 "preferred_label": "प्याज"
-},
-{
-"id": "realia:Screen",
-"type": "realia",
-"confidence": 0.1071,
-"match_method": "canonical",
-"preferred_label": "परदा"
-},
-{
-"id": "realia:TentOfMeeting",
-"type": "realia",
-"confidence": 0.1018,
-"match_method": "canonical",
-"preferred_label": "मिलापवाला तम्बू"
-},
-{
-"id": "realia:PurpleCloth",
-"type": "realia",
-"confidence": 0.1018,
-"match_method": "canonical",
-"preferred_label": "बैंगनी वस्त्र"
-},
-{
-"id": "flora:OliveTree",
-"type": "flora",
-"confidence": 0.1018,
-"match_method": "canonical",
-"preferred_label": "जैतून का वृक्ष"
-},
-{
-"id": "realia:Ephah",
-"type": "realia",
-"confidence": 0.1018,
-"match_method": "canonical",
-"preferred_label": "एपा"
-},
-{
-"id": "fauna:Fish",
-"type": "fauna",
-"confidence": 0.1018,
-"match_method": "canonical",
-"preferred_label": "मछली"
-},
-{
-"id": "realia:Curtain",
-"type": "realia",
-"confidence": 0.1018,
-"match_method": "canonical",
-"preferred_label": "परदा"
 },
 {
 "id": "realia:Tent",
@@ -327,18 +285,25 @@
 "preferred_label": "तम्बू"
 },
 {
-"id": "realia:Peg",
+"id": "realia:TentOfMeeting",
 "type": "realia",
 "confidence": 0.1018,
 "match_method": "canonical",
-"preferred_label": "खूंटा"
+"preferred_label": "मिलापवाला तम्बू"
 },
 {
-"id": "flora:Barley",
-"type": "flora",
+"id": "realia:Curtain",
+"type": "realia",
 "confidence": 0.1018,
 "match_method": "canonical",
-"preferred_label": "जौ"
+"preferred_label": "परदा"
+},
+{
+"id": "realia:PurpleCloth",
+"type": "realia",
+"confidence": 0.1018,
+"match_method": "canonical",
+"preferred_label": "बैंगनी वस्त्र"
 },
 {
 "id": "realia:Lamp",
@@ -348,11 +313,46 @@
 "preferred_label": "दीपक"
 },
 {
+"id": "flora:Barley",
+"type": "flora",
+"confidence": 0.1018,
+"match_method": "canonical",
+"preferred_label": "जौ"
+},
+{
+"id": "flora:OliveTree",
+"type": "flora",
+"confidence": 0.1018,
+"match_method": "canonical",
+"preferred_label": "जैतून का वृक्ष"
+},
+{
+"id": "fauna:Fish",
+"type": "fauna",
+"confidence": 0.1018,
+"match_method": "canonical",
+"preferred_label": "मछली"
+},
+{
 "id": "realia:Hand-mill",
 "type": "realia",
 "confidence": 0.1018,
 "match_method": "canonical",
 "preferred_label": "हाथ की चक्की"
+},
+{
+"id": "realia:Ephah",
+"type": "realia",
+"confidence": 0.1018,
+"match_method": "canonical",
+"preferred_label": "एपा"
+},
+{
+"id": "realia:Peg",
+"type": "realia",
+"confidence": 0.1018,
+"match_method": "canonical",
+"preferred_label": "खूंटा"
 }
 ]
 }
@@ -426,18 +426,18 @@
 "preferred_label": "भेड़"
 },
 {
-"id": "person:Moses",
-"type": "person",
-"confidence": 0.3474,
-"match_method": "canonical",
-"preferred_label": "मूसा"
-},
-{
 "id": "person:Israel",
 "type": "person",
 "confidence": 0.3474,
 "match_method": "canonical",
 "preferred_label": "इस्राएल"
+},
+{
+"id": "person:Moses",
+"type": "person",
+"confidence": 0.3474,
+"match_method": "canonical",
+"preferred_label": "मूसा"
 },
 {
 "id": "realia:OliveOil",
@@ -482,11 +482,11 @@
 "preferred_label": "रुपया"
 },
 {
-"id": "keyterm:Sabbath",
+"id": "keyterm:Complete",
 "type": "keyterm",
 "confidence": 0.2237,
 "match_method": "canonical",
-"preferred_label": "विश्रामदिन"
+"preferred_label": "खरा / सिद्ध"
 },
 {
 "id": "keyterm:Favor",
@@ -496,11 +496,11 @@
 "preferred_label": "अनुग्रह"
 },
 {
-"id": "keyterm:Complete",
+"id": "keyterm:Sabbath",
 "type": "keyterm",
 "confidence": 0.2237,
 "match_method": "canonical",
-"preferred_label": "खरा / सिद्ध"
+"preferred_label": "विश्रामदिन"
 },
 {
 "id": "place:Taberah",
@@ -510,13 +510,6 @@
 "preferred_label": "तबेरा"
 },
 {
-"id": "realia:Hin",
-"type": "realia",
-"confidence": 0.1637,
-"match_method": "canonical",
-"preferred_label": "हीन"
-},
-{
 "id": "fauna:Mule",
 "type": "fauna",
 "confidence": 0.1637,
@@ -524,32 +517,18 @@
 "preferred_label": "खच्चर"
 },
 {
+"id": "realia:Hin",
+"type": "realia",
+"confidence": 0.1637,
+"match_method": "canonical",
+"preferred_label": "हीन"
+},
+{
 "id": "realia:Spindle",
 "type": "realia",
 "confidence": 0.1637,
 "match_method": "canonical",
 "preferred_label": "तकली"
-},
-{
-"id": "person:Aaron",
-"type": "person",
-"confidence": 0.1618,
-"match_method": "canonical",
-"preferred_label": "हारून"
-},
-{
-"id": "keyterm:Witness.2",
-"type": "keyterm",
-"confidence": 0.1618,
-"match_method": "canonical",
-"preferred_label": "साक्षी"
-},
-{
-"id": "place:SinaiMount",
-"type": "place",
-"confidence": 0.1618,
-"match_method": "canonical",
-"preferred_label": "सीनै पर्वत"
 },
 {
 "id": "place:HolyPlace",
@@ -566,11 +545,53 @@
 "preferred_label": "मिस्र"
 },
 {
+"id": "place:SinaiMount",
+"type": "place",
+"confidence": 0.1618,
+"match_method": "canonical",
+"preferred_label": "सीनै पर्वत"
+},
+{
+"id": "keyterm:Witness.2",
+"type": "keyterm",
+"confidence": 0.1618,
+"match_method": "canonical",
+"preferred_label": "साक्षी"
+},
+{
+"id": "person:Aaron",
+"type": "person",
+"confidence": 0.1618,
+"match_method": "canonical",
+"preferred_label": "हारून"
+},
+{
 "id": "keyterm:Swear",
 "type": "keyterm",
 "confidence": 0.1618,
 "match_method": "canonical",
 "preferred_label": "शपथ खाना"
+},
+{
+"id": "realia:EmbroideredCloth",
+"type": "realia",
+"confidence": 0.1071,
+"match_method": "canonical",
+"preferred_label": "कढ़ाईदार कपड़ा"
+},
+{
+"id": "realia:Screen",
+"type": "realia",
+"confidence": 0.1071,
+"match_method": "canonical",
+"preferred_label": "परदा"
+},
+{
+"id": "flora:Watermelon",
+"type": "flora",
+"confidence": 0.1071,
+"match_method": "canonical",
+"preferred_label": "तरबूज"
 },
 {
 "id": "flora:Leek",
@@ -594,18 +615,11 @@
 "preferred_label": "धनिया"
 },
 {
-"id": "realia:EmbroideredCloth",
+"id": "realia:Peg.2",
 "type": "realia",
 "confidence": 0.1071,
 "match_method": "canonical",
-"preferred_label": "कढ़ाईदार कपड़ा"
-},
-{
-"id": "flora:Watermelon",
-"type": "flora",
-"confidence": 0.1071,
-"match_method": "canonical",
-"preferred_label": "तरबूज"
+"preferred_label": "खूंटी"
 },
 {
 "id": "flora:Muskmelon",
@@ -615,67 +629,11 @@
 "preferred_label": "खरबूजा"
 },
 {
-"id": "realia:Peg.2",
-"type": "realia",
-"confidence": 0.1071,
-"match_method": "canonical",
-"preferred_label": "खूंटी"
-},
-{
 "id": "flora:Onion",
 "type": "flora",
 "confidence": 0.1071,
 "match_method": "canonical",
 "preferred_label": "प्याज"
-},
-{
-"id": "realia:Screen",
-"type": "realia",
-"confidence": 0.1071,
-"match_method": "canonical",
-"preferred_label": "परदा"
-},
-{
-"id": "realia:TentOfMeeting",
-"type": "realia",
-"confidence": 0.1018,
-"match_method": "canonical",
-"preferred_label": "मिलापवाला तम्बू"
-},
-{
-"id": "realia:PurpleCloth",
-"type": "realia",
-"confidence": 0.1018,
-"match_method": "canonical",
-"preferred_label": "बैंगनी वस्त्र"
-},
-{
-"id": "flora:OliveTree",
-"type": "flora",
-"confidence": 0.1018,
-"match_method": "canonical",
-"preferred_label": "जैतून का वृक्ष"
-},
-{
-"id": "realia:Ephah",
-"type": "realia",
-"confidence": 0.1018,
-"match_method": "canonical",
-"preferred_label": "एपा"
-},
-{
-"id": "fauna:Fish",
-"type": "fauna",
-"confidence": 0.1018,
-"match_method": "canonical",
-"preferred_label": "मछली"
-},
-{
-"id": "realia:Curtain",
-"type": "realia",
-"confidence": 0.1018,
-"match_method": "canonical",
-"preferred_label": "परदा"
 },
 {
 "id": "realia:Tent",
@@ -685,18 +643,25 @@
 "preferred_label": "तम्बू"
 },
 {
-"id": "realia:Peg",
+"id": "realia:TentOfMeeting",
 "type": "realia",
 "confidence": 0.1018,
 "match_method": "canonical",
-"preferred_label": "खूंटा"
+"preferred_label": "मिलापवाला तम्बू"
 },
 {
-"id": "flora:Barley",
-"type": "flora",
+"id": "realia:Curtain",
+"type": "realia",
 "confidence": 0.1018,
 "match_method": "canonical",
-"preferred_label": "जौ"
+"preferred_label": "परदा"
+},
+{
+"id": "realia:PurpleCloth",
+"type": "realia",
+"confidence": 0.1018,
+"match_method": "canonical",
+"preferred_label": "बैंगनी वस्त्र"
 },
 {
 "id": "realia:Lamp",
@@ -706,11 +671,46 @@
 "preferred_label": "दीपक"
 },
 {
+"id": "flora:Barley",
+"type": "flora",
+"confidence": 0.1018,
+"match_method": "canonical",
+"preferred_label": "जौ"
+},
+{
+"id": "flora:OliveTree",
+"type": "flora",
+"confidence": 0.1018,
+"match_method": "canonical",
+"preferred_label": "जैतून का वृक्ष"
+},
+{
+"id": "fauna:Fish",
+"type": "fauna",
+"confidence": 0.1018,
+"match_method": "canonical",
+"preferred_label": "मछली"
+},
+{
 "id": "realia:Hand-mill",
 "type": "realia",
 "confidence": 0.1018,
 "match_method": "canonical",
 "preferred_label": "हाथ की चक्की"
+},
+{
+"id": "realia:Ephah",
+"type": "realia",
+"confidence": 0.1018,
+"match_method": "canonical",
+"preferred_label": "एपा"
+},
+{
+"id": "realia:Peg",
+"type": "realia",
+"confidence": 0.1018,
+"match_method": "canonical",
+"preferred_label": "खूंटा"
 }
 ]
 }
@@ -784,18 +784,18 @@
 "preferred_label": "भेड़"
 },
 {
-"id": "person:Moses",
-"type": "person",
-"confidence": 0.3474,
-"match_method": "canonical",
-"preferred_label": "मूसा"
-},
-{
 "id": "person:Israel",
 "type": "person",
 "confidence": 0.3474,
 "match_method": "canonical",
 "preferred_label": "इस्राएल"
+},
+{
+"id": "person:Moses",
+"type": "person",
+"confidence": 0.3474,
+"match_method": "canonical",
+"preferred_label": "मूसा"
 },
 {
 "id": "realia:OliveOil",
@@ -840,11 +840,11 @@
 "preferred_label": "रुपया"
 },
 {
-"id": "keyterm:Sabbath",
+"id": "keyterm:Complete",
 "type": "keyterm",
 "confidence": 0.2237,
 "match_method": "canonical",
-"preferred_label": "विश्रामदिन"
+"preferred_label": "खरा / सिद्ध"
 },
 {
 "id": "keyterm:Favor",
@@ -854,11 +854,11 @@
 "preferred_label": "अनुग्रह"
 },
 {
-"id": "keyterm:Complete",
+"id": "keyterm:Sabbath",
 "type": "keyterm",
 "confidence": 0.2237,
 "match_method": "canonical",
-"preferred_label": "खरा / सिद्ध"
+"preferred_label": "विश्रामदिन"
 },
 {
 "id": "place:Taberah",
@@ -868,13 +868,6 @@
 "preferred_label": "तबेरा"
 },
 {
-"id": "realia:Hin",
-"type": "realia",
-"confidence": 0.1637,
-"match_method": "canonical",
-"preferred_label": "हीन"
-},
-{
 "id": "fauna:Mule",
 "type": "fauna",
 "confidence": 0.1637,
@@ -882,32 +875,18 @@
 "preferred_label": "खच्चर"
 },
 {
+"id": "realia:Hin",
+"type": "realia",
+"confidence": 0.1637,
+"match_method": "canonical",
+"preferred_label": "हीन"
+},
+{
 "id": "realia:Spindle",
 "type": "realia",
 "confidence": 0.1637,
 "match_method": "canonical",
 "preferred_label": "तकली"
-},
-{
-"id": "person:Aaron",
-"type": "person",
-"confidence": 0.1618,
-"match_method": "canonical",
-"preferred_label": "हारून"
-},
-{
-"id": "keyterm:Witness.2",
-"type": "keyterm",
-"confidence": 0.1618,
-"match_method": "canonical",
-"preferred_label": "साक्षी"
-},
-{
-"id": "place:SinaiMount",
-"type": "place",
-"confidence": 0.1618,
-"match_method": "canonical",
-"preferred_label": "सीनै पर्वत"
 },
 {
 "id": "place:HolyPlace",
@@ -924,11 +903,53 @@
 "preferred_label": "मिस्र"
 },
 {
+"id": "place:SinaiMount",
+"type": "place",
+"confidence": 0.1618,
+"match_method": "canonical",
+"preferred_label": "सीनै पर्वत"
+},
+{
+"id": "keyterm:Witness.2",
+"type": "keyterm",
+"confidence": 0.1618,
+"match_method": "canonical",
+"preferred_label": "साक्षी"
+},
+{
+"id": "person:Aaron",
+"type": "person",
+"confidence": 0.1618,
+"match_method": "canonical",
+"preferred_label": "हारून"
+},
+{
 "id": "keyterm:Swear",
 "type": "keyterm",
 "confidence": 0.1618,
 "match_method": "canonical",
 "preferred_label": "शपथ खाना"
+},
+{
+"id": "realia:EmbroideredCloth",
+"type": "realia",
+"confidence": 0.1071,
+"match_method": "canonical",
+"preferred_label": "कढ़ाईदार कपड़ा"
+},
+{
+"id": "realia:Screen",
+"type": "realia",
+"confidence": 0.1071,
+"match_method": "canonical",
+"preferred_label": "परदा"
+},
+{
+"id": "flora:Watermelon",
+"type": "flora",
+"confidence": 0.1071,
+"match_method": "canonical",
+"preferred_label": "तरबूज"
 },
 {
 "id": "flora:Leek",
@@ -952,18 +973,11 @@
 "preferred_label": "धनिया"
 },
 {
-"id": "realia:EmbroideredCloth",
+"id": "realia:Peg.2",
 "type": "realia",
 "confidence": 0.1071,
 "match_method": "canonical",
-"preferred_label": "कढ़ाईदार कपड़ा"
-},
-{
-"id": "flora:Watermelon",
-"type": "flora",
-"confidence": 0.1071,
-"match_method": "canonical",
-"preferred_label": "तरबूज"
+"preferred_label": "खूंटी"
 },
 {
 "id": "flora:Muskmelon",
@@ -973,67 +987,11 @@
 "preferred_label": "खरबूजा"
 },
 {
-"id": "realia:Peg.2",
-"type": "realia",
-"confidence": 0.1071,
-"match_method": "canonical",
-"preferred_label": "खूंटी"
-},
-{
 "id": "flora:Onion",
 "type": "flora",
 "confidence": 0.1071,
 "match_method": "canonical",
 "preferred_label": "प्याज"
-},
-{
-"id": "realia:Screen",
-"type": "realia",
-"confidence": 0.1071,
-"match_method": "canonical",
-"preferred_label": "परदा"
-},
-{
-"id": "realia:TentOfMeeting",
-"type": "realia",
-"confidence": 0.1018,
-"match_method": "canonical",
-"preferred_label": "मिलापवाला तम्बू"
-},
-{
-"id": "realia:PurpleCloth",
-"type": "realia",
-"confidence": 0.1018,
-"match_method": "canonical",
-"preferred_label": "बैंगनी वस्त्र"
-},
-{
-"id": "flora:OliveTree",
-"type": "flora",
-"confidence": 0.1018,
-"match_method": "canonical",
-"preferred_label": "जैतून का वृक्ष"
-},
-{
-"id": "realia:Ephah",
-"type": "realia",
-"confidence": 0.1018,
-"match_method": "canonical",
-"preferred_label": "एपा"
-},
-{
-"id": "fauna:Fish",
-"type": "fauna",
-"confidence": 0.1018,
-"match_method": "canonical",
-"preferred_label": "मछली"
-},
-{
-"id": "realia:Curtain",
-"type": "realia",
-"confidence": 0.1018,
-"match_method": "canonical",
-"preferred_label": "परदा"
 },
 {
 "id": "realia:Tent",
@@ -1043,18 +1001,25 @@
 "preferred_label": "तम्बू"
 },
 {
-"id": "realia:Peg",
+"id": "realia:TentOfMeeting",
 "type": "realia",
 "confidence": 0.1018,
 "match_method": "canonical",
-"preferred_label": "खूंटा"
+"preferred_label": "मिलापवाला तम्बू"
 },
 {
-"id": "flora:Barley",
-"type": "flora",
+"id": "realia:Curtain",
+"type": "realia",
 "confidence": 0.1018,
 "match_method": "canonical",
-"preferred_label": "जौ"
+"preferred_label": "परदा"
+},
+{
+"id": "realia:PurpleCloth",
+"type": "realia",
+"confidence": 0.1018,
+"match_method": "canonical",
+"preferred_label": "बैंगनी वस्त्र"
 },
 {
 "id": "realia:Lamp",
@@ -1064,11 +1029,46 @@
 "preferred_label": "दीपक"
 },
 {
+"id": "flora:Barley",
+"type": "flora",
+"confidence": 0.1018,
+"match_method": "canonical",
+"preferred_label": "जौ"
+},
+{
+"id": "flora:OliveTree",
+"type": "flora",
+"confidence": 0.1018,
+"match_method": "canonical",
+"preferred_label": "जैतून का वृक्ष"
+},
+{
+"id": "fauna:Fish",
+"type": "fauna",
+"confidence": 0.1018,
+"match_method": "canonical",
+"preferred_label": "मछली"
+},
+{
 "id": "realia:Hand-mill",
 "type": "realia",
 "confidence": 0.1018,
 "match_method": "canonical",
 "preferred_label": "हाथ की चक्की"
+},
+{
+"id": "realia:Ephah",
+"type": "realia",
+"confidence": 0.1018,
+"match_method": "canonical",
+"preferred_label": "एपा"
+},
+{
+"id": "realia:Peg",
+"type": "realia",
+"confidence": 0.1018,
+"match_method": "canonical",
+"preferred_label": "खूंटा"
 }
 ]
 }
@@ -1102,11 +1102,11 @@
 "preferred_label": "सेवा करवाना"
 },
 {
-"id": "keyterm:Redeem",
-"type": "keyterm",
+"id": "group:Hebrews",
+"type": "group",
 "confidence": 0.1909,
 "match_method": "canonical",
-"preferred_label": "छुड़ाना"
+"preferred_label": "इब्रानी"
 },
 {
 "id": "deity:Lord",
@@ -1123,11 +1123,11 @@
 "preferred_label": "प्रेम"
 },
 {
-"id": "group:Hebrews",
-"type": "group",
+"id": "keyterm:Redeem",
+"type": "keyterm",
 "confidence": 0.1909,
 "match_method": "canonical",
-"preferred_label": "इब्रानी"
+"preferred_label": "छुड़ाना"
 },
 {
 "id": "realia:Awl",
@@ -1137,18 +1137,18 @@
 "preferred_label": "सुतारी"
 },
 {
-"id": "realia:Doorpost",
-"type": "realia",
-"confidence": 0.1309,
-"match_method": "canonical",
-"preferred_label": "चौखट की बाजू"
-},
-{
 "id": "realia:Money",
 "type": "realia",
 "confidence": 0.1309,
 "match_method": "canonical",
 "preferred_label": "रुपया"
+},
+{
+"id": "realia:Doorpost",
+"type": "realia",
+"confidence": 0.1309,
+"match_method": "canonical",
+"preferred_label": "चौखट की बाजू"
 }
 ]
 }
@@ -1182,11 +1182,11 @@
 "preferred_label": "सेवा करवाना"
 },
 {
-"id": "keyterm:Redeem",
-"type": "keyterm",
+"id": "group:Hebrews",
+"type": "group",
 "confidence": 0.1909,
 "match_method": "canonical",
-"preferred_label": "छुड़ाना"
+"preferred_label": "इब्रानी"
 },
 {
 "id": "deity:Lord",
@@ -1203,11 +1203,11 @@
 "preferred_label": "प्रेम"
 },
 {
-"id": "group:Hebrews",
-"type": "group",
+"id": "keyterm:Redeem",
+"type": "keyterm",
 "confidence": 0.1909,
 "match_method": "canonical",
-"preferred_label": "इब्रानी"
+"preferred_label": "छुड़ाना"
 },
 {
 "id": "realia:Awl",
@@ -1217,18 +1217,18 @@
 "preferred_label": "सुतारी"
 },
 {
-"id": "realia:Doorpost",
-"type": "realia",
-"confidence": 0.1309,
-"match_method": "canonical",
-"preferred_label": "चौखट की बाजू"
-},
-{
 "id": "realia:Money",
 "type": "realia",
 "confidence": 0.1309,
 "match_method": "canonical",
 "preferred_label": "रुपया"
+},
+{
+"id": "realia:Doorpost",
+"type": "realia",
+"confidence": 0.1309,
+"match_method": "canonical",
+"preferred_label": "चौखट की बाजू"
 }
 ]
 }
@@ -1294,18 +1294,18 @@
 "preferred_label": "यहोशू"
 },
 {
-"id": "person:Moses",
-"type": "person",
-"confidence": 0.4216,
-"match_method": "canonical",
-"preferred_label": "मूसा"
-},
-{
 "id": "place:Gibeon",
 "type": "place",
 "confidence": 0.4216,
 "match_method": "canonical",
 "preferred_label": "गिबोन"
+},
+{
+"id": "person:Moses",
+"type": "person",
+"confidence": 0.4216,
+"match_method": "canonical",
+"preferred_label": "मूसा"
 },
 {
 "id": "person:Pharaoh.6",
@@ -1336,18 +1336,18 @@
 "preferred_label": "भय"
 },
 {
-"id": "group:Amorites",
-"type": "group",
-"confidence": 0.2807,
-"match_method": "canonical",
-"preferred_label": "एमोरी"
-},
-{
 "id": "place:Jerusalem",
 "type": "place",
 "confidence": 0.2807,
 "match_method": "canonical",
 "preferred_label": "यरूशलेम"
+},
+{
+"id": "group:Amorites",
+"type": "group",
+"confidence": 0.2807,
+"match_method": "canonical",
+"preferred_label": "एमोरी"
 },
 {
 "id": "place:Beth-horonLower",
@@ -1364,13 +1364,6 @@
 "preferred_label": "अदोनीसेदेक"
 },
 {
-"id": "place:Eglon",
-"type": "place",
-"confidence": 0.225,
-"match_method": "canonical",
-"preferred_label": "एग्लोन"
-},
-{
 "id": "place:Azekah",
 "type": "place",
 "confidence": 0.225,
@@ -1385,11 +1378,11 @@
 "preferred_label": "यर्मूत"
 },
 {
-"id": "fauna:Bull",
-"type": "fauna",
-"confidence": 0.2207,
+"id": "place:Eglon",
+"type": "place",
+"confidence": 0.225,
 "match_method": "canonical",
-"preferred_label": "गाय-बैल"
+"preferred_label": "एग्लोन"
 },
 {
 "id": "realia:Crown",
@@ -1399,46 +1392,11 @@
 "preferred_label": "राजमुकुट"
 },
 {
-"id": "keyterm:Sin",
-"type": "keyterm",
-"confidence": 0.2205,
+"id": "fauna:Bull",
+"type": "fauna",
+"confidence": 0.2207,
 "match_method": "canonical",
-"preferred_label": "पाप करना"
-},
-{
-"id": "keyterm:WordOfTheLord",
-"type": "keyterm",
-"confidence": 0.2205,
-"match_method": "canonical",
-"preferred_label": "यहोवा का वचन"
-},
-{
-"id": "place:Ai",
-"type": "place",
-"confidence": 0.2205,
-"match_method": "canonical",
-"preferred_label": "आई"
-},
-{
-"id": "place:Hebron",
-"type": "place",
-"confidence": 0.2205,
-"match_method": "canonical",
-"preferred_label": "हेब्रोन"
-},
-{
-"id": "group:Ephraim",
-"type": "group",
-"confidence": 0.2205,
-"match_method": "canonical",
-"preferred_label": "एप्रैम का गोत्र"
-},
-{
-"id": "person:Ephraim",
-"type": "person",
-"confidence": 0.2205,
-"match_method": "canonical",
-"preferred_label": "एप्रैम"
+"preferred_label": "गाय-बैल"
 },
 {
 "id": "place:Lachish",
@@ -1448,11 +1406,67 @@
 "preferred_label": "लाकीश"
 },
 {
+"id": "person:Ephraim",
+"type": "person",
+"confidence": 0.2205,
+"match_method": "canonical",
+"preferred_label": "एप्रैम"
+},
+{
+"id": "keyterm:WordOfTheLord",
+"type": "keyterm",
+"confidence": 0.2205,
+"match_method": "canonical",
+"preferred_label": "यहोवा का वचन"
+},
+{
+"id": "group:Ephraim",
+"type": "group",
+"confidence": 0.2205,
+"match_method": "canonical",
+"preferred_label": "एप्रैम का गोत्र"
+},
+{
+"id": "place:Hebron",
+"type": "place",
+"confidence": 0.2205,
+"match_method": "canonical",
+"preferred_label": "हेब्रोन"
+},
+{
+"id": "place:Ai",
+"type": "place",
+"confidence": 0.2205,
+"match_method": "canonical",
+"preferred_label": "आई"
+},
+{
+"id": "keyterm:Sin",
+"type": "keyterm",
+"confidence": 0.2205,
+"match_method": "canonical",
+"preferred_label": "पाप करना"
+},
+{
+"id": "person:Jashar",
+"type": "person",
+"confidence": 0.1648,
+"match_method": "canonical",
+"preferred_label": "याशार"
+},
+{
 "id": "keyterm:Blow",
 "type": "keyterm",
 "confidence": 0.1648,
 "match_method": "canonical",
 "preferred_label": "विपत्ति"
+},
+{
+"id": "person:Debir",
+"type": "person",
+"confidence": 0.1648,
+"match_method": "canonical",
+"preferred_label": "दबीर"
 },
 {
 "id": "person:Hoham",
@@ -1469,13 +1483,6 @@
 "preferred_label": "पिराम"
 },
 {
-"id": "person:Jashar",
-"type": "person",
-"confidence": 0.1648,
-"match_method": "canonical",
-"preferred_label": "याशार"
-},
-{
 "id": "person:Japhia",
 "type": "person",
 "confidence": 0.1648,
@@ -1488,13 +1495,6 @@
 "confidence": 0.1648,
 "match_method": "canonical",
 "preferred_label": "मक्केदा"
-},
-{
-"id": "person:Debir",
-"type": "person",
-"confidence": 0.1648,
-"match_method": "canonical",
-"preferred_label": "दबीर"
 },
 {
 "id": "flora:Grass",
@@ -1511,53 +1511,11 @@
 "preferred_label": "घर"
 },
 {
-"id": "keyterm:EnticedToServe",
-"type": "keyterm",
-"confidence": 0.1602,
-"match_method": "canonical",
-"preferred_label": "सेवा करवाना"
-},
-{
-"id": "place:Aijalon",
-"type": "place",
-"confidence": 0.1602,
-"match_method": "canonical",
-"preferred_label": "अय्यालोन"
-},
-{
-"id": "keyterm:Strength",
-"type": "keyterm",
-"confidence": 0.1602,
-"match_method": "canonical",
-"preferred_label": "बल"
-},
-{
-"id": "person:Aaron",
-"type": "person",
-"confidence": 0.1602,
-"match_method": "canonical",
-"preferred_label": "हारून"
-},
-{
-"id": "place:Jericho",
-"type": "place",
-"confidence": 0.1602,
-"match_method": "canonical",
-"preferred_label": "यरीहो"
-},
-{
 "id": "group:Hebrews",
 "type": "group",
 "confidence": 0.1602,
 "match_method": "canonical",
 "preferred_label": "इब्रानी"
-},
-{
-"id": "keyterm:Complete",
-"type": "keyterm",
-"confidence": 0.1602,
-"match_method": "canonical",
-"preferred_label": "खरा / सिद्ध"
 },
 {
 "id": "keyterm:Woe.2",
@@ -1574,6 +1532,13 @@
 "preferred_label": "गोशेन"
 },
 {
+"id": "place:Aijalon",
+"type": "place",
+"confidence": 0.1602,
+"match_method": "canonical",
+"preferred_label": "अय्यालोन"
+},
+{
 "id": "keyterm:Proscribe.2",
 "type": "keyterm",
 "confidence": 0.1602,
@@ -1581,11 +1546,39 @@
 "preferred_label": "सत्यानाश के लिए अर्पण करना"
 },
 {
-"id": "flora:Wheat",
-"type": "flora",
-"confidence": 0.1048,
+"id": "place:Jericho",
+"type": "place",
+"confidence": 0.1602,
 "match_method": "canonical",
-"preferred_label": "गेहूँ"
+"preferred_label": "यरीहो"
+},
+{
+"id": "keyterm:Complete",
+"type": "keyterm",
+"confidence": 0.1602,
+"match_method": "canonical",
+"preferred_label": "खरा / सिद्ध"
+},
+{
+"id": "person:Aaron",
+"type": "person",
+"confidence": 0.1602,
+"match_method": "canonical",
+"preferred_label": "हारून"
+},
+{
+"id": "keyterm:EnticedToServe",
+"type": "keyterm",
+"confidence": 0.1602,
+"match_method": "canonical",
+"preferred_label": "सेवा करवाना"
+},
+{
+"id": "keyterm:Strength",
+"type": "keyterm",
+"confidence": 0.1602,
+"match_method": "canonical",
+"preferred_label": "बल"
 },
 {
 "id": "flora:Barley",
@@ -1602,18 +1595,25 @@
 "preferred_label": "सन"
 },
 {
+"id": "flora:Wheat",
+"type": "flora",
+"confidence": 0.1048,
+"match_method": "canonical",
+"preferred_label": "गेहूँ"
+},
+{
+"id": "realia:Crown.2",
+"type": "realia",
+"confidence": 0.1002,
+"match_method": "canonical",
+"preferred_label": "मुकुट"
+},
+{
 "id": "flora:Fig",
 "type": "flora",
 "confidence": 0.1002,
 "match_method": "canonical",
 "preferred_label": "अंजीर"
-},
-{
-"id": "flora:Vine",
-"type": "flora",
-"confidence": 0.1002,
-"match_method": "canonical",
-"preferred_label": "दाखलता"
 },
 {
 "id": "realia:Rod",
@@ -1623,11 +1623,11 @@
 "preferred_label": "छड़ी"
 },
 {
-"id": "realia:Crown.2",
-"type": "realia",
+"id": "flora:Vine",
+"type": "flora",
 "confidence": 0.1002,
 "match_method": "canonical",
-"preferred_label": "मुकुट"
+"preferred_label": "दाखलता"
 },
 {
 "id": "realia:Wine",
@@ -1700,18 +1700,18 @@
 "preferred_label": "यहोशू"
 },
 {
-"id": "person:Moses",
-"type": "person",
-"confidence": 0.4216,
-"match_method": "canonical",
-"preferred_label": "मूसा"
-},
-{
 "id": "place:Gibeon",
 "type": "place",
 "confidence": 0.4216,
 "match_method": "canonical",
 "preferred_label": "गिबोन"
+},
+{
+"id": "person:Moses",
+"type": "person",
+"confidence": 0.4216,
+"match_method": "canonical",
+"preferred_label": "मूसा"
 },
 {
 "id": "person:Pharaoh.6",
@@ -1742,18 +1742,18 @@
 "preferred_label": "भय"
 },
 {
-"id": "group:Amorites",
-"type": "group",
-"confidence": 0.2807,
-"match_method": "canonical",
-"preferred_label": "एमोरी"
-},
-{
 "id": "place:Jerusalem",
 "type": "place",
 "confidence": 0.2807,
 "match_method": "canonical",
 "preferred_label": "यरूशलेम"
+},
+{
+"id": "group:Amorites",
+"type": "group",
+"confidence": 0.2807,
+"match_method": "canonical",
+"preferred_label": "एमोरी"
 },
 {
 "id": "place:Beth-horonLower",
@@ -1770,13 +1770,6 @@
 "preferred_label": "अदोनीसेदेक"
 },
 {
-"id": "place:Eglon",
-"type": "place",
-"confidence": 0.225,
-"match_method": "canonical",
-"preferred_label": "एग्लोन"
-},
-{
 "id": "place:Azekah",
 "type": "place",
 "confidence": 0.225,
@@ -1791,11 +1784,11 @@
 "preferred_label": "यर्मूत"
 },
 {
-"id": "fauna:Bull",
-"type": "fauna",
-"confidence": 0.2207,
+"id": "place:Eglon",
+"type": "place",
+"confidence": 0.225,
 "match_method": "canonical",
-"preferred_label": "गाय-बैल"
+"preferred_label": "एग्लोन"
 },
 {
 "id": "realia:Crown",
@@ -1805,46 +1798,11 @@
 "preferred_label": "राजमुकुट"
 },
 {
-"id": "keyterm:Sin",
-"type": "keyterm",
-"confidence": 0.2205,
+"id": "fauna:Bull",
+"type": "fauna",
+"confidence": 0.2207,
 "match_method": "canonical",
-"preferred_label": "पाप करना"
-},
-{
-"id": "keyterm:WordOfTheLord",
-"type": "keyterm",
-"confidence": 0.2205,
-"match_method": "canonical",
-"preferred_label": "यहोवा का वचन"
-},
-{
-"id": "place:Ai",
-"type": "place",
-"confidence": 0.2205,
-"match_method": "canonical",
-"preferred_label": "आई"
-},
-{
-"id": "place:Hebron",
-"type": "place",
-"confidence": 0.2205,
-"match_method": "canonical",
-"preferred_label": "हेब्रोन"
-},
-{
-"id": "group:Ephraim",
-"type": "group",
-"confidence": 0.2205,
-"match_method": "canonical",
-"preferred_label": "एप्रैम का गोत्र"
-},
-{
-"id": "person:Ephraim",
-"type": "person",
-"confidence": 0.2205,
-"match_method": "canonical",
-"preferred_label": "एप्रैम"
+"preferred_label": "गाय-बैल"
 },
 {
 "id": "place:Lachish",
@@ -1854,11 +1812,67 @@
 "preferred_label": "लाकीश"
 },
 {
+"id": "person:Ephraim",
+"type": "person",
+"confidence": 0.2205,
+"match_method": "canonical",
+"preferred_label": "एप्रैम"
+},
+{
+"id": "keyterm:WordOfTheLord",
+"type": "keyterm",
+"confidence": 0.2205,
+"match_method": "canonical",
+"preferred_label": "यहोवा का वचन"
+},
+{
+"id": "group:Ephraim",
+"type": "group",
+"confidence": 0.2205,
+"match_method": "canonical",
+"preferred_label": "एप्रैम का गोत्र"
+},
+{
+"id": "place:Hebron",
+"type": "place",
+"confidence": 0.2205,
+"match_method": "canonical",
+"preferred_label": "हेब्रोन"
+},
+{
+"id": "place:Ai",
+"type": "place",
+"confidence": 0.2205,
+"match_method": "canonical",
+"preferred_label": "आई"
+},
+{
+"id": "keyterm:Sin",
+"type": "keyterm",
+"confidence": 0.2205,
+"match_method": "canonical",
+"preferred_label": "पाप करना"
+},
+{
+"id": "person:Jashar",
+"type": "person",
+"confidence": 0.1648,
+"match_method": "canonical",
+"preferred_label": "याशार"
+},
+{
 "id": "keyterm:Blow",
 "type": "keyterm",
 "confidence": 0.1648,
 "match_method": "canonical",
 "preferred_label": "विपत्ति"
+},
+{
+"id": "person:Debir",
+"type": "person",
+"confidence": 0.1648,
+"match_method": "canonical",
+"preferred_label": "दबीर"
 },
 {
 "id": "person:Hoham",
@@ -1875,13 +1889,6 @@
 "preferred_label": "पिराम"
 },
 {
-"id": "person:Jashar",
-"type": "person",
-"confidence": 0.1648,
-"match_method": "canonical",
-"preferred_label": "याशार"
-},
-{
 "id": "person:Japhia",
 "type": "person",
 "confidence": 0.1648,
@@ -1894,13 +1901,6 @@
 "confidence": 0.1648,
 "match_method": "canonical",
 "preferred_label": "मक्केदा"
-},
-{
-"id": "person:Debir",
-"type": "person",
-"confidence": 0.1648,
-"match_method": "canonical",
-"preferred_label": "दबीर"
 },
 {
 "id": "flora:Grass",
@@ -1917,53 +1917,11 @@
 "preferred_label": "घर"
 },
 {
-"id": "keyterm:EnticedToServe",
-"type": "keyterm",
-"confidence": 0.1602,
-"match_method": "canonical",
-"preferred_label": "सेवा करवाना"
-},
-{
-"id": "place:Aijalon",
-"type": "place",
-"confidence": 0.1602,
-"match_method": "canonical",
-"preferred_label": "अय्यालोन"
-},
-{
-"id": "keyterm:Strength",
-"type": "keyterm",
-"confidence": 0.1602,
-"match_method": "canonical",
-"preferred_label": "बल"
-},
-{
-"id": "person:Aaron",
-"type": "person",
-"confidence": 0.1602,
-"match_method": "canonical",
-"preferred_label": "हारून"
-},
-{
-"id": "place:Jericho",
-"type": "place",
-"confidence": 0.1602,
-"match_method": "canonical",
-"preferred_label": "यरीहो"
-},
-{
 "id": "group:Hebrews",
 "type": "group",
 "confidence": 0.1602,
 "match_method": "canonical",
 "preferred_label": "इब्रानी"
-},
-{
-"id": "keyterm:Complete",
-"type": "keyterm",
-"confidence": 0.1602,
-"match_method": "canonical",
-"preferred_label": "खरा / सिद्ध"
 },
 {
 "id": "keyterm:Woe.2",
@@ -1980,6 +1938,13 @@
 "preferred_label": "गोशेन"
 },
 {
+"id": "place:Aijalon",
+"type": "place",
+"confidence": 0.1602,
+"match_method": "canonical",
+"preferred_label": "अय्यालोन"
+},
+{
 "id": "keyterm:Proscribe.2",
 "type": "keyterm",
 "confidence": 0.1602,
@@ -1987,11 +1952,39 @@
 "preferred_label": "सत्यानाश के लिए अर्पण करना"
 },
 {
-"id": "flora:Wheat",
-"type": "flora",
-"confidence": 0.1048,
+"id": "place:Jericho",
+"type": "place",
+"confidence": 0.1602,
 "match_method": "canonical",
-"preferred_label": "गेहूँ"
+"preferred_label": "यरीहो"
+},
+{
+"id": "keyterm:Complete",
+"type": "keyterm",
+"confidence": 0.1602,
+"match_method": "canonical",
+"preferred_label": "खरा / सिद्ध"
+},
+{
+"id": "person:Aaron",
+"type": "person",
+"confidence": 0.1602,
+"match_method": "canonical",
+"preferred_label": "हारून"
+},
+{
+"id": "keyterm:EnticedToServe",
+"type": "keyterm",
+"confidence": 0.1602,
+"match_method": "canonical",
+"preferred_label": "सेवा करवाना"
+},
+{
+"id": "keyterm:Strength",
+"type": "keyterm",
+"confidence": 0.1602,
+"match_method": "canonical",
+"preferred_label": "बल"
 },
 {
 "id": "flora:Barley",
@@ -2008,18 +2001,25 @@
 "preferred_label": "सन"
 },
 {
+"id": "flora:Wheat",
+"type": "flora",
+"confidence": 0.1048,
+"match_method": "canonical",
+"preferred_label": "गेहूँ"
+},
+{
+"id": "realia:Crown.2",
+"type": "realia",
+"confidence": 0.1002,
+"match_method": "canonical",
+"preferred_label": "मुकुट"
+},
+{
 "id": "flora:Fig",
 "type": "flora",
 "confidence": 0.1002,
 "match_method": "canonical",
 "preferred_label": "अंजीर"
-},
-{
-"id": "flora:Vine",
-"type": "flora",
-"confidence": 0.1002,
-"match_method": "canonical",
-"preferred_label": "दाखलता"
 },
 {
 "id": "realia:Rod",
@@ -2029,11 +2029,11 @@
 "preferred_label": "छड़ी"
 },
 {
-"id": "realia:Crown.2",
-"type": "realia",
+"id": "flora:Vine",
+"type": "flora",
 "confidence": 0.1002,
 "match_method": "canonical",
-"preferred_label": "मुकुट"
+"preferred_label": "दाखलता"
 },
 {
 "id": "realia:Wine",
@@ -2106,18 +2106,18 @@
 "preferred_label": "यहोशू"
 },
 {
-"id": "person:Moses",
-"type": "person",
-"confidence": 0.4216,
-"match_method": "canonical",
-"preferred_label": "मूसा"
-},
-{
 "id": "place:Gibeon",
 "type": "place",
 "confidence": 0.4216,
 "match_method": "canonical",
 "preferred_label": "गिबोन"
+},
+{
+"id": "person:Moses",
+"type": "person",
+"confidence": 0.4216,
+"match_method": "canonical",
+"preferred_label": "मूसा"
 },
 {
 "id": "person:Pharaoh.6",
@@ -2148,18 +2148,18 @@
 "preferred_label": "भय"
 },
 {
-"id": "group:Amorites",
-"type": "group",
-"confidence": 0.2807,
-"match_method": "canonical",
-"preferred_label": "एमोरी"
-},
-{
 "id": "place:Jerusalem",
 "type": "place",
 "confidence": 0.2807,
 "match_method": "canonical",
 "preferred_label": "यरूशलेम"
+},
+{
+"id": "group:Amorites",
+"type": "group",
+"confidence": 0.2807,
+"match_method": "canonical",
+"preferred_label": "एमोरी"
 },
 {
 "id": "place:Beth-horonLower",
@@ -2176,13 +2176,6 @@
 "preferred_label": "अदोनीसेदेक"
 },
 {
-"id": "place:Eglon",
-"type": "place",
-"confidence": 0.225,
-"match_method": "canonical",
-"preferred_label": "एग्लोन"
-},
-{
 "id": "place:Azekah",
 "type": "place",
 "confidence": 0.225,
@@ -2197,11 +2190,11 @@
 "preferred_label": "यर्मूत"
 },
 {
-"id": "fauna:Bull",
-"type": "fauna",
-"confidence": 0.2207,
+"id": "place:Eglon",
+"type": "place",
+"confidence": 0.225,
 "match_method": "canonical",
-"preferred_label": "गाय-बैल"
+"preferred_label": "एग्लोन"
 },
 {
 "id": "realia:Crown",
@@ -2211,46 +2204,11 @@
 "preferred_label": "राजमुकुट"
 },
 {
-"id": "keyterm:Sin",
-"type": "keyterm",
-"confidence": 0.2205,
+"id": "fauna:Bull",
+"type": "fauna",
+"confidence": 0.2207,
 "match_method": "canonical",
-"preferred_label": "पाप करना"
-},
-{
-"id": "keyterm:WordOfTheLord",
-"type": "keyterm",
-"confidence": 0.2205,
-"match_method": "canonical",
-"preferred_label": "यहोवा का वचन"
-},
-{
-"id": "place:Ai",
-"type": "place",
-"confidence": 0.2205,
-"match_method": "canonical",
-"preferred_label": "आई"
-},
-{
-"id": "place:Hebron",
-"type": "place",
-"confidence": 0.2205,
-"match_method": "canonical",
-"preferred_label": "हेब्रोन"
-},
-{
-"id": "group:Ephraim",
-"type": "group",
-"confidence": 0.2205,
-"match_method": "canonical",
-"preferred_label": "एप्रैम का गोत्र"
-},
-{
-"id": "person:Ephraim",
-"type": "person",
-"confidence": 0.2205,
-"match_method": "canonical",
-"preferred_label": "एप्रैम"
+"preferred_label": "गाय-बैल"
 },
 {
 "id": "place:Lachish",
@@ -2260,11 +2218,67 @@
 "preferred_label": "लाकीश"
 },
 {
+"id": "person:Ephraim",
+"type": "person",
+"confidence": 0.2205,
+"match_method": "canonical",
+"preferred_label": "एप्रैम"
+},
+{
+"id": "keyterm:WordOfTheLord",
+"type": "keyterm",
+"confidence": 0.2205,
+"match_method": "canonical",
+"preferred_label": "यहोवा का वचन"
+},
+{
+"id": "group:Ephraim",
+"type": "group",
+"confidence": 0.2205,
+"match_method": "canonical",
+"preferred_label": "एप्रैम का गोत्र"
+},
+{
+"id": "place:Hebron",
+"type": "place",
+"confidence": 0.2205,
+"match_method": "canonical",
+"preferred_label": "हेब्रोन"
+},
+{
+"id": "place:Ai",
+"type": "place",
+"confidence": 0.2205,
+"match_method": "canonical",
+"preferred_label": "आई"
+},
+{
+"id": "keyterm:Sin",
+"type": "keyterm",
+"confidence": 0.2205,
+"match_method": "canonical",
+"preferred_label": "पाप करना"
+},
+{
+"id": "person:Jashar",
+"type": "person",
+"confidence": 0.1648,
+"match_method": "canonical",
+"preferred_label": "याशार"
+},
+{
 "id": "keyterm:Blow",
 "type": "keyterm",
 "confidence": 0.1648,
 "match_method": "canonical",
 "preferred_label": "विपत्ति"
+},
+{
+"id": "person:Debir",
+"type": "person",
+"confidence": 0.1648,
+"match_method": "canonical",
+"preferred_label": "दबीर"
 },
 {
 "id": "person:Hoham",
@@ -2281,13 +2295,6 @@
 "preferred_label": "पिराम"
 },
 {
-"id": "person:Jashar",
-"type": "person",
-"confidence": 0.1648,
-"match_method": "canonical",
-"preferred_label": "याशार"
-},
-{
 "id": "person:Japhia",
 "type": "person",
 "confidence": 0.1648,
@@ -2300,13 +2307,6 @@
 "confidence": 0.1648,
 "match_method": "canonical",
 "preferred_label": "मक्केदा"
-},
-{
-"id": "person:Debir",
-"type": "person",
-"confidence": 0.1648,
-"match_method": "canonical",
-"preferred_label": "दबीर"
 },
 {
 "id": "flora:Grass",
@@ -2323,53 +2323,11 @@
 "preferred_label": "घर"
 },
 {
-"id": "keyterm:EnticedToServe",
-"type": "keyterm",
-"confidence": 0.1602,
-"match_method": "canonical",
-"preferred_label": "सेवा करवाना"
-},
-{
-"id": "place:Aijalon",
-"type": "place",
-"confidence": 0.1602,
-"match_method": "canonical",
-"preferred_label": "अय्यालोन"
-},
-{
-"id": "keyterm:Strength",
-"type": "keyterm",
-"confidence": 0.1602,
-"match_method": "canonical",
-"preferred_label": "बल"
-},
-{
-"id": "person:Aaron",
-"type": "person",
-"confidence": 0.1602,
-"match_method": "canonical",
-"preferred_label": "हारून"
-},
-{
-"id": "place:Jericho",
-"type": "place",
-"confidence": 0.1602,
-"match_method": "canonical",
-"preferred_label": "यरीहो"
-},
-{
 "id": "group:Hebrews",
 "type": "group",
 "confidence": 0.1602,
 "match_method": "canonical",
 "preferred_label": "इब्रानी"
-},
-{
-"id": "keyterm:Complete",
-"type": "keyterm",
-"confidence": 0.1602,
-"match_method": "canonical",
-"preferred_label": "खरा / सिद्ध"
 },
 {
 "id": "keyterm:Woe.2",
@@ -2386,6 +2344,13 @@
 "preferred_label": "गोशेन"
 },
 {
+"id": "place:Aijalon",
+"type": "place",
+"confidence": 0.1602,
+"match_method": "canonical",
+"preferred_label": "अय्यालोन"
+},
+{
 "id": "keyterm:Proscribe.2",
 "type": "keyterm",
 "confidence": 0.1602,
@@ -2393,11 +2358,39 @@
 "preferred_label": "सत्यानाश के लिए अर्पण करना"
 },
 {
-"id": "flora:Wheat",
-"type": "flora",
-"confidence": 0.1048,
+"id": "place:Jericho",
+"type": "place",
+"confidence": 0.1602,
 "match_method": "canonical",
-"preferred_label": "गेहूँ"
+"preferred_label": "यरीहो"
+},
+{
+"id": "keyterm:Complete",
+"type": "keyterm",
+"confidence": 0.1602,
+"match_method": "canonical",
+"preferred_label": "खरा / सिद्ध"
+},
+{
+"id": "person:Aaron",
+"type": "person",
+"confidence": 0.1602,
+"match_method": "canonical",
+"preferred_label": "हारून"
+},
+{
+"id": "keyterm:EnticedToServe",
+"type": "keyterm",
+"confidence": 0.1602,
+"match_method": "canonical",
+"preferred_label": "सेवा करवाना"
+},
+{
+"id": "keyterm:Strength",
+"type": "keyterm",
+"confidence": 0.1602,
+"match_method": "canonical",
+"preferred_label": "बल"
 },
 {
 "id": "flora:Barley",
@@ -2414,18 +2407,25 @@
 "preferred_label": "सन"
 },
 {
+"id": "flora:Wheat",
+"type": "flora",
+"confidence": 0.1048,
+"match_method": "canonical",
+"preferred_label": "गेहूँ"
+},
+{
+"id": "realia:Crown.2",
+"type": "realia",
+"confidence": 0.1002,
+"match_method": "canonical",
+"preferred_label": "मुकुट"
+},
+{
 "id": "flora:Fig",
 "type": "flora",
 "confidence": 0.1002,
 "match_method": "canonical",
 "preferred_label": "अंजीर"
-},
-{
-"id": "flora:Vine",
-"type": "flora",
-"confidence": 0.1002,
-"match_method": "canonical",
-"preferred_label": "दाखलता"
 },
 {
 "id": "realia:Rod",
@@ -2435,11 +2435,11 @@
 "preferred_label": "छड़ी"
 },
 {
-"id": "realia:Crown.2",
-"type": "realia",
+"id": "flora:Vine",
+"type": "flora",
 "confidence": 0.1002,
 "match_method": "canonical",
-"preferred_label": "मुकुट"
+"preferred_label": "दाखलता"
 },
 {
 "id": "realia:Wine",
@@ -2513,13 +2513,6 @@
 "preferred_label": "मिस्र"
 },
 {
-"id": "fauna:Bull",
-"type": "fauna",
-"confidence": 0.2366,
-"match_method": "canonical",
-"preferred_label": "गाय-बैल"
-},
-{
 "id": "realia:Crown",
 "type": "realia",
 "confidence": 0.2366,
@@ -2527,11 +2520,25 @@
 "preferred_label": "राजमुकुट"
 },
 {
-"id": "keyterm:Sin",
-"type": "keyterm",
+"id": "fauna:Bull",
+"type": "fauna",
+"confidence": 0.2366,
+"match_method": "canonical",
+"preferred_label": "गाय-बैल"
+},
+{
+"id": "person:Ephraim",
+"type": "person",
 "confidence": 0.231,
 "match_method": "canonical",
-"preferred_label": "पाप करना"
+"preferred_label": "एप्रैम"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.231,
+"match_method": "canonical",
+"preferred_label": "इस्राएल"
 },
 {
 "id": "keyterm:WordOfTheLord",
@@ -2548,18 +2555,11 @@
 "preferred_label": "एप्रैम का गोत्र"
 },
 {
-"id": "person:Ephraim",
-"type": "person",
+"id": "keyterm:Sin",
+"type": "keyterm",
 "confidence": 0.231,
 "match_method": "canonical",
-"preferred_label": "एप्रैम"
-},
-{
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.231,
-"match_method": "canonical",
-"preferred_label": "इस्राएल"
+"preferred_label": "पाप करना"
 },
 {
 "id": "keyterm:Blow",
@@ -2583,34 +2583,6 @@
 "preferred_label": "घर"
 },
 {
-"id": "keyterm:EnticedToServe",
-"type": "keyterm",
-"confidence": 0.1655,
-"match_method": "canonical",
-"preferred_label": "सेवा करवाना"
-},
-{
-"id": "keyterm:Fear",
-"type": "keyterm",
-"confidence": 0.1655,
-"match_method": "canonical",
-"preferred_label": "भय"
-},
-{
-"id": "keyterm:Strength",
-"type": "keyterm",
-"confidence": 0.1655,
-"match_method": "canonical",
-"preferred_label": "बल"
-},
-{
-"id": "person:Aaron",
-"type": "person",
-"confidence": 0.1655,
-"match_method": "canonical",
-"preferred_label": "हारून"
-},
-{
 "id": "group:Hebrews",
 "type": "group",
 "confidence": 0.1655,
@@ -2632,11 +2604,32 @@
 "preferred_label": "गोशेन"
 },
 {
-"id": "flora:Wheat",
-"type": "flora",
-"confidence": 0.1124,
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.1655,
 "match_method": "canonical",
-"preferred_label": "गेहूँ"
+"preferred_label": "भय"
+},
+{
+"id": "person:Aaron",
+"type": "person",
+"confidence": 0.1655,
+"match_method": "canonical",
+"preferred_label": "हारून"
+},
+{
+"id": "keyterm:EnticedToServe",
+"type": "keyterm",
+"confidence": 0.1655,
+"match_method": "canonical",
+"preferred_label": "सेवा करवाना"
+},
+{
+"id": "keyterm:Strength",
+"type": "keyterm",
+"confidence": 0.1655,
+"match_method": "canonical",
+"preferred_label": "बल"
 },
 {
 "id": "flora:Barley",
@@ -2653,18 +2646,25 @@
 "preferred_label": "सन"
 },
 {
+"id": "flora:Wheat",
+"type": "flora",
+"confidence": 0.1124,
+"match_method": "canonical",
+"preferred_label": "गेहूँ"
+},
+{
+"id": "realia:Crown.2",
+"type": "realia",
+"confidence": 0.1055,
+"match_method": "canonical",
+"preferred_label": "मुकुट"
+},
+{
 "id": "flora:Fig",
 "type": "flora",
 "confidence": 0.1055,
 "match_method": "canonical",
 "preferred_label": "अंजीर"
-},
-{
-"id": "flora:Vine",
-"type": "flora",
-"confidence": 0.1055,
-"match_method": "canonical",
-"preferred_label": "दाखलता"
 },
 {
 "id": "realia:Rod",
@@ -2674,11 +2674,11 @@
 "preferred_label": "छड़ी"
 },
 {
-"id": "realia:Crown.2",
-"type": "realia",
+"id": "flora:Vine",
+"type": "flora",
 "confidence": 0.1055,
 "match_method": "canonical",
-"preferred_label": "मुकुट"
+"preferred_label": "दाखलता"
 },
 {
 "id": "realia:Wine",
@@ -2752,13 +2752,6 @@
 "preferred_label": "मिस्र"
 },
 {
-"id": "fauna:Bull",
-"type": "fauna",
-"confidence": 0.2366,
-"match_method": "canonical",
-"preferred_label": "गाय-बैल"
-},
-{
 "id": "realia:Crown",
 "type": "realia",
 "confidence": 0.2366,
@@ -2766,11 +2759,25 @@
 "preferred_label": "राजमुकुट"
 },
 {
-"id": "keyterm:Sin",
-"type": "keyterm",
+"id": "fauna:Bull",
+"type": "fauna",
+"confidence": 0.2366,
+"match_method": "canonical",
+"preferred_label": "गाय-बैल"
+},
+{
+"id": "person:Ephraim",
+"type": "person",
 "confidence": 0.231,
 "match_method": "canonical",
-"preferred_label": "पाप करना"
+"preferred_label": "एप्रैम"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.231,
+"match_method": "canonical",
+"preferred_label": "इस्राएल"
 },
 {
 "id": "keyterm:WordOfTheLord",
@@ -2787,18 +2794,11 @@
 "preferred_label": "एप्रैम का गोत्र"
 },
 {
-"id": "person:Ephraim",
-"type": "person",
+"id": "keyterm:Sin",
+"type": "keyterm",
 "confidence": 0.231,
 "match_method": "canonical",
-"preferred_label": "एप्रैम"
-},
-{
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.231,
-"match_method": "canonical",
-"preferred_label": "इस्राएल"
+"preferred_label": "पाप करना"
 },
 {
 "id": "keyterm:Blow",
@@ -2822,34 +2822,6 @@
 "preferred_label": "घर"
 },
 {
-"id": "keyterm:EnticedToServe",
-"type": "keyterm",
-"confidence": 0.1655,
-"match_method": "canonical",
-"preferred_label": "सेवा करवाना"
-},
-{
-"id": "keyterm:Fear",
-"type": "keyterm",
-"confidence": 0.1655,
-"match_method": "canonical",
-"preferred_label": "भय"
-},
-{
-"id": "keyterm:Strength",
-"type": "keyterm",
-"confidence": 0.1655,
-"match_method": "canonical",
-"preferred_label": "बल"
-},
-{
-"id": "person:Aaron",
-"type": "person",
-"confidence": 0.1655,
-"match_method": "canonical",
-"preferred_label": "हारून"
-},
-{
 "id": "group:Hebrews",
 "type": "group",
 "confidence": 0.1655,
@@ -2871,11 +2843,32 @@
 "preferred_label": "गोशेन"
 },
 {
-"id": "flora:Wheat",
-"type": "flora",
-"confidence": 0.1124,
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.1655,
 "match_method": "canonical",
-"preferred_label": "गेहूँ"
+"preferred_label": "भय"
+},
+{
+"id": "person:Aaron",
+"type": "person",
+"confidence": 0.1655,
+"match_method": "canonical",
+"preferred_label": "हारून"
+},
+{
+"id": "keyterm:EnticedToServe",
+"type": "keyterm",
+"confidence": 0.1655,
+"match_method": "canonical",
+"preferred_label": "सेवा करवाना"
+},
+{
+"id": "keyterm:Strength",
+"type": "keyterm",
+"confidence": 0.1655,
+"match_method": "canonical",
+"preferred_label": "बल"
 },
 {
 "id": "flora:Barley",
@@ -2892,18 +2885,25 @@
 "preferred_label": "सन"
 },
 {
+"id": "flora:Wheat",
+"type": "flora",
+"confidence": 0.1124,
+"match_method": "canonical",
+"preferred_label": "गेहूँ"
+},
+{
+"id": "realia:Crown.2",
+"type": "realia",
+"confidence": 0.1055,
+"match_method": "canonical",
+"preferred_label": "मुकुट"
+},
+{
 "id": "flora:Fig",
 "type": "flora",
 "confidence": 0.1055,
 "match_method": "canonical",
 "preferred_label": "अंजीर"
-},
-{
-"id": "flora:Vine",
-"type": "flora",
-"confidence": 0.1055,
-"match_method": "canonical",
-"preferred_label": "दाखलता"
 },
 {
 "id": "realia:Rod",
@@ -2913,11 +2913,11 @@
 "preferred_label": "छड़ी"
 },
 {
-"id": "realia:Crown.2",
-"type": "realia",
+"id": "flora:Vine",
+"type": "flora",
 "confidence": 0.1055,
 "match_method": "canonical",
-"preferred_label": "मुकुट"
+"preferred_label": "दाखलता"
 },
 {
 "id": "realia:Wine",
@@ -2991,13 +2991,6 @@
 "preferred_label": "मिस्र"
 },
 {
-"id": "fauna:Bull",
-"type": "fauna",
-"confidence": 0.2366,
-"match_method": "canonical",
-"preferred_label": "गाय-बैल"
-},
-{
 "id": "realia:Crown",
 "type": "realia",
 "confidence": 0.2366,
@@ -3005,11 +2998,25 @@
 "preferred_label": "राजमुकुट"
 },
 {
-"id": "keyterm:Sin",
-"type": "keyterm",
+"id": "fauna:Bull",
+"type": "fauna",
+"confidence": 0.2366,
+"match_method": "canonical",
+"preferred_label": "गाय-बैल"
+},
+{
+"id": "person:Ephraim",
+"type": "person",
 "confidence": 0.231,
 "match_method": "canonical",
-"preferred_label": "पाप करना"
+"preferred_label": "एप्रैम"
+},
+{
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.231,
+"match_method": "canonical",
+"preferred_label": "इस्राएल"
 },
 {
 "id": "keyterm:WordOfTheLord",
@@ -3026,18 +3033,11 @@
 "preferred_label": "एप्रैम का गोत्र"
 },
 {
-"id": "person:Ephraim",
-"type": "person",
+"id": "keyterm:Sin",
+"type": "keyterm",
 "confidence": 0.231,
 "match_method": "canonical",
-"preferred_label": "एप्रैम"
-},
-{
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.231,
-"match_method": "canonical",
-"preferred_label": "इस्राएल"
+"preferred_label": "पाप करना"
 },
 {
 "id": "keyterm:Blow",
@@ -3061,34 +3061,6 @@
 "preferred_label": "घर"
 },
 {
-"id": "keyterm:EnticedToServe",
-"type": "keyterm",
-"confidence": 0.1655,
-"match_method": "canonical",
-"preferred_label": "सेवा करवाना"
-},
-{
-"id": "keyterm:Fear",
-"type": "keyterm",
-"confidence": 0.1655,
-"match_method": "canonical",
-"preferred_label": "भय"
-},
-{
-"id": "keyterm:Strength",
-"type": "keyterm",
-"confidence": 0.1655,
-"match_method": "canonical",
-"preferred_label": "बल"
-},
-{
-"id": "person:Aaron",
-"type": "person",
-"confidence": 0.1655,
-"match_method": "canonical",
-"preferred_label": "हारून"
-},
-{
 "id": "group:Hebrews",
 "type": "group",
 "confidence": 0.1655,
@@ -3110,11 +3082,32 @@
 "preferred_label": "गोशेन"
 },
 {
-"id": "flora:Wheat",
-"type": "flora",
-"confidence": 0.1124,
+"id": "keyterm:Fear",
+"type": "keyterm",
+"confidence": 0.1655,
 "match_method": "canonical",
-"preferred_label": "गेहूँ"
+"preferred_label": "भय"
+},
+{
+"id": "person:Aaron",
+"type": "person",
+"confidence": 0.1655,
+"match_method": "canonical",
+"preferred_label": "हारून"
+},
+{
+"id": "keyterm:EnticedToServe",
+"type": "keyterm",
+"confidence": 0.1655,
+"match_method": "canonical",
+"preferred_label": "सेवा करवाना"
+},
+{
+"id": "keyterm:Strength",
+"type": "keyterm",
+"confidence": 0.1655,
+"match_method": "canonical",
+"preferred_label": "बल"
 },
 {
 "id": "flora:Barley",
@@ -3131,18 +3124,25 @@
 "preferred_label": "सन"
 },
 {
+"id": "flora:Wheat",
+"type": "flora",
+"confidence": 0.1124,
+"match_method": "canonical",
+"preferred_label": "गेहूँ"
+},
+{
+"id": "realia:Crown.2",
+"type": "realia",
+"confidence": 0.1055,
+"match_method": "canonical",
+"preferred_label": "मुकुट"
+},
+{
 "id": "flora:Fig",
 "type": "flora",
 "confidence": 0.1055,
 "match_method": "canonical",
 "preferred_label": "अंजीर"
-},
-{
-"id": "flora:Vine",
-"type": "flora",
-"confidence": 0.1055,
-"match_method": "canonical",
-"preferred_label": "दाखलता"
 },
 {
 "id": "realia:Rod",
@@ -3152,11 +3152,11 @@
 "preferred_label": "छड़ी"
 },
 {
-"id": "realia:Crown.2",
-"type": "realia",
+"id": "flora:Vine",
+"type": "flora",
 "confidence": 0.1055,
 "match_method": "canonical",
-"preferred_label": "मुकुट"
+"preferred_label": "दाखलता"
 },
 {
 "id": "realia:Wine",
@@ -3197,18 +3197,18 @@
 "preferred_label": "यहोवा"
 },
 {
-"id": "person:Pharaoh.6",
-"type": "person",
-"confidence": 0.3,
-"match_method": "canonical",
-"preferred_label": "फ़िरौन"
-},
-{
 "id": "keyterm:WordOfTheLord",
 "type": "keyterm",
 "confidence": 0.3,
 "match_method": "canonical",
 "preferred_label": "यहोवा का वचन"
+},
+{
+"id": "person:Pharaoh.6",
+"type": "person",
+"confidence": 0.3,
+"match_method": "canonical",
+"preferred_label": "फ़िरौन"
 },
 {
 "id": "realia:House",
@@ -3225,27 +3225,6 @@
 "preferred_label": "विपत्ति"
 },
 {
-"id": "keyterm:EnticedToServe",
-"type": "keyterm",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "सेवा करवाना"
-},
-{
-"id": "place:Egypt",
-"type": "place",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "मिस्र"
-},
-{
-"id": "keyterm:Strength",
-"type": "keyterm",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "बल"
-},
-{
 "id": "group:Hebrews",
 "type": "group",
 "confidence": 0.2,
@@ -3258,6 +3237,27 @@
 "confidence": 0.2,
 "match_method": "canonical",
 "preferred_label": "मूसा"
+},
+{
+"id": "keyterm:Strength",
+"type": "keyterm",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "बल"
+},
+{
+"id": "keyterm:EnticedToServe",
+"type": "keyterm",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "सेवा करवाना"
+},
+{
+"id": "place:Egypt",
+"type": "place",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "मिस्र"
 },
 {
 "id": "fauna:Bull",
@@ -3298,18 +3298,18 @@
 "preferred_label": "यहोवा"
 },
 {
-"id": "person:Pharaoh.6",
-"type": "person",
-"confidence": 0.3,
-"match_method": "canonical",
-"preferred_label": "फ़िरौन"
-},
-{
 "id": "keyterm:WordOfTheLord",
 "type": "keyterm",
 "confidence": 0.3,
 "match_method": "canonical",
 "preferred_label": "यहोवा का वचन"
+},
+{
+"id": "person:Pharaoh.6",
+"type": "person",
+"confidence": 0.3,
+"match_method": "canonical",
+"preferred_label": "फ़िरौन"
 },
 {
 "id": "realia:House",
@@ -3326,27 +3326,6 @@
 "preferred_label": "विपत्ति"
 },
 {
-"id": "keyterm:EnticedToServe",
-"type": "keyterm",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "सेवा करवाना"
-},
-{
-"id": "place:Egypt",
-"type": "place",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "मिस्र"
-},
-{
-"id": "keyterm:Strength",
-"type": "keyterm",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "बल"
-},
-{
 "id": "group:Hebrews",
 "type": "group",
 "confidence": 0.2,
@@ -3359,6 +3338,27 @@
 "confidence": 0.2,
 "match_method": "canonical",
 "preferred_label": "मूसा"
+},
+{
+"id": "keyterm:Strength",
+"type": "keyterm",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "बल"
+},
+{
+"id": "keyterm:EnticedToServe",
+"type": "keyterm",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "सेवा करवाना"
+},
+{
+"id": "place:Egypt",
+"type": "place",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "मिस्र"
 },
 {
 "id": "fauna:Bull",
@@ -3399,18 +3399,18 @@
 "preferred_label": "यहोवा"
 },
 {
-"id": "person:Pharaoh.6",
-"type": "person",
-"confidence": 0.3,
-"match_method": "canonical",
-"preferred_label": "फ़िरौन"
-},
-{
 "id": "keyterm:WordOfTheLord",
 "type": "keyterm",
 "confidence": 0.3,
 "match_method": "canonical",
 "preferred_label": "यहोवा का वचन"
+},
+{
+"id": "person:Pharaoh.6",
+"type": "person",
+"confidence": 0.3,
+"match_method": "canonical",
+"preferred_label": "फ़िरौन"
 },
 {
 "id": "realia:House",
@@ -3427,27 +3427,6 @@
 "preferred_label": "विपत्ति"
 },
 {
-"id": "keyterm:EnticedToServe",
-"type": "keyterm",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "सेवा करवाना"
-},
-{
-"id": "place:Egypt",
-"type": "place",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "मिस्र"
-},
-{
-"id": "keyterm:Strength",
-"type": "keyterm",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "बल"
-},
-{
 "id": "group:Hebrews",
 "type": "group",
 "confidence": 0.2,
@@ -3460,6 +3439,27 @@
 "confidence": 0.2,
 "match_method": "canonical",
 "preferred_label": "मूसा"
+},
+{
+"id": "keyterm:Strength",
+"type": "keyterm",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "बल"
+},
+{
+"id": "keyterm:EnticedToServe",
+"type": "keyterm",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "सेवा करवाना"
+},
+{
+"id": "place:Egypt",
+"type": "place",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "मिस्र"
 },
 {
 "id": "fauna:Bull",
@@ -3500,18 +3500,18 @@
 "preferred_label": "यहोवा"
 },
 {
-"id": "person:Pharaoh.6",
-"type": "person",
-"confidence": 0.3,
-"match_method": "canonical",
-"preferred_label": "फ़िरौन"
-},
-{
 "id": "keyterm:WordOfTheLord",
 "type": "keyterm",
 "confidence": 0.3,
 "match_method": "canonical",
 "preferred_label": "यहोवा का वचन"
+},
+{
+"id": "person:Pharaoh.6",
+"type": "person",
+"confidence": 0.3,
+"match_method": "canonical",
+"preferred_label": "फ़िरौन"
 },
 {
 "id": "realia:House",
@@ -3528,27 +3528,6 @@
 "preferred_label": "विपत्ति"
 },
 {
-"id": "keyterm:EnticedToServe",
-"type": "keyterm",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "सेवा करवाना"
-},
-{
-"id": "place:Egypt",
-"type": "place",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "मिस्र"
-},
-{
-"id": "keyterm:Strength",
-"type": "keyterm",
-"confidence": 0.2,
-"match_method": "canonical",
-"preferred_label": "बल"
-},
-{
 "id": "group:Hebrews",
 "type": "group",
 "confidence": 0.2,
@@ -3561,6 +3540,27 @@
 "confidence": 0.2,
 "match_method": "canonical",
 "preferred_label": "मूसा"
+},
+{
+"id": "keyterm:Strength",
+"type": "keyterm",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "बल"
+},
+{
+"id": "keyterm:EnticedToServe",
+"type": "keyterm",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "सेवा करवाना"
+},
+{
+"id": "place:Egypt",
+"type": "place",
+"confidence": 0.2,
+"match_method": "canonical",
+"preferred_label": "मिस्र"
 },
 {
 "id": "fauna:Bull",
@@ -3614,13 +3614,6 @@
 "preferred_label": "घर"
 },
 {
-"id": "realia:Cubit",
-"type": "realia",
-"confidence": 0.2694,
-"match_method": "canonical",
-"preferred_label": "हाथ"
-},
-{
 "id": "realia:HewnStone",
 "type": "realia",
 "confidence": 0.2694,
@@ -3628,11 +3621,11 @@
 "preferred_label": "तराशा हुआ पत्थर"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.2529,
+"id": "realia:Cubit",
+"type": "realia",
+"confidence": 0.2694,
 "match_method": "canonical",
-"preferred_label": "यहोवा"
+"preferred_label": "हाथ"
 },
 {
 "id": "person:Solomon",
@@ -3642,11 +3635,11 @@
 "preferred_label": "सुलैमान"
 },
 {
-"id": "place:HallOfJudgment",
-"type": "place",
-"confidence": 0.1882,
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.2529,
 "match_method": "canonical",
-"preferred_label": "न्याय का ओसारा"
+"preferred_label": "यहोवा"
 },
 {
 "id": "place:HallOfPillars",
@@ -3656,11 +3649,11 @@
 "preferred_label": "खम्भोंवाला ओसारा"
 },
 {
-"id": "keyterm:Portent",
-"type": "keyterm",
+"id": "place:HallOfJudgment",
+"type": "place",
 "confidence": 0.1882,
 "match_method": "canonical",
-"preferred_label": "अद्भुत काम"
+"preferred_label": "न्याय का ओसारा"
 },
 {
 "id": "place:HallOfTheThrone",
@@ -3670,25 +3663,18 @@
 "preferred_label": "सिंहासन का ओसारा"
 },
 {
+"id": "keyterm:Portent",
+"type": "keyterm",
+"confidence": 0.1882,
+"match_method": "canonical",
+"preferred_label": "अद्भुत काम"
+},
+{
 "id": "place:HouseOfTheForestOfLebanon",
 "type": "place",
 "confidence": 0.1882,
 "match_method": "canonical",
 "preferred_label": "लबानोन का वन नामक महल"
-},
-{
-"id": "keyterm:Serve",
-"type": "keyterm",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "टहल-सेवा करना"
-},
-{
-"id": "person:Peter",
-"type": "person",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "पतरस"
 },
 {
 "id": "keyterm:Example",
@@ -3705,6 +3691,13 @@
 "preferred_label": "विश्वास करना"
 },
 {
+"id": "person:Pharaoh.7",
+"type": "person",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "फ़िरौन"
+},
+{
 "id": "place:Jerusalem",
 "type": "place",
 "confidence": 0.1765,
@@ -3712,11 +3705,18 @@
 "preferred_label": "यरूशलेम"
 },
 {
-"id": "person:Pharaoh.7",
+"id": "keyterm:Serve",
+"type": "keyterm",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "टहल-सेवा करना"
+},
+{
+"id": "person:Peter",
 "type": "person",
 "confidence": 0.1765,
 "match_method": "canonical",
-"preferred_label": "फ़िरौन"
+"preferred_label": "पतरस"
 },
 {
 "id": "realia:StonePlane",
@@ -3740,13 +3740,6 @@
 "preferred_label": "चौखट की बाजू"
 },
 {
-"id": "realia:Throne",
-"type": "realia",
-"confidence": 0.1165,
-"match_method": "canonical",
-"preferred_label": "सिंहासन"
-},
-{
 "id": "realia:Bed",
 "type": "realia",
 "confidence": 0.1165,
@@ -3754,18 +3747,25 @@
 "preferred_label": "पलंग"
 },
 {
-"id": "realia:Foundation",
-"type": "realia",
-"confidence": 0.1165,
-"match_method": "canonical",
-"preferred_label": "नींव"
-},
-{
 "id": "realia:Floor",
 "type": "realia",
 "confidence": 0.1165,
 "match_method": "canonical",
 "preferred_label": "फर्श"
+},
+{
+"id": "realia:Throne",
+"type": "realia",
+"confidence": 0.1165,
+"match_method": "canonical",
+"preferred_label": "सिंहासन"
+},
+{
+"id": "realia:Foundation",
+"type": "realia",
+"confidence": 0.1165,
+"match_method": "canonical",
+"preferred_label": "नींव"
 }
 ]
 }
@@ -3812,13 +3812,6 @@
 "preferred_label": "घर"
 },
 {
-"id": "realia:Cubit",
-"type": "realia",
-"confidence": 0.2694,
-"match_method": "canonical",
-"preferred_label": "हाथ"
-},
-{
 "id": "realia:HewnStone",
 "type": "realia",
 "confidence": 0.2694,
@@ -3826,11 +3819,11 @@
 "preferred_label": "तराशा हुआ पत्थर"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.2529,
+"id": "realia:Cubit",
+"type": "realia",
+"confidence": 0.2694,
 "match_method": "canonical",
-"preferred_label": "यहोवा"
+"preferred_label": "हाथ"
 },
 {
 "id": "person:Solomon",
@@ -3840,11 +3833,11 @@
 "preferred_label": "सुलैमान"
 },
 {
-"id": "place:HallOfJudgment",
-"type": "place",
-"confidence": 0.1882,
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.2529,
 "match_method": "canonical",
-"preferred_label": "न्याय का ओसारा"
+"preferred_label": "यहोवा"
 },
 {
 "id": "place:HallOfPillars",
@@ -3854,11 +3847,11 @@
 "preferred_label": "खम्भोंवाला ओसारा"
 },
 {
-"id": "keyterm:Portent",
-"type": "keyterm",
+"id": "place:HallOfJudgment",
+"type": "place",
 "confidence": 0.1882,
 "match_method": "canonical",
-"preferred_label": "अद्भुत काम"
+"preferred_label": "न्याय का ओसारा"
 },
 {
 "id": "place:HallOfTheThrone",
@@ -3868,25 +3861,18 @@
 "preferred_label": "सिंहासन का ओसारा"
 },
 {
+"id": "keyterm:Portent",
+"type": "keyterm",
+"confidence": 0.1882,
+"match_method": "canonical",
+"preferred_label": "अद्भुत काम"
+},
+{
 "id": "place:HouseOfTheForestOfLebanon",
 "type": "place",
 "confidence": 0.1882,
 "match_method": "canonical",
 "preferred_label": "लबानोन का वन नामक महल"
-},
-{
-"id": "keyterm:Serve",
-"type": "keyterm",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "टहल-सेवा करना"
-},
-{
-"id": "person:Peter",
-"type": "person",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "पतरस"
 },
 {
 "id": "keyterm:Example",
@@ -3903,6 +3889,13 @@
 "preferred_label": "विश्वास करना"
 },
 {
+"id": "person:Pharaoh.7",
+"type": "person",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "फ़िरौन"
+},
+{
 "id": "place:Jerusalem",
 "type": "place",
 "confidence": 0.1765,
@@ -3910,11 +3903,18 @@
 "preferred_label": "यरूशलेम"
 },
 {
-"id": "person:Pharaoh.7",
+"id": "keyterm:Serve",
+"type": "keyterm",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "टहल-सेवा करना"
+},
+{
+"id": "person:Peter",
 "type": "person",
 "confidence": 0.1765,
 "match_method": "canonical",
-"preferred_label": "फ़िरौन"
+"preferred_label": "पतरस"
 },
 {
 "id": "realia:StonePlane",
@@ -3938,13 +3938,6 @@
 "preferred_label": "चौखट की बाजू"
 },
 {
-"id": "realia:Throne",
-"type": "realia",
-"confidence": 0.1165,
-"match_method": "canonical",
-"preferred_label": "सिंहासन"
-},
-{
 "id": "realia:Bed",
 "type": "realia",
 "confidence": 0.1165,
@@ -3952,18 +3945,25 @@
 "preferred_label": "पलंग"
 },
 {
-"id": "realia:Foundation",
-"type": "realia",
-"confidence": 0.1165,
-"match_method": "canonical",
-"preferred_label": "नींव"
-},
-{
 "id": "realia:Floor",
 "type": "realia",
 "confidence": 0.1165,
 "match_method": "canonical",
 "preferred_label": "फर्श"
+},
+{
+"id": "realia:Throne",
+"type": "realia",
+"confidence": 0.1165,
+"match_method": "canonical",
+"preferred_label": "सिंहासन"
+},
+{
+"id": "realia:Foundation",
+"type": "realia",
+"confidence": 0.1165,
+"match_method": "canonical",
+"preferred_label": "नींव"
 }
 ]
 }
@@ -4010,13 +4010,6 @@
 "preferred_label": "घर"
 },
 {
-"id": "realia:Cubit",
-"type": "realia",
-"confidence": 0.2694,
-"match_method": "canonical",
-"preferred_label": "हाथ"
-},
-{
 "id": "realia:HewnStone",
 "type": "realia",
 "confidence": 0.2694,
@@ -4024,11 +4017,11 @@
 "preferred_label": "तराशा हुआ पत्थर"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.2529,
+"id": "realia:Cubit",
+"type": "realia",
+"confidence": 0.2694,
 "match_method": "canonical",
-"preferred_label": "यहोवा"
+"preferred_label": "हाथ"
 },
 {
 "id": "person:Solomon",
@@ -4038,11 +4031,11 @@
 "preferred_label": "सुलैमान"
 },
 {
-"id": "place:HallOfJudgment",
-"type": "place",
-"confidence": 0.1882,
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.2529,
 "match_method": "canonical",
-"preferred_label": "न्याय का ओसारा"
+"preferred_label": "यहोवा"
 },
 {
 "id": "place:HallOfPillars",
@@ -4052,11 +4045,11 @@
 "preferred_label": "खम्भोंवाला ओसारा"
 },
 {
-"id": "keyterm:Portent",
-"type": "keyterm",
+"id": "place:HallOfJudgment",
+"type": "place",
 "confidence": 0.1882,
 "match_method": "canonical",
-"preferred_label": "अद्भुत काम"
+"preferred_label": "न्याय का ओसारा"
 },
 {
 "id": "place:HallOfTheThrone",
@@ -4066,25 +4059,18 @@
 "preferred_label": "सिंहासन का ओसारा"
 },
 {
+"id": "keyterm:Portent",
+"type": "keyterm",
+"confidence": 0.1882,
+"match_method": "canonical",
+"preferred_label": "अद्भुत काम"
+},
+{
 "id": "place:HouseOfTheForestOfLebanon",
 "type": "place",
 "confidence": 0.1882,
 "match_method": "canonical",
 "preferred_label": "लबानोन का वन नामक महल"
-},
-{
-"id": "keyterm:Serve",
-"type": "keyterm",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "टहल-सेवा करना"
-},
-{
-"id": "person:Peter",
-"type": "person",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "पतरस"
 },
 {
 "id": "keyterm:Example",
@@ -4101,6 +4087,13 @@
 "preferred_label": "विश्वास करना"
 },
 {
+"id": "person:Pharaoh.7",
+"type": "person",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "फ़िरौन"
+},
+{
 "id": "place:Jerusalem",
 "type": "place",
 "confidence": 0.1765,
@@ -4108,11 +4101,18 @@
 "preferred_label": "यरूशलेम"
 },
 {
-"id": "person:Pharaoh.7",
+"id": "keyterm:Serve",
+"type": "keyterm",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "टहल-सेवा करना"
+},
+{
+"id": "person:Peter",
 "type": "person",
 "confidence": 0.1765,
 "match_method": "canonical",
-"preferred_label": "फ़िरौन"
+"preferred_label": "पतरस"
 },
 {
 "id": "realia:StonePlane",
@@ -4136,13 +4136,6 @@
 "preferred_label": "चौखट की बाजू"
 },
 {
-"id": "realia:Throne",
-"type": "realia",
-"confidence": 0.1165,
-"match_method": "canonical",
-"preferred_label": "सिंहासन"
-},
-{
 "id": "realia:Bed",
 "type": "realia",
 "confidence": 0.1165,
@@ -4150,18 +4143,25 @@
 "preferred_label": "पलंग"
 },
 {
-"id": "realia:Foundation",
-"type": "realia",
-"confidence": 0.1165,
-"match_method": "canonical",
-"preferred_label": "नींव"
-},
-{
 "id": "realia:Floor",
 "type": "realia",
 "confidence": 0.1165,
 "match_method": "canonical",
 "preferred_label": "फर्श"
+},
+{
+"id": "realia:Throne",
+"type": "realia",
+"confidence": 0.1165,
+"match_method": "canonical",
+"preferred_label": "सिंहासन"
+},
+{
+"id": "realia:Foundation",
+"type": "realia",
+"confidence": 0.1165,
+"match_method": "canonical",
+"preferred_label": "नींव"
 }
 ]
 }
@@ -4208,13 +4208,6 @@
 "preferred_label": "घर"
 },
 {
-"id": "realia:Cubit",
-"type": "realia",
-"confidence": 0.2694,
-"match_method": "canonical",
-"preferred_label": "हाथ"
-},
-{
 "id": "realia:HewnStone",
 "type": "realia",
 "confidence": 0.2694,
@@ -4222,11 +4215,11 @@
 "preferred_label": "तराशा हुआ पत्थर"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.2529,
+"id": "realia:Cubit",
+"type": "realia",
+"confidence": 0.2694,
 "match_method": "canonical",
-"preferred_label": "यहोवा"
+"preferred_label": "हाथ"
 },
 {
 "id": "person:Solomon",
@@ -4236,11 +4229,11 @@
 "preferred_label": "सुलैमान"
 },
 {
-"id": "place:HallOfJudgment",
-"type": "place",
-"confidence": 0.1882,
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.2529,
 "match_method": "canonical",
-"preferred_label": "न्याय का ओसारा"
+"preferred_label": "यहोवा"
 },
 {
 "id": "place:HallOfPillars",
@@ -4250,11 +4243,11 @@
 "preferred_label": "खम्भोंवाला ओसारा"
 },
 {
-"id": "keyterm:Portent",
-"type": "keyterm",
+"id": "place:HallOfJudgment",
+"type": "place",
 "confidence": 0.1882,
 "match_method": "canonical",
-"preferred_label": "अद्भुत काम"
+"preferred_label": "न्याय का ओसारा"
 },
 {
 "id": "place:HallOfTheThrone",
@@ -4264,25 +4257,18 @@
 "preferred_label": "सिंहासन का ओसारा"
 },
 {
+"id": "keyterm:Portent",
+"type": "keyterm",
+"confidence": 0.1882,
+"match_method": "canonical",
+"preferred_label": "अद्भुत काम"
+},
+{
 "id": "place:HouseOfTheForestOfLebanon",
 "type": "place",
 "confidence": 0.1882,
 "match_method": "canonical",
 "preferred_label": "लबानोन का वन नामक महल"
-},
-{
-"id": "keyterm:Serve",
-"type": "keyterm",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "टहल-सेवा करना"
-},
-{
-"id": "person:Peter",
-"type": "person",
-"confidence": 0.1765,
-"match_method": "canonical",
-"preferred_label": "पतरस"
 },
 {
 "id": "keyterm:Example",
@@ -4299,6 +4285,13 @@
 "preferred_label": "विश्वास करना"
 },
 {
+"id": "person:Pharaoh.7",
+"type": "person",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "फ़िरौन"
+},
+{
 "id": "place:Jerusalem",
 "type": "place",
 "confidence": 0.1765,
@@ -4306,11 +4299,18 @@
 "preferred_label": "यरूशलेम"
 },
 {
-"id": "person:Pharaoh.7",
+"id": "keyterm:Serve",
+"type": "keyterm",
+"confidence": 0.1765,
+"match_method": "canonical",
+"preferred_label": "टहल-सेवा करना"
+},
+{
+"id": "person:Peter",
 "type": "person",
 "confidence": 0.1765,
 "match_method": "canonical",
-"preferred_label": "फ़िरौन"
+"preferred_label": "पतरस"
 },
 {
 "id": "realia:StonePlane",
@@ -4334,13 +4334,6 @@
 "preferred_label": "चौखट की बाजू"
 },
 {
-"id": "realia:Throne",
-"type": "realia",
-"confidence": 0.1165,
-"match_method": "canonical",
-"preferred_label": "सिंहासन"
-},
-{
 "id": "realia:Bed",
 "type": "realia",
 "confidence": 0.1165,
@@ -4348,18 +4341,25 @@
 "preferred_label": "पलंग"
 },
 {
-"id": "realia:Foundation",
-"type": "realia",
-"confidence": 0.1165,
-"match_method": "canonical",
-"preferred_label": "नींव"
-},
-{
 "id": "realia:Floor",
 "type": "realia",
 "confidence": 0.1165,
 "match_method": "canonical",
 "preferred_label": "फर्श"
+},
+{
+"id": "realia:Throne",
+"type": "realia",
+"confidence": 0.1165,
+"match_method": "canonical",
+"preferred_label": "सिंहासन"
+},
+{
+"id": "realia:Foundation",
+"type": "realia",
+"confidence": 0.1165,
+"match_method": "canonical",
+"preferred_label": "नींव"
 }
 ]
 }
