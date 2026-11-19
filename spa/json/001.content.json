@@ -125,6 +125,13 @@
 "preferred_label": "proclamar"
 },
 {
+"id": "keyterm:Mercy",
+"type": "keyterm",
+"confidence": 0.1667,
+"match_method": "canonical",
+"preferred_label": "misericordia"
+},
+{
 "id": "keyterm:Fear",
 "type": "keyterm",
 "confidence": 0.1667,
@@ -137,13 +144,6 @@
 "confidence": 0.1667,
 "match_method": "canonical",
 "preferred_label": "postrarse"
-},
-{
-"id": "keyterm:Mercy",
-"type": "keyterm",
-"confidence": 0.1667,
-"match_method": "canonical",
-"preferred_label": "misericordia"
 },
 {
 "id": "keyterm:Name",
@@ -160,18 +160,18 @@
 "preferred_label": "grillete"
 },
 {
-"id": "realia:House",
-"type": "realia",
-"confidence": 0.1067,
-"match_method": "canonical",
-"preferred_label": "casa"
-},
-{
 "id": "realia:Temple",
 "type": "realia",
 "confidence": 0.1067,
 "match_method": "canonical",
 "preferred_label": "Templo"
+},
+{
+"id": "realia:House",
+"type": "realia",
+"confidence": 0.1067,
+"match_method": "canonical",
+"preferred_label": "casa"
 }
 ]
 }
@@ -302,6 +302,13 @@
 "preferred_label": "proclamar"
 },
 {
+"id": "keyterm:Mercy",
+"type": "keyterm",
+"confidence": 0.1667,
+"match_method": "canonical",
+"preferred_label": "misericordia"
+},
+{
 "id": "keyterm:Fear",
 "type": "keyterm",
 "confidence": 0.1667,
@@ -314,13 +321,6 @@
 "confidence": 0.1667,
 "match_method": "canonical",
 "preferred_label": "postrarse"
-},
-{
-"id": "keyterm:Mercy",
-"type": "keyterm",
-"confidence": 0.1667,
-"match_method": "canonical",
-"preferred_label": "misericordia"
 },
 {
 "id": "keyterm:Name",
@@ -337,18 +337,18 @@
 "preferred_label": "grillete"
 },
 {
-"id": "realia:House",
-"type": "realia",
-"confidence": 0.1067,
-"match_method": "canonical",
-"preferred_label": "casa"
-},
-{
 "id": "realia:Temple",
 "type": "realia",
 "confidence": 0.1067,
 "match_method": "canonical",
 "preferred_label": "Templo"
+},
+{
+"id": "realia:House",
+"type": "realia",
+"confidence": 0.1067,
+"match_method": "canonical",
+"preferred_label": "casa"
 }
 ]
 }
@@ -440,13 +440,6 @@
 "preferred_label": "parábola"
 },
 {
-"id": "place:Philistine",
-"type": "place",
-"confidence": 0.3739,
-"match_method": "canonical",
-"preferred_label": "Filistea"
-},
-{
 "id": "person:Pharaoh.4",
 "type": "person",
 "confidence": 0.3739,
@@ -461,11 +454,18 @@
 "preferred_label": "Sansón"
 },
 {
-"id": "person:Jesus.2",
+"id": "person:Benjamin",
 "type": "person",
 "confidence": 0.3739,
 "match_method": "canonical",
-"preferred_label": "Jesús"
+"preferred_label": "Benjamín"
+},
+{
+"id": "place:Philistine",
+"type": "place",
+"confidence": 0.3739,
+"match_method": "canonical",
+"preferred_label": "Filistea"
 },
 {
 "id": "group:Philistine",
@@ -475,11 +475,11 @@
 "preferred_label": "filisteos"
 },
 {
-"id": "person:Benjamin",
+"id": "person:Jesus.2",
 "type": "person",
 "confidence": 0.3739,
 "match_method": "canonical",
-"preferred_label": "Benjamín"
+"preferred_label": "Jesús"
 },
 {
 "id": "realia:House",
@@ -510,11 +510,25 @@
 "preferred_label": "azadón"
 },
 {
+"id": "keyterm:Heaven",
+"type": "keyterm",
+"confidence": 0.2096,
+"match_method": "canonical",
+"preferred_label": "cielo"
+},
+{
 "id": "keyterm:Name",
 "type": "keyterm",
 "confidence": 0.2096,
 "match_method": "canonical",
 "preferred_label": "nombre"
+},
+{
+"id": "group:Benjamin",
+"type": "group",
+"confidence": 0.2096,
+"match_method": "canonical",
+"preferred_label": "tribu de Benjamín"
 },
 {
 "id": "person:Jonathan.3",
@@ -524,32 +538,11 @@
 "preferred_label": "Jonatán"
 },
 {
-"id": "keyterm:Heaven",
-"type": "keyterm",
-"confidence": 0.2096,
-"match_method": "canonical",
-"preferred_label": "cielo"
-},
-{
-"id": "place:Michmash",
-"type": "place",
-"confidence": 0.2096,
-"match_method": "canonical",
-"preferred_label": "Micmás"
-},
-{
 "id": "place:Canaan",
 "type": "place",
 "confidence": 0.2096,
 "match_method": "canonical",
 "preferred_label": "Canaán"
-},
-{
-"id": "group:Benjamin",
-"type": "group",
-"confidence": 0.2096,
-"match_method": "canonical",
-"preferred_label": "tribu de Benjamín"
 },
 {
 "id": "place:Jerusalem",
@@ -566,6 +559,13 @@
 "preferred_label": "Juan"
 },
 {
+"id": "place:Michmash",
+"type": "place",
+"confidence": 0.2096,
+"match_method": "canonical",
+"preferred_label": "Micmás"
+},
+{
 "id": "flora:Brier",
 "type": "flora",
 "confidence": 0.2065,
@@ -580,18 +580,18 @@
 "preferred_label": "carro"
 },
 {
-"id": "flora:Thistle",
-"type": "flora",
-"confidence": 0.2044,
-"match_method": "canonical",
-"preferred_label": "cardo"
-},
-{
 "id": "flora:Acacia",
 "type": "flora",
 "confidence": 0.2044,
 "match_method": "canonical",
 "preferred_label": "acacia"
+},
+{
+"id": "flora:Thistle",
+"type": "flora",
+"confidence": 0.2044,
+"match_method": "canonical",
+"preferred_label": "cardo"
 },
 {
 "id": "flora:Boxthorn",
@@ -608,11 +608,11 @@
 "preferred_label": "samaritanos"
 },
 {
-"id": "place:ZeboimValley",
+"id": "place:Goshen",
 "type": "place",
 "confidence": 0.1569,
 "match_method": "canonical",
-"preferred_label": "valle de Seboim"
+"preferred_label": "Gosén"
 }
 ]
 }
@@ -790,13 +790,6 @@
 "preferred_label": "santo"
 },
 {
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.365,
-"match_method": "canonical",
-"preferred_label": "Israel"
-},
-{
 "id": "person:Noah",
 "type": "person",
 "confidence": 0.365,
@@ -811,11 +804,11 @@
 "preferred_label": "Pedro"
 },
 {
-"id": "keyterm:Body.3",
-"type": "keyterm",
-"confidence": 0.3625,
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.365,
 "match_method": "canonical",
-"preferred_label": "cuerpo"
+"preferred_label": "Israel"
 },
 {
 "id": "person:Abimelech.2",
@@ -830,6 +823,13 @@
 "confidence": 0.3625,
 "match_method": "canonical",
 "preferred_label": "Ezequías"
+},
+{
+"id": "keyterm:Body.3",
+"type": "keyterm",
+"confidence": 0.3625,
+"match_method": "canonical",
+"preferred_label": "cuerpo"
 },
 {
 "id": "flora:OliveTree",
@@ -860,18 +860,18 @@
 "preferred_label": "cielo"
 },
 {
-"id": "realia:AnointingOil",
-"type": "realia",
-"confidence": 0.3111,
-"match_method": "canonical",
-"preferred_label": "aceite de unción"
-},
-{
 "id": "person:Rabshakeh",
 "type": "person",
 "confidence": 0.3111,
 "match_method": "canonical",
 "preferred_label": "Rabsaces"
+},
+{
+"id": "realia:AnointingOil",
+"type": "realia",
+"confidence": 0.3111,
+"match_method": "canonical",
+"preferred_label": "aceite de unción"
 },
 {
 "id": "keyterm:Name",
@@ -881,25 +881,18 @@
 "preferred_label": "nombre"
 },
 {
-"id": "keyterm:PutToTheTest",
-"type": "keyterm",
-"confidence": 0.31,
-"match_method": "canonical",
-"preferred_label": "poner a prueba"
-},
-{
-"id": "keyterm:Smear",
-"type": "keyterm",
-"confidence": 0.31,
-"match_method": "canonical",
-"preferred_label": "untar"
-},
-{
 "id": "keyterm:Ability",
 "type": "keyterm",
 "confidence": 0.31,
 "match_method": "canonical",
 "preferred_label": "habilidad"
+},
+{
+"id": "keyterm:PutToTheTest",
+"type": "keyterm",
+"confidence": 0.31,
+"match_method": "canonical",
+"preferred_label": "poner a prueba"
 },
 {
 "id": "person:Moses",
@@ -909,6 +902,13 @@
 "preferred_label": "Moisés"
 },
 {
+"id": "place:Assyria",
+"type": "place",
+"confidence": 0.31,
+"match_method": "canonical",
+"preferred_label": "Asiria"
+},
+{
 "id": "realia:OliveOil",
 "type": "realia",
 "confidence": 0.31,
@@ -916,11 +916,11 @@
 "preferred_label": "aceite de oliva"
 },
 {
-"id": "place:Assyria",
-"type": "place",
+"id": "keyterm:Smear",
+"type": "keyterm",
 "confidence": 0.31,
 "match_method": "canonical",
-"preferred_label": "Asiria"
+"preferred_label": "untar"
 },
 {
 "id": "fauna:Donkey",
@@ -944,11 +944,11 @@
 "preferred_label": "Betania"
 },
 {
-"id": "keyterm:Sabbath",
-"type": "keyterm",
+"id": "person:James",
+"type": "person",
 "confidence": 0.2575,
 "match_method": "canonical",
-"preferred_label": "día de reposo"
+"preferred_label": "Jacobo"
 }
 ]
 }
@@ -1126,13 +1126,6 @@
 "preferred_label": "santo"
 },
 {
-"id": "person:Israel",
-"type": "person",
-"confidence": 0.365,
-"match_method": "canonical",
-"preferred_label": "Israel"
-},
-{
 "id": "person:Noah",
 "type": "person",
 "confidence": 0.365,
@@ -1147,11 +1140,11 @@
 "preferred_label": "Pedro"
 },
 {
-"id": "keyterm:Body.3",
-"type": "keyterm",
-"confidence": 0.3625,
+"id": "person:Israel",
+"type": "person",
+"confidence": 0.365,
 "match_method": "canonical",
-"preferred_label": "cuerpo"
+"preferred_label": "Israel"
 },
 {
 "id": "person:Abimelech.2",
@@ -1166,6 +1159,13 @@
 "confidence": 0.3625,
 "match_method": "canonical",
 "preferred_label": "Ezequías"
+},
+{
+"id": "keyterm:Body.3",
+"type": "keyterm",
+"confidence": 0.3625,
+"match_method": "canonical",
+"preferred_label": "cuerpo"
 },
 {
 "id": "flora:OliveTree",
@@ -1196,18 +1196,18 @@
 "preferred_label": "cielo"
 },
 {
-"id": "realia:AnointingOil",
-"type": "realia",
-"confidence": 0.3111,
-"match_method": "canonical",
-"preferred_label": "aceite de unción"
-},
-{
 "id": "person:Rabshakeh",
 "type": "person",
 "confidence": 0.3111,
 "match_method": "canonical",
 "preferred_label": "Rabsaces"
+},
+{
+"id": "realia:AnointingOil",
+"type": "realia",
+"confidence": 0.3111,
+"match_method": "canonical",
+"preferred_label": "aceite de unción"
 },
 {
 "id": "keyterm:Name",
@@ -1217,25 +1217,18 @@
 "preferred_label": "nombre"
 },
 {
-"id": "keyterm:PutToTheTest",
-"type": "keyterm",
-"confidence": 0.31,
-"match_method": "canonical",
-"preferred_label": "poner a prueba"
-},
-{
-"id": "keyterm:Smear",
-"type": "keyterm",
-"confidence": 0.31,
-"match_method": "canonical",
-"preferred_label": "untar"
-},
-{
 "id": "keyterm:Ability",
 "type": "keyterm",
 "confidence": 0.31,
 "match_method": "canonical",
 "preferred_label": "habilidad"
+},
+{
+"id": "keyterm:PutToTheTest",
+"type": "keyterm",
+"confidence": 0.31,
+"match_method": "canonical",
+"preferred_label": "poner a prueba"
 },
 {
 "id": "person:Moses",
@@ -1245,6 +1238,13 @@
 "preferred_label": "Moisés"
 },
 {
+"id": "place:Assyria",
+"type": "place",
+"confidence": 0.31,
+"match_method": "canonical",
+"preferred_label": "Asiria"
+},
+{
 "id": "realia:OliveOil",
 "type": "realia",
 "confidence": 0.31,
@@ -1252,11 +1252,11 @@
 "preferred_label": "aceite de oliva"
 },
 {
-"id": "place:Assyria",
-"type": "place",
+"id": "keyterm:Smear",
+"type": "keyterm",
 "confidence": 0.31,
 "match_method": "canonical",
-"preferred_label": "Asiria"
+"preferred_label": "untar"
 },
 {
 "id": "fauna:Donkey",
@@ -1280,11 +1280,11 @@
 "preferred_label": "Betania"
 },
 {
-"id": "keyterm:Sabbath",
-"type": "keyterm",
+"id": "person:James",
+"type": "person",
 "confidence": 0.2575,
 "match_method": "canonical",
-"preferred_label": "día de reposo"
+"preferred_label": "Jacobo"
 }
 ]
 }

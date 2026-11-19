@@ -75,11 +75,11 @@
 "preferred_label": "西门"
 },
 {
-"id": "keyterm:Sin",
+"id": "keyterm:Proclaim",
 "type": "keyterm",
 "confidence": 0.28,
 "match_method": "canonical",
-"preferred_label": "犯罪"
+"preferred_label": "宣告"
 },
 {
 "id": "keyterm:GoodNews",
@@ -89,18 +89,18 @@
 "preferred_label": "福音"
 },
 {
-"id": "keyterm:Proclaim",
-"type": "keyterm",
-"confidence": 0.28,
-"match_method": "canonical",
-"preferred_label": "宣告"
-},
-{
 "id": "group:Pharisee",
 "type": "group",
 "confidence": 0.28,
 "match_method": "canonical",
 "preferred_label": "法利赛人"
+},
+{
+"id": "keyterm:Sin",
+"type": "keyterm",
+"confidence": 0.28,
+"match_method": "canonical",
+"preferred_label": "犯罪"
 },
 {
 "id": "realia:AlabasterJar",
@@ -110,13 +110,6 @@
 "preferred_label": "玉瓶"
 },
 {
-"id": "person:Simon.4",
-"type": "person",
-"confidence": 0.2289,
-"match_method": "canonical",
-"preferred_label": "西门"
-},
-{
 "id": "place:Bethany",
 "type": "place",
 "confidence": 0.2289,
@@ -124,39 +117,18 @@
 "preferred_label": "伯大尼（橄榄山）"
 },
 {
+"id": "person:Simon.4",
+"type": "person",
+"confidence": 0.2289,
+"match_method": "canonical",
+"preferred_label": "西门"
+},
+{
 "id": "person:Judas.2",
 "type": "person",
 "confidence": 0.2244,
 "match_method": "canonical",
 "preferred_label": "犹大"
-},
-{
-"id": "keyterm:Surely",
-"type": "keyterm",
-"confidence": 0.22,
-"match_method": "canonical",
-"preferred_label": "确实！"
-},
-{
-"id": "keyterm:Anointed",
-"type": "keyterm",
-"confidence": 0.22,
-"match_method": "canonical",
-"preferred_label": "受膏"
-},
-{
-"id": "keyterm:Disciple",
-"type": "keyterm",
-"confidence": 0.22,
-"match_method": "canonical",
-"preferred_label": "作门徒"
-},
-{
-"id": "keyterm:Serve",
-"type": "keyterm",
-"confidence": 0.22,
-"match_method": "canonical",
-"preferred_label": "服侍"
 },
 {
 "id": "keyterm:Body.3",
@@ -173,11 +145,18 @@
 "preferred_label": "逾越节祭物"
 },
 {
-"id": "keyterm:Ability",
+"id": "keyterm:Disciple",
 "type": "keyterm",
 "confidence": 0.22,
 "match_method": "canonical",
-"preferred_label": "技能"
+"preferred_label": "作门徒"
+},
+{
+"id": "keyterm:Anointed",
+"type": "keyterm",
+"confidence": 0.22,
+"match_method": "canonical",
+"preferred_label": "受膏"
 },
 {
 "id": "keyterm:Love",
@@ -185,6 +164,41 @@
 "confidence": 0.22,
 "match_method": "canonical",
 "preferred_label": "爱"
+},
+{
+"id": "keyterm:Serve",
+"type": "keyterm",
+"confidence": 0.22,
+"match_method": "canonical",
+"preferred_label": "服侍"
+},
+{
+"id": "keyterm:Ability",
+"type": "keyterm",
+"confidence": 0.22,
+"match_method": "canonical",
+"preferred_label": "技能"
+},
+{
+"id": "keyterm:Surely",
+"type": "keyterm",
+"confidence": 0.22,
+"match_method": "canonical",
+"preferred_label": "确实！"
+},
+{
+"id": "keyterm:Owe",
+"type": "keyterm",
+"confidence": 0.1644,
+"match_method": "canonical",
+"preferred_label": "欠"
+},
+{
+"id": "person:Susanna",
+"type": "person",
+"confidence": 0.1644,
+"match_method": "canonical",
+"preferred_label": "苏撒拿"
 },
 {
 "id": "person:Marymagdalene",
@@ -201,20 +215,6 @@
 "preferred_label": "约亚拿"
 },
 {
-"id": "person:Susanna",
-"type": "person",
-"confidence": 0.1644,
-"match_method": "canonical",
-"preferred_label": "苏撒拿"
-},
-{
-"id": "keyterm:Owe",
-"type": "keyterm",
-"confidence": 0.1644,
-"match_method": "canonical",
-"preferred_label": "欠"
-},
-{
 "id": "person:Chuza",
 "type": "person",
 "confidence": 0.1644,
@@ -222,46 +222,11 @@
 "preferred_label": "苦撒"
 },
 {
-"id": "person:Herod.2",
-"type": "person",
+"id": "group:GenericDisciples",
+"type": "group",
 "confidence": 0.16,
 "match_method": "canonical",
-"preferred_label": "希律·安提帕"
-},
-{
-"id": "keyterm:Kingdom",
-"type": "keyterm",
-"confidence": 0.16,
-"match_method": "canonical",
-"preferred_label": "国度"
-},
-{
-"id": "realia:Denarius",
-"type": "realia",
-"confidence": 0.16,
-"match_method": "canonical",
-"preferred_label": "得拿利"
-},
-{
-"id": "keyterm:Decided",
-"type": "keyterm",
-"confidence": 0.16,
-"match_method": "canonical",
-"preferred_label": "决定"
-},
-{
-"id": "keyterm:AskFor",
-"type": "keyterm",
-"confidence": 0.16,
-"match_method": "canonical",
-"preferred_label": "求（恳求）"
-},
-{
-"id": "keyterm:Salvation",
-"type": "keyterm",
-"confidence": 0.16,
-"match_method": "canonical",
-"preferred_label": "救恩"
+"preferred_label": "一群门徒"
 },
 {
 "id": "keyterm:Believe",
@@ -271,6 +236,20 @@
 "preferred_label": "相信"
 },
 {
+"id": "person:Herod.2",
+"type": "person",
+"confidence": 0.16,
+"match_method": "canonical",
+"preferred_label": "希律·安提帕"
+},
+{
+"id": "person:Caiaphas",
+"type": "person",
+"confidence": 0.16,
+"match_method": "canonical",
+"preferred_label": "该亚法"
+},
+{
 "id": "keyterm:Peace",
 "type": "keyterm",
 "confidence": 0.16,
@@ -278,11 +257,18 @@
 "preferred_label": "成就和平"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
+"id": "realia:Denarius",
+"type": "realia",
 "confidence": 0.16,
 "match_method": "canonical",
-"preferred_label": "耶和华"
+"preferred_label": "得拿利"
+},
+{
+"id": "keyterm:Salvation",
+"type": "keyterm",
+"confidence": 0.16,
+"match_method": "canonical",
+"preferred_label": "救恩"
 },
 {
 "id": "keyterm:Promise",
@@ -299,18 +285,18 @@
 "preferred_label": "鬼魔"
 },
 {
-"id": "person:Caiaphas",
-"type": "person",
+"id": "keyterm:AskFor",
+"type": "keyterm",
 "confidence": 0.16,
 "match_method": "canonical",
-"preferred_label": "该亚法"
+"preferred_label": "求（恳求）"
 },
 {
-"id": "group:GenericDisciples",
-"type": "group",
+"id": "keyterm:Decided",
+"type": "keyterm",
 "confidence": 0.16,
 "match_method": "canonical",
-"preferred_label": "一群门徒"
+"preferred_label": "决定"
 },
 {
 "id": "keyterm:Pure",
@@ -318,6 +304,20 @@
 "confidence": 0.16,
 "match_method": "canonical",
 "preferred_label": "洁净"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.16,
+"match_method": "canonical",
+"preferred_label": "耶和华"
+},
+{
+"id": "keyterm:Kingdom",
+"type": "keyterm",
+"confidence": 0.16,
+"match_method": "canonical",
+"preferred_label": "国度"
 },
 {
 "id": "realia:OilOfNard",
@@ -348,18 +348,18 @@
 "preferred_label": "橄榄油"
 },
 {
-"id": "realia:Courtyard",
-"type": "realia",
-"confidence": 0.1,
-"match_method": "canonical",
-"preferred_label": "院子"
-},
-{
 "id": "realia:Temple",
 "type": "realia",
 "confidence": 0.1,
 "match_method": "canonical",
 "preferred_label": "圣殿"
+},
+{
+"id": "realia:Courtyard",
+"type": "realia",
+"confidence": 0.1,
+"match_method": "canonical",
+"preferred_label": "院子"
 }
 ]
 }
@@ -440,11 +440,11 @@
 "preferred_label": "西门"
 },
 {
-"id": "keyterm:Sin",
+"id": "keyterm:Proclaim",
 "type": "keyterm",
 "confidence": 0.28,
 "match_method": "canonical",
-"preferred_label": "犯罪"
+"preferred_label": "宣告"
 },
 {
 "id": "keyterm:GoodNews",
@@ -454,18 +454,18 @@
 "preferred_label": "福音"
 },
 {
-"id": "keyterm:Proclaim",
-"type": "keyterm",
-"confidence": 0.28,
-"match_method": "canonical",
-"preferred_label": "宣告"
-},
-{
 "id": "group:Pharisee",
 "type": "group",
 "confidence": 0.28,
 "match_method": "canonical",
 "preferred_label": "法利赛人"
+},
+{
+"id": "keyterm:Sin",
+"type": "keyterm",
+"confidence": 0.28,
+"match_method": "canonical",
+"preferred_label": "犯罪"
 },
 {
 "id": "realia:AlabasterJar",
@@ -475,13 +475,6 @@
 "preferred_label": "玉瓶"
 },
 {
-"id": "person:Simon.4",
-"type": "person",
-"confidence": 0.2289,
-"match_method": "canonical",
-"preferred_label": "西门"
-},
-{
 "id": "place:Bethany",
 "type": "place",
 "confidence": 0.2289,
@@ -489,39 +482,18 @@
 "preferred_label": "伯大尼（橄榄山）"
 },
 {
+"id": "person:Simon.4",
+"type": "person",
+"confidence": 0.2289,
+"match_method": "canonical",
+"preferred_label": "西门"
+},
+{
 "id": "person:Judas.2",
 "type": "person",
 "confidence": 0.2244,
 "match_method": "canonical",
 "preferred_label": "犹大"
-},
-{
-"id": "keyterm:Surely",
-"type": "keyterm",
-"confidence": 0.22,
-"match_method": "canonical",
-"preferred_label": "确实！"
-},
-{
-"id": "keyterm:Anointed",
-"type": "keyterm",
-"confidence": 0.22,
-"match_method": "canonical",
-"preferred_label": "受膏"
-},
-{
-"id": "keyterm:Disciple",
-"type": "keyterm",
-"confidence": 0.22,
-"match_method": "canonical",
-"preferred_label": "作门徒"
-},
-{
-"id": "keyterm:Serve",
-"type": "keyterm",
-"confidence": 0.22,
-"match_method": "canonical",
-"preferred_label": "服侍"
 },
 {
 "id": "keyterm:Body.3",
@@ -538,11 +510,18 @@
 "preferred_label": "逾越节祭物"
 },
 {
-"id": "keyterm:Ability",
+"id": "keyterm:Disciple",
 "type": "keyterm",
 "confidence": 0.22,
 "match_method": "canonical",
-"preferred_label": "技能"
+"preferred_label": "作门徒"
+},
+{
+"id": "keyterm:Anointed",
+"type": "keyterm",
+"confidence": 0.22,
+"match_method": "canonical",
+"preferred_label": "受膏"
 },
 {
 "id": "keyterm:Love",
@@ -550,6 +529,41 @@
 "confidence": 0.22,
 "match_method": "canonical",
 "preferred_label": "爱"
+},
+{
+"id": "keyterm:Serve",
+"type": "keyterm",
+"confidence": 0.22,
+"match_method": "canonical",
+"preferred_label": "服侍"
+},
+{
+"id": "keyterm:Ability",
+"type": "keyterm",
+"confidence": 0.22,
+"match_method": "canonical",
+"preferred_label": "技能"
+},
+{
+"id": "keyterm:Surely",
+"type": "keyterm",
+"confidence": 0.22,
+"match_method": "canonical",
+"preferred_label": "确实！"
+},
+{
+"id": "keyterm:Owe",
+"type": "keyterm",
+"confidence": 0.1644,
+"match_method": "canonical",
+"preferred_label": "欠"
+},
+{
+"id": "person:Susanna",
+"type": "person",
+"confidence": 0.1644,
+"match_method": "canonical",
+"preferred_label": "苏撒拿"
 },
 {
 "id": "person:Marymagdalene",
@@ -566,20 +580,6 @@
 "preferred_label": "约亚拿"
 },
 {
-"id": "person:Susanna",
-"type": "person",
-"confidence": 0.1644,
-"match_method": "canonical",
-"preferred_label": "苏撒拿"
-},
-{
-"id": "keyterm:Owe",
-"type": "keyterm",
-"confidence": 0.1644,
-"match_method": "canonical",
-"preferred_label": "欠"
-},
-{
 "id": "person:Chuza",
 "type": "person",
 "confidence": 0.1644,
@@ -587,46 +587,11 @@
 "preferred_label": "苦撒"
 },
 {
-"id": "person:Herod.2",
-"type": "person",
+"id": "group:GenericDisciples",
+"type": "group",
 "confidence": 0.16,
 "match_method": "canonical",
-"preferred_label": "希律·安提帕"
-},
-{
-"id": "keyterm:Kingdom",
-"type": "keyterm",
-"confidence": 0.16,
-"match_method": "canonical",
-"preferred_label": "国度"
-},
-{
-"id": "realia:Denarius",
-"type": "realia",
-"confidence": 0.16,
-"match_method": "canonical",
-"preferred_label": "得拿利"
-},
-{
-"id": "keyterm:Decided",
-"type": "keyterm",
-"confidence": 0.16,
-"match_method": "canonical",
-"preferred_label": "决定"
-},
-{
-"id": "keyterm:AskFor",
-"type": "keyterm",
-"confidence": 0.16,
-"match_method": "canonical",
-"preferred_label": "求（恳求）"
-},
-{
-"id": "keyterm:Salvation",
-"type": "keyterm",
-"confidence": 0.16,
-"match_method": "canonical",
-"preferred_label": "救恩"
+"preferred_label": "一群门徒"
 },
 {
 "id": "keyterm:Believe",
@@ -636,6 +601,20 @@
 "preferred_label": "相信"
 },
 {
+"id": "person:Herod.2",
+"type": "person",
+"confidence": 0.16,
+"match_method": "canonical",
+"preferred_label": "希律·安提帕"
+},
+{
+"id": "person:Caiaphas",
+"type": "person",
+"confidence": 0.16,
+"match_method": "canonical",
+"preferred_label": "该亚法"
+},
+{
 "id": "keyterm:Peace",
 "type": "keyterm",
 "confidence": 0.16,
@@ -643,11 +622,18 @@
 "preferred_label": "成就和平"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
+"id": "realia:Denarius",
+"type": "realia",
 "confidence": 0.16,
 "match_method": "canonical",
-"preferred_label": "耶和华"
+"preferred_label": "得拿利"
+},
+{
+"id": "keyterm:Salvation",
+"type": "keyterm",
+"confidence": 0.16,
+"match_method": "canonical",
+"preferred_label": "救恩"
 },
 {
 "id": "keyterm:Promise",
@@ -664,18 +650,18 @@
 "preferred_label": "鬼魔"
 },
 {
-"id": "person:Caiaphas",
-"type": "person",
+"id": "keyterm:AskFor",
+"type": "keyterm",
 "confidence": 0.16,
 "match_method": "canonical",
-"preferred_label": "该亚法"
+"preferred_label": "求（恳求）"
 },
 {
-"id": "group:GenericDisciples",
-"type": "group",
+"id": "keyterm:Decided",
+"type": "keyterm",
 "confidence": 0.16,
 "match_method": "canonical",
-"preferred_label": "一群门徒"
+"preferred_label": "决定"
 },
 {
 "id": "keyterm:Pure",
@@ -683,6 +669,20 @@
 "confidence": 0.16,
 "match_method": "canonical",
 "preferred_label": "洁净"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.16,
+"match_method": "canonical",
+"preferred_label": "耶和华"
+},
+{
+"id": "keyterm:Kingdom",
+"type": "keyterm",
+"confidence": 0.16,
+"match_method": "canonical",
+"preferred_label": "国度"
 },
 {
 "id": "realia:OilOfNard",
@@ -713,18 +713,18 @@
 "preferred_label": "橄榄油"
 },
 {
-"id": "realia:Courtyard",
-"type": "realia",
-"confidence": 0.1,
-"match_method": "canonical",
-"preferred_label": "院子"
-},
-{
 "id": "realia:Temple",
 "type": "realia",
 "confidence": 0.1,
 "match_method": "canonical",
 "preferred_label": "圣殿"
+},
+{
+"id": "realia:Courtyard",
+"type": "realia",
+"confidence": 0.1,
+"match_method": "canonical",
+"preferred_label": "院子"
 }
 ]
 }
@@ -805,11 +805,11 @@
 "preferred_label": "西门"
 },
 {
-"id": "keyterm:Sin",
+"id": "keyterm:Proclaim",
 "type": "keyterm",
 "confidence": 0.28,
 "match_method": "canonical",
-"preferred_label": "犯罪"
+"preferred_label": "宣告"
 },
 {
 "id": "keyterm:GoodNews",
@@ -819,18 +819,18 @@
 "preferred_label": "福音"
 },
 {
-"id": "keyterm:Proclaim",
-"type": "keyterm",
-"confidence": 0.28,
-"match_method": "canonical",
-"preferred_label": "宣告"
-},
-{
 "id": "group:Pharisee",
 "type": "group",
 "confidence": 0.28,
 "match_method": "canonical",
 "preferred_label": "法利赛人"
+},
+{
+"id": "keyterm:Sin",
+"type": "keyterm",
+"confidence": 0.28,
+"match_method": "canonical",
+"preferred_label": "犯罪"
 },
 {
 "id": "realia:AlabasterJar",
@@ -840,13 +840,6 @@
 "preferred_label": "玉瓶"
 },
 {
-"id": "person:Simon.4",
-"type": "person",
-"confidence": 0.2289,
-"match_method": "canonical",
-"preferred_label": "西门"
-},
-{
 "id": "place:Bethany",
 "type": "place",
 "confidence": 0.2289,
@@ -854,39 +847,18 @@
 "preferred_label": "伯大尼（橄榄山）"
 },
 {
+"id": "person:Simon.4",
+"type": "person",
+"confidence": 0.2289,
+"match_method": "canonical",
+"preferred_label": "西门"
+},
+{
 "id": "person:Judas.2",
 "type": "person",
 "confidence": 0.2244,
 "match_method": "canonical",
 "preferred_label": "犹大"
-},
-{
-"id": "keyterm:Surely",
-"type": "keyterm",
-"confidence": 0.22,
-"match_method": "canonical",
-"preferred_label": "确实！"
-},
-{
-"id": "keyterm:Anointed",
-"type": "keyterm",
-"confidence": 0.22,
-"match_method": "canonical",
-"preferred_label": "受膏"
-},
-{
-"id": "keyterm:Disciple",
-"type": "keyterm",
-"confidence": 0.22,
-"match_method": "canonical",
-"preferred_label": "作门徒"
-},
-{
-"id": "keyterm:Serve",
-"type": "keyterm",
-"confidence": 0.22,
-"match_method": "canonical",
-"preferred_label": "服侍"
 },
 {
 "id": "keyterm:Body.3",
@@ -903,11 +875,18 @@
 "preferred_label": "逾越节祭物"
 },
 {
-"id": "keyterm:Ability",
+"id": "keyterm:Disciple",
 "type": "keyterm",
 "confidence": 0.22,
 "match_method": "canonical",
-"preferred_label": "技能"
+"preferred_label": "作门徒"
+},
+{
+"id": "keyterm:Anointed",
+"type": "keyterm",
+"confidence": 0.22,
+"match_method": "canonical",
+"preferred_label": "受膏"
 },
 {
 "id": "keyterm:Love",
@@ -915,6 +894,41 @@
 "confidence": 0.22,
 "match_method": "canonical",
 "preferred_label": "爱"
+},
+{
+"id": "keyterm:Serve",
+"type": "keyterm",
+"confidence": 0.22,
+"match_method": "canonical",
+"preferred_label": "服侍"
+},
+{
+"id": "keyterm:Ability",
+"type": "keyterm",
+"confidence": 0.22,
+"match_method": "canonical",
+"preferred_label": "技能"
+},
+{
+"id": "keyterm:Surely",
+"type": "keyterm",
+"confidence": 0.22,
+"match_method": "canonical",
+"preferred_label": "确实！"
+},
+{
+"id": "keyterm:Owe",
+"type": "keyterm",
+"confidence": 0.1644,
+"match_method": "canonical",
+"preferred_label": "欠"
+},
+{
+"id": "person:Susanna",
+"type": "person",
+"confidence": 0.1644,
+"match_method": "canonical",
+"preferred_label": "苏撒拿"
 },
 {
 "id": "person:Marymagdalene",
@@ -931,20 +945,6 @@
 "preferred_label": "约亚拿"
 },
 {
-"id": "person:Susanna",
-"type": "person",
-"confidence": 0.1644,
-"match_method": "canonical",
-"preferred_label": "苏撒拿"
-},
-{
-"id": "keyterm:Owe",
-"type": "keyterm",
-"confidence": 0.1644,
-"match_method": "canonical",
-"preferred_label": "欠"
-},
-{
 "id": "person:Chuza",
 "type": "person",
 "confidence": 0.1644,
@@ -952,46 +952,11 @@
 "preferred_label": "苦撒"
 },
 {
-"id": "person:Herod.2",
-"type": "person",
+"id": "group:GenericDisciples",
+"type": "group",
 "confidence": 0.16,
 "match_method": "canonical",
-"preferred_label": "希律·安提帕"
-},
-{
-"id": "keyterm:Kingdom",
-"type": "keyterm",
-"confidence": 0.16,
-"match_method": "canonical",
-"preferred_label": "国度"
-},
-{
-"id": "realia:Denarius",
-"type": "realia",
-"confidence": 0.16,
-"match_method": "canonical",
-"preferred_label": "得拿利"
-},
-{
-"id": "keyterm:Decided",
-"type": "keyterm",
-"confidence": 0.16,
-"match_method": "canonical",
-"preferred_label": "决定"
-},
-{
-"id": "keyterm:AskFor",
-"type": "keyterm",
-"confidence": 0.16,
-"match_method": "canonical",
-"preferred_label": "求（恳求）"
-},
-{
-"id": "keyterm:Salvation",
-"type": "keyterm",
-"confidence": 0.16,
-"match_method": "canonical",
-"preferred_label": "救恩"
+"preferred_label": "一群门徒"
 },
 {
 "id": "keyterm:Believe",
@@ -1001,6 +966,20 @@
 "preferred_label": "相信"
 },
 {
+"id": "person:Herod.2",
+"type": "person",
+"confidence": 0.16,
+"match_method": "canonical",
+"preferred_label": "希律·安提帕"
+},
+{
+"id": "person:Caiaphas",
+"type": "person",
+"confidence": 0.16,
+"match_method": "canonical",
+"preferred_label": "该亚法"
+},
+{
 "id": "keyterm:Peace",
 "type": "keyterm",
 "confidence": 0.16,
@@ -1008,11 +987,18 @@
 "preferred_label": "成就和平"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
+"id": "realia:Denarius",
+"type": "realia",
 "confidence": 0.16,
 "match_method": "canonical",
-"preferred_label": "耶和华"
+"preferred_label": "得拿利"
+},
+{
+"id": "keyterm:Salvation",
+"type": "keyterm",
+"confidence": 0.16,
+"match_method": "canonical",
+"preferred_label": "救恩"
 },
 {
 "id": "keyterm:Promise",
@@ -1029,18 +1015,18 @@
 "preferred_label": "鬼魔"
 },
 {
-"id": "person:Caiaphas",
-"type": "person",
+"id": "keyterm:AskFor",
+"type": "keyterm",
 "confidence": 0.16,
 "match_method": "canonical",
-"preferred_label": "该亚法"
+"preferred_label": "求（恳求）"
 },
 {
-"id": "group:GenericDisciples",
-"type": "group",
+"id": "keyterm:Decided",
+"type": "keyterm",
 "confidence": 0.16,
 "match_method": "canonical",
-"preferred_label": "一群门徒"
+"preferred_label": "决定"
 },
 {
 "id": "keyterm:Pure",
@@ -1048,6 +1034,20 @@
 "confidence": 0.16,
 "match_method": "canonical",
 "preferred_label": "洁净"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.16,
+"match_method": "canonical",
+"preferred_label": "耶和华"
+},
+{
+"id": "keyterm:Kingdom",
+"type": "keyterm",
+"confidence": 0.16,
+"match_method": "canonical",
+"preferred_label": "国度"
 },
 {
 "id": "realia:OilOfNard",
@@ -1078,18 +1078,18 @@
 "preferred_label": "橄榄油"
 },
 {
-"id": "realia:Courtyard",
-"type": "realia",
-"confidence": 0.1,
-"match_method": "canonical",
-"preferred_label": "院子"
-},
-{
 "id": "realia:Temple",
 "type": "realia",
 "confidence": 0.1,
 "match_method": "canonical",
 "preferred_label": "圣殿"
+},
+{
+"id": "realia:Courtyard",
+"type": "realia",
+"confidence": 0.1,
+"match_method": "canonical",
+"preferred_label": "院子"
 }
 ]
 }
@@ -1170,11 +1170,11 @@
 "preferred_label": "西门"
 },
 {
-"id": "keyterm:Sin",
+"id": "keyterm:Proclaim",
 "type": "keyterm",
 "confidence": 0.28,
 "match_method": "canonical",
-"preferred_label": "犯罪"
+"preferred_label": "宣告"
 },
 {
 "id": "keyterm:GoodNews",
@@ -1184,18 +1184,18 @@
 "preferred_label": "福音"
 },
 {
-"id": "keyterm:Proclaim",
-"type": "keyterm",
-"confidence": 0.28,
-"match_method": "canonical",
-"preferred_label": "宣告"
-},
-{
 "id": "group:Pharisee",
 "type": "group",
 "confidence": 0.28,
 "match_method": "canonical",
 "preferred_label": "法利赛人"
+},
+{
+"id": "keyterm:Sin",
+"type": "keyterm",
+"confidence": 0.28,
+"match_method": "canonical",
+"preferred_label": "犯罪"
 },
 {
 "id": "realia:AlabasterJar",
@@ -1205,13 +1205,6 @@
 "preferred_label": "玉瓶"
 },
 {
-"id": "person:Simon.4",
-"type": "person",
-"confidence": 0.2289,
-"match_method": "canonical",
-"preferred_label": "西门"
-},
-{
 "id": "place:Bethany",
 "type": "place",
 "confidence": 0.2289,
@@ -1219,39 +1212,18 @@
 "preferred_label": "伯大尼（橄榄山）"
 },
 {
+"id": "person:Simon.4",
+"type": "person",
+"confidence": 0.2289,
+"match_method": "canonical",
+"preferred_label": "西门"
+},
+{
 "id": "person:Judas.2",
 "type": "person",
 "confidence": 0.2244,
 "match_method": "canonical",
 "preferred_label": "犹大"
-},
-{
-"id": "keyterm:Surely",
-"type": "keyterm",
-"confidence": 0.22,
-"match_method": "canonical",
-"preferred_label": "确实！"
-},
-{
-"id": "keyterm:Anointed",
-"type": "keyterm",
-"confidence": 0.22,
-"match_method": "canonical",
-"preferred_label": "受膏"
-},
-{
-"id": "keyterm:Disciple",
-"type": "keyterm",
-"confidence": 0.22,
-"match_method": "canonical",
-"preferred_label": "作门徒"
-},
-{
-"id": "keyterm:Serve",
-"type": "keyterm",
-"confidence": 0.22,
-"match_method": "canonical",
-"preferred_label": "服侍"
 },
 {
 "id": "keyterm:Body.3",
@@ -1268,11 +1240,18 @@
 "preferred_label": "逾越节祭物"
 },
 {
-"id": "keyterm:Ability",
+"id": "keyterm:Disciple",
 "type": "keyterm",
 "confidence": 0.22,
 "match_method": "canonical",
-"preferred_label": "技能"
+"preferred_label": "作门徒"
+},
+{
+"id": "keyterm:Anointed",
+"type": "keyterm",
+"confidence": 0.22,
+"match_method": "canonical",
+"preferred_label": "受膏"
 },
 {
 "id": "keyterm:Love",
@@ -1280,6 +1259,41 @@
 "confidence": 0.22,
 "match_method": "canonical",
 "preferred_label": "爱"
+},
+{
+"id": "keyterm:Serve",
+"type": "keyterm",
+"confidence": 0.22,
+"match_method": "canonical",
+"preferred_label": "服侍"
+},
+{
+"id": "keyterm:Ability",
+"type": "keyterm",
+"confidence": 0.22,
+"match_method": "canonical",
+"preferred_label": "技能"
+},
+{
+"id": "keyterm:Surely",
+"type": "keyterm",
+"confidence": 0.22,
+"match_method": "canonical",
+"preferred_label": "确实！"
+},
+{
+"id": "keyterm:Owe",
+"type": "keyterm",
+"confidence": 0.1644,
+"match_method": "canonical",
+"preferred_label": "欠"
+},
+{
+"id": "person:Susanna",
+"type": "person",
+"confidence": 0.1644,
+"match_method": "canonical",
+"preferred_label": "苏撒拿"
 },
 {
 "id": "person:Marymagdalene",
@@ -1296,20 +1310,6 @@
 "preferred_label": "约亚拿"
 },
 {
-"id": "person:Susanna",
-"type": "person",
-"confidence": 0.1644,
-"match_method": "canonical",
-"preferred_label": "苏撒拿"
-},
-{
-"id": "keyterm:Owe",
-"type": "keyterm",
-"confidence": 0.1644,
-"match_method": "canonical",
-"preferred_label": "欠"
-},
-{
 "id": "person:Chuza",
 "type": "person",
 "confidence": 0.1644,
@@ -1317,46 +1317,11 @@
 "preferred_label": "苦撒"
 },
 {
-"id": "person:Herod.2",
-"type": "person",
+"id": "group:GenericDisciples",
+"type": "group",
 "confidence": 0.16,
 "match_method": "canonical",
-"preferred_label": "希律·安提帕"
-},
-{
-"id": "keyterm:Kingdom",
-"type": "keyterm",
-"confidence": 0.16,
-"match_method": "canonical",
-"preferred_label": "国度"
-},
-{
-"id": "realia:Denarius",
-"type": "realia",
-"confidence": 0.16,
-"match_method": "canonical",
-"preferred_label": "得拿利"
-},
-{
-"id": "keyterm:Decided",
-"type": "keyterm",
-"confidence": 0.16,
-"match_method": "canonical",
-"preferred_label": "决定"
-},
-{
-"id": "keyterm:AskFor",
-"type": "keyterm",
-"confidence": 0.16,
-"match_method": "canonical",
-"preferred_label": "求（恳求）"
-},
-{
-"id": "keyterm:Salvation",
-"type": "keyterm",
-"confidence": 0.16,
-"match_method": "canonical",
-"preferred_label": "救恩"
+"preferred_label": "一群门徒"
 },
 {
 "id": "keyterm:Believe",
@@ -1366,6 +1331,20 @@
 "preferred_label": "相信"
 },
 {
+"id": "person:Herod.2",
+"type": "person",
+"confidence": 0.16,
+"match_method": "canonical",
+"preferred_label": "希律·安提帕"
+},
+{
+"id": "person:Caiaphas",
+"type": "person",
+"confidence": 0.16,
+"match_method": "canonical",
+"preferred_label": "该亚法"
+},
+{
 "id": "keyterm:Peace",
 "type": "keyterm",
 "confidence": 0.16,
@@ -1373,11 +1352,18 @@
 "preferred_label": "成就和平"
 },
 {
-"id": "deity:Lord",
-"type": "deity",
+"id": "realia:Denarius",
+"type": "realia",
 "confidence": 0.16,
 "match_method": "canonical",
-"preferred_label": "耶和华"
+"preferred_label": "得拿利"
+},
+{
+"id": "keyterm:Salvation",
+"type": "keyterm",
+"confidence": 0.16,
+"match_method": "canonical",
+"preferred_label": "救恩"
 },
 {
 "id": "keyterm:Promise",
@@ -1394,18 +1380,18 @@
 "preferred_label": "鬼魔"
 },
 {
-"id": "person:Caiaphas",
-"type": "person",
+"id": "keyterm:AskFor",
+"type": "keyterm",
 "confidence": 0.16,
 "match_method": "canonical",
-"preferred_label": "该亚法"
+"preferred_label": "求（恳求）"
 },
 {
-"id": "group:GenericDisciples",
-"type": "group",
+"id": "keyterm:Decided",
+"type": "keyterm",
 "confidence": 0.16,
 "match_method": "canonical",
-"preferred_label": "一群门徒"
+"preferred_label": "决定"
 },
 {
 "id": "keyterm:Pure",
@@ -1413,6 +1399,20 @@
 "confidence": 0.16,
 "match_method": "canonical",
 "preferred_label": "洁净"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.16,
+"match_method": "canonical",
+"preferred_label": "耶和华"
+},
+{
+"id": "keyterm:Kingdom",
+"type": "keyterm",
+"confidence": 0.16,
+"match_method": "canonical",
+"preferred_label": "国度"
 },
 {
 "id": "realia:OilOfNard",
@@ -1443,18 +1443,18 @@
 "preferred_label": "橄榄油"
 },
 {
-"id": "realia:Courtyard",
-"type": "realia",
-"confidence": 0.1,
-"match_method": "canonical",
-"preferred_label": "院子"
-},
-{
 "id": "realia:Temple",
 "type": "realia",
 "confidence": 0.1,
 "match_method": "canonical",
 "preferred_label": "圣殿"
+},
+{
+"id": "realia:Courtyard",
+"type": "realia",
+"confidence": 0.1,
+"match_method": "canonical",
+"preferred_label": "院子"
 }
 ]
 }

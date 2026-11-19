@@ -46,18 +46,18 @@
 "preferred_label": "यहोवा"
 },
 {
-"id": "person:Moses",
-"type": "person",
-"confidence": 0.4128,
-"match_method": "canonical",
-"preferred_label": "मूसा"
-},
-{
 "id": "person:Israel",
 "type": "person",
 "confidence": 0.4128,
 "match_method": "canonical",
 "preferred_label": "इस्राएल"
+},
+{
+"id": "person:Moses",
+"type": "person",
+"confidence": 0.4128,
+"match_method": "canonical",
+"preferred_label": "मूसा"
 },
 {
 "id": "person:Jonathan.3",
@@ -109,6 +109,13 @@
 "preferred_label": "सीनै का जंगल"
 },
 {
+"id": "place:Egypt",
+"type": "place",
+"confidence": 0.2209,
+"match_method": "canonical",
+"preferred_label": "मिस्र"
+},
+{
 "id": "keyterm:Love",
 "type": "keyterm",
 "confidence": 0.2209,
@@ -123,18 +130,18 @@
 "preferred_label": "बाबेल"
 },
 {
-"id": "place:Egypt",
-"type": "place",
-"confidence": 0.2209,
-"match_method": "canonical",
-"preferred_label": "मिस्र"
-},
-{
 "id": "fauna:Falcon",
 "type": "fauna",
 "confidence": 0.1702,
 "match_method": "canonical",
 "preferred_label": "बाज"
+},
+{
+"id": "person:Jashar",
+"type": "person",
+"confidence": 0.1651,
+"match_method": "canonical",
+"preferred_label": "याशार"
 },
 {
 "id": "place:Rephidim",
@@ -151,67 +158,11 @@
 "preferred_label": "विलापगीत"
 },
 {
-"id": "person:Jashar",
-"type": "person",
-"confidence": 0.1651,
-"match_method": "canonical",
-"preferred_label": "याशार"
-},
-{
 "id": "realia:Bow",
 "type": "realia",
 "confidence": 0.1609,
 "match_method": "canonical",
 "preferred_label": "धनुष"
-},
-{
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.1605,
-"match_method": "canonical",
-"preferred_label": "यहूदा का गोत्र"
-},
-{
-"id": "keyterm:Covenant",
-"type": "keyterm",
-"confidence": 0.1605,
-"match_method": "canonical",
-"preferred_label": "वाचा"
-},
-{
-"id": "place:Ashkelon",
-"type": "place",
-"confidence": 0.1605,
-"match_method": "canonical",
-"preferred_label": "अश्कलोन"
-},
-{
-"id": "person:Judah.4",
-"type": "person",
-"confidence": 0.1605,
-"match_method": "canonical",
-"preferred_label": "यहूदा"
-},
-{
-"id": "place:Gath",
-"type": "place",
-"confidence": 0.1605,
-"match_method": "canonical",
-"preferred_label": "गत"
-},
-{
-"id": "place:Philistine",
-"type": "place",
-"confidence": 0.1605,
-"match_method": "canonical",
-"preferred_label": "पलिश्त"
-},
-{
-"id": "keyterm:BelieveIn",
-"type": "keyterm",
-"confidence": 0.1605,
-"match_method": "canonical",
-"preferred_label": "पर विश्वास करना"
 },
 {
 "id": "person:David",
@@ -221,13 +172,6 @@
 "preferred_label": "दाऊद"
 },
 {
-"id": "place:GilboaMount",
-"type": "place",
-"confidence": 0.1605,
-"match_method": "canonical",
-"preferred_label": "गिलबो पर्वत"
-},
-{
 "id": "keyterm:UncircumcisedPerson",
 "type": "keyterm",
 "confidence": 0.1605,
@@ -235,18 +179,39 @@
 "preferred_label": "खतनारहित व्यक्ति"
 },
 {
-"id": "deity:Voice",
-"type": "deity",
-"confidence": 0.1605,
-"match_method": "canonical",
-"preferred_label": "एक अशरीरी आवाज़"
-},
-{
-"id": "keyterm:Offering",
+"id": "keyterm:Covenant",
 "type": "keyterm",
 "confidence": 0.1605,
 "match_method": "canonical",
-"preferred_label": "भेंट"
+"preferred_label": "वाचा"
+},
+{
+"id": "place:GilboaMount",
+"type": "place",
+"confidence": 0.1605,
+"match_method": "canonical",
+"preferred_label": "गिलबो पर्वत"
+},
+{
+"id": "group:Judah",
+"type": "group",
+"confidence": 0.1605,
+"match_method": "canonical",
+"preferred_label": "यहूदा का गोत्र"
+},
+{
+"id": "place:Ashkelon",
+"type": "place",
+"confidence": 0.1605,
+"match_method": "canonical",
+"preferred_label": "अश्कलोन"
+},
+{
+"id": "place:Philistine",
+"type": "place",
+"confidence": 0.1605,
+"match_method": "canonical",
+"preferred_label": "पलिश्त"
 },
 {
 "id": "place:SinaiMount",
@@ -256,6 +221,20 @@
 "preferred_label": "सीनै पर्वत"
 },
 {
+"id": "deity:Voice",
+"type": "deity",
+"confidence": 0.1605,
+"match_method": "canonical",
+"preferred_label": "एक अशरीरी आवाज़"
+},
+{
+"id": "person:Judah.4",
+"type": "person",
+"confidence": 0.1605,
+"match_method": "canonical",
+"preferred_label": "यहूदा"
+},
+{
 "id": "group:Philistine",
 "type": "group",
 "confidence": 0.1605,
@@ -263,95 +242,25 @@
 "preferred_label": "पलिश्ती"
 },
 {
-"id": "fauna:Heron",
-"type": "fauna",
-"confidence": 0.1051,
+"id": "keyterm:Offering",
+"type": "keyterm",
+"confidence": 0.1605,
 "match_method": "canonical",
-"preferred_label": "बगुला"
+"preferred_label": "भेंट"
 },
 {
-"id": "fauna:TawnyOwl",
-"type": "fauna",
-"confidence": 0.1051,
+"id": "keyterm:BelieveIn",
+"type": "keyterm",
+"confidence": 0.1605,
 "match_method": "canonical",
-"preferred_label": "भूरा उल्लू"
+"preferred_label": "पर विश्वास करना"
 },
 {
-"id": "fauna:Hoopoe",
-"type": "fauna",
-"confidence": 0.1051,
+"id": "place:Gath",
+"type": "place",
+"confidence": 0.1605,
 "match_method": "canonical",
-"preferred_label": "हुदहुद"
-},
-{
-"id": "fauna:BarnOwl",
-"type": "fauna",
-"confidence": 0.1051,
-"match_method": "canonical",
-"preferred_label": "सफ़ेद उल्लू"
-},
-{
-"id": "fauna:Nightjar",
-"type": "fauna",
-"confidence": 0.1051,
-"match_method": "canonical",
-"preferred_label": "तखमास"
-},
-{
-"id": "realia:RamsHorn",
-"type": "realia",
-"confidence": 0.1051,
-"match_method": "canonical",
-"preferred_label": "मेढ़े का सींग"
-},
-{
-"id": "fauna:Owl.2",
-"type": "fauna",
-"confidence": 0.1051,
-"match_method": "canonical",
-"preferred_label": "छोटा उल्लू"
-},
-{
-"id": "fauna:Stork",
-"type": "fauna",
-"confidence": 0.1051,
-"match_method": "canonical",
-"preferred_label": "सारस"
-},
-{
-"id": "fauna:Jackdaw",
-"type": "fauna",
-"confidence": 0.1051,
-"match_method": "canonical",
-"preferred_label": "धनेश"
-},
-{
-"id": "fauna:Seagull",
-"type": "fauna",
-"confidence": 0.1051,
-"match_method": "canonical",
-"preferred_label": "जलकुक्कट"
-},
-{
-"id": "fauna:Owl",
-"type": "fauna",
-"confidence": 0.1051,
-"match_method": "canonical",
-"preferred_label": "उल्लू"
-},
-{
-"id": "fauna:BlackKite",
-"type": "fauna",
-"confidence": 0.1051,
-"match_method": "canonical",
-"preferred_label": "काली चील"
-},
-{
-"id": "fauna:Bat",
-"type": "fauna",
-"confidence": 0.1051,
-"match_method": "canonical",
-"preferred_label": "चमगादड़"
+"preferred_label": "गत"
 },
 {
 "id": "fauna:Osprey",
@@ -361,11 +270,109 @@
 "preferred_label": "मछलीमार चील"
 },
 {
+"id": "fauna:Hoopoe",
+"type": "fauna",
+"confidence": 0.1051,
+"match_method": "canonical",
+"preferred_label": "हुदहुद"
+},
+{
 "id": "fauna:Cormorant",
 "type": "fauna",
 "confidence": 0.1051,
 "match_method": "canonical",
 "preferred_label": "हाड़गील"
+},
+{
+"id": "fauna:Seagull",
+"type": "fauna",
+"confidence": 0.1051,
+"match_method": "canonical",
+"preferred_label": "जलकुक्कट"
+},
+{
+"id": "fauna:TawnyOwl",
+"type": "fauna",
+"confidence": 0.1051,
+"match_method": "canonical",
+"preferred_label": "भूरा उल्लू"
+},
+{
+"id": "fauna:BlackKite",
+"type": "fauna",
+"confidence": 0.1051,
+"match_method": "canonical",
+"preferred_label": "काली चील"
+},
+{
+"id": "fauna:Heron",
+"type": "fauna",
+"confidence": 0.1051,
+"match_method": "canonical",
+"preferred_label": "बगुला"
+},
+{
+"id": "fauna:Jackdaw",
+"type": "fauna",
+"confidence": 0.1051,
+"match_method": "canonical",
+"preferred_label": "धनेश"
+},
+{
+"id": "fauna:Owl.2",
+"type": "fauna",
+"confidence": 0.1051,
+"match_method": "canonical",
+"preferred_label": "छोटा उल्लू"
+},
+{
+"id": "fauna:Nightjar",
+"type": "fauna",
+"confidence": 0.1051,
+"match_method": "canonical",
+"preferred_label": "तखमास"
+},
+{
+"id": "fauna:Stork",
+"type": "fauna",
+"confidence": 0.1051,
+"match_method": "canonical",
+"preferred_label": "सारस"
+},
+{
+"id": "fauna:Bat",
+"type": "fauna",
+"confidence": 0.1051,
+"match_method": "canonical",
+"preferred_label": "चमगादड़"
+},
+{
+"id": "realia:RamsHorn",
+"type": "realia",
+"confidence": 0.1051,
+"match_method": "canonical",
+"preferred_label": "मेढ़े का सींग"
+},
+{
+"id": "fauna:Owl",
+"type": "fauna",
+"confidence": 0.1051,
+"match_method": "canonical",
+"preferred_label": "उल्लू"
+},
+{
+"id": "fauna:BarnOwl",
+"type": "fauna",
+"confidence": 0.1051,
+"match_method": "canonical",
+"preferred_label": "सफ़ेद उल्लू"
+},
+{
+"id": "realia:OliveOil",
+"type": "realia",
+"confidence": 0.1005,
+"match_method": "canonical",
+"preferred_label": "जैतून का तेल"
 },
 {
 "id": "realia:AnointingOil",
@@ -375,20 +382,6 @@
 "preferred_label": "अभिषेक का तेल"
 },
 {
-"id": "fauna:Bull",
-"type": "fauna",
-"confidence": 0.1005,
-"match_method": "canonical",
-"preferred_label": "गाय-बैल"
-},
-{
-"id": "fauna:Ostrich",
-"type": "fauna",
-"confidence": 0.1005,
-"match_method": "canonical",
-"preferred_label": "शुतुर्मुर्ग"
-},
-{
 "id": "realia:Sword",
 "type": "realia",
 "confidence": 0.1005,
@@ -396,11 +389,11 @@
 "preferred_label": "तलवार"
 },
 {
-"id": "realia:SmallShield",
+"id": "realia:House",
 "type": "realia",
 "confidence": 0.1005,
 "match_method": "canonical",
-"preferred_label": "छोटी ढाल"
+"preferred_label": "घर"
 },
 {
 "id": "fauna:Crow",
@@ -417,18 +410,25 @@
 "preferred_label": "सिंह"
 },
 {
-"id": "realia:House",
-"type": "realia",
+"id": "fauna:Bull",
+"type": "fauna",
 "confidence": 0.1005,
 "match_method": "canonical",
-"preferred_label": "घर"
+"preferred_label": "गाय-बैल"
 },
 {
-"id": "realia:OliveOil",
+"id": "realia:SmallShield",
 "type": "realia",
 "confidence": 0.1005,
 "match_method": "canonical",
-"preferred_label": "जैतून का तेल"
+"preferred_label": "छोटी ढाल"
+},
+{
+"id": "fauna:Ostrich",
+"type": "fauna",
+"confidence": 0.1005,
+"match_method": "canonical",
+"preferred_label": "शुतुर्मुर्ग"
 }
 ]
 }
@@ -480,18 +480,18 @@
 "preferred_label": "यहोवा"
 },
 {
-"id": "person:Moses",
-"type": "person",
-"confidence": 0.4128,
-"match_method": "canonical",
-"preferred_label": "मूसा"
-},
-{
 "id": "person:Israel",
 "type": "person",
 "confidence": 0.4128,
 "match_method": "canonical",
 "preferred_label": "इस्राएल"
+},
+{
+"id": "person:Moses",
+"type": "person",
+"confidence": 0.4128,
+"match_method": "canonical",
+"preferred_label": "मूसा"
 },
 {
 "id": "person:Jonathan.3",
@@ -543,6 +543,13 @@
 "preferred_label": "सीनै का जंगल"
 },
 {
+"id": "place:Egypt",
+"type": "place",
+"confidence": 0.2209,
+"match_method": "canonical",
+"preferred_label": "मिस्र"
+},
+{
 "id": "keyterm:Love",
 "type": "keyterm",
 "confidence": 0.2209,
@@ -557,18 +564,18 @@
 "preferred_label": "बाबेल"
 },
 {
-"id": "place:Egypt",
-"type": "place",
-"confidence": 0.2209,
-"match_method": "canonical",
-"preferred_label": "मिस्र"
-},
-{
 "id": "fauna:Falcon",
 "type": "fauna",
 "confidence": 0.1702,
 "match_method": "canonical",
 "preferred_label": "बाज"
+},
+{
+"id": "person:Jashar",
+"type": "person",
+"confidence": 0.1651,
+"match_method": "canonical",
+"preferred_label": "याशार"
 },
 {
 "id": "place:Rephidim",
@@ -585,67 +592,11 @@
 "preferred_label": "विलापगीत"
 },
 {
-"id": "person:Jashar",
-"type": "person",
-"confidence": 0.1651,
-"match_method": "canonical",
-"preferred_label": "याशार"
-},
-{
 "id": "realia:Bow",
 "type": "realia",
 "confidence": 0.1609,
 "match_method": "canonical",
 "preferred_label": "धनुष"
-},
-{
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.1605,
-"match_method": "canonical",
-"preferred_label": "यहूदा का गोत्र"
-},
-{
-"id": "keyterm:Covenant",
-"type": "keyterm",
-"confidence": 0.1605,
-"match_method": "canonical",
-"preferred_label": "वाचा"
-},
-{
-"id": "place:Ashkelon",
-"type": "place",
-"confidence": 0.1605,
-"match_method": "canonical",
-"preferred_label": "अश्कलोन"
-},
-{
-"id": "person:Judah.4",
-"type": "person",
-"confidence": 0.1605,
-"match_method": "canonical",
-"preferred_label": "यहूदा"
-},
-{
-"id": "place:Gath",
-"type": "place",
-"confidence": 0.1605,
-"match_method": "canonical",
-"preferred_label": "गत"
-},
-{
-"id": "place:Philistine",
-"type": "place",
-"confidence": 0.1605,
-"match_method": "canonical",
-"preferred_label": "पलिश्त"
-},
-{
-"id": "keyterm:BelieveIn",
-"type": "keyterm",
-"confidence": 0.1605,
-"match_method": "canonical",
-"preferred_label": "पर विश्वास करना"
 },
 {
 "id": "person:David",
@@ -655,13 +606,6 @@
 "preferred_label": "दाऊद"
 },
 {
-"id": "place:GilboaMount",
-"type": "place",
-"confidence": 0.1605,
-"match_method": "canonical",
-"preferred_label": "गिलबो पर्वत"
-},
-{
 "id": "keyterm:UncircumcisedPerson",
 "type": "keyterm",
 "confidence": 0.1605,
@@ -669,18 +613,39 @@
 "preferred_label": "खतनारहित व्यक्ति"
 },
 {
-"id": "deity:Voice",
-"type": "deity",
-"confidence": 0.1605,
-"match_method": "canonical",
-"preferred_label": "एक अशरीरी आवाज़"
-},
-{
-"id": "keyterm:Offering",
+"id": "keyterm:Covenant",
 "type": "keyterm",
 "confidence": 0.1605,
 "match_method": "canonical",
-"preferred_label": "भेंट"
+"preferred_label": "वाचा"
+},
+{
+"id": "place:GilboaMount",
+"type": "place",
+"confidence": 0.1605,
+"match_method": "canonical",
+"preferred_label": "गिलबो पर्वत"
+},
+{
+"id": "group:Judah",
+"type": "group",
+"confidence": 0.1605,
+"match_method": "canonical",
+"preferred_label": "यहूदा का गोत्र"
+},
+{
+"id": "place:Ashkelon",
+"type": "place",
+"confidence": 0.1605,
+"match_method": "canonical",
+"preferred_label": "अश्कलोन"
+},
+{
+"id": "place:Philistine",
+"type": "place",
+"confidence": 0.1605,
+"match_method": "canonical",
+"preferred_label": "पलिश्त"
 },
 {
 "id": "place:SinaiMount",
@@ -690,6 +655,20 @@
 "preferred_label": "सीनै पर्वत"
 },
 {
+"id": "deity:Voice",
+"type": "deity",
+"confidence": 0.1605,
+"match_method": "canonical",
+"preferred_label": "एक अशरीरी आवाज़"
+},
+{
+"id": "person:Judah.4",
+"type": "person",
+"confidence": 0.1605,
+"match_method": "canonical",
+"preferred_label": "यहूदा"
+},
+{
 "id": "group:Philistine",
 "type": "group",
 "confidence": 0.1605,
@@ -697,95 +676,25 @@
 "preferred_label": "पलिश्ती"
 },
 {
-"id": "fauna:Heron",
-"type": "fauna",
-"confidence": 0.1051,
+"id": "keyterm:Offering",
+"type": "keyterm",
+"confidence": 0.1605,
 "match_method": "canonical",
-"preferred_label": "बगुला"
+"preferred_label": "भेंट"
 },
 {
-"id": "fauna:TawnyOwl",
-"type": "fauna",
-"confidence": 0.1051,
+"id": "keyterm:BelieveIn",
+"type": "keyterm",
+"confidence": 0.1605,
 "match_method": "canonical",
-"preferred_label": "भूरा उल्लू"
+"preferred_label": "पर विश्वास करना"
 },
 {
-"id": "fauna:Hoopoe",
-"type": "fauna",
-"confidence": 0.1051,
+"id": "place:Gath",
+"type": "place",
+"confidence": 0.1605,
 "match_method": "canonical",
-"preferred_label": "हुदहुद"
-},
-{
-"id": "fauna:BarnOwl",
-"type": "fauna",
-"confidence": 0.1051,
-"match_method": "canonical",
-"preferred_label": "सफ़ेद उल्लू"
-},
-{
-"id": "fauna:Nightjar",
-"type": "fauna",
-"confidence": 0.1051,
-"match_method": "canonical",
-"preferred_label": "तखमास"
-},
-{
-"id": "realia:RamsHorn",
-"type": "realia",
-"confidence": 0.1051,
-"match_method": "canonical",
-"preferred_label": "मेढ़े का सींग"
-},
-{
-"id": "fauna:Owl.2",
-"type": "fauna",
-"confidence": 0.1051,
-"match_method": "canonical",
-"preferred_label": "छोटा उल्लू"
-},
-{
-"id": "fauna:Stork",
-"type": "fauna",
-"confidence": 0.1051,
-"match_method": "canonical",
-"preferred_label": "सारस"
-},
-{
-"id": "fauna:Jackdaw",
-"type": "fauna",
-"confidence": 0.1051,
-"match_method": "canonical",
-"preferred_label": "धनेश"
-},
-{
-"id": "fauna:Seagull",
-"type": "fauna",
-"confidence": 0.1051,
-"match_method": "canonical",
-"preferred_label": "जलकुक्कट"
-},
-{
-"id": "fauna:Owl",
-"type": "fauna",
-"confidence": 0.1051,
-"match_method": "canonical",
-"preferred_label": "उल्लू"
-},
-{
-"id": "fauna:BlackKite",
-"type": "fauna",
-"confidence": 0.1051,
-"match_method": "canonical",
-"preferred_label": "काली चील"
-},
-{
-"id": "fauna:Bat",
-"type": "fauna",
-"confidence": 0.1051,
-"match_method": "canonical",
-"preferred_label": "चमगादड़"
+"preferred_label": "गत"
 },
 {
 "id": "fauna:Osprey",
@@ -795,11 +704,109 @@
 "preferred_label": "मछलीमार चील"
 },
 {
+"id": "fauna:Hoopoe",
+"type": "fauna",
+"confidence": 0.1051,
+"match_method": "canonical",
+"preferred_label": "हुदहुद"
+},
+{
 "id": "fauna:Cormorant",
 "type": "fauna",
 "confidence": 0.1051,
 "match_method": "canonical",
 "preferred_label": "हाड़गील"
+},
+{
+"id": "fauna:Seagull",
+"type": "fauna",
+"confidence": 0.1051,
+"match_method": "canonical",
+"preferred_label": "जलकुक्कट"
+},
+{
+"id": "fauna:TawnyOwl",
+"type": "fauna",
+"confidence": 0.1051,
+"match_method": "canonical",
+"preferred_label": "भूरा उल्लू"
+},
+{
+"id": "fauna:BlackKite",
+"type": "fauna",
+"confidence": 0.1051,
+"match_method": "canonical",
+"preferred_label": "काली चील"
+},
+{
+"id": "fauna:Heron",
+"type": "fauna",
+"confidence": 0.1051,
+"match_method": "canonical",
+"preferred_label": "बगुला"
+},
+{
+"id": "fauna:Jackdaw",
+"type": "fauna",
+"confidence": 0.1051,
+"match_method": "canonical",
+"preferred_label": "धनेश"
+},
+{
+"id": "fauna:Owl.2",
+"type": "fauna",
+"confidence": 0.1051,
+"match_method": "canonical",
+"preferred_label": "छोटा उल्लू"
+},
+{
+"id": "fauna:Nightjar",
+"type": "fauna",
+"confidence": 0.1051,
+"match_method": "canonical",
+"preferred_label": "तखमास"
+},
+{
+"id": "fauna:Stork",
+"type": "fauna",
+"confidence": 0.1051,
+"match_method": "canonical",
+"preferred_label": "सारस"
+},
+{
+"id": "fauna:Bat",
+"type": "fauna",
+"confidence": 0.1051,
+"match_method": "canonical",
+"preferred_label": "चमगादड़"
+},
+{
+"id": "realia:RamsHorn",
+"type": "realia",
+"confidence": 0.1051,
+"match_method": "canonical",
+"preferred_label": "मेढ़े का सींग"
+},
+{
+"id": "fauna:Owl",
+"type": "fauna",
+"confidence": 0.1051,
+"match_method": "canonical",
+"preferred_label": "उल्लू"
+},
+{
+"id": "fauna:BarnOwl",
+"type": "fauna",
+"confidence": 0.1051,
+"match_method": "canonical",
+"preferred_label": "सफ़ेद उल्लू"
+},
+{
+"id": "realia:OliveOil",
+"type": "realia",
+"confidence": 0.1005,
+"match_method": "canonical",
+"preferred_label": "जैतून का तेल"
 },
 {
 "id": "realia:AnointingOil",
@@ -809,20 +816,6 @@
 "preferred_label": "अभिषेक का तेल"
 },
 {
-"id": "fauna:Bull",
-"type": "fauna",
-"confidence": 0.1005,
-"match_method": "canonical",
-"preferred_label": "गाय-बैल"
-},
-{
-"id": "fauna:Ostrich",
-"type": "fauna",
-"confidence": 0.1005,
-"match_method": "canonical",
-"preferred_label": "शुतुर्मुर्ग"
-},
-{
 "id": "realia:Sword",
 "type": "realia",
 "confidence": 0.1005,
@@ -830,11 +823,11 @@
 "preferred_label": "तलवार"
 },
 {
-"id": "realia:SmallShield",
+"id": "realia:House",
 "type": "realia",
 "confidence": 0.1005,
 "match_method": "canonical",
-"preferred_label": "छोटी ढाल"
+"preferred_label": "घर"
 },
 {
 "id": "fauna:Crow",
@@ -851,18 +844,25 @@
 "preferred_label": "सिंह"
 },
 {
-"id": "realia:House",
-"type": "realia",
+"id": "fauna:Bull",
+"type": "fauna",
 "confidence": 0.1005,
 "match_method": "canonical",
-"preferred_label": "घर"
+"preferred_label": "गाय-बैल"
 },
 {
-"id": "realia:OliveOil",
+"id": "realia:SmallShield",
 "type": "realia",
 "confidence": 0.1005,
 "match_method": "canonical",
-"preferred_label": "जैतून का तेल"
+"preferred_label": "छोटी ढाल"
+},
+{
+"id": "fauna:Ostrich",
+"type": "fauna",
+"confidence": 0.1005,
+"match_method": "canonical",
+"preferred_label": "शुतुर्मुर्ग"
 }
 ]
 }
@@ -914,18 +914,18 @@
 "preferred_label": "यहोवा"
 },
 {
-"id": "person:Moses",
-"type": "person",
-"confidence": 0.4128,
-"match_method": "canonical",
-"preferred_label": "मूसा"
-},
-{
 "id": "person:Israel",
 "type": "person",
 "confidence": 0.4128,
 "match_method": "canonical",
 "preferred_label": "इस्राएल"
+},
+{
+"id": "person:Moses",
+"type": "person",
+"confidence": 0.4128,
+"match_method": "canonical",
+"preferred_label": "मूसा"
 },
 {
 "id": "person:Jonathan.3",
@@ -977,6 +977,13 @@
 "preferred_label": "सीनै का जंगल"
 },
 {
+"id": "place:Egypt",
+"type": "place",
+"confidence": 0.2209,
+"match_method": "canonical",
+"preferred_label": "मिस्र"
+},
+{
 "id": "keyterm:Love",
 "type": "keyterm",
 "confidence": 0.2209,
@@ -991,18 +998,18 @@
 "preferred_label": "बाबेल"
 },
 {
-"id": "place:Egypt",
-"type": "place",
-"confidence": 0.2209,
-"match_method": "canonical",
-"preferred_label": "मिस्र"
-},
-{
 "id": "fauna:Falcon",
 "type": "fauna",
 "confidence": 0.1702,
 "match_method": "canonical",
 "preferred_label": "बाज"
+},
+{
+"id": "person:Jashar",
+"type": "person",
+"confidence": 0.1651,
+"match_method": "canonical",
+"preferred_label": "याशार"
 },
 {
 "id": "place:Rephidim",
@@ -1019,67 +1026,11 @@
 "preferred_label": "विलापगीत"
 },
 {
-"id": "person:Jashar",
-"type": "person",
-"confidence": 0.1651,
-"match_method": "canonical",
-"preferred_label": "याशार"
-},
-{
 "id": "realia:Bow",
 "type": "realia",
 "confidence": 0.1609,
 "match_method": "canonical",
 "preferred_label": "धनुष"
-},
-{
-"id": "group:Judah",
-"type": "group",
-"confidence": 0.1605,
-"match_method": "canonical",
-"preferred_label": "यहूदा का गोत्र"
-},
-{
-"id": "keyterm:Covenant",
-"type": "keyterm",
-"confidence": 0.1605,
-"match_method": "canonical",
-"preferred_label": "वाचा"
-},
-{
-"id": "place:Ashkelon",
-"type": "place",
-"confidence": 0.1605,
-"match_method": "canonical",
-"preferred_label": "अश्कलोन"
-},
-{
-"id": "person:Judah.4",
-"type": "person",
-"confidence": 0.1605,
-"match_method": "canonical",
-"preferred_label": "यहूदा"
-},
-{
-"id": "place:Gath",
-"type": "place",
-"confidence": 0.1605,
-"match_method": "canonical",
-"preferred_label": "गत"
-},
-{
-"id": "place:Philistine",
-"type": "place",
-"confidence": 0.1605,
-"match_method": "canonical",
-"preferred_label": "पलिश्त"
-},
-{
-"id": "keyterm:BelieveIn",
-"type": "keyterm",
-"confidence": 0.1605,
-"match_method": "canonical",
-"preferred_label": "पर विश्वास करना"
 },
 {
 "id": "person:David",
@@ -1089,13 +1040,6 @@
 "preferred_label": "दाऊद"
 },
 {
-"id": "place:GilboaMount",
-"type": "place",
-"confidence": 0.1605,
-"match_method": "canonical",
-"preferred_label": "गिलबो पर्वत"
-},
-{
 "id": "keyterm:UncircumcisedPerson",
 "type": "keyterm",
 "confidence": 0.1605,
@@ -1103,18 +1047,39 @@
 "preferred_label": "खतनारहित व्यक्ति"
 },
 {
-"id": "deity:Voice",
-"type": "deity",
-"confidence": 0.1605,
-"match_method": "canonical",
-"preferred_label": "एक अशरीरी आवाज़"
-},
-{
-"id": "keyterm:Offering",
+"id": "keyterm:Covenant",
 "type": "keyterm",
 "confidence": 0.1605,
 "match_method": "canonical",
-"preferred_label": "भेंट"
+"preferred_label": "वाचा"
+},
+{
+"id": "place:GilboaMount",
+"type": "place",
+"confidence": 0.1605,
+"match_method": "canonical",
+"preferred_label": "गिलबो पर्वत"
+},
+{
+"id": "group:Judah",
+"type": "group",
+"confidence": 0.1605,
+"match_method": "canonical",
+"preferred_label": "यहूदा का गोत्र"
+},
+{
+"id": "place:Ashkelon",
+"type": "place",
+"confidence": 0.1605,
+"match_method": "canonical",
+"preferred_label": "अश्कलोन"
+},
+{
+"id": "place:Philistine",
+"type": "place",
+"confidence": 0.1605,
+"match_method": "canonical",
+"preferred_label": "पलिश्त"
 },
 {
 "id": "place:SinaiMount",
@@ -1124,6 +1089,20 @@
 "preferred_label": "सीनै पर्वत"
 },
 {
+"id": "deity:Voice",
+"type": "deity",
+"confidence": 0.1605,
+"match_method": "canonical",
+"preferred_label": "एक अशरीरी आवाज़"
+},
+{
+"id": "person:Judah.4",
+"type": "person",
+"confidence": 0.1605,
+"match_method": "canonical",
+"preferred_label": "यहूदा"
+},
+{
 "id": "group:Philistine",
 "type": "group",
 "confidence": 0.1605,
@@ -1131,95 +1110,25 @@
 "preferred_label": "पलिश्ती"
 },
 {
-"id": "fauna:Heron",
-"type": "fauna",
-"confidence": 0.1051,
+"id": "keyterm:Offering",
+"type": "keyterm",
+"confidence": 0.1605,
 "match_method": "canonical",
-"preferred_label": "बगुला"
+"preferred_label": "भेंट"
 },
 {
-"id": "fauna:TawnyOwl",
-"type": "fauna",
-"confidence": 0.1051,
+"id": "keyterm:BelieveIn",
+"type": "keyterm",
+"confidence": 0.1605,
 "match_method": "canonical",
-"preferred_label": "भूरा उल्लू"
+"preferred_label": "पर विश्वास करना"
 },
 {
-"id": "fauna:Hoopoe",
-"type": "fauna",
-"confidence": 0.1051,
+"id": "place:Gath",
+"type": "place",
+"confidence": 0.1605,
 "match_method": "canonical",
-"preferred_label": "हुदहुद"
-},
-{
-"id": "fauna:BarnOwl",
-"type": "fauna",
-"confidence": 0.1051,
-"match_method": "canonical",
-"preferred_label": "सफ़ेद उल्लू"
-},
-{
-"id": "fauna:Nightjar",
-"type": "fauna",
-"confidence": 0.1051,
-"match_method": "canonical",
-"preferred_label": "तखमास"
-},
-{
-"id": "realia:RamsHorn",
-"type": "realia",
-"confidence": 0.1051,
-"match_method": "canonical",
-"preferred_label": "मेढ़े का सींग"
-},
-{
-"id": "fauna:Owl.2",
-"type": "fauna",
-"confidence": 0.1051,
-"match_method": "canonical",
-"preferred_label": "छोटा उल्लू"
-},
-{
-"id": "fauna:Stork",
-"type": "fauna",
-"confidence": 0.1051,
-"match_method": "canonical",
-"preferred_label": "सारस"
-},
-{
-"id": "fauna:Jackdaw",
-"type": "fauna",
-"confidence": 0.1051,
-"match_method": "canonical",
-"preferred_label": "धनेश"
-},
-{
-"id": "fauna:Seagull",
-"type": "fauna",
-"confidence": 0.1051,
-"match_method": "canonical",
-"preferred_label": "जलकुक्कट"
-},
-{
-"id": "fauna:Owl",
-"type": "fauna",
-"confidence": 0.1051,
-"match_method": "canonical",
-"preferred_label": "उल्लू"
-},
-{
-"id": "fauna:BlackKite",
-"type": "fauna",
-"confidence": 0.1051,
-"match_method": "canonical",
-"preferred_label": "काली चील"
-},
-{
-"id": "fauna:Bat",
-"type": "fauna",
-"confidence": 0.1051,
-"match_method": "canonical",
-"preferred_label": "चमगादड़"
+"preferred_label": "गत"
 },
 {
 "id": "fauna:Osprey",
@@ -1229,11 +1138,109 @@
 "preferred_label": "मछलीमार चील"
 },
 {
+"id": "fauna:Hoopoe",
+"type": "fauna",
+"confidence": 0.1051,
+"match_method": "canonical",
+"preferred_label": "हुदहुद"
+},
+{
 "id": "fauna:Cormorant",
 "type": "fauna",
 "confidence": 0.1051,
 "match_method": "canonical",
 "preferred_label": "हाड़गील"
+},
+{
+"id": "fauna:Seagull",
+"type": "fauna",
+"confidence": 0.1051,
+"match_method": "canonical",
+"preferred_label": "जलकुक्कट"
+},
+{
+"id": "fauna:TawnyOwl",
+"type": "fauna",
+"confidence": 0.1051,
+"match_method": "canonical",
+"preferred_label": "भूरा उल्लू"
+},
+{
+"id": "fauna:BlackKite",
+"type": "fauna",
+"confidence": 0.1051,
+"match_method": "canonical",
+"preferred_label": "काली चील"
+},
+{
+"id": "fauna:Heron",
+"type": "fauna",
+"confidence": 0.1051,
+"match_method": "canonical",
+"preferred_label": "बगुला"
+},
+{
+"id": "fauna:Jackdaw",
+"type": "fauna",
+"confidence": 0.1051,
+"match_method": "canonical",
+"preferred_label": "धनेश"
+},
+{
+"id": "fauna:Owl.2",
+"type": "fauna",
+"confidence": 0.1051,
+"match_method": "canonical",
+"preferred_label": "छोटा उल्लू"
+},
+{
+"id": "fauna:Nightjar",
+"type": "fauna",
+"confidence": 0.1051,
+"match_method": "canonical",
+"preferred_label": "तखमास"
+},
+{
+"id": "fauna:Stork",
+"type": "fauna",
+"confidence": 0.1051,
+"match_method": "canonical",
+"preferred_label": "सारस"
+},
+{
+"id": "fauna:Bat",
+"type": "fauna",
+"confidence": 0.1051,
+"match_method": "canonical",
+"preferred_label": "चमगादड़"
+},
+{
+"id": "realia:RamsHorn",
+"type": "realia",
+"confidence": 0.1051,
+"match_method": "canonical",
+"preferred_label": "मेढ़े का सींग"
+},
+{
+"id": "fauna:Owl",
+"type": "fauna",
+"confidence": 0.1051,
+"match_method": "canonical",
+"preferred_label": "उल्लू"
+},
+{
+"id": "fauna:BarnOwl",
+"type": "fauna",
+"confidence": 0.1051,
+"match_method": "canonical",
+"preferred_label": "सफ़ेद उल्लू"
+},
+{
+"id": "realia:OliveOil",
+"type": "realia",
+"confidence": 0.1005,
+"match_method": "canonical",
+"preferred_label": "जैतून का तेल"
 },
 {
 "id": "realia:AnointingOil",
@@ -1243,20 +1250,6 @@
 "preferred_label": "अभिषेक का तेल"
 },
 {
-"id": "fauna:Bull",
-"type": "fauna",
-"confidence": 0.1005,
-"match_method": "canonical",
-"preferred_label": "गाय-बैल"
-},
-{
-"id": "fauna:Ostrich",
-"type": "fauna",
-"confidence": 0.1005,
-"match_method": "canonical",
-"preferred_label": "शुतुर्मुर्ग"
-},
-{
 "id": "realia:Sword",
 "type": "realia",
 "confidence": 0.1005,
@@ -1264,11 +1257,11 @@
 "preferred_label": "तलवार"
 },
 {
-"id": "realia:SmallShield",
+"id": "realia:House",
 "type": "realia",
 "confidence": 0.1005,
 "match_method": "canonical",
-"preferred_label": "छोटी ढाल"
+"preferred_label": "घर"
 },
 {
 "id": "fauna:Crow",
@@ -1285,18 +1278,25 @@
 "preferred_label": "सिंह"
 },
 {
-"id": "realia:House",
-"type": "realia",
+"id": "fauna:Bull",
+"type": "fauna",
 "confidence": 0.1005,
 "match_method": "canonical",
-"preferred_label": "घर"
+"preferred_label": "गाय-बैल"
 },
 {
-"id": "realia:OliveOil",
+"id": "realia:SmallShield",
 "type": "realia",
 "confidence": 0.1005,
 "match_method": "canonical",
-"preferred_label": "जैतून का तेल"
+"preferred_label": "छोटी ढाल"
+},
+{
+"id": "fauna:Ostrich",
+"type": "fauna",
+"confidence": 0.1005,
+"match_method": "canonical",
+"preferred_label": "शुतुर्मुर्ग"
 }
 ]
 }

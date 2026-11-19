@@ -41,18 +41,18 @@
 "preferred_label": "enseñanza"
 },
 {
-"id": "keyterm:Defilement",
-"type": "keyterm",
-"confidence": 0.3464,
-"match_method": "canonical",
-"preferred_label": "contaminación"
-},
-{
 "id": "keyterm:Disaster",
 "type": "keyterm",
 "confidence": 0.3464,
 "match_method": "canonical",
 "preferred_label": "desastre"
+},
+{
+"id": "keyterm:Defilement",
+"type": "keyterm",
+"confidence": 0.3464,
+"match_method": "canonical",
+"preferred_label": "contaminación"
 },
 {
 "id": "keyterm:Disciple",
@@ -69,13 +69,6 @@
 "preferred_label": "purificar"
 },
 {
-"id": "keyterm:Clean",
-"type": "keyterm",
-"confidence": 0.1964,
-"match_method": "canonical",
-"preferred_label": "limpio"
-},
-{
 "id": "keyterm:Hypocrisy",
 "type": "keyterm",
 "confidence": 0.1964,
@@ -83,11 +76,18 @@
 "preferred_label": "hipocresía"
 },
 {
-"id": "group:Jews",
-"type": "group",
+"id": "keyterm:Clean",
+"type": "keyterm",
+"confidence": 0.1964,
+"match_method": "canonical",
+"preferred_label": "limpio"
+},
+{
+"id": "keyterm:Baptism",
+"type": "keyterm",
 "confidence": 0.1821,
 "match_method": "canonical",
-"preferred_label": "judío"
+"preferred_label": "bautismo"
 },
 {
 "id": "keyterm:Judgment",
@@ -104,74 +104,11 @@
 "preferred_label": "ser justo"
 },
 {
-"id": "keyterm:Worship",
+"id": "keyterm:Live.3",
 "type": "keyterm",
 "confidence": 0.1821,
 "match_method": "canonical",
-"preferred_label": "adorar"
-},
-{
-"id": "keyterm:Heart",
-"type": "keyterm",
-"confidence": 0.1821,
-"match_method": "canonical",
-"preferred_label": "corazón"
-},
-{
-"id": "keyterm:Law",
-"type": "keyterm",
-"confidence": 0.1821,
-"match_method": "canonical",
-"preferred_label": "ley"
-},
-{
-"id": "keyterm:Commandment",
-"type": "keyterm",
-"confidence": 0.1821,
-"match_method": "canonical",
-"preferred_label": "mandamiento"
-},
-{
-"id": "keyterm:Believe",
-"type": "keyterm",
-"confidence": 0.1821,
-"match_method": "canonical",
-"preferred_label": "creer"
-},
-{
-"id": "place:Jerusalem",
-"type": "place",
-"confidence": 0.1821,
-"match_method": "canonical",
-"preferred_label": "Jerusalén"
-},
-{
-"id": "keyterm:Lawless",
-"type": "keyterm",
-"confidence": 0.1821,
-"match_method": "canonical",
-"preferred_label": "transgresor"
-},
-{
-"id": "keyterm:Baptism",
-"type": "keyterm",
-"confidence": 0.1821,
-"match_method": "canonical",
-"preferred_label": "bautismo"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.1821,
-"match_method": "canonical",
-"preferred_label": "Jehová"
-},
-{
-"id": "keyterm:Speak",
-"type": "keyterm",
-"confidence": 0.1821,
-"match_method": "canonical",
-"preferred_label": "profetizar"
+"preferred_label": "andar"
 },
 {
 "id": "keyterm:Mercy",
@@ -181,11 +118,39 @@
 "preferred_label": "misericordia"
 },
 {
-"id": "group:ReligiousOfficials",
+"id": "keyterm:Lawless",
+"type": "keyterm",
+"confidence": 0.1821,
+"match_method": "canonical",
+"preferred_label": "transgresor"
+},
+{
+"id": "group:Jews",
 "type": "group",
 "confidence": 0.1821,
 "match_method": "canonical",
-"preferred_label": "funcionarios religiosos"
+"preferred_label": "judío"
+},
+{
+"id": "keyterm:Law",
+"type": "keyterm",
+"confidence": 0.1821,
+"match_method": "canonical",
+"preferred_label": "ley"
+},
+{
+"id": "keyterm:Heart",
+"type": "keyterm",
+"confidence": 0.1821,
+"match_method": "canonical",
+"preferred_label": "corazón"
+},
+{
+"id": "keyterm:Believe",
+"type": "keyterm",
+"confidence": 0.1821,
+"match_method": "canonical",
+"preferred_label": "creer"
 },
 {
 "id": "person:Isaiah",
@@ -195,25 +160,46 @@
 "preferred_label": "Isaías"
 },
 {
-"id": "keyterm:Live.3",
+"id": "keyterm:Commandment",
 "type": "keyterm",
 "confidence": 0.1821,
 "match_method": "canonical",
-"preferred_label": "andar"
+"preferred_label": "mandamiento"
 },
 {
-"id": "realia:Plate.2",
-"type": "realia",
-"confidence": 0.1364,
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.1821,
 "match_method": "canonical",
-"preferred_label": "plato"
+"preferred_label": "Jerusalén"
 },
 {
-"id": "flora:Cumin",
-"type": "flora",
-"confidence": 0.1364,
+"id": "keyterm:Worship",
+"type": "keyterm",
+"confidence": 0.1821,
 "match_method": "canonical",
-"preferred_label": "comino"
+"preferred_label": "adorar"
+},
+{
+"id": "keyterm:Speak",
+"type": "keyterm",
+"confidence": 0.1821,
+"match_method": "canonical",
+"preferred_label": "profetizar"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.1821,
+"match_method": "canonical",
+"preferred_label": "Jehová"
+},
+{
+"id": "group:ReligiousOfficials",
+"type": "group",
+"confidence": 0.1821,
+"match_method": "canonical",
+"preferred_label": "funcionarios religiosos"
 },
 {
 "id": "fauna:Mosquito",
@@ -223,11 +209,25 @@
 "preferred_label": "mosquito"
 },
 {
+"id": "realia:Plate.2",
+"type": "realia",
+"confidence": 0.1364,
+"match_method": "canonical",
+"preferred_label": "plato"
+},
+{
 "id": "flora:Dill",
 "type": "flora",
 "confidence": 0.1364,
 "match_method": "canonical",
 "preferred_label": "eneldo"
+},
+{
+"id": "flora:Cumin",
+"type": "flora",
+"confidence": 0.1364,
+"match_method": "canonical",
+"preferred_label": "comino"
 },
 {
 "id": "flora:Mint",
@@ -251,18 +251,18 @@
 "preferred_label": "olla"
 },
 {
-"id": "fauna:Camel",
-"type": "fauna",
-"confidence": 0.1221,
-"match_method": "canonical",
-"preferred_label": "camello"
-},
-{
 "id": "realia:Bed",
 "type": "realia",
 "confidence": 0.1221,
 "match_method": "canonical",
 "preferred_label": "cama"
+},
+{
+"id": "fauna:Camel",
+"type": "fauna",
+"confidence": 0.1221,
+"match_method": "canonical",
+"preferred_label": "camello"
 }
 ]
 }
@@ -309,18 +309,18 @@
 "preferred_label": "enseñanza"
 },
 {
-"id": "keyterm:Defilement",
-"type": "keyterm",
-"confidence": 0.3464,
-"match_method": "canonical",
-"preferred_label": "contaminación"
-},
-{
 "id": "keyterm:Disaster",
 "type": "keyterm",
 "confidence": 0.3464,
 "match_method": "canonical",
 "preferred_label": "desastre"
+},
+{
+"id": "keyterm:Defilement",
+"type": "keyterm",
+"confidence": 0.3464,
+"match_method": "canonical",
+"preferred_label": "contaminación"
 },
 {
 "id": "keyterm:Disciple",
@@ -337,13 +337,6 @@
 "preferred_label": "purificar"
 },
 {
-"id": "keyterm:Clean",
-"type": "keyterm",
-"confidence": 0.1964,
-"match_method": "canonical",
-"preferred_label": "limpio"
-},
-{
 "id": "keyterm:Hypocrisy",
 "type": "keyterm",
 "confidence": 0.1964,
@@ -351,11 +344,18 @@
 "preferred_label": "hipocresía"
 },
 {
-"id": "group:Jews",
-"type": "group",
+"id": "keyterm:Clean",
+"type": "keyterm",
+"confidence": 0.1964,
+"match_method": "canonical",
+"preferred_label": "limpio"
+},
+{
+"id": "keyterm:Baptism",
+"type": "keyterm",
 "confidence": 0.1821,
 "match_method": "canonical",
-"preferred_label": "judío"
+"preferred_label": "bautismo"
 },
 {
 "id": "keyterm:Judgment",
@@ -372,74 +372,11 @@
 "preferred_label": "ser justo"
 },
 {
-"id": "keyterm:Worship",
+"id": "keyterm:Live.3",
 "type": "keyterm",
 "confidence": 0.1821,
 "match_method": "canonical",
-"preferred_label": "adorar"
-},
-{
-"id": "keyterm:Heart",
-"type": "keyterm",
-"confidence": 0.1821,
-"match_method": "canonical",
-"preferred_label": "corazón"
-},
-{
-"id": "keyterm:Law",
-"type": "keyterm",
-"confidence": 0.1821,
-"match_method": "canonical",
-"preferred_label": "ley"
-},
-{
-"id": "keyterm:Commandment",
-"type": "keyterm",
-"confidence": 0.1821,
-"match_method": "canonical",
-"preferred_label": "mandamiento"
-},
-{
-"id": "keyterm:Believe",
-"type": "keyterm",
-"confidence": 0.1821,
-"match_method": "canonical",
-"preferred_label": "creer"
-},
-{
-"id": "place:Jerusalem",
-"type": "place",
-"confidence": 0.1821,
-"match_method": "canonical",
-"preferred_label": "Jerusalén"
-},
-{
-"id": "keyterm:Lawless",
-"type": "keyterm",
-"confidence": 0.1821,
-"match_method": "canonical",
-"preferred_label": "transgresor"
-},
-{
-"id": "keyterm:Baptism",
-"type": "keyterm",
-"confidence": 0.1821,
-"match_method": "canonical",
-"preferred_label": "bautismo"
-},
-{
-"id": "deity:Lord",
-"type": "deity",
-"confidence": 0.1821,
-"match_method": "canonical",
-"preferred_label": "Jehová"
-},
-{
-"id": "keyterm:Speak",
-"type": "keyterm",
-"confidence": 0.1821,
-"match_method": "canonical",
-"preferred_label": "profetizar"
+"preferred_label": "andar"
 },
 {
 "id": "keyterm:Mercy",
@@ -449,11 +386,39 @@
 "preferred_label": "misericordia"
 },
 {
-"id": "group:ReligiousOfficials",
+"id": "keyterm:Lawless",
+"type": "keyterm",
+"confidence": 0.1821,
+"match_method": "canonical",
+"preferred_label": "transgresor"
+},
+{
+"id": "group:Jews",
 "type": "group",
 "confidence": 0.1821,
 "match_method": "canonical",
-"preferred_label": "funcionarios religiosos"
+"preferred_label": "judío"
+},
+{
+"id": "keyterm:Law",
+"type": "keyterm",
+"confidence": 0.1821,
+"match_method": "canonical",
+"preferred_label": "ley"
+},
+{
+"id": "keyterm:Heart",
+"type": "keyterm",
+"confidence": 0.1821,
+"match_method": "canonical",
+"preferred_label": "corazón"
+},
+{
+"id": "keyterm:Believe",
+"type": "keyterm",
+"confidence": 0.1821,
+"match_method": "canonical",
+"preferred_label": "creer"
 },
 {
 "id": "person:Isaiah",
@@ -463,25 +428,46 @@
 "preferred_label": "Isaías"
 },
 {
-"id": "keyterm:Live.3",
+"id": "keyterm:Commandment",
 "type": "keyterm",
 "confidence": 0.1821,
 "match_method": "canonical",
-"preferred_label": "andar"
+"preferred_label": "mandamiento"
 },
 {
-"id": "realia:Plate.2",
-"type": "realia",
-"confidence": 0.1364,
+"id": "place:Jerusalem",
+"type": "place",
+"confidence": 0.1821,
 "match_method": "canonical",
-"preferred_label": "plato"
+"preferred_label": "Jerusalén"
 },
 {
-"id": "flora:Cumin",
-"type": "flora",
-"confidence": 0.1364,
+"id": "keyterm:Worship",
+"type": "keyterm",
+"confidence": 0.1821,
 "match_method": "canonical",
-"preferred_label": "comino"
+"preferred_label": "adorar"
+},
+{
+"id": "keyterm:Speak",
+"type": "keyterm",
+"confidence": 0.1821,
+"match_method": "canonical",
+"preferred_label": "profetizar"
+},
+{
+"id": "deity:Lord",
+"type": "deity",
+"confidence": 0.1821,
+"match_method": "canonical",
+"preferred_label": "Jehová"
+},
+{
+"id": "group:ReligiousOfficials",
+"type": "group",
+"confidence": 0.1821,
+"match_method": "canonical",
+"preferred_label": "funcionarios religiosos"
 },
 {
 "id": "fauna:Mosquito",
@@ -491,11 +477,25 @@
 "preferred_label": "mosquito"
 },
 {
+"id": "realia:Plate.2",
+"type": "realia",
+"confidence": 0.1364,
+"match_method": "canonical",
+"preferred_label": "plato"
+},
+{
 "id": "flora:Dill",
 "type": "flora",
 "confidence": 0.1364,
 "match_method": "canonical",
 "preferred_label": "eneldo"
+},
+{
+"id": "flora:Cumin",
+"type": "flora",
+"confidence": 0.1364,
+"match_method": "canonical",
+"preferred_label": "comino"
 },
 {
 "id": "flora:Mint",
@@ -519,18 +519,18 @@
 "preferred_label": "olla"
 },
 {
-"id": "fauna:Camel",
-"type": "fauna",
-"confidence": 0.1221,
-"match_method": "canonical",
-"preferred_label": "camello"
-},
-{
 "id": "realia:Bed",
 "type": "realia",
 "confidence": 0.1221,
 "match_method": "canonical",
 "preferred_label": "cama"
+},
+{
+"id": "fauna:Camel",
+"type": "fauna",
+"confidence": 0.1221,
+"match_method": "canonical",
+"preferred_label": "camello"
 }
 ]
 }
@@ -784,13 +784,6 @@
 "preferred_label": "Jezabel"
 },
 {
-"id": "place:Philistine",
-"type": "place",
-"confidence": 0.3614,
-"match_method": "canonical",
-"preferred_label": "Filistea"
-},
-{
 "id": "place:Jezreel.2",
 "type": "place",
 "confidence": 0.3614,
@@ -798,32 +791,18 @@
 "preferred_label": "Jezrel"
 },
 {
+"id": "place:Philistine",
+"type": "place",
+"confidence": 0.3614,
+"match_method": "canonical",
+"preferred_label": "Filistea"
+},
+{
 "id": "group:Philistine",
 "type": "group",
 "confidence": 0.3614,
 "match_method": "canonical",
 "preferred_label": "filisteos"
-},
-{
-"id": "keyterm:Bless",
-"type": "keyterm",
-"confidence": 0.3598,
-"match_method": "canonical",
-"preferred_label": "bendecir"
-},
-{
-"id": "person:Jesus.2",
-"type": "person",
-"confidence": 0.3598,
-"match_method": "canonical",
-"preferred_label": "Jesús"
-},
-{
-"id": "person:Noah",
-"type": "person",
-"confidence": 0.3598,
-"match_method": "canonical",
-"preferred_label": "Noé"
 },
 {
 "id": "keyterm:Parable",
@@ -838,6 +817,27 @@
 "confidence": 0.3598,
 "match_method": "canonical",
 "preferred_label": "Jezreel"
+},
+{
+"id": "person:Noah",
+"type": "person",
+"confidence": 0.3598,
+"match_method": "canonical",
+"preferred_label": "Noé"
+},
+{
+"id": "keyterm:Bless",
+"type": "keyterm",
+"confidence": 0.3598,
+"match_method": "canonical",
+"preferred_label": "bendecir"
+},
+{
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.3598,
+"match_method": "canonical",
+"preferred_label": "Jesús"
 },
 {
 "id": "keyterm:Swear",
@@ -875,27 +875,6 @@
 "preferred_label": "Samuel"
 },
 {
-"id": "keyterm:Authority.2",
-"type": "keyterm",
-"confidence": 0.3065,
-"match_method": "canonical",
-"preferred_label": "autoridad"
-},
-{
-"id": "keyterm:Appoint",
-"type": "keyterm",
-"confidence": 0.3065,
-"match_method": "canonical",
-"preferred_label": "designar"
-},
-{
-"id": "person:Shem",
-"type": "person",
-"confidence": 0.3065,
-"match_method": "canonical",
-"preferred_label": "Sem"
-},
-{
 "id": "group:Amorites",
 "type": "group",
 "confidence": 0.3065,
@@ -908,6 +887,27 @@
 "confidence": 0.3065,
 "match_method": "canonical",
 "preferred_label": "paz"
+},
+{
+"id": "person:Shem",
+"type": "person",
+"confidence": 0.3065,
+"match_method": "canonical",
+"preferred_label": "Sem"
+},
+{
+"id": "keyterm:Authority.2",
+"type": "keyterm",
+"confidence": 0.3065,
+"match_method": "canonical",
+"preferred_label": "autoridad"
+},
+{
+"id": "keyterm:Appoint",
+"type": "keyterm",
+"confidence": 0.3065,
+"match_method": "canonical",
+"preferred_label": "designar"
 },
 {
 "id": "flora:OliveTree",
@@ -1168,13 +1168,6 @@
 "preferred_label": "Jezabel"
 },
 {
-"id": "place:Philistine",
-"type": "place",
-"confidence": 0.3614,
-"match_method": "canonical",
-"preferred_label": "Filistea"
-},
-{
 "id": "place:Jezreel.2",
 "type": "place",
 "confidence": 0.3614,
@@ -1182,32 +1175,18 @@
 "preferred_label": "Jezrel"
 },
 {
+"id": "place:Philistine",
+"type": "place",
+"confidence": 0.3614,
+"match_method": "canonical",
+"preferred_label": "Filistea"
+},
+{
 "id": "group:Philistine",
 "type": "group",
 "confidence": 0.3614,
 "match_method": "canonical",
 "preferred_label": "filisteos"
-},
-{
-"id": "keyterm:Bless",
-"type": "keyterm",
-"confidence": 0.3598,
-"match_method": "canonical",
-"preferred_label": "bendecir"
-},
-{
-"id": "person:Jesus.2",
-"type": "person",
-"confidence": 0.3598,
-"match_method": "canonical",
-"preferred_label": "Jesús"
-},
-{
-"id": "person:Noah",
-"type": "person",
-"confidence": 0.3598,
-"match_method": "canonical",
-"preferred_label": "Noé"
 },
 {
 "id": "keyterm:Parable",
@@ -1222,6 +1201,27 @@
 "confidence": 0.3598,
 "match_method": "canonical",
 "preferred_label": "Jezreel"
+},
+{
+"id": "person:Noah",
+"type": "person",
+"confidence": 0.3598,
+"match_method": "canonical",
+"preferred_label": "Noé"
+},
+{
+"id": "keyterm:Bless",
+"type": "keyterm",
+"confidence": 0.3598,
+"match_method": "canonical",
+"preferred_label": "bendecir"
+},
+{
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.3598,
+"match_method": "canonical",
+"preferred_label": "Jesús"
 },
 {
 "id": "keyterm:Swear",
@@ -1259,27 +1259,6 @@
 "preferred_label": "Samuel"
 },
 {
-"id": "keyterm:Authority.2",
-"type": "keyterm",
-"confidence": 0.3065,
-"match_method": "canonical",
-"preferred_label": "autoridad"
-},
-{
-"id": "keyterm:Appoint",
-"type": "keyterm",
-"confidence": 0.3065,
-"match_method": "canonical",
-"preferred_label": "designar"
-},
-{
-"id": "person:Shem",
-"type": "person",
-"confidence": 0.3065,
-"match_method": "canonical",
-"preferred_label": "Sem"
-},
-{
 "id": "group:Amorites",
 "type": "group",
 "confidence": 0.3065,
@@ -1292,6 +1271,27 @@
 "confidence": 0.3065,
 "match_method": "canonical",
 "preferred_label": "paz"
+},
+{
+"id": "person:Shem",
+"type": "person",
+"confidence": 0.3065,
+"match_method": "canonical",
+"preferred_label": "Sem"
+},
+{
+"id": "keyterm:Authority.2",
+"type": "keyterm",
+"confidence": 0.3065,
+"match_method": "canonical",
+"preferred_label": "autoridad"
+},
+{
+"id": "keyterm:Appoint",
+"type": "keyterm",
+"confidence": 0.3065,
+"match_method": "canonical",
+"preferred_label": "designar"
 },
 {
 "id": "flora:OliveTree",
@@ -1552,13 +1552,6 @@
 "preferred_label": "Jezabel"
 },
 {
-"id": "place:Philistine",
-"type": "place",
-"confidence": 0.3614,
-"match_method": "canonical",
-"preferred_label": "Filistea"
-},
-{
 "id": "place:Jezreel.2",
 "type": "place",
 "confidence": 0.3614,
@@ -1566,32 +1559,18 @@
 "preferred_label": "Jezrel"
 },
 {
+"id": "place:Philistine",
+"type": "place",
+"confidence": 0.3614,
+"match_method": "canonical",
+"preferred_label": "Filistea"
+},
+{
 "id": "group:Philistine",
 "type": "group",
 "confidence": 0.3614,
 "match_method": "canonical",
 "preferred_label": "filisteos"
-},
-{
-"id": "keyterm:Bless",
-"type": "keyterm",
-"confidence": 0.3598,
-"match_method": "canonical",
-"preferred_label": "bendecir"
-},
-{
-"id": "person:Jesus.2",
-"type": "person",
-"confidence": 0.3598,
-"match_method": "canonical",
-"preferred_label": "Jesús"
-},
-{
-"id": "person:Noah",
-"type": "person",
-"confidence": 0.3598,
-"match_method": "canonical",
-"preferred_label": "Noé"
 },
 {
 "id": "keyterm:Parable",
@@ -1606,6 +1585,27 @@
 "confidence": 0.3598,
 "match_method": "canonical",
 "preferred_label": "Jezreel"
+},
+{
+"id": "person:Noah",
+"type": "person",
+"confidence": 0.3598,
+"match_method": "canonical",
+"preferred_label": "Noé"
+},
+{
+"id": "keyterm:Bless",
+"type": "keyterm",
+"confidence": 0.3598,
+"match_method": "canonical",
+"preferred_label": "bendecir"
+},
+{
+"id": "person:Jesus.2",
+"type": "person",
+"confidence": 0.3598,
+"match_method": "canonical",
+"preferred_label": "Jesús"
 },
 {
 "id": "keyterm:Swear",
@@ -1643,27 +1643,6 @@
 "preferred_label": "Samuel"
 },
 {
-"id": "keyterm:Authority.2",
-"type": "keyterm",
-"confidence": 0.3065,
-"match_method": "canonical",
-"preferred_label": "autoridad"
-},
-{
-"id": "keyterm:Appoint",
-"type": "keyterm",
-"confidence": 0.3065,
-"match_method": "canonical",
-"preferred_label": "designar"
-},
-{
-"id": "person:Shem",
-"type": "person",
-"confidence": 0.3065,
-"match_method": "canonical",
-"preferred_label": "Sem"
-},
-{
 "id": "group:Amorites",
 "type": "group",
 "confidence": 0.3065,
@@ -1676,6 +1655,27 @@
 "confidence": 0.3065,
 "match_method": "canonical",
 "preferred_label": "paz"
+},
+{
+"id": "person:Shem",
+"type": "person",
+"confidence": 0.3065,
+"match_method": "canonical",
+"preferred_label": "Sem"
+},
+{
+"id": "keyterm:Authority.2",
+"type": "keyterm",
+"confidence": 0.3065,
+"match_method": "canonical",
+"preferred_label": "autoridad"
+},
+{
+"id": "keyterm:Appoint",
+"type": "keyterm",
+"confidence": 0.3065,
+"match_method": "canonical",
+"preferred_label": "designar"
 },
 {
 "id": "flora:OliveTree",

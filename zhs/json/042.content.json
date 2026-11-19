@@ -68,18 +68,18 @@
 "preferred_label": "奉献"
 },
 {
-"id": "keyterm:Kingdom",
-"type": "keyterm",
-"confidence": 0.2429,
-"match_method": "canonical",
-"preferred_label": "国度"
-},
-{
 "id": "keyterm:Glory",
 "type": "keyterm",
 "confidence": 0.2429,
 "match_method": "canonical",
 "preferred_label": "荣耀"
+},
+{
+"id": "keyterm:Kingdom",
+"type": "keyterm",
+"confidence": 0.2429,
+"match_method": "canonical",
+"preferred_label": "国度"
 },
 {
 "id": "flora:Wheat",
@@ -89,13 +89,6 @@
 "preferred_label": "小麦"
 },
 {
-"id": "flora:Grass",
-"type": "flora",
-"confidence": 0.1829,
-"match_method": "canonical",
-"preferred_label": "草"
-},
-{
 "id": "flora:Barley",
 "type": "flora",
 "confidence": 0.1829,
@@ -103,11 +96,25 @@
 "preferred_label": "大麦"
 },
 {
-"id": "keyterm:Heaven",
+"id": "flora:Grass",
+"type": "flora",
+"confidence": 0.1829,
+"match_method": "canonical",
+"preferred_label": "草"
+},
+{
+"id": "person:GenericPerson",
+"type": "person",
+"confidence": 0.1714,
+"match_method": "canonical",
+"preferred_label": "一个人"
+},
+{
+"id": "keyterm:Decree",
 "type": "keyterm",
 "confidence": 0.1714,
 "match_method": "canonical",
-"preferred_label": "天"
+"preferred_label": "律例"
 },
 {
 "id": "keyterm:Anointed",
@@ -124,11 +131,18 @@
 "preferred_label": "作门徒"
 },
 {
-"id": "person:Moses",
-"type": "person",
+"id": "keyterm:Alive",
+"type": "keyterm",
 "confidence": 0.1714,
 "match_method": "canonical",
-"preferred_label": "摩西"
+"preferred_label": "赐生命"
+},
+{
+"id": "keyterm:Heaven",
+"type": "keyterm",
+"confidence": 0.1714,
+"match_method": "canonical",
+"preferred_label": "天"
 },
 {
 "id": "person:Aaron",
@@ -136,20 +150,6 @@
 "confidence": 0.1714,
 "match_method": "canonical",
 "preferred_label": "亚伦"
-},
-{
-"id": "person:GenericPerson",
-"type": "person",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "一个人"
-},
-{
-"id": "keyterm:Alive",
-"type": "keyterm",
-"confidence": 0.1714,
-"match_method": "canonical",
-"preferred_label": "赐生命"
 },
 {
 "id": "keyterm:Smear",
@@ -166,11 +166,11 @@
 "preferred_label": "馨香之气"
 },
 {
-"id": "keyterm:Decree",
-"type": "keyterm",
+"id": "person:Moses",
+"type": "person",
 "confidence": 0.1714,
 "match_method": "canonical",
-"preferred_label": "律例"
+"preferred_label": "摩西"
 },
 {
 "id": "keyterm:Resurrection",
@@ -180,13 +180,6 @@
 "preferred_label": "复活（事件）"
 },
 {
-"id": "flora:Mustard",
-"type": "flora",
-"confidence": 0.121,
-"match_method": "canonical",
-"preferred_label": "芥菜"
-},
-{
 "id": "realia:Griddle",
 "type": "realia",
 "confidence": 0.121,
@@ -194,39 +187,11 @@
 "preferred_label": "鏊子"
 },
 {
-"id": "realia:AnointingOil",
-"type": "realia",
-"confidence": 0.1114,
+"id": "flora:Mustard",
+"type": "flora",
+"confidence": 0.121,
 "match_method": "canonical",
-"preferred_label": "膏油"
-},
-{
-"id": "realia:Ephah",
-"type": "realia",
-"confidence": 0.1114,
-"match_method": "canonical",
-"preferred_label": "伊法"
-},
-{
-"id": "fauna:Fish",
-"type": "fauna",
-"confidence": 0.1114,
-"match_method": "canonical",
-"preferred_label": "鱼"
-},
-{
-"id": "realia:Sickle",
-"type": "realia",
-"confidence": 0.1114,
-"match_method": "canonical",
-"preferred_label": "镰刀"
-},
-{
-"id": "fauna:Rooster",
-"type": "fauna",
-"confidence": 0.1114,
-"match_method": "canonical",
-"preferred_label": "公鸡"
+"preferred_label": "芥菜"
 },
 {
 "id": "realia:OliveOil",
@@ -236,11 +201,46 @@
 "preferred_label": "橄榄油"
 },
 {
+"id": "realia:Sickle",
+"type": "realia",
+"confidence": 0.1114,
+"match_method": "canonical",
+"preferred_label": "镰刀"
+},
+{
 "id": "fauna:Bird",
 "type": "fauna",
 "confidence": 0.1114,
 "match_method": "canonical",
 "preferred_label": "鸟"
+},
+{
+"id": "realia:AnointingOil",
+"type": "realia",
+"confidence": 0.1114,
+"match_method": "canonical",
+"preferred_label": "膏油"
+},
+{
+"id": "fauna:Fish",
+"type": "fauna",
+"confidence": 0.1114,
+"match_method": "canonical",
+"preferred_label": "鱼"
+},
+{
+"id": "realia:Ephah",
+"type": "realia",
+"confidence": 0.1114,
+"match_method": "canonical",
+"preferred_label": "伊法"
+},
+{
+"id": "fauna:Rooster",
+"type": "fauna",
+"confidence": 0.1114,
+"match_method": "canonical",
+"preferred_label": "公鸡"
 }
 ]
 }
