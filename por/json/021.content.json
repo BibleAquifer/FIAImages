@@ -82,6 +82,27 @@
 "preferred_label": "Templo"
 },
 {
+"id": "keyterm:Example",
+"type": "keyterm",
+"confidence": 0.165,
+"match_method": "canonical",
+"preferred_label": "símbolo"
+},
+{
+"id": "deity:Angel",
+"type": "deity",
+"confidence": 0.165,
+"match_method": "canonical",
+"preferred_label": "Um Anjo"
+},
+{
+"id": "keyterm:Disciple",
+"type": "keyterm",
+"confidence": 0.165,
+"match_method": "canonical",
+"preferred_label": "ser discípulo"
+},
+{
 "id": "keyterm:AskFor",
 "type": "keyterm",
 "confidence": 0.165,
@@ -103,34 +124,6 @@
 "preferred_label": "SENHOR"
 },
 {
-"id": "keyterm:Disciple",
-"type": "keyterm",
-"confidence": 0.165,
-"match_method": "canonical",
-"preferred_label": "ser discípulo"
-},
-{
-"id": "deity:Angel",
-"type": "deity",
-"confidence": 0.165,
-"match_method": "canonical",
-"preferred_label": "Um Anjo"
-},
-{
-"id": "keyterm:Example",
-"type": "keyterm",
-"confidence": 0.165,
-"match_method": "canonical",
-"preferred_label": "símbolo"
-},
-{
-"id": "realia:Bed",
-"type": "realia",
-"confidence": 0.105,
-"match_method": "canonical",
-"preferred_label": "cama"
-},
-{
 "id": "realia:Rod",
 "type": "realia",
 "confidence": 0.105,
@@ -143,6 +136,13 @@
 "confidence": 0.105,
 "match_method": "canonical",
 "preferred_label": "Dinheiro"
+},
+{
+"id": "realia:Bed",
+"type": "realia",
+"confidence": 0.105,
+"match_method": "canonical",
+"preferred_label": "cama"
 }
 ]
 }
@@ -230,6 +230,27 @@
 "preferred_label": "Templo"
 },
 {
+"id": "keyterm:Example",
+"type": "keyterm",
+"confidence": 0.165,
+"match_method": "canonical",
+"preferred_label": "símbolo"
+},
+{
+"id": "deity:Angel",
+"type": "deity",
+"confidence": 0.165,
+"match_method": "canonical",
+"preferred_label": "Um Anjo"
+},
+{
+"id": "keyterm:Disciple",
+"type": "keyterm",
+"confidence": 0.165,
+"match_method": "canonical",
+"preferred_label": "ser discípulo"
+},
+{
 "id": "keyterm:AskFor",
 "type": "keyterm",
 "confidence": 0.165,
@@ -251,34 +272,6 @@
 "preferred_label": "SENHOR"
 },
 {
-"id": "keyterm:Disciple",
-"type": "keyterm",
-"confidence": 0.165,
-"match_method": "canonical",
-"preferred_label": "ser discípulo"
-},
-{
-"id": "deity:Angel",
-"type": "deity",
-"confidence": 0.165,
-"match_method": "canonical",
-"preferred_label": "Um Anjo"
-},
-{
-"id": "keyterm:Example",
-"type": "keyterm",
-"confidence": 0.165,
-"match_method": "canonical",
-"preferred_label": "símbolo"
-},
-{
-"id": "realia:Bed",
-"type": "realia",
-"confidence": 0.105,
-"match_method": "canonical",
-"preferred_label": "cama"
-},
-{
 "id": "realia:Rod",
 "type": "realia",
 "confidence": 0.105,
@@ -291,6 +284,13 @@
 "confidence": 0.105,
 "match_method": "canonical",
 "preferred_label": "Dinheiro"
+},
+{
+"id": "realia:Bed",
+"type": "realia",
+"confidence": 0.105,
+"match_method": "canonical",
+"preferred_label": "cama"
 }
 ]
 }
@@ -371,18 +371,18 @@
 "preferred_label": "Jesus"
 },
 {
-"id": "flora:Brier",
-"type": "flora",
-"confidence": 0.1744,
-"match_method": "canonical",
-"preferred_label": "sarça"
-},
-{
 "id": "realia:Crown.2",
 "type": "realia",
 "confidence": 0.1744,
 "match_method": "canonical",
 "preferred_label": "coroa"
+},
+{
+"id": "realia:Palace",
+"type": "realia",
+"confidence": 0.1744,
+"match_method": "canonical",
+"preferred_label": "palácio"
 },
 {
 "id": "realia:PurpleCloth",
@@ -399,6 +399,13 @@
 "preferred_label": "acácia"
 },
 {
+"id": "flora:Brier",
+"type": "flora",
+"confidence": 0.1744,
+"match_method": "canonical",
+"preferred_label": "sarça"
+},
+{
 "id": "realia:Crown",
 "type": "realia",
 "confidence": 0.1744,
@@ -406,25 +413,11 @@
 "preferred_label": "coroa"
 },
 {
-"id": "realia:Palace",
-"type": "realia",
-"confidence": 0.1744,
-"match_method": "canonical",
-"preferred_label": "palácio"
-},
-{
-"id": "person:Alexander",
+"id": "person:Simon.5",
 "type": "person",
 "confidence": 0.1703,
 "match_method": "canonical",
-"preferred_label": "Alexandre"
-},
-{
-"id": "place:Golgotha",
-"type": "place",
-"confidence": 0.1703,
-"match_method": "canonical",
-"preferred_label": "Gólgota"
+"preferred_label": "Simão"
 },
 {
 "id": "person:Rufus",
@@ -434,11 +427,18 @@
 "preferred_label": "Rufo"
 },
 {
-"id": "person:Simon.5",
+"id": "place:Golgotha",
+"type": "place",
+"confidence": 0.1703,
+"match_method": "canonical",
+"preferred_label": "Gólgota"
+},
+{
+"id": "person:Alexander",
 "type": "person",
 "confidence": 0.1703,
 "match_method": "canonical",
-"preferred_label": "Simão"
+"preferred_label": "Alexandre"
 },
 {
 "id": "place:Cyrene",
@@ -469,13 +469,6 @@
 "preferred_label": "capa"
 },
 {
-"id": "group:GenericPriests",
-"type": "group",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "Sacerdotes"
-},
-{
 "id": "keyterm:Blaspheme",
 "type": "keyterm",
 "confidence": 0.1641,
@@ -483,11 +476,11 @@
 "preferred_label": "blasfemar"
 },
 {
-"id": "group:GenericElders",
-"type": "group",
+"id": "person:Israel",
+"type": "person",
 "confidence": 0.1641,
 "match_method": "canonical",
-"preferred_label": "Anciãos"
+"preferred_label": "Israel"
 },
 {
 "id": "keyterm:Believe",
@@ -504,6 +497,13 @@
 "preferred_label": "ser irrepreensível"
 },
 {
+"id": "group:GenericPriests",
+"type": "group",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "Sacerdotes"
+},
+{
 "id": "keyterm:BowDown",
 "type": "keyterm",
 "confidence": 0.1641,
@@ -511,11 +511,11 @@
 "preferred_label": "prostrar-se"
 },
 {
-"id": "person:Israel",
-"type": "person",
+"id": "group:GenericElders",
+"type": "group",
 "confidence": 0.1641,
 "match_method": "canonical",
-"preferred_label": "Israel"
+"preferred_label": "Anciãos"
 },
 {
 "id": "group:ReligiousOfficials",
@@ -539,11 +539,11 @@
 "preferred_label": "vinho com mirra"
 },
 {
-"id": "realia:Rod",
+"id": "realia:Bed",
 "type": "realia",
 "confidence": 0.1041,
 "match_method": "canonical",
-"preferred_label": "cetro"
+"preferred_label": "cama"
 },
 {
 "id": "realia:Lot",
@@ -553,20 +553,6 @@
 "preferred_label": "sorte"
 },
 {
-"id": "realia:Bed",
-"type": "realia",
-"confidence": 0.1041,
-"match_method": "canonical",
-"preferred_label": "cama"
-},
-{
-"id": "realia:Courtyard",
-"type": "realia",
-"confidence": 0.1041,
-"match_method": "canonical",
-"preferred_label": "pátio"
-},
-{
 "id": "realia:Temple",
 "type": "realia",
 "confidence": 0.1041,
@@ -574,11 +560,25 @@
 "preferred_label": "Templo"
 },
 {
+"id": "realia:Rod",
+"type": "realia",
+"confidence": 0.1041,
+"match_method": "canonical",
+"preferred_label": "cetro"
+},
+{
 "id": "realia:Money",
 "type": "realia",
 "confidence": 0.1041,
 "match_method": "canonical",
 "preferred_label": "Dinheiro"
+},
+{
+"id": "realia:Courtyard",
+"type": "realia",
+"confidence": 0.1041,
+"match_method": "canonical",
+"preferred_label": "pátio"
 }
 ]
 }
@@ -659,18 +659,18 @@
 "preferred_label": "Jesus"
 },
 {
-"id": "flora:Brier",
-"type": "flora",
-"confidence": 0.1744,
-"match_method": "canonical",
-"preferred_label": "sarça"
-},
-{
 "id": "realia:Crown.2",
 "type": "realia",
 "confidence": 0.1744,
 "match_method": "canonical",
 "preferred_label": "coroa"
+},
+{
+"id": "realia:Palace",
+"type": "realia",
+"confidence": 0.1744,
+"match_method": "canonical",
+"preferred_label": "palácio"
 },
 {
 "id": "realia:PurpleCloth",
@@ -687,6 +687,13 @@
 "preferred_label": "acácia"
 },
 {
+"id": "flora:Brier",
+"type": "flora",
+"confidence": 0.1744,
+"match_method": "canonical",
+"preferred_label": "sarça"
+},
+{
 "id": "realia:Crown",
 "type": "realia",
 "confidence": 0.1744,
@@ -694,25 +701,11 @@
 "preferred_label": "coroa"
 },
 {
-"id": "realia:Palace",
-"type": "realia",
-"confidence": 0.1744,
-"match_method": "canonical",
-"preferred_label": "palácio"
-},
-{
-"id": "person:Alexander",
+"id": "person:Simon.5",
 "type": "person",
 "confidence": 0.1703,
 "match_method": "canonical",
-"preferred_label": "Alexandre"
-},
-{
-"id": "place:Golgotha",
-"type": "place",
-"confidence": 0.1703,
-"match_method": "canonical",
-"preferred_label": "Gólgota"
+"preferred_label": "Simão"
 },
 {
 "id": "person:Rufus",
@@ -722,11 +715,18 @@
 "preferred_label": "Rufo"
 },
 {
-"id": "person:Simon.5",
+"id": "place:Golgotha",
+"type": "place",
+"confidence": 0.1703,
+"match_method": "canonical",
+"preferred_label": "Gólgota"
+},
+{
+"id": "person:Alexander",
 "type": "person",
 "confidence": 0.1703,
 "match_method": "canonical",
-"preferred_label": "Simão"
+"preferred_label": "Alexandre"
 },
 {
 "id": "place:Cyrene",
@@ -757,13 +757,6 @@
 "preferred_label": "capa"
 },
 {
-"id": "group:GenericPriests",
-"type": "group",
-"confidence": 0.1641,
-"match_method": "canonical",
-"preferred_label": "Sacerdotes"
-},
-{
 "id": "keyterm:Blaspheme",
 "type": "keyterm",
 "confidence": 0.1641,
@@ -771,11 +764,11 @@
 "preferred_label": "blasfemar"
 },
 {
-"id": "group:GenericElders",
-"type": "group",
+"id": "person:Israel",
+"type": "person",
 "confidence": 0.1641,
 "match_method": "canonical",
-"preferred_label": "Anciãos"
+"preferred_label": "Israel"
 },
 {
 "id": "keyterm:Believe",
@@ -792,6 +785,13 @@
 "preferred_label": "ser irrepreensível"
 },
 {
+"id": "group:GenericPriests",
+"type": "group",
+"confidence": 0.1641,
+"match_method": "canonical",
+"preferred_label": "Sacerdotes"
+},
+{
 "id": "keyterm:BowDown",
 "type": "keyterm",
 "confidence": 0.1641,
@@ -799,11 +799,11 @@
 "preferred_label": "prostrar-se"
 },
 {
-"id": "person:Israel",
-"type": "person",
+"id": "group:GenericElders",
+"type": "group",
 "confidence": 0.1641,
 "match_method": "canonical",
-"preferred_label": "Israel"
+"preferred_label": "Anciãos"
 },
 {
 "id": "group:ReligiousOfficials",
@@ -827,11 +827,11 @@
 "preferred_label": "vinho com mirra"
 },
 {
-"id": "realia:Rod",
+"id": "realia:Bed",
 "type": "realia",
 "confidence": 0.1041,
 "match_method": "canonical",
-"preferred_label": "cetro"
+"preferred_label": "cama"
 },
 {
 "id": "realia:Lot",
@@ -841,20 +841,6 @@
 "preferred_label": "sorte"
 },
 {
-"id": "realia:Bed",
-"type": "realia",
-"confidence": 0.1041,
-"match_method": "canonical",
-"preferred_label": "cama"
-},
-{
-"id": "realia:Courtyard",
-"type": "realia",
-"confidence": 0.1041,
-"match_method": "canonical",
-"preferred_label": "pátio"
-},
-{
 "id": "realia:Temple",
 "type": "realia",
 "confidence": 0.1041,
@@ -862,11 +848,25 @@
 "preferred_label": "Templo"
 },
 {
+"id": "realia:Rod",
+"type": "realia",
+"confidence": 0.1041,
+"match_method": "canonical",
+"preferred_label": "cetro"
+},
+{
 "id": "realia:Money",
 "type": "realia",
 "confidence": 0.1041,
 "match_method": "canonical",
 "preferred_label": "Dinheiro"
+},
+{
+"id": "realia:Courtyard",
+"type": "realia",
+"confidence": 0.1041,
+"match_method": "canonical",
+"preferred_label": "pátio"
 }
 ]
 }
